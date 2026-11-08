@@ -206,7 +206,7 @@ msgid ""
 "\"vaseline-on-the-lens\" effect."
 msgstr ""
 "O parâmetro de raio de brilho controla a acuidade do efeito, dando um efeito "
-"de <quote>vaselina na lente</quote>."
+"de vaselina na lente."
 
 #: src/filters/artistic/softglow.xml:94(term)
 msgid "Brightness"

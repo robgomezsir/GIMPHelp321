@@ -142,8 +142,8 @@ msgid ""
 "however, the guides are just hidden, the filter will work."
 msgstr ""
 "Quando não há guias na imagem, o filtro não fara nada. Se, no entanto, as "
-"guias estão apenas ocultas (<quote>Exibir as guias</quote> desligado "
-"no menu Visualizar), o filtro irá funcionar. "
+"guias estão apenas ocultas (Exibir as guias desligado no menu Visualizar), o "
+"filtro irá funcionar."
 
 #: src/filters/web/slice.xml:104(para)
 msgid ""
@@ -257,10 +257,11 @@ msgid ""
 "\"glossary-png\">PNG</link><link linkend=\"glossary-fileformat"
 "\">file format</link>."
 msgstr ""
-"Você pode escolher criar arquivos de imagens nos <link linkend=\"glossary-"
-"fileformat\">formatos de arquivo</link> <link linkend=\"glossary-gif\">GIF</"
-"link>, <link linkend=\"glossary-jpeg\">JPG</link>, ou <link linkend="
-"\"glossary-png\">PNG</link>."
+"Você pode escolher criar arquivos de imagem no <link "
+"linkend=\"glossary-gif\">GIF</link>, no <link "
+"linkend=\"glossary-jpeg\">JPG</link> ou no <link "
+"linkend=\"glossary-png\">PNG</link>, todos <link "
+"linkend=\"glossary-fileformat\">formatos de arquivo</link>."
 
 #: src/filters/web/slice.xml:193(term)
 msgid "Separate image folder"
@@ -588,7 +589,7 @@ msgid "Clickable image"
 msgstr "Imagem Clicável"
 
 # ** eeek: "In Web sensitive images are frequently used" maybe "used to be" instead of "are" - extensively updated in pt_BR to mark this as clearyl 'deprecated' in an html5/css/dynamicaly generated html World.
-# ** EEek2: the help for the imagemap plug-in does not mention in ayother place it is up to the user to export the actual  image - the plug-in just generates the html snippets. 
+# ** EEek2: the help for the imagemap plug-in does not mention in ayother place it is up to the user to export the actual  image - the plug-in just generates the html snippets.
 #: src/filters/web/imagemap.xml:26(para)
 msgid ""
 "In Web sensitive images are frequently used to get some effects when defined "

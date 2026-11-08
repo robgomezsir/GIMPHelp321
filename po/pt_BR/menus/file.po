@@ -21,40 +21,40 @@ msgstr ""
 #: src/menus/file/show-in-file-manager.xml:6(title)
 #: src/menus/file/show-in-file-manager.xml:8(primary)
 msgid "Show in File Manager"
-msgstr ""
+msgstr "Mostrar no gerenciador de arquivos"
 
 #: src/menus/file/show-in-file-manager.xml:11(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guisubmenu>Show in File Manager</"
 "guisubmenu></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu de imagem através de "
-"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Salvar como</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guisubmenu>Mostrar no gerenciador de "
+"arquivos</guisubmenu></menuchoice>."
 
 #: src/menus/file/show-in-file-manager.xml:19(para)
 msgid ""
 "This command opens the file manager in the directory containing the active "
 "image"
 msgstr ""
+"Este comando abre o gerenciador de arquivos na pasta que contém a imagem "
+"ativa"
 
 #: src/menus/file/send-by-email.xml:6(title)
 #: src/menus/file/send-by-email.xml:8(primary)
 msgid "Send by Email"
-msgstr ""
+msgstr "Enviar por e-mail"
 
 #: src/menus/file/send-by-email.xml:11(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guisubmenu>Send by Email…</guisubmenu></"
 "menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu de imagem através de "
-"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Salvar como</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guisubmenu>Enviar por "
+"e-mail…</guisubmenu></menuchoice>."
 
 #: src/menus/file/send-by-email.xml:19(para)
 msgid ""
@@ -62,11 +62,13 @@ msgid ""
 "can edit it). Clicking on the <guibutton>Send</guibutton> button opens your "
 "default mail software with the image attached."
 msgstr ""
+"Este comando abre uma pequena caixa de diálogo com o nome da imagem a ser "
+"enviada (você pode editá-lo). Clicar no botão <guibutton>Enviar</guibutton> "
+"abre seu programa de e-mail padrão com a imagem anexada."
 
 #: src/menus/file/save-as-copy.xml:9(title)
-#, fuzzy
 msgid "Save a Copy…"
-msgstr "Salvar uma cópia"
+msgstr "Salvar uma cópia…"
 
 #: src/menus/file/save-as-copy.xml:12(primary)
 #: src/menus/file/save-as.xml:15(primary) src/menus/file/revert.xml:12(primary)
@@ -131,31 +133,28 @@ msgid "Activating the Command"
 msgstr "Ativando o comando"
 
 #: src/menus/file/save-as-copy.xml:40(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Save a Copy…</guimenuitem></"
 "menuchoice>. There is no default keyboard shortcut."
 msgstr ""
-"Você pode acessar esse comando a partir do menu de imagem através de "
-"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Salvar uma cópia</"
-"guimenuitem></menuchoice>. Não há nenhum atalho de teclado padrão."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Salvar uma "
+"cópia…</guimenuitem></menuchoice>. Não há atalho de teclado padrão."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/save-as.xml:61(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/file/save-as.png'; "
 "md5=147bcd9ccc96af74120d238c36a1014f"
 msgstr ""
 "@@image: 'images/menus/file/save-as.png'; "
-"md5=a7292ed267fe34c8750323158d0e3a2b"
+"md5=147bcd9ccc96af74120d238c36a1014f"
 
 #: src/menus/file/save-as.xml:12(title)
-#, fuzzy
 msgid "Save as…"
-msgstr "Salvar como"
+msgstr "Salvar como…"
 
 #: src/menus/file/save-as.xml:17(tertiary)
 #: src/menus/file/save-as.xml:20(primary)
@@ -169,17 +168,20 @@ msgid ""
 "with another name and/or to another folder. For other image file formats you "
 "should use the <guimenuitem>Export As…</guimenuitem> command."
 msgstr ""
+"O comando <guimenuitem>Salvar como</guimenuitem> exibe a caixa de diálogo "
+"<quote>Salvar imagem</quote>. A caixa de diálogo Salvar como permite salvar "
+"sua imagem XCF com outro nome e/ou em outra pasta. Para outros formatos de "
+"arquivo de imagem, use o comando <guimenuitem>Exportar como…</guimenuitem>."
 
 #: src/menus/file/save-as.xml:34(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Save As…</guimenuitem></"
 "menuchoice>,"
 msgstr ""
-"Você pode acessar este comando a partir do menu de imagem através de "
-"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Salvar como</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Salvar "
+"como…</guimenuitem></menuchoice>,"
 
 #: src/menus/file/save-as.xml:43(para)
 msgid ""
@@ -379,18 +381,14 @@ msgid ""
 "are using a large part of the RAM on your system, it may take a little while "
 "for everything to shut down."
 msgstr ""
-"O comando <guimenuitem>Sair</guimenuitem> faz o<acronym>GIMP</acronym>  "
-"fechar todas as imagens e ser fechado. Se houver alguma imagem aberta que "
-"contenha alterações que não foram salvas (ou seja, eles não estão marcadas "
-"como <quote>limpas</quote>), o <acronym>GIMP</acronym> notifica você e exibe "
-"uma lista das imagens que não foram salvas. Você pode então escolher quais "
-"as imagens que você gostaria de salvar, ou você pode cancelar o comando. Se "
-"as imagens foram editadas e exportadas para outro formato que não seja o "
-"XCF, elas estarão marcadas como <quote>sujas</quote> mesmo assim. Lembre-se "
-"que o formato XCF pode preservar suas camadas e outras informações sobre a "
-"imagem. Note que se você tiver um grande número de imagens abertas, ou está "
-"usando uma grande parte da memória RAM de seu sistema,  pode demorar um "
-"pouco para que o GIMP feche tudo. "
+"O comando <guimenuitem>Sair</guimenuitem> faz o <acronym>GIMP</acronym> "
+"fechar todas as imagens e encerrar. Se houver alguma imagem aberta que "
+"contenha alterações não salvas (ou seja, não marcadas como "
+"<quote>limpas</quote>), o <acronym>GIMP</acronym> avisa você e exibe uma "
+"lista das imagens não salvas. Você pode então escolher quais imagens deseja "
+"salvar ou cancelar o comando. Observe que, se você tiver muitas imagens "
+"abertas ou estiver usando boa parte da RAM do sistema, pode demorar um pouco "
+"até tudo encerrar."
 
 #: src/menus/file/quit.xml:32(para)
 msgid ""
@@ -411,7 +409,6 @@ msgstr ""
 "keycap></keycombo>."
 
 #: src/menus/file/quit.xml:47(para)
-#, fuzzy
 msgid ""
 "For most systems on which <acronym>GIMP</acronym> runs, you can also execute "
 "it by clicking on a <quote>Close</quote> button somewhere on the main image "
@@ -420,22 +417,21 @@ msgid ""
 "closes GIMP when no image is open."
 msgstr ""
 "Na maioria dos sistemas em que o <acronym>GIMP</acronym> é executado, você "
-"também pode executar este comando clicando no botão de <quote>Fechar</quote> "
-"botão em algum lugar na barra de título da janela da imagem principal. A "
-"localização ea aparência deste botão são determinados pelo sistema de "
-"janelas e do gerenciador de janelas. Ao clicar neste botão, no modo de "
-"janela única, ou quando nenhuma outra imagem está aberta, o GIMP é fechado."
+"também pode executá-lo clicando em um botão <quote>Fechar</quote> em algum "
+"lugar na barra de título da janela principal da imagem. A localização e a "
+"aparência desse botão são determinadas pelo sistema de janelas e pelo "
+"gerenciador de janelas. Clicar nesse botão fecha o GIMP quando nenhuma imagem "
+"está aberta."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/print.xml:28(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/file/print-tab3.png'; "
 "md5=6150760e725a65d34697c4947acdb966"
 msgstr ""
 "@@image: 'images/menus/file/print-tab3.png'; "
-"md5=5ad378c86c870d90bdc3515d6feb6b1c"
+"md5=6150760e725a65d34697c4947acdb966"
 
 #: src/menus/file/print.xml:13(title)
 msgid "Print"
@@ -450,14 +446,13 @@ msgid "Print command"
 msgstr "Comando Imprimir"
 
 #: src/menus/file/print.xml:19(para)
-#, fuzzy
 msgid ""
 "<acronym>GIMP</acronym> has its own printing module. You can set page and "
 "image up. A preview button allows you to verify the result before printing."
 msgstr ""
-"Desde o lançamento da versao 2.4.0,  o <acronym>GIMP</acronym> tem o seu "
-"próprio módulo de impressão. Você pode configurar a página e a imagem. Um "
-"botão de pré-visualização permite verificar o resultado antes de imprimir."
+"O <acronym>GIMP</acronym> tem seu próprio módulo de impressão. Você pode "
+"configurar a página e a imagem. Um botão de pré-visualização permite "
+"verificar o resultado antes de imprimir."
 
 #: src/menus/file/print.xml:25(title)
 msgid "The <quote>Print</quote> dialog"
@@ -472,24 +467,21 @@ msgstr ""
 "link>."
 
 #: src/menus/file/print.xml:43(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></"
 "menuchoice>,"
 msgstr ""
-"Você pode acessar este comando a partir do menu de imagem através "
-"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Sair</guimenuitem></"
-"menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Imprimir</guimenuitem></menuchoice>,"
 
 #: src/menus/file/print.xml:52(para)
-#, fuzzy
 msgid ""
 "or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>P</"
 "keycap></keycombo>."
 msgstr ""
-"ou usando o atalho de teclado <keycombo><keycap>Ctrl</keycap><keycap>Q</"
-"keycap></keycombo>."
+"ou usando o atalho de teclado "
+"<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>."
 
 #: src/menus/file/open-recent.xml:9(title)
 #: src/menus/file/open-recent.xml:17(primary)
@@ -508,7 +500,6 @@ msgid "Open recent"
 msgstr "Abrir recente"
 
 #: src/menus/file/open-recent.xml:20(para)
-#, fuzzy
 msgid ""
 "Selecting <guimenuitem>Open Recent</guimenuitem> displays a submenu with the "
 "names of the files that you have opened recently in <acronym>GIMP</acronym>. "
@@ -516,28 +507,26 @@ msgid ""
 "dialog\">Document History dialog</link> at the bottom of the Open Recent "
 "submenu if you cannot find your image."
 msgstr ""
-"Selecionando <guimenuitem>Abrir recente</guimenuitem>, você vê um submenu "
-"com os nomes dos arquivos que você abriu recentemente no <acronym>GIMP</"
-"acronym>. Basta clicar em um nome para reabri-lo. Veja o diálogo de  <link "
-"linkend=\"gimp-document-dialog\">Histórico de documentos</link> na parte "
-"inferior do submenu Abrir recente, se você não consegue encontrar a sua "
-"imagem na lista."
+"Selecionar <guimenuitem>Abrir recente</guimenuitem> exibe um submenu com os "
+"nomes dos arquivos abertos recentemente no <acronym>GIMP</acronym>. Basta "
+"clicar em um nome para reabri-lo. Consulte a <link "
+"linkend=\"gimp-document-dialog\">caixa de diálogo Histórico de "
+"documentos</link> na parte inferior do submenu Abrir recente, caso não "
+"encontre sua imagem."
 
 #: src/menus/file/open-recent.xml:32(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Open Recent</guimenuitem></"
 "menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens através "
-"de<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Abrir recente</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Abrir "
+"recente</guimenuitem></menuchoice>."
 
 #: src/menus/file/open-location.xml:12(title)
-#, fuzzy
 msgid "Open Location…"
-msgstr "Abrir URL"
+msgstr "Abrir local…"
 
 #: src/menus/file/open-location.xml:17(tertiary)
 msgid "Open location"
@@ -548,15 +537,14 @@ msgid "Open Location"
 msgstr "Abrir URL"
 
 #: src/menus/file/open-location.xml:23(para)
-#, fuzzy
 msgid ""
 "This command opens the <quote>Open Location</quote> dialog that lets you "
 "load an image from a network location, specified by a URI, in any of the "
 "formats that <acronym>GIMP</acronym> supports."
 msgstr ""
-"A caixa de diálogo <guimenuitem>Abrir URL</guimenuitem> permite que você "
-"carregue uma imagem direto da internet, ou de outro local especificado por "
-"uma URL, em qualquer um dos formatos que <acronym>GIMP</acronym> suporta."
+"Este comando abre a caixa de diálogo <quote>Abrir local</quote>, que permite "
+"carregar uma imagem de um local de rede, especificado por um URI, em qualquer "
+"um dos formatos suportados pelo <acronym>GIMP</acronym>."
 
 #: src/menus/file/open-location.xml:33(para)
 msgid ""
@@ -602,11 +590,14 @@ msgid ""
 "and Settings\\\\&lt;username&gt;\\\\My Documents\\\\My Images\\\\</filename> "
 "on Windows and <filename>/Users/&lt;username&gt;/</filename> on Mac OS X."
 msgstr ""
-"A pasta padrão de base para caminhos relativos depende do seu sistema "
-"operacional. No Linux é tipicamente <filename>/home/&lt;nome-do-usuário&gt;/"
-"</filename>, no Windows, <filename role=\"html\">C:\\Documents and "
-"Settings\\&lt;nome-do-usuário&gt;\\Meus Documentos\\Minhas Imagens\\</"
-"filename> e <filename>/Users/&lt;nome-do-usuário&gt;/</filename> no Mac OS X."
+"A pasta base padrão para caminhos relativos depende do seu sistema "
+"operacional. No Linux, normalmente é "
+"<filename>/home/&lt;nome-de-usuário&gt;/</filename>; no Windows, <filename "
+"role=\"html\">C:\\Documents and Settings\\&lt;nome-de-usuário&gt;\\Meus "
+"Documentos\\Minhas Imagens\\</filename><filename role=\"tex\">C:\\\\Documents "
+"and Settings\\\\&lt;nome-de-usuário&gt;\\\\Meus Documentos\\\\Minhas "
+"Imagens\\\\</filename>; e no Mac OS X, "
+"<filename>/Users/&lt;nome-de-usuário&gt;/</filename>."
 
 #: src/menus/file/open-location.xml:72(term)
 msgid "ftp://"
@@ -650,9 +641,8 @@ msgstr ""
 "exemplo, é dado pelas licenças Creative Commons)"
 
 #: src/menus/file/open-as-layer.xml:13(title)
-#, fuzzy
 msgid "Open as Layers…"
-msgstr "Abrir como Camadas"
+msgstr "Abrir como camadas…"
 
 #: src/menus/file/open-as-layer.xml:17(tertiary)
 msgid "As layers"
@@ -675,27 +665,25 @@ msgid "Open as layers"
 msgstr "Abrir como camadas"
 
 #: src/menus/file/open-as-layer.xml:28(para)
-#, fuzzy
 msgid ""
 "The <guimenu>Open Image as layers</guimenu> command opens the <link "
 "linkend=\"gimp-file-open\">Open Image</link> dialog. The layers of the "
 "selected file are added to the current image as the top layers in the stack."
 msgstr ""
-"O diálogo de <guimenu>Abrir imagem como camadas</guimenu> é idêntico ao "
-"diálogo de <link linkend=\"gimp-file-open\">Abrir imagem</link>. As camadas "
-"do arquivo selecionado são adicionadas à imagem ativa como as camadas "
-"superiores da pilha. "
+"O comando <guimenu>Abrir imagem como camadas</guimenu> abre a caixa de "
+"diálogo <link linkend=\"gimp-file-open\">Abrir imagem</link>. As camadas do "
+"arquivo selecionado são adicionadas à imagem atual como as camadas superiores "
+"da pilha."
 
 #: src/menus/file/open-as-layer.xml:38(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Open as layers…</"
 "guimenuitem></menuchoice>,"
 msgstr ""
-"Você pode acessar este comando a partir do menu de imagem através "
-"de<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Abrir como camadas</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Abrir como "
+"camadas…</guimenuitem></menuchoice>,"
 
 #: src/menus/file/open-as-layer.xml:47(para)
 msgid ""
@@ -706,33 +694,26 @@ msgstr ""
 "keycap><keycap>O</keycap></keycombo>."
 
 #: src/menus/file/open.xml:13(title)
-#, fuzzy
 msgid "Open…"
-msgstr "Abrir"
+msgstr "Abrir…"
 
 #: src/menus/file/open.xml:21(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Open…</guimenuitem> command activates the <link "
 "linkend=\"gimp-open-dialog\">Open Image</link> dialog that lets you select "
 "an image to be loaded from your hard-drive or an external device."
 msgstr ""
-"O diálogo de <guimenu>Abrir imagem como camadas</guimenu> é idêntico ao "
-"diálogo de <link linkend=\"gimp-file-open\">Abrir imagem</link>. As camadas "
-"do arquivo selecionado são adicionadas à imagem ativa como as camadas "
-"superiores da pilha. "
+"O comando <guimenuitem>Abrir…</guimenuitem> ativa a caixa de diálogo <link "
+"linkend=\"gimp-open-dialog\">Abrir imagem</link>, que permite selecionar uma "
+"imagem a ser carregada do seu disco rígido ou de um dispositivo externo."
 
 #: src/menus/file/open.xml:26(para)
-#, fuzzy
 msgid ""
 "For other ways of opening files, see the commands described on the next "
 "pages (<xref linkend=\"gimp-file-open-as-layer\"/> etc.)."
 msgstr ""
-"O comando <guimenuitem>Abrir</guimenuitem> ativa um diálogo que permite que "
-"você carregue uma imagem existente a partir de seu disco rígido ou um meio "
-"externo. Para modos alternativos de abrir de arquivos, as vezes mais "
-"convenientes, consulte o seguinte comando: <xref linkend=\"gimp-file-open-as-"
-"layer\"/>"
+"Para outras formas de abrir arquivos, consulte os comandos descritos nas "
+"páginas seguintes (<xref linkend=\"gimp-file-open-as-layer\"/> etc.)."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -755,27 +736,26 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/new.xml:168(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/file/new/advanced-dialog.png'; "
 "md5=f86cb204f6966c3db4ca7e2b5b84323d"
 msgstr ""
 "@@image: 'images/menus/file/new/advanced-dialog.png'; "
-"md5=c64d638cb1072816d6f6448cd03d8a52"
+"md5=f86cb204f6966c3db4ca7e2b5b84323d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/new.xml:329(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/file/new/precision.png'; "
 "md5=92fcbfaf8ba7e13d07b638a351aee645"
 msgstr ""
-"@@image: 'images/menus/file/new.png'; md5=91c33dbb59296722126cb68b4e9060b1"
+"@@image: 'images/menus/file/new/precision.png'; "
+"md5=92fcbfaf8ba7e13d07b638a351aee645"
 
 #: src/menus/file/new.xml:13(title)
 msgid "New…"
-msgstr ""
+msgstr "Novo…"
 
 #: src/menus/file/new.xml:17(secondary) src/menus/file/new.xml:20(primary)
 msgid "New"
@@ -786,27 +766,24 @@ msgid "New Image"
 msgstr "Nova Imagem"
 
 #: src/menus/file/new.xml:27(para)
-#, fuzzy
 msgid ""
 "Using the <quote>Create a New Image</quote> dialog, you can create a new "
 "empty image and set its properties. The image is shown in a new image "
 "window. You may have more than one image on your screen at the same time."
 msgstr ""
-"Usando o diálogo <guimenuitem>Nova Imagem</guimenuitem>, você pode criar uma "
-"nova imagem vazia e definir suas propriedades. A imagem é exibida em uma "
-"nova janela de imagem. Você pode ter mais de uma imagem na tela ao mesmo "
-"tempo."
+"Usando a caixa de diálogo <quote>Criar uma nova imagem</quote>, você pode "
+"criar uma nova imagem vazia e definir suas propriedades. A imagem é exibida "
+"em uma nova janela de imagem. Você pode ter mais de uma imagem na tela ao "
+"mesmo tempo."
 
 #: src/menus/file/new.xml:38(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>New…</guimenuitem></"
 "menuchoice>,"
 msgstr ""
-"Você pode acessar este comando a partir do menu de imagem através de "
-"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Salvar como</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Novo…</guimenuitem></menuchoice>,"
 
 #: src/menus/file/new.xml:47(para)
 msgid ""
@@ -821,9 +798,8 @@ msgid "Basic Options"
 msgstr "Opções básicas"
 
 #: src/menus/file/new.xml:58(title)
-#, fuzzy
 msgid "The <quote>Create a New Image</quote> dialog"
-msgstr "O diálogo de <quote>Nova Imagem</quote>"
+msgstr "A caixa de diálogo <quote>Criar uma nova imagem</quote>"
 
 #: src/menus/file/new.xml:68(primary) src/menus/file/new.xml:80(term)
 #: src/menus/file/create-template.xml:15(primary)
@@ -891,11 +867,11 @@ msgid ""
 "<quote>New</quote>image when another is open (or has been), then it is "
 "opened in another window, with the same size as the first image."
 msgstr ""
-"Se nenhuma imagem está aberta, a <quote>Nova</quote> imagem  é aberta na "
-"janela de imagem vazia, com o tamanho que você determinou. Se você abrir a "
-"nova imagem enquanto outra estiver aberta, então ela será aberta em outra "
-"janela, ou outra guia no modo de janela única, com o mesmo tamanho da "
-"primeira imagem."
+"Se nenhuma imagem estiver aberta, a imagem <quote>Nova</quote> é aberta na "
+"janela de imagem vazia, com o tamanho padrão que você determinou. Se você "
+"abrir a imagem <quote>Nova</quote> quando outra estiver aberta (ou tiver "
+"estado), então ela é aberta em outra janela, com o mesmo tamanho da primeira "
+"imagem."
 
 #: src/menus/file/new.xml:125(para)
 msgid ""
@@ -938,11 +914,11 @@ msgstr "Opções avançadas"
 
 #: src/menus/file/new.xml:158(primary) src/menus/file/new.xml:267(term)
 msgid "Precision"
-msgstr ""
+msgstr "Precisão"
 
 #: src/menus/file/new.xml:161(primary)
 msgid "8-bit, 16-bit, 32-bit"
-msgstr ""
+msgstr "8 bits, 16 bits, 32 bits"
 
 #: src/menus/file/new.xml:164(title)
 msgid "New Image dialog (Advanced Options)"
@@ -987,7 +963,6 @@ msgstr ""
 
 # ** Eeeek: dot for dot is described in teh exact reverse mode it works: screen resolution calibration does not matter for dot for dot turned on.
 #: src/menus/file/new.xml:202(para)
-#, fuzzy
 msgid ""
 "If you want to display the image on the screen at the correct dimensions, "
 "select <menuchoice><guimenu>View</guimenu><guimenuitem>Dot for Dot</"
@@ -999,19 +974,15 @@ msgid ""
 "display\">Preferences</link> dialog."
 msgstr ""
 "Se você quiser exibir a imagem na tela com as dimensões corretas, selecione "
-"<menuchoice><guimenu>Visualizar</guimenu><guimenuitem>Um ponto por pixel</"
-"guimenuitem></menuchoice>. Deixe o fator de zoom em 100% para ver a imagem "
-"em seu tamanho real na tela, com um pixel da imagem correspondendo a um "
-"pixel do monitor. Se a opção de <quote>Um ponto por pixel</quote> estiver "
-"desligada, o zoom de 100% vai mostrar a imagem no tamanho físico que ela "
-"teria se fosse impressa. A calibração da resolução da tela é feita  "
-"normalmente quando o <acronym>GIMP</acronym> é instalado, mas se a imagem "
-"não for exibida no tamanho correto, você pode ter que ajustar os parâmetros "
-"da tela no <acronym>GIMP</acronym >. Você pode fazer isso no diálogo de "
-"<link  linkend=\"gimp-prefs-display\">Preferências</link>."
+"<menuchoice><guimenu>Ver</guimenu><guimenuitem>Ponto por "
+"ponto</guimenuitem></menuchoice>. Defina o fator de zoom em 100% para ver a "
+"imagem em seu tamanho real de tela. A calibração do tamanho da tela "
+"normalmente é feita quando o <acronym>GIMP</acronym> é instalado, mas, se a "
+"imagem não for exibida no tamanho correto, talvez você precise ajustar os "
+"parâmetros de tela no <acronym>GIMP</acronym>. Você pode fazer isso na caixa "
+"de diálogo <link linkend=\"gimp-prefs-display\">Preferências</link>."
 
 #: src/menus/file/new.xml:222(term)
-#, fuzzy
 msgid "Color space"
 msgstr "Espaço de cor"
 
@@ -1042,7 +1013,6 @@ msgid "Grayscale"
 msgstr "Tons de cinza"
 
 #: src/menus/file/new.xml:243(para)
-#, fuzzy
 msgid ""
 "The image is created in black and white, with various shades of gray. Aside "
 "from your artistic interests, this type of image may be necessary for some "
@@ -1050,11 +1020,11 @@ msgid ""
 "linkend=\"gimp-image-convert-grayscale\">change an RGB image into grayscale</"
 "link>, if you would like."
 msgstr ""
-"A imagem é criada em preto e branco, com vários tons de cinza. Além de seus "
-"interesses artísticos, este tipo de imagem pode ser necessária para alguns "
-"plug-ins. No entanto, o <acronym>GIMP</acronym> permite <link linkend=\"gimp-"
-"image-convert-grayscale\">alterar uma imagem RGB para tons de cinza</link> "
-"depois de criada, se você quiser."
+"A imagem é criada em preto e branco, com vários tons de cinza. Além dos "
+"interesses artísticos, esse tipo de imagem pode ser necessário para alguns "
+"plug-ins. No entanto, o <acronym>GIMP</acronym> permite <link "
+"linkend=\"gimp-image-convert-grayscale\">converter uma imagem RGB em escala "
+"de cinza</link>, se você quiser."
 
 #: src/menus/file/new.xml:254(para)
 msgid ""
@@ -1079,30 +1049,37 @@ msgid ""
 "enough color space to bring back all the details that are stored inside a "
 "RAW file – however this is not implemented yet."
 msgstr ""
+"Um grande passo para o GIMP: o suporte a 16-32 bits por canal finalmente está "
+"disponível. Agora você pode trabalhar com muito mais informação de cor e "
+"detalhe em suas imagens. Esse suporte basicamente lhe dá a capacidade de "
+"criar transições de cor extremamente suaves na imagem. A próxima melhoria "
+"será poder editar arquivos RAW com o GIMP <emphasis>diretamente</emphasis>, "
+"já que há espaço de cor suficiente para recuperar todos os detalhes "
+"armazenados em um arquivo RAW — porém isso ainda não está implementado."
 
 #: src/menus/file/new.xml:285(para)
 msgid "8-bit integer"
-msgstr ""
+msgstr "Inteiro de 8 bits"
 
 #: src/menus/file/new.xml:290(para)
 msgid "16-bit integer"
-msgstr ""
+msgstr "Inteiro de 16 bits"
 
 #: src/menus/file/new.xml:295(para)
 msgid "32-bit integer"
-msgstr ""
+msgstr "Inteiro de 32 bits"
 
 #: src/menus/file/new.xml:300(para)
 msgid "16-bit floating point"
-msgstr ""
+msgstr "Ponto flutuante de 16 bits"
 
 #: src/menus/file/new.xml:305(para)
 msgid "32-bit floating point"
-msgstr ""
+msgstr "Ponto flutuante de 32 bits"
 
 #: src/menus/file/new.xml:281(para)
 msgid "Five options are available: <placeholder-1/>"
-msgstr ""
+msgstr "Cinco opções estão disponíveis: <placeholder-1/>"
 
 #: src/menus/file/new.xml:311(para)
 msgid ""
@@ -1117,20 +1094,33 @@ msgid ""
 "decrease the importance of the brighter color tones and get most color "
 "detail out of only the darker reds."
 msgstr ""
+"Se você se pergunta qual é a diferença entre inteiro e ponto flutuante (na "
+"área gráfica): se você tem uma imagem com precisão inteira de 16 bits por "
+"canal, então tem 65.536 tons diferentes de vermelho, verde e azul — todos "
+"igualmente espaçados entre si (mesma distância de cor). Se você tem ponto "
+"flutuante, então não há passos de largura igual — assim você pode distribuir "
+"os valores de cor possíveis por faixas selecionadas. Por exemplo: se você "
+"sabe que tem uma imagem muito escura, com muitos tons de vermelho escuro, "
+"então se beneficiaria do ponto flutuante, porque pode diminuir a importância "
+"dos tons mais claros e obter a maior parte do detalhe de cor apenas dos "
+"vermelhos mais escuros."
 
 #: src/menus/file/new.xml:325(title)
 msgid "Precision example"
-msgstr ""
+msgstr "Exemplo de precisão"
 
 #: src/menus/file/new.xml:332(para)
 msgid ""
 "Left image is 8-bit, right is 32-bit. You can see that there are much more "
 "available colors between color transitions on the right image."
 msgstr ""
+"A imagem da esquerda é de 8 bits, a da direita é de 32 bits. Você pode ver "
+"que há muito mais cores disponíveis entre as transições de cor na imagem da "
+"direita."
 
 #: src/menus/file/new.xml:344(term)
 msgid "Gamma"
-msgstr ""
+msgstr "Gama"
 
 #: src/menus/file/new.xml:346(para)
 msgid ""
@@ -1141,11 +1131,18 @@ msgid ""
 "light. For more information see <link linkend=\"gimp-image-choosing-"
 "precision-encoding\">which precision options should you choose</link>."
 msgstr ""
+"Aqui você pode escolher a <link "
+"linkend=\"glossary-channel-encoding\">codificação de canal</link> da sua "
+"imagem. As opções são <guilabel>Não linear</guilabel> e <guilabel>Luz "
+"linear</guilabel>. Para precisão inteira de 8 bits, o padrão é Não linear, e "
+"para precisão de ponto flutuante de 32 bits é Luz linear. Para mais "
+"informações, consulte <link "
+"linkend=\"gimp-image-choosing-precision-encoding\">quais opções de precisão "
+"você deve escolher</link>."
 
 #: src/menus/file/new.xml:361(term)
-#, fuzzy
 msgid "Color profile"
-msgstr "Espaço de cor"
+msgstr "Perfil de cor"
 
 #: src/menus/file/new.xml:363(para)
 msgid ""
@@ -1156,11 +1153,16 @@ msgid ""
 "file from a location on your computer by choosing <guilabel>Select color "
 "profile from disk…</guilabel>."
 msgstr ""
+"Aqui você pode escolher um perfil de cor a ser usado na sua imagem. O padrão "
+"é o perfil de cor padrão do GIMP, baseado em <guilabel>Espaço de "
+"cor</guilabel>, <guilabel>Precisão</guilabel> e <guilabel>Gama</guilabel>. Se "
+"preferir usar um perfil de cor diferente, você pode selecionar um arquivo de "
+"perfil ICC em um local do seu computador escolhendo <guilabel>Selecionar "
+"perfil de cor do disco…</guilabel>."
 
 #: src/menus/file/new.xml:376(term)
-#, fuzzy
 msgid "Fill with"
-msgstr "Preencher"
+msgstr "Preencher com"
 
 #: src/menus/file/new.xml:378(para)
 msgid ""
@@ -1192,7 +1194,7 @@ msgid ""
 "quote> dialog window is open."
 msgstr ""
 "Note que você pode mudar a cor de Frente enquanto o diálogo de <quote>Nova "
-"Imagem</quote> está aberto, antes de clicar em <guilabel>OK</guilabel>."
+"Imagem</quote> está aberto, antes de clicar em OK."
 
 #: src/menus/file/new.xml:397(para)
 msgid ""
@@ -1228,6 +1230,9 @@ msgid ""
 "option, the image is filled with the currently active pattern (which you can "
 "change while this dialog is open)."
 msgstr ""
+"Preenche a imagem com uma <guilabel>Textura</guilabel>. Se você escolher esta "
+"opção, a imagem é preenchida com a textura ativa no momento (que você pode "
+"alterar enquanto esta caixa de diálogo estiver aberta)."
 
 #: src/menus/file/new.xml:429(term) src/menus/file/new.xml:433(secondary)
 #: src/menus/file/new.xml:436(primary)
@@ -1255,18 +1260,16 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/export-as.xml:26(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/export-image-dialog.png'; "
 "md5=66b13a524ccadfb6d5547e7e571ba563"
 msgstr ""
 "@@image: 'images/using/export-image-dialog.png'; "
-"md5=6aca937c44153f7aec97b1cb86cbaf3d"
+"md5=66b13a524ccadfb6d5547e7e571ba563"
 
 #: src/menus/file/export-as.xml:9(title)
-#, fuzzy
 msgid "Export As…"
-msgstr "Exportar para"
+msgstr "Exportar como…"
 
 #: src/menus/file/export-as.xml:13(secondary)
 #: src/menus/file/export-as.xml:16(primary)
@@ -1274,13 +1277,12 @@ msgid "Export As"
 msgstr "Exportar para"
 
 #: src/menus/file/export-as.xml:19(para)
-#, fuzzy
 msgid ""
 "The <command>Export As…</command> command allows you to store your image in "
 "a format other than XCF."
 msgstr ""
-"<command>Exportar como...</command> permite que você salve a sua imagem em "
-"um formato diferente do XCF."
+"O comando <command>Exportar como…</command> permite armazenar sua imagem em "
+"um formato diferente de XCF."
 
 #: src/menus/file/export-as.xml:31(para)
 msgid ""
@@ -1291,15 +1293,14 @@ msgstr ""
 "sobre como exportar uma imagem para diferentes formatos de arquivo."
 
 #: src/menus/file/export-as.xml:41(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Export As…</guimenuitem></"
 "menuchoice>,"
 msgstr ""
-"Você pode acessar este comando a partir do menu de imagem através de "
-"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Exportar como...</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Exportar "
+"como…</guimenuitem></menuchoice>,"
 
 #: src/menus/file/export-as.xml:50(para)
 msgid ""
@@ -1311,7 +1312,7 @@ msgstr ""
 
 #: src/menus/file/export.xml:8(title)
 msgid "Export… and Overwrite…"
-msgstr ""
+msgstr "Exportar… e Sobrescrever…"
 
 #: src/menus/file/export.xml:11(primary)
 msgid "Export"
@@ -1319,37 +1320,34 @@ msgstr "Exportar"
 
 #: src/menus/file/export.xml:14(primary)
 msgid "Overwrite"
-msgstr ""
+msgstr "Sobrescrever"
 
 #: src/menus/file/export.xml:17(para)
-#, fuzzy
 msgid ""
 "When the opened image is a native XCF file this command is called "
 "<quote>Export</quote>. In that case, it does the same thing as "
 "<command>Export As…</command>."
 msgstr ""
-"Este comando é chamado <quote> Exportar para </quote> para um arquivo XCF "
-"nativa. Em seguida, ele faz a mesma coisa que <command> Exportação </"
-"command>."
+"Quando a imagem aberta é um arquivo XCF nativo, este comando se chama "
+"<quote>Exportar</quote>. Nesse caso, ele faz o mesmo que <command>Exportar "
+"como…</command>."
 
 #: src/menus/file/export.xml:23(para)
-#, fuzzy
 msgid ""
 "When the opened image was imported, this command is called <quote>Overwrite "
 "filename.extension</quote>. Using this command, you can export the imported "
 "image directly in its original file format, without going through the export "
 "dialog."
 msgstr ""
-"O nome do comando se torna <quote>Sobrescrever nome.extensão</quote> para "
-"uma imagem que foi importada. Assim, você pode exportar a imagem importada "
-"diretamente em seu formato de arquivo original, sem passar pelo diálogo de "
-"exportação."
+"Quando a imagem aberta foi importada, este comando se chama "
+"<quote>Sobrescrever nome.extensão</quote>. Usando este comando, você pode "
+"exportar a imagem importada diretamente em seu formato de arquivo original, "
+"sem passar pela caixa de diálogo de exportação."
 
 #. TO TRANLATORS: this file comes from the old save-as-template xml file
 #: src/menus/file/create-template.xml:9(title)
-#, fuzzy
 msgid "Create Template…"
-msgstr "Criar novo modelo"
+msgstr "Criar modelo…"
 
 #: src/menus/file/create-template.xml:12(primary)
 #: src/menus/file/create-template.xml:16(secondary)
@@ -1357,7 +1355,6 @@ msgid "Create Template"
 msgstr "Criar novo modelo"
 
 #: src/menus/file/create-template.xml:21(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Create Template…</guimenuitem> command opens the "
 "<quote>Create New Template</quote> dialog that allows you to create a "
@@ -1369,78 +1366,73 @@ msgid ""
 "the <link linkend=\"gimp-template-dialog\">Templates</link> dialog to modify "
 "or delete templates."
 msgstr ""
-"O comando <guimenuitem>Criar novo modelo</guimenuitem> cria um modelo com as "
-"mesmas dimensões e espaço de cor que a imagem ativa. Aparece uma caixa de "
-"diálogo, que lhe pede para dar um nome ao novo modelo. Em seguida, o modelo "
-"será salvo e se torna disponível no diálogo de <link linkend=\"gimp-file-"
-"new\">Nova Imagem</link>. Se você der um nome que já existe, o "
-"<acronym>GIMP</acronym> gera um nome exclusivo anexando um número ao nome "
-"dado. Você pode usar o diálogo de  <link linkend=\"gimp-template-"
-"dialog\">Modelos</link> para modificar ou excluir modelos."
+"O comando <guimenuitem>Criar modelo…</guimenuitem> abre a caixa de diálogo "
+"<quote>Criar novo modelo</quote>, que permite criar um modelo com as mesmas "
+"dimensões e o mesmo espaço de cor da imagem atual. Aparece uma caixa de "
+"diálogo que pede para você nomear o novo modelo. Em seguida, o modelo é salvo "
+"e fica disponível na caixa de diálogo <link linkend=\"gimp-file-new\">Nova "
+"imagem</link>. Se você der um nome que já existe, o <acronym>GIMP</acronym> "
+"gera um nome exclusivo acrescentando um número a ele. Você pode usar a caixa "
+"de diálogo <link linkend=\"gimp-template-dialog\">Modelos</link> para "
+"modificar ou excluir modelos."
 
 #: src/menus/file/create-template.xml:39(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Create Template…</"
 "guimenuitem></menuchoice>. There is no default keyboard shortcut."
 msgstr ""
-"Você pode acessar este comando a partir do menu de imagem através "
-"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Criar novo modelo</"
-"guimenuitem></menuchoice>. Não há nenhum atalho de teclado padrão."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Criar "
+"modelo…</guimenuitem></menuchoice>. Não há atalho de teclado padrão."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/create.xml:25(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/file/create.png'; md5=b89d2c4186b64dc1912278d349c11abe"
 msgstr ""
-"@@image: 'images/menus/file/create.png'; md5=8b02d6335dbefd153d97cbf22041c3bc"
+"@@image: 'images/menus/file/create.png'; md5=b89d2c4186b64dc1912278d349c11abe"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/create.xml:35(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/file/create_win.png'; "
 "md5=7e2d2412fa796e3d4235778381aa855f"
 msgstr ""
-"@@image: 'images/menus/file/save-as.png'; "
-"md5=a7292ed267fe34c8750323158d0e3a2b"
+"@@image: 'images/menus/file/create_win.png'; "
+"md5=7e2d2412fa796e3d4235778381aa855f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/create.xml:95(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/file/create/webpage.png'; "
 "md5=edd99ea00a48aa420c9b25915497bfb4"
 msgstr ""
 "@@image: 'images/menus/file/create/webpage.png'; "
-"md5=84aac2305c25c8f7d22b11c00ce3b2d1"
+"md5=edd99ea00a48aa420c9b25915497bfb4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/create.xml:117(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
 "md5=ac289e5657c5aba2888f75c54632e524"
 msgstr ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
-"md5=1662c563c6b15d82db6e8cb8657b62f4"
+"md5=ac289e5657c5aba2888f75c54632e524"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/create.xml:211(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/file/create/scanner.png'; "
 "md5=c23ab96984c2a4ef6d78874d882bdec1"
 msgstr ""
 "@@image: 'images/menus/file/create/scanner.png'; "
-"md5=5f8d38f919cdfe093da106137dc29822"
+"md5=c23ab96984c2a4ef6d78874d882bdec1"
 
 #: src/menus/file/create.xml:11(title)
 msgid "Create"
@@ -1460,26 +1452,24 @@ msgstr "O submenu <quote>Criar</quote>"
 
 #: src/menus/file/create.xml:28(para)
 msgid "Under Linux"
-msgstr ""
+msgstr "No Linux"
 
 #: src/menus/file/create.xml:38(para)
 msgid "Under Windows"
-msgstr ""
+msgstr "No Windows"
 
 #: src/menus/file/create.xml:45(para)
-#, fuzzy
 msgid ""
 "These commands vary somewhat, depending upon your system, since "
 "<acronym>GIMP</acronym> makes calls to system functions."
 msgstr ""
 "Estes comandos variam um pouco, dependendo do seu sistema, já que o "
-"<acronym>GIMP</acronym> faz chamadas para as funções do sistema."
+"<acronym>GIMP</acronym> faz chamadas a funções do sistema."
 
 #. id="gimp-file-create-activate"
 #: src/menus/file/create.xml:51(title)
-#, fuzzy
 msgid "Activating the Submenu"
-msgstr "Ativar o submenu"
+msgstr "Ativando o submenu"
 
 #: src/menus/file/create.xml:54(para)
 msgid ""
@@ -1504,13 +1494,12 @@ msgstr ""
 "você pode criar uma nova imagem com o conteúdo da mesma."
 
 #: src/menus/file/create.xml:71(para)
-#, fuzzy
 msgid ""
 "This command has the same action as the <link linkend=\"gimp-edit-paste-as-"
 "new-image\">Paste as New Image</link> command."
 msgstr ""
-"Este comando tem a mesma ação que o comando  <link linkend=\"gimp-edit-paste-"
-"as-new\">Colar como nova</link>."
+"Este comando tem a mesma ação que o comando <link "
+"linkend=\"gimp-edit-paste-as-new-image\">Colar como nova imagem</link>."
 
 #: src/menus/file/create.xml:76(para)
 msgid ""
@@ -1613,7 +1602,6 @@ msgstr "Selecionar uma região da tela"
 
 # ** Eeek: "in the image window" ?? The selction can be made on any window, on any running program.
 #: src/menus/file/create.xml:163(para)
-#, fuzzy
 msgid ""
 "The mouse pointer becomes a cross. Click and drag to create a rectangular "
 "selection in the image window. This selection will be opened as a new image. "
@@ -1621,8 +1609,9 @@ msgid ""
 "available on Windows."
 msgstr ""
 "O ponteiro do mouse se torna uma cruz. Clique e arraste para criar uma "
-"seleção retangular na janela que contém a imagem desejada. Esta seleção será "
-"aberta como uma nova imagem. O seu tamanho é igual ao da seleção feita."
+"seleção retangular na janela da imagem. Esta seleção será aberta como uma "
+"nova imagem. Seu tamanho é adaptado ao tamanho da seleção. Observação: esta "
+"configuração não está disponível no Windows."
 
 #: src/menus/file/create.xml:177(term)
 msgid "Delay"
@@ -1639,9 +1628,8 @@ msgstr ""
 "esse atraso."
 
 #: src/menus/file/create.xml:191(title)
-#, fuzzy
 msgid "Scanner/Camera"
-msgstr "Scanner e câmera"
+msgstr "Scanner/câmera"
 
 #. <anchor id="twain-acquire"/>
 #: src/menus/file/create.xml:193(para)
@@ -1653,46 +1641,51 @@ msgid ""
 "guisubmenu><guisubmenu>XSane</guisubmenu><guimenuitem>Device dialog…</"
 "guimenuitem></menuchoice> menu."
 msgstr ""
+"Este item está presente no sistema operacional Windows, usando TWAIN. Os "
+"dispositivos de entrada de imagem aparecem na caixa de diálogo, se estiverem "
+"conectados. No Linux, você precisa instalar o plug-in XSane de terceiros, que "
+"ficará disponível no menu "
+"<menuchoice><guimenu>Arquivo</guimenu><guisubmenu>Criar</guisubmenu><guisubmenu>XSane</guisubmenu><guimenuitem>Diálogo "
+"de dispositivo…</guimenuitem></menuchoice>."
 
 #: src/menus/file/create.xml:207(title)
 msgid "Scanner and Camera"
 msgstr "Scanner e câmera"
 
 #: src/menus/file/create.xml:215(para)
-#, fuzzy
 msgid ""
 "The kinds of devices used to take pictures are too varied to be described "
 "here. Fortunately, their use is fairly intuitive. In the example shown "
 "(under Windows 7), you can start a scanner or load an image from a camera "
 "card."
 msgstr ""
-"Os tipos de dispositivos usados ​​para tirar fotos são muito variados para "
-"serem descritos aqui. Felizmente, o seu uso é bastante intuitivo. No exemplo "
-"mostrado, você pode começar a digitalizar uma imagem com um scanner ou tirar "
-"uma foto com uma webcam."
+"Os tipos de dispositivos usados para tirar fotos são variados demais para "
+"serem descritos aqui. Felizmente, seu uso é bastante intuitivo. No exemplo "
+"mostrado (no Windows 7), você pode iniciar um scanner ou carregar uma imagem "
+"do cartão de uma câmera."
 
 #: src/menus/file/copy-location.xml:6(title)
 #: src/menus/file/copy-location.xml:8(primary)
-#, fuzzy
 msgid "Copy Image Location"
-msgstr "Abrir URL"
+msgstr "Copiar local da imagem"
 
 #: src/menus/file/copy-location.xml:11(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guisubmenu>Copy Image Location</"
 "guisubmenu></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu de imagem através de "
-"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Salvar como</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guisubmenu>Copiar local da "
+"imagem</guisubmenu></menuchoice>."
 
 #: src/menus/file/copy-location.xml:19(para)
 msgid ""
 "This command copies the image path to the clipboard. So, you can past it in "
 "a text."
 msgstr ""
+"Este comando copia o caminho da imagem para a área de transferência. Assim, "
+"você pode colá-lo em um texto."
 
 #: src/menus/file/close-all.xml:8(title)
 msgid "Close all"
@@ -1729,13 +1722,12 @@ msgid "Close image"
 msgstr "Fechar imagem"
 
 #: src/menus/file/close.xml:20(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Close</guimenuitem> command closes the active image. It is "
 "disabled if no image is open."
 msgstr ""
 "O comando <guimenuitem>Fechar</guimenuitem> fecha a imagem ativa. Ele fica "
-"desabilitado se não há nenhuma imagem aberta."
+"desabilitado se não houver nenhuma imagem aberta."
 
 #: src/menus/file/close.xml:24(para)
 msgid ""
@@ -1744,6 +1736,10 @@ msgid ""
 "is, if you have changed it since the last time you saved it — you are asked "
 "to confirm that you really want to close it."
 msgstr ""
+"Fechar uma imagem não pode ser desfeito: uma vez fechada, tudo se perde, "
+"incluindo o histórico de desfazer. Se a imagem não estiver "
+"<quote>limpa</quote> — isto é, se você a alterou desde a última vez que a "
+"salvou — será solicitada a confirmação de que você realmente deseja fechá-la."
 
 #: src/menus/file/close.xml:31(para)
 msgid ""
@@ -1751,17 +1747,18 @@ msgid ""
 "to a different image format does not mark a changed image as clean, since it "
 "does not preserve all the information in the image."
 msgstr ""
+"Uma imagem só é marcada como limpa quando é salva como arquivo XCF. Exportar "
+"para um formato de imagem diferente não marca uma imagem alterada como limpa, "
+"pois isso não preserva todas as informações da imagem."
 
 #: src/menus/file/close.xml:42(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Close</guimenuitem></"
 "menuchoice>,"
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de  imagem através "
-"de<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Fechar</guimenuitem></"
-"menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Fechar</guimenuitem></menuchoice>,"
 
 #: src/menus/file/close.xml:51(para)
 msgid ""
@@ -1772,7 +1769,6 @@ msgstr ""
 "keycap></keycombo>."
 
 #: src/menus/file/close.xml:57(para)
-#, fuzzy
 msgid ""
 "For most systems on which <acronym>GIMP</acronym> runs, you can also execute "
 "it by clicking on a <quote>Close</quote> button somewhere on the image "
@@ -1780,12 +1776,11 @@ msgid ""
 "by the windowing system and the window manager. If no image is open, "
 "clicking on this button closes GIMP."
 msgstr ""
-"Para a maioria dos sistemas em que o <acronym>GIMP</acronym> é executado, "
-"você também pode executar este comando clicando no botão <quote>Fechar</"
-"quote>  em algum lugar na barra de título da janela da imagem (em geral, a "
-"direita). A localização e a aparência deste botão são determinados pelo "
-"sistema de janelas e do gerenciador de janelas. Se nenhuma imagem está "
-"aberta, clicar neste botão fecha o GIMP."
+"Na maioria dos sistemas em que o <acronym>GIMP</acronym> é executado, você "
+"também pode executá-lo clicando em um botão <quote>Fechar</quote> em algum "
+"lugar na barra de título da janela da imagem. A localização e a aparência "
+"desse botão são determinadas pelo sistema de janelas e pelo gerenciador de "
+"janelas. Se nenhuma imagem estiver aberta, clicar nesse botão fecha o GIMP."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/file/close.xml:0(None)

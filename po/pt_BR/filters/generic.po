@@ -460,10 +460,9 @@ msgid ""
 "Design of kernels is based on high levels mathematics. You can find ready-"
 "made kernels on the Web. Here are a few examples:"
 msgstr ""
-"A criação de núcleos é baseada em conhecimentos matemáticos, ou de ciência "
-"da computação, de alto nível. Você pode encontrar núcleos prontos na "
-"internet (procure pela expressão em inglês: <quote>Convolution kernel</"
-"quote>). Veja alguns exemplos:"
+"A criação de núcleos é baseada em conhecimentos matemáticos, ou de ciência da "
+"computação, de alto nível. Você pode encontrar núcleos prontos na internet "
+"(procure pela expressão em inglês: Convolution kernel). Veja alguns exemplos:"
 
 #: src/filters/generic/convol-matrix.xml:243(title)
 msgid "Sharpen"

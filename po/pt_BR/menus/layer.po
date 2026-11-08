@@ -173,9 +173,9 @@ msgid ""
 "guimenu> menu contains commands which flip or rotate the active layer of the "
 "image."
 msgstr ""
-"O Submenu <quote>Transformar</quote> do menu <quote>Camada</quote> contém "
-"comandos que espelham ou giram a camada ativa da imagem, ou reposicionam o "
-"seu conteúdo."
+"O submenu <guisubmenu>Transformar</guisubmenu> do menu "
+"<guimenu>Camada</guimenu> contém comandos que invertem ou giram a camada "
+"ativa da imagem."
 
 #: src/menus/layer/transform.xml:38(para)
 msgid ""
@@ -223,17 +223,16 @@ msgid "Select top layer"
 msgstr "Selecionar camada do topo"
 
 #: src/menus/layer/top.xml:18(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Select Top Layer</guimenuitem> command makes the top layer "
 "in the stack the active layer for the image and highlights it in the Layers "
 "dialog. If the active layer is already the top layer in the stack, this menu "
 "entry is disabled."
 msgstr ""
-"O comando <guimenuitem>Selecionar camada do topo</guimenuitem> torna a "
-"camada do topo da pilha a camada ativa da imagem e o destaca na caixa de "
-"diálogo Camadas. Se a camada ativa já é a camada do topo da pilha, este item "
-"do menu fica insensível e acinzentado."
+"O comando <guimenuitem>Selecionar camada superior</guimenuitem> torna a "
+"camada do topo da pilha a camada ativa da imagem e a destaca na caixa de "
+"diálogo Camadas. Se a camada ativa já for a camada do topo da pilha, este "
+"item do menu fica desabilitado."
 
 #: src/menus/layer/top.xml:25(para)
 msgid ""
@@ -297,10 +296,9 @@ msgstr "ou usando a tecla de atalho <keycap>Home</keycap>."
 
 #: src/menus/layer/top.xml:52(para) src/menus/layer/previous.xml:64(para)
 #: src/menus/layer/next.xml:54(para)
-#, fuzzy
 msgid "Or you simply click the layer name in the Layers Dialog."
 msgstr ""
-"Ou você simplesmente clica sobre o nome da camada no diálogo de camadas."
+"Ou você simplesmente clica no nome da camada na caixa de diálogo Camadas."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -408,10 +406,9 @@ msgstr ""
 "usando o controle deslizante ou digitando um valor entre 0 e 255 na caixa de "
 "entrada. Todos os valores de transparência acima deste limite serão opacos e "
 "todos os valores de transparência inferior ou igual a este limite vai se "
-"tornar completamente transparente. A transição é abrupta. Se desejar um "
-"maior controle sobre a transformação da transparência, use, por exemplo, a "
-"ferramenta de Curvas no menu <guilabel>Cores</guilabel> com a opção de "
-"alterar o canal Alfa."
+"tornar completamente transparente. A transição é abrupta. Se desejar um maior "
+"controle sobre a transformação da transparência, use, por exemplo, a "
+"ferramenta de Curvas no menu Cores com a opção de alterar o canal Alfa."
 
 #: src/menus/layer/threshold-alpha.xml:74(para)
 msgid ""
@@ -469,21 +466,20 @@ msgstr ""
 #: src/menus/layer/text-discard.xml:26(title)
 msgid "The Discard Text command among text commands in the Layer menu"
 msgstr ""
-"O comando <guilabel>Descartar informação de texto</guilabel> entre comandos "
-"de texto no menu de <guilabel>Camada</guilabel>."
+"O comando Descartar informação de texto entre comandos de texto no menu de "
+"Camada."
 
 #: src/menus/layer/text-discard.xml:36(para)
-#, fuzzy
 msgid ""
 "When you add text to an image, <acronym>GIMP</acronym> adds specific "
 "information. This command lets you discard this information, transforming "
 "the current text layer into a normal bitmap layer. The reason to do that is "
 "not evident."
 msgstr ""
-"Quando você adicionar texto a uma imagem, <acronym>GIMP</acronym> adiciona "
-"informações específicas. Este comando permite descartar estas informações, "
-"transformando a camada de texto atual em uma camada bitmap normal. Os "
-"motivos para querer fazer isso não são evidentes, mas você tem o controle."
+"Quando você adiciona texto a uma imagem, o <acronym>GIMP</acronym> adiciona "
+"informações específicas. Este comando permite descartar essas informações, "
+"transformando a camada de texto atual em uma camada de bitmap normal. O "
+"motivo para fazer isso não é evidente."
 
 #: src/menus/layer/text-discard.xml:42(para)
 msgid ""
@@ -524,9 +520,8 @@ msgid "The Text Commands"
 msgstr "Os Comandos de Texto"
 
 #: src/menus/layer/text-commands.xml:31(link)
-#, fuzzy
 msgid "Text to Path"
-msgstr "Texto ao longo de vetor"
+msgstr "Texto para traçado"
 
 #: src/menus/layer/text-commands.xml:34(link)
 msgid "Text along Path"
@@ -544,11 +539,9 @@ msgid ""
 "are identical to those of the Transparency sub-menu (in fact, the text is "
 "formed of areas of different transparency):"
 msgstr ""
-"Este submenu existia no GIMP até a versão 2.6. Os comandos no submenu "
-"<guilabel>Texto  para Seleção</guilabel>, eram idênticos aos do sub-menu "
-"Transparência (na verdade, o texto é formado por áreas de transparência "
-"distinta).  Portanto, na versão 2.8 em diante do GIMP, essas opções são "
-"encontradas no submenu de <guilabel>Transparência</guilabel>:"
+"Na lista suspensa <guilabel>Texto para seleção</guilabel>, os comandos são "
+"idênticos aos do submenu Transparência (na verdade, o texto é formado por "
+"áreas de transparência diferente):"
 
 #: src/menus/layer/text-commands.xml:49(title)
 msgid "Text to Selection:"
@@ -688,7 +681,6 @@ msgid "Scale layer"
 msgstr "Redimensionar camada"
 
 #: src/menus/layer/scale.xml:20(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Scale Layer</guimenuitem> command opens the <quote>Scale "
 "Layer</quote> dialog that allows you to resize the layer and its contents. "
@@ -696,25 +688,21 @@ msgid ""
 "dialog where you can set parameters concerning the size of the layer and the "
 "image quality."
 msgstr ""
-"O comando <guimenuitem>Redimensionar camada</guimenuitem> redimensiona a "
-"camada e seu conteúdo. A imagem perde um pouco da sua qualidade ao ser "
-"redimensionada, devido á própria natureza das imagens formadas por pixels "
-"(raster). O comando exibe uma caixa de diálogo onde você pode definir os "
-"parâmetros sobre o tamanho da camada e a qualidade da imagem. Note que ao "
-"contrário do comando de <guilabel>Rotação livre</guilabel> no submenu "
-"<guilabel>Transformar</guilabel>, esta opção não é um atalho para a "
-"ferramenta de redimensionar: a camada toda é redimensionada independente de "
-"existir uma seleção, ou das configuração da ferramenta de Redimensionar."
+"O comando <guimenuitem>Redimensionar camada</guimenuitem> abre a caixa de "
+"diálogo <quote>Redimensionar camada</quote>, que permite redimensionar a "
+"camada e seu conteúdo. A imagem perde um pouco de sua qualidade ao ser "
+"redimensionada. O comando exibe uma caixa de diálogo na qual você pode "
+"definir parâmetros relativos ao tamanho da camada e à qualidade da imagem."
 
 #: src/menus/layer/scale.xml:30(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Layer</guimenu><guimenuitem>Scale Layer…</guimenuitem></"
 "menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu <menuchoice><guimenu>Camada</"
-"guimenu><guimenuitem>Redimensionar camada</guimenuitem></menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Redimensionar "
+"camada…</guimenuitem></menuchoice>."
 
 #: src/menus/layer/scale.xml:40(title)
 msgid "Description of the <quote>Scale Layer</quote> Dialog"
@@ -787,7 +775,6 @@ msgstr ""
 "atenção à <guilabel>resolução X/Y</guilabel> da imagem."
 
 #: src/menus/layer/scale.xml:89(para)
-#, fuzzy
 msgid ""
 "If you enlarge a layer, the missing pixels are calculated by interpolation, "
 "but no new details are added. The more the layer is enlarged, and the more "
@@ -800,18 +787,14 @@ msgid ""
 "raster images that they do not scale up well."
 msgstr ""
 "Se você ampliar uma camada, os pixels que faltam são calculados por "
-"interpolação, mas nenhum novo detalhe será adicionado. Quanto mais a camada "
-"é ampliada, e quanto mais vezes é ampliada, mais turva ela se torna. O "
-"resultado exato do aumento depende do método de interpolação que você "
-"escolher. Depois de redimensionar, você pode melhorar o resultado usando o "
-"filtro <link linkend=\"plug-in-sharpen\">Aguçar</link>. Se houver como,  é "
-"muito melhor se você partir de uma resolução mais alta ao digitalizar uma "
-"imagem com um scanner, tirar uma foto (aumentar a qualidade e o número de "
-"megapixels) ou qualquer que seja o meio de produção da imagem digital. Por "
-"exemplo, ao importar um arquivo de Postscript, SVG ou PDF, você pode "
-"selecionar uma resolução maior, nesse caso, a imagem raster inicial é criada "
-"com mais pixels. É uma característica inerente das imagens raster elas não "
-"tem como ser ampliadas."
+"interpolação, mas nenhum novo detalhe é adicionado. Quanto mais a camada for "
+"ampliada, e quanto mais vezes for ampliada, mais desfocada ela fica. O "
+"resultado exato da ampliação depende do método de interpolação que você "
+"escolher. Após o redimensionamento, você pode melhorar o resultado usando o "
+"filtro <link linkend=\"gimp-filter-unsharp-mask\">Aguçar (Máscara de "
+"nitidez)</link>, mas é muito melhor usar uma resolução alta ao digitalizar, "
+"tirar fotografias digitais ou produzir imagens digitais por outros meios. É "
+"uma característica inerente das imagens raster não serem bem ampliadas."
 
 #: src/menus/layer/scale.xml:110(term)
 msgid "Quality"
@@ -893,24 +876,22 @@ msgstr ""
 #: src/menus/layer/rotate-90.xml:53(None)
 #: src/menus/layer/rotate-270.xml:54(None)
 #: src/menus/layer/rotate-180.xml:50(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/rotate.png'; "
 "md5=1cfea8153084eec3db1ad6dc80c2cb61"
 msgstr ""
-"@@image: 'images/menus/layer/rotate-cw.png'; "
-"md5=1f73ba678d793dc7399202e0b7d66c1e"
+"@@image: 'images/menus/layer/rotate.png'; "
+"md5=1cfea8153084eec3db1ad6dc80c2cb61"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/rotate-arbitrary.xml:65(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/rotate-arb.png'; "
 "md5=bce225005966f514a7490ffa5b53c620"
 msgstr ""
 "@@image: 'images/menus/layer/rotate-arb.png'; "
-"md5=b71905292bcd875c7170593c97cd3e68"
+"md5=bce225005966f514a7490ffa5b53c620"
 
 #: src/menus/layer/rotate-arbitrary.xml:10(title)
 msgid "Arbitrary Rotation"
@@ -996,13 +977,12 @@ msgstr "A camada após ela ser girada  30° no sentido horário"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/rotate-90.xml:63(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/rotate-cw.png'; "
 "md5=5a7e09e749c3135627d1611b07446be4"
 msgstr ""
 "@@image: 'images/menus/layer/rotate-cw.png'; "
-"md5=1f73ba678d793dc7399202e0b7d66c1e"
+"md5=5a7e09e749c3135627d1611b07446be4"
 
 #: src/menus/layer/rotate-90.xml:10(title)
 #: src/menus/layer/rotate-90.xml:18(primary)
@@ -1049,13 +1029,12 @@ msgstr "A camada após ter sido rotacionada."
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/rotate-270.xml:64(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/rotate-ccw.png'; "
 "md5=ff5ffab81fbd8f1212f24885a3c9de2e"
 msgstr ""
 "@@image: 'images/menus/layer/rotate-ccw.png'; "
-"md5=a1f14eadcccc4b904031c293d80fec97"
+"md5=ff5ffab81fbd8f1212f24885a3c9de2e"
 
 #: src/menus/layer/rotate-270.xml:11(title)
 #: src/menus/layer/rotate-270.xml:19(primary)
@@ -1100,13 +1079,12 @@ msgstr "Aplicando <quote>Rotacionar 90° anti-horário</quote>"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/rotate-180.xml:60(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/rotate-180.png'; "
 "md5=42dcf7ff4cf7d0d74fc5ce867d524a65"
 msgstr ""
 "@@image: 'images/menus/layer/rotate-180.png'; "
-"md5=2a6fafa4d5d168964b2131ac93bf0370"
+"md5=42dcf7ff4cf7d0d74fc5ce867d524a65"
 
 #: src/menus/layer/rotate-180.xml:10(title)
 #: src/menus/layer/rotate-180.xml:18(primary)
@@ -1188,57 +1166,52 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/resize.xml:143(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-1.png'; "
 "md5=1b797526eb18b86f8dad63e9d80937c1"
 msgstr ""
-"@@image: 'images/menus/layer/boundary-size.png'; "
-"md5=ddd6b50ea3c29ee41bc0f5aaa5be0fec"
+"@@image: 'images/menus/layer/boundary-size-ex-1.png'; "
+"md5=1b797526eb18b86f8dad63e9d80937c1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/resize.xml:154(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-2.png'; "
 "md5=a48cfdc122b9cf6adde0c6c44e4139ef"
 msgstr ""
-"@@image: 'images/menus/layer/boundary-size.png'; "
-"md5=ddd6b50ea3c29ee41bc0f5aaa5be0fec"
+"@@image: 'images/menus/layer/boundary-size-ex-2.png'; "
+"md5=a48cfdc122b9cf6adde0c6c44e4139ef"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/resize.xml:169(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-3.png'; "
 "md5=8fb5137046b93acc86b2d4b6e0c1feb5"
 msgstr ""
-"@@image: 'images/menus/layer/boundary-size.png'; "
-"md5=ddd6b50ea3c29ee41bc0f5aaa5be0fec"
+"@@image: 'images/menus/layer/boundary-size-ex-3.png'; "
+"md5=8fb5137046b93acc86b2d4b6e0c1feb5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/resize.xml:180(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-4.png'; "
 "md5=768252a8807eb8fe4a33ec72821aab63"
 msgstr ""
-"@@image: 'images/menus/layer/boundary-size.png'; "
-"md5=ddd6b50ea3c29ee41bc0f5aaa5be0fec"
+"@@image: 'images/menus/layer/boundary-size-ex-4.png'; "
+"md5=768252a8807eb8fe4a33ec72821aab63"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/resize.xml:197(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-5.png'; "
 "md5=c8b83cddb59e530a91b1fda622ef2e24"
 msgstr ""
-"@@image: 'images/menus/layer/boundary-size.png'; "
-"md5=ddd6b50ea3c29ee41bc0f5aaa5be0fec"
+"@@image: 'images/menus/layer/boundary-size-ex-5.png'; "
+"md5=c8b83cddb59e530a91b1fda622ef2e24"
 
 #: src/menus/layer/resize.xml:9(title) src/menus/layer/resize.xml:17(primary)
 msgid "Layer Boundary Size"
@@ -1249,23 +1222,14 @@ msgid "Resize current layer but not its content"
 msgstr "Redimensiona a camada mas não o conteúdo"
 
 #: src/menus/layer/resize.xml:20(para)
-#, fuzzy
 msgid ""
 "In <acronym>GIMP</acronym>, a layer is not always the same size as the "
 "others. This command changes the dimensions of a layer, but it does not "
 "<link linkend=\"gimp-layer-scale\">scale</link> its contents."
 msgstr ""
-"No <acronym>GIMP</acronym>, uma camada não é sempre do mesmo tamanho da "
-"imagem a que pertence. Ele pode ser menor ou pode ser maior, e nesse caso  "
-"algumas partes do mesma estarão ocultas fora da área da imagem. O comando "
-"<guimenuitem>Tamanho dos limites da camada</guimenuitem> exibe uma caixa de "
-"diálogo na qual você pode definir as dimensões para a camada ativa. Esse "
-"comando altera as <link linkend=\"gimp-layer-scale\">dimensões</link> da "
-"camada,  mas não  altera o tamanho ou a posição do conteúdo. Claro que se "
-"você usar esse comando para reduzir a camada, terá que escolher que partes "
-"serão cortadas. Você também pode alterar o tamanho da camada com a "
-"ferramenta de Cortar, com as opções de <quote>Somente na camada atual</"
-"quote> e <quote>Permitir crescimento</quote>."
+"No <acronym>GIMP</acronym>, uma camada nem sempre tem o mesmo tamanho que as "
+"outras. Este comando altera as dimensões de uma camada, mas não <link "
+"linkend=\"gimp-layer-scale\">redimensiona</link> seu conteúdo."
 
 #: src/menus/layer/resize.xml:28(para)
 msgid ""
@@ -1322,6 +1286,12 @@ msgid ""
 "reduce <guilabel>Width</guilabel> and <guilabel>Height </guilabel>, the "
 "frame of the resized layer appears in the preview."
 msgstr ""
+"Essas coordenadas são relativas à camada, não à imagem. Elas são usadas para "
+"mover uma moldura que determina qual parte do conteúdo da camada será "
+"selecionada para a camada redimensionada. Em nosso exemplo, a camada e o "
+"conteúdo têm as mesmas dimensões e, claro, você não tem moldura para mover. "
+"Se você reduzir <guilabel>Largura</guilabel> e <guilabel>Altura </guilabel>, "
+"a moldura da camada redimensionada aparece na pré-visualização."
 
 #: src/menus/layer/resize.xml:89(para)
 msgid ""
@@ -1330,31 +1300,32 @@ msgid ""
 "dragging the cross-shaped moving pointer that appears when the mouse pointer "
 "overflies the layer area."
 msgstr ""
+"Abaixo das coordenadas, uma pré-visualização representa a camada com a "
+"moldura da camada redimensionada. Você pode mover essa moldura usando os "
+"deslocamentos X e Y e também arrastando o ponteiro em forma de cruz que "
+"aparece quando o ponteiro do mouse passa sobre a área da camada."
 
 #: src/menus/layer/resize.xml:98(term)
 msgid "The Center button"
-msgstr ""
+msgstr "O botão Centralizar"
 
 #: src/menus/layer/resize.xml:100(para)
-#, fuzzy
 msgid "This button allows you to place the frame at the center of the layer."
-msgstr ""
-"Este diálogo permite várias opções para o conteúdo inicial da máscara da "
-"camada:"
+msgstr "Este botão permite colocar a moldura no centro da camada."
 
 #: src/menus/layer/resize.xml:110(title)
-#, fuzzy
 msgid "Resizing Layer"
-msgstr "Subir camada"
+msgstr "Redimensionando a camada"
 
 #: src/menus/layer/resize.xml:113(term)
-#, fuzzy
 msgid "Resizing a layer larger"
-msgstr "Reverter a ordem das camadas"
+msgstr "Aumentando a camada"
 
 #: src/menus/layer/resize.xml:115(para)
 msgid "You can't resize a layer to bigger dimensions than that of the image."
 msgstr ""
+"Você não pode redimensionar uma camada para dimensões maiores que as da "
+"imagem."
 
 #: src/menus/layer/resize.xml:119(para)
 msgid ""
@@ -1364,44 +1335,55 @@ msgid ""
 "in that case, it's better to use <link linkend=\"gimp-layer-resize-to-image"
 "\">Layer to Image Size</link>."
 msgstr ""
+"Se a camada for menor que a imagem, você pode aumentar "
+"<guilabel>Largura</guilabel> e/ou <guilabel>Altura </guilabel>. Não há um bom "
+"motivo para fazer isso, exceto se você quiser ampliar a camada para o tamanho "
+"da imagem; mas, nesse caso, é melhor usar <link "
+"linkend=\"gimp-layer-resize-to-image\">Camada para o tamanho da "
+"imagem</link>."
 
 #: src/menus/layer/resize.xml:131(term)
 msgid "Resizing a layer smaller"
-msgstr ""
+msgstr "Reduzindo a camada"
 
 #: src/menus/layer/resize.xml:133(para)
 msgid ""
 "You can resize the layer to a smaller dimension to eliminate unwanted parts."
 msgstr ""
+"Você pode redimensionar a camada para uma dimensão menor para eliminar partes "
+"indesejadas."
 
 #: src/menus/layer/resize.xml:146(para)
 msgid "Original image with 2 layers"
-msgstr ""
+msgstr "Imagem original com 2 camadas"
 
 #: src/menus/layer/resize.xml:157(para)
-#, fuzzy
 msgid "The two layers"
-msgstr "Próxima camada"
+msgstr "As duas camadas"
 
 #: src/menus/layer/resize.xml:172(para)
 msgid "The selected layer for resizing"
-msgstr ""
+msgstr "A camada selecionada para redimensionamento"
 
 #: src/menus/layer/resize.xml:183(para)
 msgid ""
 "The frame representing the new layer size. It has been placed at the center "
 "of the layer using the <guibutton> Center</guibutton> button."
 msgstr ""
+"A moldura representando o novo tamanho da camada. Ela foi colocada no centro "
+"da camada usando o botão <guibutton> Centralizar</guibutton>."
 
 #: src/menus/layer/resize.xml:193(title)
 msgid "Result"
-msgstr ""
+msgstr "Resultado"
 
 #: src/menus/layer/resize.xml:202(para)
 msgid ""
 "If the image has only one layer, it's better to use the <link linkend=\"gimp-"
 "tool-crop\">Crop tool</link>."
 msgstr ""
+"Se a imagem tiver apenas uma camada, é melhor usar a <link "
+"linkend=\"gimp-tool-crop\">Ferramenta de corte</link>."
 
 #: src/menus/layer/raise-to-top.xml:10(title)
 msgid "Layer to Top"
@@ -1452,7 +1434,6 @@ msgstr "Move a camada atual uma posição para cima"
 
 # **eeeek . ( If the ... until you add an alpha channel to it.) #NOT
 #: src/menus/layer/raise.xml:18(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Raise Layer</guimenuitem> command raises the active layer "
 "one position in the layer stack. If the active layer is already at the top "
@@ -1460,9 +1441,11 @@ msgid ""
 "layer is at the bottom of the stack and it does not have an alpha channel, "
 "it cannot be raised until you add an alpha channel to it."
 msgstr ""
-"O comando <guimenuitem>Subir camada</guimenuitem> sobe a camada ativa uma "
-"posição na pilha de camadas. Se a camada ativa já está no topo ou se houver "
-"apenas uma camada, este item do menu é insensível e acinzentado. "
+"O comando <guimenuitem>Elevar camada</guimenuitem> eleva a camada ativa uma "
+"posição na pilha de camadas. Se a camada ativa já estiver no topo ou se "
+"houver apenas uma camada, este item do menu fica desabilitado. Se a camada "
+"ativa estiver na base da pilha e não tiver um canal alfa, ela não poderá ser "
+"elevada até que você adicione um canal alfa."
 
 #: src/menus/layer/raise.xml:31(para)
 msgid ""
@@ -1475,11 +1458,10 @@ msgstr ""
 "guimenuitem></menuchoice>,"
 
 #: src/menus/layer/raise.xml:40(para)
-#, fuzzy
 msgid "or by clicking the up-arrow icon at the bottom of the Layers dialog."
 msgstr ""
-"ou clicando no ícone de seta para cima, na parte inferior da caixa de "
-"diálogo Camadas."
+"ou clicando no ícone de seta para cima na parte inferior da caixa de diálogo "
+"Camadas."
 
 #: src/menus/layer/previous.xml:10(title)
 msgid "Select Previous Layer"
@@ -1490,7 +1472,6 @@ msgid "Previous layer"
 msgstr "Camada Anterior"
 
 #: src/menus/layer/previous.xml:18(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Select Previous Layer</guimenuitem> command selects the "
 "layer just above the active layer in the layer stack. The command highlights "
@@ -1498,22 +1479,22 @@ msgid ""
 "active layer is already at the top of the stack, this menu entry is disabled."
 msgstr ""
 "O comando <guimenuitem>Selecionar camada anterior</guimenuitem> seleciona a "
-"camada logo acima da camada ativa na pilha de camadas. O comando destaca a "
-"camada nas camadas de diálogo e torna a nova camada ativa. Se a camada ativa "
-"já está no topo da pilha, este item do menu fica insensível e acinzentado."
+"camada imediatamente acima da camada ativa na pilha de camadas. O comando "
+"destaca a camada na caixa de diálogo Camadas e a torna a nova camada ativa. "
+"Se a camada ativa já estiver no topo da pilha, este item do menu fica "
+"desabilitado."
 
 #: src/menus/layer/previous.xml:26(para)
-#, fuzzy
 msgid ""
 "Note that on a standard Windows-style English keyboard, the default shortcut "
 "<keycap>Page&nbsp;Up</keycap> does not refer to the key on the numeric "
 "keypad, but to the other <keycap>Page&nbsp;Up</keycap> key in the group of "
 "six keys to the left of the numeric keypad."
 msgstr ""
-"Note que em um teclado padrão de PC Brasileiro, a tecla de atalho padrão "
-"<keycap>Page Up</keycap> não se refere à tecla no teclado numérico, mas ao "
-"outro <keycap>Page Up</keycap> no grupo de teclas a esquerda do teclado "
-"numérico."
+"Observe que, em um teclado padrão no estilo Windows em inglês, o atalho "
+"padrão <keycap>Page&nbsp;Up</keycap> não se refere à tecla do teclado "
+"numérico, mas à outra tecla <keycap>Page&nbsp;Up</keycap>, no grupo de seis "
+"teclas à esquerda do teclado numérico."
 
 # ** Eeek: thanks good the color picker has a sample-merged option. Ohterwise one might need to do as described when painting.
 #: src/menus/layer/previous.xml:34(para)
@@ -1550,13 +1531,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:59(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/offset-dialog.png'; "
 "md5=258030cf82c27cce3576017bc9633cf8"
 msgstr ""
-"@@image: 'images/menus/layer/offset-example-bg.png'; "
-"md5=204983daf7275fb1f49b917f985a93a7"
+"@@image: 'images/menus/layer/offset-dialog.png'; "
+"md5=258030cf82c27cce3576017bc9633cf8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1601,35 +1581,32 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:202(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/offset-ex-heart-orig.png'; "
 "md5=f28775338dabbbaa11468c60ddfa8b77"
 msgstr ""
-"@@image: 'images/menus/layer/offset-example-bg.png'; "
-"md5=204983daf7275fb1f49b917f985a93a7"
+"@@image: 'images/menus/layer/offset-ex-heart-orig.png'; "
+"md5=f28775338dabbbaa11468c60ddfa8b77"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:213(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
 "md5=9cb83ce72fc4a911ee680af457c4ece4"
 msgstr ""
-"@@image: 'images/menus/layer/offset-example.png'; "
-"md5=051c9c291213642c341a0cd34226e05b"
+"@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
+"md5=9cb83ce72fc4a911ee680af457c4ece4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:225(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/offset-ex-result.png'; "
 "md5=a47c2ba3bfaf525e0081823bd4bc94f2"
 msgstr ""
-"@@image: 'images/menus/layer/offset-example.png'; "
-"md5=051c9c291213642c341a0cd34226e05b"
+"@@image: 'images/menus/layer/offset-ex-result.png'; "
+"md5=a47c2ba3bfaf525e0081823bd4bc94f2"
 
 #: src/menus/layer/offset.xml:8(title) src/menus/layer/offset.xml:16(primary)
 #: src/menus/layer/offset.xml:75(term)
@@ -1641,7 +1618,6 @@ msgid "Shift layer content"
 msgstr "Deslocamento do conteúdo da camada"
 
 #: src/menus/layer/offset.xml:19(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Offset</guimenuitem> command shifts the <emphasis>content</"
 "emphasis> of the active layer. Anything shifted outside the layer boundary "
@@ -1649,11 +1625,12 @@ msgid ""
 "much to shift the layer and how to fill the space that is left empty by "
 "shifting it. It can be used to create tileable patterns."
 msgstr ""
-"O comando <guimenuitem>deslocamento</guimenuitem> desloca o "
-"<emphasis>conteúdo</emphasis> da camada ativa. Qualquer coisa deslocada para "
-"fora do limite da camada é cortada. Esse comando exibe uma caixa de diálogo "
-"que permite que você especifique o quanto a mudar a camada e como preencher "
-"o espaço que fica vazio depois do deslocamento."
+"O comando <guimenuitem>Deslocamento</guimenuitem> desloca o "
+"<emphasis>conteúdo</emphasis> da camada ativa. Tudo o que for deslocado para "
+"fora dos limites da camada é cortado. Este comando exibe uma caixa de diálogo "
+"que permite especificar o quanto deslocar a camada e como preencher o espaço "
+"deixado vazio pelo deslocamento. Ele pode ser usado para criar texturas "
+"repetíveis."
 
 #: src/menus/layer/offset.xml:32(para)
 msgid ""
@@ -1674,9 +1651,8 @@ msgstr ""
 "keycap><keycap>O</keycap></keycombo>."
 
 #: src/menus/layer/offset.xml:53(title)
-#, fuzzy
 msgid "<quote>Offset</quote> Options"
-msgstr "O diálogo <quote>Deslocamento</quote>"
+msgstr "Opções de <quote>Deslocamento</quote>"
 
 #: src/menus/layer/offset.xml:55(title)
 msgid "The <quote>Offset</quote> dialog"
@@ -1687,15 +1663,16 @@ msgid ""
 "<guilabel>Presets</guilabel>, <guilabel>Preview</guilabel>, <guilabel>Split "
 "view</guilabel>"
 msgstr ""
+"<guilabel>Predefinições</guilabel>, <guilabel>Pré-visualização</guilabel>, "
+"<guilabel>Vista dividida</guilabel>"
 
 #: src/menus/layer/offset.xml:68(para)
-#, fuzzy
 msgid ""
 "These options are common to GEGL-based dialogs. Please refer to <xref "
 "linkend=\"gimp-filters-common\"/>."
 msgstr ""
-"Este comando cria um novo grupo de camadas diretamente. Por favor, consultar "
-"<xref linkend=\"gimp-layer-groups\"/>."
+"Estas opções são comuns às caixas de diálogo baseadas em GEGL. Consulte <xref "
+"linkend=\"gimp-filters-common\"/>."
 
 #: src/menus/layer/offset.xml:79(term)
 msgid "X; Y"
@@ -1720,6 +1697,8 @@ msgstr ""
 #: src/menus/layer/offset.xml:90(para)
 msgid "Since GIMP-2.10.12, you can click-and-drag on canvas to move the layer."
 msgstr ""
+"Desde o GIMP 2.10.12, você pode clicar e arrastar na tela para mover a "
+"camada."
 
 #: src/menus/layer/offset.xml:97(term)
 msgid "Offset by x/2, y/2"
@@ -1776,9 +1755,8 @@ msgstr ""
 "disponível (acinzentada)."
 
 #: src/menus/layer/offset.xml:147(title)
-#, fuzzy
 msgid "Examples"
-msgstr "Exemplo"
+msgstr "Exemplos"
 
 #: src/menus/layer/offset.xml:149(title)
 msgid "Using <quote>Offset</quote> together with <quote>Edge Behaviors</quote>"
@@ -1804,20 +1782,21 @@ msgstr "X = 40, transparente"
 
 #: src/menus/layer/offset.xml:198(title)
 msgid "Repeatable pattern"
-msgstr ""
+msgstr "Textura repetível"
 
 #: src/menus/layer/offset.xml:205(para)
-#, fuzzy
 msgid "Original"
-msgstr "O Original"
+msgstr "Original"
 
 #: src/menus/layer/offset.xml:216(para)
 msgid "<quote>Wrap around</quote>. Click on <quote>Offset by x/2, y/2</quote>"
 msgstr ""
+"<quote>Repetir em torno</quote>. Clique em <quote>Deslocar em x/2, "
+"y/2</quote>"
 
 #: src/menus/layer/offset.xml:228(para)
 msgid "Scale down an copy-paste pattern repeatedly."
-msgstr ""
+msgstr "Reduza e cole uma textura repetidamente."
 
 #: src/menus/layer/next.xml:10(title)
 msgid "Select Next Layer"
@@ -1828,7 +1807,6 @@ msgid "Next layer"
 msgstr "Próxima camada"
 
 #: src/menus/layer/next.xml:18(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Select Next Layer</guimenuitem> command selects the layer "
 "just underneath the active layer in the layer stack. The command highlights "
@@ -1837,21 +1815,22 @@ msgid ""
 "disabled."
 msgstr ""
 "O comando <guimenuitem>Selecionar próxima camada</guimenuitem> seleciona a "
-"camada logo abaixo da camada atual na pilha de camadas. O comando destaca a "
-"camada nas camadas de diálogo e torna a nova camada ativa. Se a camada ativa "
-"já está no fundo da pilha, este item do menu é insensível e acinzentado."
+"camada imediatamente abaixo da camada ativa na pilha de camadas. O comando "
+"destaca a camada na caixa de diálogo Camadas e a torna a nova camada ativa. "
+"Se a camada ativa já estiver na base da pilha, este item do menu fica "
+"desabilitado."
 
 #: src/menus/layer/next.xml:26(para)
-#, fuzzy
 msgid ""
 "Note that on a standard Windows-style English keyboard, the default shortcut "
 "<keycap>Page&nbsp;Down</keycap> does not refer to the key on the numeric "
 "keypad, but to the other <keycap>Page&nbsp;Down</keycap> key in the group of "
 "six keys to the left of the numeric keypad."
 msgstr ""
-"Note que em um teclado brasileiro de PC, o atalho padrão <keycap>Page Down</"
-"keycap> não se refere à tecla no teclado numérico, mas a tecla <keycap>Page "
-"Down</keycap> no grupo de teclas à esquerda do teclado numérico."
+"Observe que, em um teclado padrão no estilo Windows em inglês, o atalho "
+"padrão <keycap>Page&nbsp;Down</keycap> não se refere à tecla do teclado "
+"numérico, mas à outra tecla <keycap>Page&nbsp;Down</keycap>, no grupo de seis "
+"teclas à esquerda do teclado numérico."
 
 #: src/menus/layer/next.xml:39(para)
 msgid ""
@@ -1890,17 +1869,16 @@ msgstr ""
 "<xref linkend=\"gimp-layer-groups\"/>."
 
 #: src/menus/layer/new-layer-group.xml:25(para)
-#, fuzzy
 msgid ""
 "You can access this command from an image menu through "
 "<menuchoice><guimenu>Layer</guimenu><guimenuitem>New Layer Group…</"
 "guimenuitem></menuchoice>, or from the layer context menu you get by right "
 "clicking on the layer dialog."
 msgstr ""
-"Você pode acessar esse comando a partir do menu da janela de  imagem, em "
-"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Novo grupo de camadas</"
-"guimenuitem></menuchoice>, ou a partir do menu de contexto da camada que "
-"você obtém com um clique do botão direito sobre o diálogo de camadas."
+"Você pode acessar este comando no menu da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Novo grupo de "
+"camadas…</guimenuitem></menuchoice>, ou no menu de contexto da camada, que "
+"você obtém clicando com o botão direito na caixa de diálogo de camadas."
 
 #: src/menus/layer/new-from-visible.xml:8(title)
 msgid "New From Visible"
@@ -1941,61 +1919,57 @@ msgid ""
 "<menuchoice><guimenu>Layer</guimenu><guimenuitem>New From Visible</"
 "guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu <menuchoice><guimenu>Camada</"
-"guimenu><guisubmenu>Foto do que é visto</guisubmenu></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Nova a partir do "
+"visível</guimenuitem></menuchoice>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/new.xml:47(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/new.png'; md5=e95181801f1f8a0b3e1260744adafadf"
 msgstr ""
-"@@image: 'images/menus/layer/new.png'; md5=16ba97364a105bf8906bdff0d9887a84"
+"@@image: 'images/menus/layer/new.png'; md5=e95181801f1f8a0b3e1260744adafadf"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/new.xml:154(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-union.png'; "
 "md5=2c48ecc913e59c23a518782096756742"
 msgstr ""
-"@@image: 'images/menus/layer/context-menu.png'; "
-"md5=b4bd6237b286974bfa5659187322ea55"
+"@@image: 'images/menus/layer/composite-mode-union.png'; "
+"md5=2c48ecc913e59c23a518782096756742"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/new.xml:171(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-clip-to-backdrop.png'; "
 "md5=125e2c6afee616b4d2dfdd930244e134"
 msgstr ""
-"@@image: 'images/menus/layer/threshold-alpha-example3.png'; "
-"md5=e501e321320fd8d2f74e19243481a55a"
+"@@image: 'images/menus/layer/composite-mode-clip-to-backdrop.png'; "
+"md5=125e2c6afee616b4d2dfdd930244e134"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/new.xml:188(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-clip-to-layer.png'; "
 "md5=fdb28ffc27096824f5d392f9ba9fbb00"
 msgstr ""
-"@@image: 'images/menus/layer/alpha-intersect.png'; "
-"md5=02e5b2822586530042af49aad964e6f0"
+"@@image: 'images/menus/layer/composite-mode-clip-to-layer.png'; "
+"md5=fdb28ffc27096824f5d392f9ba9fbb00"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/new.xml:204(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-intersection.png'; "
 "md5=07d866e2918f5bfa8e71bd109cbf77db"
 msgstr ""
-"@@image: 'images/menus/layer/alpha-intersect.png'; "
-"md5=02e5b2822586530042af49aad964e6f0"
+"@@image: 'images/menus/layer/composite-mode-intersection.png'; "
+"md5=07d866e2918f5bfa8e71bd109cbf77db"
 
 #: src/menus/layer/new.xml:8(title) src/menus/layer/new.xml:16(primary)
 msgid "New Layer"
@@ -2006,28 +1980,25 @@ msgid "Create a new layer"
 msgstr "Cria uma nova camada"
 
 #: src/menus/layer/new.xml:19(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>New Layer…</guimenuitem> command opens the <quote>Create a "
 "New Layer</quote> dialog that allows you to add a new, empty layer to the "
 "layer stack of the image, just above the active layer."
 msgstr ""
-"O comando <guimenuitem>Nova camada</guimenuitem> adiciona uma nova camada,"
-"vazia, à pilha de camadas da imagem, logo acima da camada ativa. O comando "
-"exibe uma caixa de diálogo na qual você pode especificar o tamanho da nova "
-"camada."
+"O comando <guimenuitem>Nova camada…</guimenuitem> abre a caixa de diálogo "
+"<quote>Criar uma nova camada</quote>, que permite adicionar uma nova camada "
+"vazia à pilha de camadas da imagem, logo acima da camada ativa."
 
 #: src/menus/layer/new.xml:29(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Layer</guimenu><guimenuitem>New Layer…</guimenuitem></"
 "menuchoice>, or by clicking on the dedicated button in the layer dialog."
 msgstr ""
-"Você pode acessar esse comando a partir do menu da janela de  imagem, em "
-"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Novo grupo de camadas</"
-"guimenuitem></menuchoice>, ou a partir do menu de contexto da camada que "
-"você obtém com um clique do botão direito sobre o diálogo de camadas."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Nova "
+"camada…</guimenuitem></menuchoice>, ou clicando no botão dedicado na caixa de "
+"diálogo de camadas."
 
 #: src/menus/layer/new.xml:42(title)
 msgid "Description of the <quote>New Layer</quote> Dialog"
@@ -2071,9 +2042,8 @@ msgstr ""
 "no botão <guibutton>OK</guibutton>."
 
 #: src/menus/layer/new.xml:74(term)
-#, fuzzy
 msgid "Color tag"
-msgstr "Cor para alfa"
+msgstr "Etiqueta de cor"
 
 #: src/menus/layer/new.xml:76(para)
 msgid ""
@@ -2081,10 +2051,13 @@ msgid ""
 "created layer will have this color. This is interesting when you have many "
 "layers in the image."
 msgstr ""
+"Se você clicar em um desses botões de cor, a caixa do ícone \"Olho\" da "
+"camada criada terá essa cor. Isso é interessante quando você tem muitas "
+"camadas na imagem."
 
 #: src/menus/layer/new.xml:85(term)
 msgid "Mode"
-msgstr ""
+msgstr "Modo"
 
 #: src/menus/layer/new.xml:87(para)
 msgid ""
@@ -2092,24 +2065,29 @@ msgid ""
 "modes. On the right, another drop-down list to select between "
 "<quote>Default</quote> or <quote>Legacy</quote> group of modes."
 msgstr ""
+"O padrão é <quote>Normal</quote>. A lista suspensa oferece todos os modos de "
+"mesclagem de camadas. À direita, outra lista suspensa permite escolher entre "
+"o grupo de modos <quote>Padrão</quote> ou <quote>Legado</quote>."
 
 #: src/menus/layer/new.xml:93(para)
 msgid ""
 "Layer blend modes are described in <link linkend=\"gimp-concepts-layer-modes"
 "\">Layer Modes</link>."
 msgstr ""
+"Os modos de mesclagem de camadas são descritos em <link "
+"linkend=\"gimp-concepts-layer-modes\">Modos de camada</link>."
 
 #: src/menus/layer/new.xml:101(term)
 msgid "Blend space"
-msgstr ""
+msgstr "Espaço de mesclagem"
 
 #: src/menus/layer/new.xml:103(para)
 msgid "The space used by the layer mode. This option is not activated."
-msgstr ""
+msgstr "O espaço usado pelo modo de camada. Esta opção não está ativada."
 
 #: src/menus/layer/new.xml:110(term)
 msgid "Composite mode"
-msgstr ""
+msgstr "Modo de composição"
 
 #: src/menus/layer/new.xml:112(para)
 msgid ""
@@ -2122,6 +2100,13 @@ msgid ""
 "which the layer is composited; namely, it's the combination of the layers "
 "below it.)"
 msgstr ""
+"O <emphasis role=\"bold\">modo da camada</emphasis> (às vezes chamado de "
+"<quote>modo de mesclagem</quote>: Normal, Multiplicar etc.) determina como os "
+"<emphasis>valores de cor</emphasis> da camada e de seu fundo são combinados, "
+"enquanto o <emphasis role=\"bold\">modo de composição da camada</emphasis> "
+"determina como os <emphasis>valores alfa</emphasis> da camada e de seu fundo "
+"são combinados. (O fundo da camada é o conteúdo sobre o qual a camada é "
+"composta, ou seja, a combinação das camadas abaixo dela.)"
 
 #: src/menus/layer/new.xml:123(para)
 msgid ""
@@ -2134,6 +2119,13 @@ msgid ""
 "their original color.). The layer's composite mode determines which part of "
 "these regions to keep, and which to discard."
 msgstr ""
+"Há duas regiões de interesse ao compor a camada sobre seu fundo: a região "
+"opaca do fundo e a região opaca da camada. O modo de mesclagem da camada "
+"determina como combinar as cores da <emphasis>interseção</emphasis> dessas "
+"duas regiões, isto é, a região opaca comum ao fundo e à camada (pixels "
+"pertencentes a apenas uma dessas regiões não precisam ser combinados com nada "
+"e mantêm sua cor original). O modo de composição da camada determina qual "
+"parte dessas regiões manter e qual descartar."
 
 #: src/menus/layer/new.xml:134(para)
 msgid ""
@@ -2142,16 +2134,22 @@ msgid ""
 "green feathered circle -- using <quote>Addition</quote> mode, and different "
 "composite modes (applied to the top layer)."
 msgstr ""
+"As imagens de exemplo abaixo mostram a composição de duas camadas — a camada "
+"inferior contendo um círculo vermelho suavizado e a camada superior contendo "
+"um círculo verde suavizado — usando o modo <quote>Adição</quote> e diferentes "
+"modos de composição (aplicados à camada superior)."
 
 #: src/menus/layer/new.xml:144(para)
 msgid ""
 "<guilabel>Union</guilabel>: keeps the opaque regions of both the layer and "
 "its backdrop, i.e their union."
 msgstr ""
+"<guilabel>União</guilabel>: mantém as regiões opacas da camada e de seu "
+"fundo, ou seja, sua união."
 
 #: src/menus/layer/new.xml:150(title)
 msgid "<quote>Union</quote> option example"
-msgstr ""
+msgstr "Exemplo da opção <quote>União</quote>"
 
 #: src/menus/layer/new.xml:160(para)
 msgid ""
@@ -2159,10 +2157,13 @@ msgid ""
 "backdrop (this includes the common opaque region to both the backdrop and "
 "the layer i.e their intersection)."
 msgstr ""
+"<guilabel>Recortar pelo fundo</guilabel>: mantém apenas as regiões opacas do "
+"fundo (isso inclui a região opaca comum ao fundo e à camada, ou seja, sua "
+"interseção)."
 
 #: src/menus/layer/new.xml:167(title)
 msgid "<quote>Clip to backdrop</quote> option example"
-msgstr ""
+msgstr "Exemplo da opção <quote>Recortar pelo fundo</quote>"
 
 #: src/menus/layer/new.xml:177(para)
 msgid ""
@@ -2170,22 +2171,25 @@ msgid ""
 "layer (this includes the common opaque region to both the backdrop and the "
 "layer, i.e their intersection)."
 msgstr ""
+"<guilabel>Recortar pela camada</guilabel>: mantém apenas a região opaca da "
+"camada (isso inclui a região opaca comum ao fundo e à camada, ou seja, sua "
+"interseção)."
 
 #: src/menus/layer/new.xml:184(title)
-#, fuzzy
 msgid "<quote>Clip to layer</quote> option example"
-msgstr "O diálogo <quote>Redimensionar camada</quote>"
+msgstr "Exemplo da opção <quote>Recortar pela camada</quote>"
 
 #: src/menus/layer/new.xml:194(para)
 msgid ""
 "<guilabel>Intersection</guilabel>: keeps only the opaque region to both the "
 "backdrop and the layer, i.e their intersection."
 msgstr ""
+"<guilabel>Interseção</guilabel>: mantém apenas a região opaca comum ao fundo "
+"e à camada, ou seja, sua interseção."
 
 #: src/menus/layer/new.xml:200(title)
-#, fuzzy
 msgid "<quote>Intersection</quote> option example"
-msgstr "Aplicando <quote>Fazer interseção com a seleção</quote>"
+msgstr "Exemplo da opção <quote>Interseção</quote>"
 
 #: src/menus/layer/new.xml:210(para)
 msgid ""
@@ -2196,30 +2200,41 @@ msgid ""
 "<quote>Union</quote>, and for the other modes (that support different "
 "composite modes) it corresponds to <quote>Clip to Backdrop</quote>."
 msgstr ""
+"<guilabel>Automático</guilabel>: o modo <quote>Automático</quote> não é um "
+"modo de composição separado, mas corresponde a um dos outros modos de "
+"composição, dependendo do modo de mesclagem da camada: para "
+"<quote>Normal</quote>, <quote>Dissolver</quote> e <quote>Mesclar</quote>, "
+"corresponde a <quote>União</quote>, e para os outros modos (que suportam "
+"modos de composição diferentes) corresponde a <quote>Recortar pelo "
+"fundo</quote>."
 
 #: src/menus/layer/new.xml:226(term)
 msgid "Composite space"
-msgstr ""
+msgstr "Espaço de composição"
 
 #: src/menus/layer/new.xml:228(para)
 msgid ""
 "Default is <quote>Auto</quote>. In the drop-down list, you can choose "
 "between <quote>RGB linear</quote> and <quote>RGB perceptual</quote>."
 msgstr ""
+"O padrão é <quote>Automático</quote>. Na lista suspensa, você pode escolher "
+"entre <quote>RGB linear</quote> e <quote>RGB perceptual</quote>."
 
 #: src/menus/layer/new.xml:233(para)
 msgid ""
 "Channel encodings are described in <link linkend=\"glossary-channel-encoding"
 "\">Glossary</link>."
 msgstr ""
+"As codificações de canal são descritas no <link "
+"linkend=\"glossary-channel-encoding\">Glossário</link>."
 
 #: src/menus/layer/new.xml:241(term)
 msgid "Opacity"
-msgstr ""
+msgstr "Opacidade"
 
 #: src/menus/layer/new.xml:243(para)
 msgid "Sets the opacity of painting on the layer. Default is 100%."
-msgstr ""
+msgstr "Define a opacidade da pintura na camada. O padrão é 100%."
 
 #: src/menus/layer/new.xml:252(para)
 msgid ""
@@ -2234,9 +2249,8 @@ msgstr ""
 "à direita."
 
 #: src/menus/layer/new.xml:262(term)
-#, fuzzy
 msgid "Offset X; Y"
-msgstr "Deslocamento"
+msgstr "Deslocamento X; Y"
 
 #: src/menus/layer/new.xml:264(para)
 msgid ""
@@ -2244,33 +2258,37 @@ msgid ""
 "can set precisely the position of layers smaller than the canvas, especially "
 "text layers."
 msgstr ""
+"A origem da nova camada é o canto superior esquerdo da imagem. Aqui você pode "
+"definir com precisão a posição de camadas menores que a tela, especialmente "
+"camadas de texto."
 
 #: src/menus/layer/new.xml:273(term)
 msgid "Fill With"
-msgstr ""
+msgstr "Preencher com"
 
 #: src/menus/layer/new.xml:275(para)
-#, fuzzy
 msgid ""
 "There are five options for the solid color that fills the layer: the current "
 "<guilabel>Foreground color</guilabel>, the current <guilabel>Background "
 "color</guilabel>, <guilabel>White</guilabel>, <guilabel>Transparency</"
 "guilabel>, and <guilabel>Pattern</guilabel>."
 msgstr ""
-"Existem quatro opções para a cor sólida que preenche a camada: "
-"a<guilabel>Cor de frente</guilabel> atual, a <guilabel>Cor de fundo</"
-"guilabel> atual, <guilabel>Branco</guilabel> e <guilabel>Transparência</"
-"guilabel>."
+"Existem cinco opções para a cor sólida que preenche a camada: a <guilabel>Cor "
+"de primeiro plano</guilabel> atual, a <guilabel>Cor de fundo</guilabel> "
+"atual, <guilabel>Branco</guilabel>, <guilabel>Transparência</guilabel> e "
+"<guilabel>Textura</guilabel>."
 
 #: src/menus/layer/new.xml:286(term)
 msgid "Switches"
-msgstr ""
+msgstr "Chaves"
 
 #: src/menus/layer/new.xml:288(para)
 msgid ""
 "These switches reproduce options described in the <link linkend=\"gimp-layer-"
 "characteristics\">Layer Dialog</link>."
 msgstr ""
+"Estas chaves reproduzem as opções descritas na <link "
+"linkend=\"gimp-layer-characteristics\">Caixa de diálogo de camadas</link>."
 
 #: src/menus/layer/merge-down.xml:11(title)
 #: src/menus/layer/merge-down.xml:19(primary)
@@ -2291,18 +2309,18 @@ msgid ""
 "layer below is not opaque, or if it is in some mode other than Normal, then "
 "this command will generally change the appearance of the image."
 msgstr ""
-"O comando <guimenuitem>Combinar abaixo</guimenuitem> funde a camada ativa "
-"com a camada logo abaixo na pilha, tendo em conta as várias propriedades da "
-"camada ativa, tais como a sua opacidade e  <link linkend=\"gimp-concepts-"
-"layer-modes\">Modo</link> de combinação. A camada combinada resultante "
-"ficará no modo <quote>Normal</quote>, e herdará a opacidade da camada "
+"O comando <guimenuitem>Combinar abaixo</guimenuitem> funde a camada ativa com "
+"a camada logo abaixo na pilha, tendo em conta as várias propriedades da "
+"camada ativa, tais como a sua opacidade e <link "
+"linkend=\"gimp-concepts-layer-modes\">Modo</link> de combinação. A camada "
+"combinada resultante ficará no modo Normal, e herdará a opacidade da camada "
 "abaixo. Se a camada inferior não for opaca, ou se está em algum modo de "
 "combinação diferente do Normal, então este comando em geral vai alterar o "
 "aspecto da imagem. Se você tem uma imagem muito complexa, com várias camadas "
-"que alteram, usando modos diferentes, as camadas abaixo, a partir do GIMP "
-"2.8 você pode agrupar essas camadas modificadoras em grupos de camadas: isso "
-"facilita o gerenciamento de um grande número de camadas sem precisar combina-"
-"las."
+"que alteram, usando modos diferentes, as camadas abaixo, a partir do GIMP 2.8 "
+"você pode agrupar essas camadas modificadoras em grupos de camadas: isso "
+"facilita o gerenciamento de um grande número de camadas sem precisar "
+"combina-las."
 
 #: src/menus/layer/merge-down.xml:33(para)
 msgid ""
@@ -2394,17 +2412,11 @@ msgid ""
 "Layers Dialog is shown with a green border. The layer itself is not "
 "modified; you can turn it visible again later."
 msgstr ""
-"O comando  <guimenuitem>Exibir máscara da camada</guimenuitem> permite que "
-"você veja a melhor máscara da camada , tornando a imagem invisível e "
-"mostrando a máscara da camada  em tons de cinza. Quando você clicar neste "
-"item do menu, uma marca é exibida ao lado dele e a miniatura da máscara  da "
-"camada no diálogo de camadas é mostrada com uma borda verde. A camada em si "
-"não é modificada, você pode torna-la visível novamente quando quiser. "
-"Atenção: apesar de tornar a máscara da camada atual o único objeto "
-"desenhável visível da imagem, esta opção não faz com que ela se torne o "
-"objeto ativo. Para desenhar ou aplicar filtros na máscara da camada, você "
-"deve ativa-la com a opção de <guimenuitem>Editar máscara da camada</"
-"guimenuitem>, ou clicando sobre a miniatura da máscara no diálogo de camadas."
+"O comando <guimenuitem>Mostrar máscara da camada</guimenuitem> permite ver "
+"melhor a máscara da camada tornando a imagem invisível. Ao clicar no item de "
+"menu, uma marca aparece ao lado dele e a miniatura da máscara da camada na "
+"caixa de diálogo Camadas é exibida com uma borda verde. A camada em si não é "
+"modificada; você pode torná-la visível novamente mais tarde."
 
 #: src/menus/layer/mask-show.xml:38(para)
 msgid ""
@@ -2859,10 +2871,9 @@ msgstr ""
 "O comando <guimenuitem>Remover máscara da camada</guimenuitem> exclui a "
 "camada da máscara da camada ativa, sem modificar a própria camada ativa. "
 "Qualquer área da camada que estivesse transparente por causa da máscara fica "
-"opaca novamente (veja <link linkend=\"gimp-layer-mask-apply\">Aplicar "
-"máscara a camada</link> se desejar manter a transparência). Se a camada "
-"ativa não tem uma camada de máscara, a entrada de menu fica insensível e "
-"acinzentada."
+"opaca novamente (veja Aplicar máscara a camada se desejar manter a "
+"transparência). Se a camada ativa não tem uma camada de máscara, a entrada de "
+"menu fica insensível e acinzentada."
 
 #: src/menus/layer/mask-delete.xml:34(para)
 msgid ""
@@ -3144,11 +3155,11 @@ msgid ""
 "\"gimp-layer-mask\">Layer Masks</link> section for more information on layer "
 "masks and how to use them."
 msgstr ""
-"O submenu <quote>Máscara</quote> do menu <quote>Camada</quote> contém "
-"comandos que trabalham com máscaras: adicionar uma máscara, aplicar uma "
-"máscara, remover uma máscara ou converter uma máscara em uma seleção. Veja "
-"<link linkend=\"gimp-layer-mask\">Máscaras de camadas</link> para mais "
-"informações sobre máscaras de camada e como usá-las."
+"O submenu <guimenu>Máscara</guimenu> do menu <guimenu>Camada</guimenu> contém "
+"comandos que trabalham com máscaras: criar uma máscara, aplicar uma máscara, "
+"excluir uma máscara ou converter uma máscara em seleção. Veja a seção <link "
+"linkend=\"gimp-layer-mask\">Máscaras de camada</link> para mais informações "
+"sobre máscaras de camada e como usá-las."
 
 #: src/menus/layer/mask.xml:39(para)
 msgid ""
@@ -3301,22 +3312,20 @@ msgstr "O Conteúdo do menu de contextol <quote>Camada</quote>"
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/flip-vertical.xml:49(None)
 #: src/menus/layer/flip-horizontal.xml:50(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/flip.png'; md5=a5a0fa422a7488db6f2d8ee10e8c01e1"
 msgstr ""
-"@@image: 'images/menus/layer/flip-v.png'; "
-"md5=0ab484233b242290633d851d90d8fcae"
+"@@image: 'images/menus/layer/flip.png'; md5=a5a0fa422a7488db6f2d8ee10e8c01e1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/flip-vertical.xml:59(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/flip-v.png'; "
 "md5=95edfe6ee751985af318c95d31968e45"
 msgstr ""
-"@@image: 'images/menus/layer/flip.png'; md5=fec2df09a41ee04f5f525f275a934a83"
+"@@image: 'images/menus/layer/flip-v.png'; "
+"md5=95edfe6ee751985af318c95d31968e45"
 
 #: src/menus/layer/flip-vertical.xml:11(title)
 msgid "Flip Vertically"
@@ -3366,13 +3375,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/flip-horizontal.xml:60(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/layer/flip-h.png'; "
 "md5=b3a1cf050c9676245eb469cd34b6cbdd"
 msgstr ""
 "@@image: 'images/menus/layer/flip-h.png'; "
-"md5=7969ab66d467dbfca94f2fb9602ec273"
+"md5=b3a1cf050c9676245eb469cd34b6cbdd"
 
 #: src/menus/layer/flip-horizontal.xml:11(title)
 msgid "Flip Horizontally"
@@ -3421,13 +3429,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/duplicate.xml:63(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/dialogs/stock-duplicate-16.png'; "
 "md5=63e3f16710edcb66ac9046d7bd13533e"
 msgstr ""
 "@@image: 'images/dialogs/stock-duplicate-16.png'; "
-"md5=af407d854b5185703e53da2a0250fabe"
+"md5=63e3f16710edcb66ac9046d7bd13533e"
 
 #: src/menus/layer/duplicate.xml:13(title)
 msgid "Duplicate layer"
@@ -3487,8 +3494,10 @@ msgid ""
 "guimenuitem></menuchoice>, or from the local pop-up menu that you get by "
 "right-clicking on the Layer Dialog."
 msgstr ""
-"Você pode acessar este comando a partir do menu <menuchoice><guimenu>Camada</"
-"guimenu><guisubmenu>Duplicar camada</guisubmenu></menuchoice>"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Duplicar "
+"camada</guimenuitem></menuchoice>, ou pelo menu pop-up local obtido ao clicar "
+"com o botão direito na caixa de diálogo Camadas."
 
 #: src/menus/layer/duplicate.xml:54(para)
 msgid ""
@@ -3505,13 +3514,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/delete.xml:48(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/dialogs/dialogs-icon-delete.png'; "
 "md5=676c86bb4da8dcfa3ed2bb25530357f8"
 msgstr ""
 "@@image: 'images/dialogs/dialogs-icon-delete.png'; "
-"md5=75d3af3a7d407a9194c50bc85e1a99aa"
+"md5=676c86bb4da8dcfa3ed2bb25530357f8"
 
 #: src/menus/layer/delete.xml:13(title)
 msgid "Delete Layer"
@@ -3535,8 +3543,9 @@ msgid ""
 "<menuchoice><guimenu>Layer</guimenu><guimenuitem>Delete Layer</guimenuitem></"
 "menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu <menuchoice><guimenu>Camada</"
-"guimenu><guisubmenu>Remover camada</guisubmenu></menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Excluir "
+"camada</guimenuitem></menuchoice>."
 
 #: src/menus/layer/delete.xml:39(para)
 msgid ""
@@ -3588,18 +3597,16 @@ msgstr "Cortar de acordo com a seleção"
 
 #: src/menus/layer/crop.xml:23(tertiary) src/menus/layer/crop.xml:26(primary)
 #: src/menus/layer/crop.xml:38(para) src/menus/layer/crop.xml:76(title)
-#, fuzzy
 msgid "Crop to content"
-msgstr "Cortar para a seleção"
+msgstr "Cortar para o conteúdo"
 
 #: src/menus/layer/crop.xml:33(para) src/menus/layer/crop.xml:46(title)
-#, fuzzy
 msgid "Crop to selection"
 msgstr "Cortar para a seleção"
 
 #: src/menus/layer/crop.xml:29(para)
 msgid "You can crop layer in two ways: <placeholder-1/>"
-msgstr ""
+msgstr "Você pode cortar a camada de duas maneiras: <placeholder-1/>"
 
 #: src/menus/layer/crop.xml:47(para)
 msgid ""
@@ -3639,18 +3646,17 @@ msgstr ""
 
 # ** EEEk  "crop layer" is actually  called "crop to selection" in the menu.
 #: src/menus/layer/crop.xml:77(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Crop to content</guimenuitem> command automatically crops "
 "the active layer, unlike the <link linkend=\"gimp-tool-crop\">Crop Tool</"
 "link>, or the <link linkend=\"crop-layer-to-selection\">Crop to Selection</"
 "link> command which let you manually define the area to be cropped."
 msgstr ""
-"O comando <guimenuitem>Cortar camada automaticamente</guimenuitem> corta "
-"automaticamente a camada ativa, ao contrário da <link linkend=\"gimp-tool-"
-"crop\">Ferramenta cortar</link>, ou da opção de <link linkend=\"gimp-layer-"
-"crop\">Cortar para seleção</link> que permitem que você defina manualmente a "
-"área a ser cortada."
+"O comando <guimenuitem>Cortar para o conteúdo</guimenuitem> corta "
+"automaticamente a camada ativa, ao contrário da <link "
+"linkend=\"gimp-tool-crop\">Ferramenta de corte</link> ou do comando <link "
+"linkend=\"crop-layer-to-selection\">Cortar para a seleção</link>, que "
+"permitem definir manualmente a área a ser cortada."
 
 #: src/menus/layer/crop.xml:84(para) src/menus/layer/autocrop.xml:32(para)
 msgid ""
@@ -3673,27 +3679,24 @@ msgstr ""
 "objeto que esteja perdido em um fundo sólido muito grande."
 
 #: src/menus/layer/crop.xml:95(title)
-#, fuzzy
 msgid "<quote>Crop to content</quote> example"
-msgstr "Apllicando <quote>Cortar para a seleção</quote>"
+msgstr "Exemplo de <quote>Cortar para o conteúdo</quote>"
 
 #: src/menus/layer/crop.xml:102(para)
-#, fuzzy
 msgid "Before applying <quote>Crop to content</quote>"
-msgstr "Antes de aplicar <quote>Cortar camada automaticamente</quote>"
+msgstr "Antes de aplicar <quote>Cortar para o conteúdo</quote>"
 
 #: src/menus/layer/crop.xml:113(para)
-#, fuzzy
 msgid ""
 "After applying <quote>Crop to content</quote>: the active layer, up, has "
 "been cropped to the size of the circle it contains. Its size is reduced, and "
 "the unoccupied part in the canvas is transparent, revealing the yellow and "
 "green colors of the underlying layer."
 msgstr ""
-"Depois de aplicar <quote>Cortar camada automaticamente</quote>: a camada "
-"ativa, acima, é cortada no tamanho do círculo que ela contém. Seu tamanho é "
-"reduzido, e a parte desocupada na tela de pintura se torna transparente, "
-"revelando as cores amarela e verde da camada abaixo."
+"Depois de aplicar <quote>Cortar para o conteúdo</quote>: a camada ativa, "
+"acima, foi cortada para o tamanho do círculo que contém. Seu tamanho é "
+"reduzido, e a parte desocupada na tela torna-se transparente, revelando as "
+"cores amarela e verde da camada subjacente."
 
 #: src/menus/layer/crop.xml:129(para)
 msgid ""
@@ -3701,9 +3704,9 @@ msgid ""
 "<menuchoice><guimenu>Layer</guimenu><guimenuitem>Crop to Selection</"
 "guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu <menuchoice><guimenu>Camada</"
-"guimenu><guisubmenu>Cortar para  a seleção</guisubmenu><guimenuitem></"
-"guimenuitem></menuchoice>."
+"Você pode acessar este comando a partir do menu "
+"<menuchoice><guimenu>Camada</guimenu>Cortar para a "
+"seleção<guimenuitem></guimenuitem></menuchoice>."
 
 #: src/menus/layer/color-to-alpha.xml:13(title)
 #: src/menus/layer/color-to-alpha.xml:21(primary)
@@ -3715,15 +3718,14 @@ msgid "Make colors transparent"
 msgstr "Tornar cores transparentes"
 
 #: src/menus/layer/color-to-alpha.xml:24(para)
-#, fuzzy
 msgid ""
 "This command is the same as <menuchoice><guimenu>Layer</"
 "guimenu><guisubmenu>Transparency</guisubmenu></menuchoice>: <xref linkend="
 "\"gimp-filter-color-to-alpha\"/>."
 msgstr ""
-"Este comando é o mesmo que o <menuchoice><guimenu>Camada</"
-"guimenu><guisubmenu>Transparência</guisubmenu></menuchoice>: <xref linkend="
-"\"plug-in-colortoalpha\"/>."
+"Este comando é o mesmo que "
+"<menuchoice><guimenu>Camada</guimenu><guisubmenu>Transparência</guisubmenu></menuchoice>: "
+"<xref linkend=\"gimp-filter-color-to-alpha\"/>."
 
 #: src/menus/layer/bottom.xml:13(title)
 msgid "Select Bottom Layer"
@@ -3801,8 +3803,9 @@ msgid ""
 "<menuchoice><guimenu>Layer</guimenu><guimenuitem>Autocrop Layer</"
 "guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu <menuchoice><guimenu>Camada</"
-"guimenu><guisubmenu>Cortar camada automaticamente</guisubmenu></menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Cortar camada "
+"automaticamente</guimenuitem></menuchoice>."
 
 #: src/menus/layer/autocrop.xml:68(para)
 msgid "Before applying <quote>Autocrop Layer</quote>"
@@ -3833,7 +3836,6 @@ msgid "Anchor Layer"
 msgstr "Ancorar camada"
 
 #: src/menus/layer/anchor.xml:18(para)
-#, fuzzy
 msgid ""
 "If you have created a floating selection, a temporary layer, called a "
 "<quote>floating layer</quote> or <quote>floating selection</quote>, is added "
@@ -3843,14 +3845,13 @@ msgid ""
 "layer</guimenuitem> command. If the image does not contain a floating "
 "selection, this menu entry is disabled."
 msgstr ""
-"Se você tiver criado uma seleção flutuante, uma camada temporária, chamada "
+"Se você criou uma seleção flutuante, uma camada temporária, chamada "
 "<quote>camada flutuante</quote> ou <quote>seleção flutuante</quote>, é "
-"adicionada à pilha de camadas. Enquanto a camada flutuante persistir, você "
-"pode trabalhar apenas nela. Para continuar trabalhando na imagem, é "
-"necessário <quote>ancorar</quote> a camada flutuante na camada que estava "
-"ativa anteriormente com o comando <guimenuitem>Ancorar camada</guimenuitem>, "
-"ou transformar a seleção flutuante numa nova camada. Se a imagem não contém "
-"uma seleção flutuante, este item do menu é insensível e acinzentado."
+"adicionada à pilha de camadas. Enquanto a camada flutuante existir, você só "
+"pode trabalhar nela. Para trabalhar no restante da imagem, você deve "
+"<quote>ancorar</quote> a camada flutuante à camada que estava ativa antes, "
+"com o comando <guimenuitem>Ancorar camada</guimenuitem>. Se a imagem não "
+"contiver uma seleção flutuante, este item do menu fica desabilitado."
 
 #: src/menus/layer/anchor.xml:29(para)
 msgid ""
@@ -3866,8 +3867,9 @@ msgid ""
 "<menuchoice><guimenu>Layer</guimenu><guimenuitem>Anchor layer</guimenuitem></"
 "menuchoice>,"
 msgstr ""
-"Você pode acessar este comando a partir do menu <menuchoice><guimenu>Camada</"
-"guimenu><guisubmenu>Ancorar camada</guisubmenu></menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guimenuitem>Ancorar "
+"camada</guimenuitem></menuchoice>,"
 
 #: src/menus/layer/anchor.xml:48(para)
 msgid ""
@@ -3882,9 +3884,8 @@ msgid "Alternative Ways of Anchoring a Floating Selection"
 msgstr "Formas alternativas de ancorar uma Seleção Flutuante"
 
 #: src/menus/layer/anchor.xml:58(para)
-#, fuzzy
 msgid "Please refer to <xref linkend=\"anchor-floating-selection\"/>"
-msgstr "Existem mais maneiras para ancorar a seleção flutuante:"
+msgstr "Consulte <xref linkend=\"anchor-floating-selection\"/>"
 
 #: src/menus/layer/alpha-semi-flatten.xml:13(title)
 msgid "Semi-flatten"
@@ -3900,28 +3901,25 @@ msgid "Antialiasing"
 msgstr "Suavização"
 
 #: src/menus/layer/alpha-semi-flatten.xml:25(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Semi-Flatten</guimenuitem> command is described in the "
 "<link linkend=\"gimp-filter-semi-flatten\">Semi-flatten</link> filter "
 "chapter. The command is useful when you need an anti-aliased image with "
 "indexed colors and transparency."
 msgstr ""
-"O comando <guimenuitem>Semi-Achatar</guimenuitem> é descrito no capítulo de "
-"filtrosem <link linkend=\"plug-in-semiflatten\">Semi-achatar</link>. O "
+"O comando <guimenuitem>Semi-achatar</guimenuitem> é descrito no capítulo do "
+"filtro <link linkend=\"gimp-filter-semi-flatten\">Semi-achatar</link>. O "
 "comando é útil quando você precisa de uma imagem suavizada com cores "
 "indexadas e transparência."
 
 #: src/menus/layer/alpha-semi-flatten.xml:36(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Layer</guimenu><guisubmenu>Transparency</"
 "guisubmenu><guimenuitem>Semi-Flatten…</guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu <menuchoice><guimenu>Camada</"
-"guimenu><guisubmenu>Transparência</guisubmenu><guimenuitem>Semi-achatar</"
-"guimenuitem></menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guisubmenu>Transparência</guisubmenu><guimenuitem>Semi-achatar…</guimenuitem></menuchoice>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3953,7 +3951,6 @@ msgid "Subtract non-transparent pixels"
 msgstr "Subtrair pixels não transparentes"
 
 #: src/menus/layer/alpha-selection-subtract.xml:26(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Subtract from Selection</guimenuitem> command creates a "
 "selection in the current layer from the Alpha Channel. Opaque pixels are "
@@ -3963,10 +3960,9 @@ msgid ""
 msgstr ""
 "O comando <guimenuitem>Subtrair da seleção</guimenuitem> cria uma seleção na "
 "camada atual a partir do canal alfa. Pixels opacos são totalmente "
-"selecionados, os pixels transparentes ficam desmarcados, e pixels "
-"translúcidos são parcialmente selecionados. Esta seleção é "
-"<emphasis>subtraída</emphasis> da seleção existente. O canal alfa em si não "
-"é alterado."
+"selecionados, pixels transparentes não são selecionados e pixels translúcidos "
+"são parcialmente selecionados. Esta seleção é <emphasis>subtraída</emphasis> "
+"da seleção existente. O próprio canal alfa não é alterado."
 
 #: src/menus/layer/alpha-selection-subtract.xml:38(para)
 msgid ""
@@ -4022,10 +4018,11 @@ msgid ""
 "itself is not changed."
 msgstr ""
 "O comando <guimenuitem>Alfa para seleção</guimenuitem> cria uma seleção na "
-"camada atual a partir da informação de transparência no canal alfa. Áreas "
-"opacas ficam totalmente selecionadas, as áreas transparentes ficam fora da "
-"seleção e áreas translúcidas são parcialmente selecionadas. Esta seleção "
-"substitui a seleção existente. O canal alfa em si não é alterado."
+"camada atual a partir do canal alfa, que codifica a transparência. As áreas "
+"opacas são totalmente selecionadas, as áreas transparentes não são "
+"selecionadas e as áreas translúcidas são parcialmente selecionadas. Esta "
+"seleção <emphasis>substitui</emphasis> a seleção existente. O canal alfa em "
+"si não é alterado."
 
 #: src/menus/layer/alpha-selection-replace.xml:34(para)
 msgid ""
@@ -4170,11 +4167,12 @@ msgid ""
 "partially selected. This selection is <emphasis>added</emphasis> to the "
 "existing selection. The alpha channel itself is not changed."
 msgstr ""
-"O comando <guimenuitem>Adicionar à seleção</guimenuitem> cria uma seleção a "
-"partir do Canal Alfa da camada atual. Pixels opacos são totalmente "
-"selecionados, os pixels transparentes ficam desmarcados, e pixels "
-"translúcidos são parcialmente selecionados. Esta seleção é adicionada à "
-"seleção existente. O próprio canal alfa não é alterado."
+"O comando <guimenuitem>Adicionar à seleção</guimenuitem> cria uma seleção na "
+"camada atual a partir do canal Alfa. Os pixels opacos são totalmente "
+"selecionados, os pixels transparentes não são selecionados e os pixels "
+"translúcidos são parcialmente selecionados. Esta seleção é "
+"<emphasis>adicionada</emphasis> à seleção existente. O canal alfa em si não é "
+"alterado."
 
 # ** eeek: it seens redundant enough to have an xml file to each near identical function of add/subtract/blabla to selection. Now, if in each of the near identical files there is a paragraph explaining what each of the other options do, we've got way past ridiculous.
 #: src/menus/layer/alpha-selection-add.xml:34(para)
@@ -4224,25 +4222,23 @@ msgid "Remove Alpha channel"
 msgstr "Remover canal alfa"
 
 #: src/menus/layer/alpha-remove.xml:23(para)
-#, fuzzy
 msgid ""
 "This command removes the Alpha channel of the active layer, keeping the "
 "Alpha channels of the other layers."
 msgstr ""
-"Este comando remove o Canal Alfa da camada ativa, mantendo os canais Alfa "
-"das outras camadas."
+"Este comando remove o canal alfa da camada ativa, mantendo os canais alfa das "
+"outras camadas."
 
 # ** EEEk: it is not the background layer that may not have alpha channels any more
 #: src/menus/layer/alpha-remove.xml:27(para)
-#, fuzzy
 msgid ""
 "If the active layer is the background layer and if you have not added an "
 "Alpha channel before (then the layer name is in bold letters in the Layer "
 "Dialog), the command is disabled."
 msgstr ""
-"Se a camada ativa não tiver um Canal Alfa, como é o padrão para a camada de "
-"fundo, ( e então o nome da camada está em letras em negrito no diálogo de "
-"Camada), este comando fica acinzentado, inativo."
+"Se a camada ativa for a camada de fundo e você não tiver adicionado um canal "
+"alfa antes (nesse caso, o nome da camada aparece em negrito na caixa de "
+"diálogo de camadas), o comando fica desabilitado."
 
 # ** EEEk: and why it would be different for the background layer??? (hint: it IS NOT)
 #: src/menus/layer/alpha-remove.xml:32(para)
@@ -4300,15 +4296,14 @@ msgstr ""
 "comando."
 
 #: src/menus/layer/alpha-add.xml:37(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Layer</guimenu><guisubmenu>Transparency</"
 "guisubmenu><guimenuitem>Add Alpha Channel</guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu <menuchoice><guimenu>Camada</"
-"guimenu><guisubmenu>Transparência</guisubmenu><guimenuitem>Adicionar canal "
-"alfa</guimenuitem></menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Camada</guimenu><guisubmenu>Transparência</guisubmenu><guimenuitem>Adicionar "
+"canal alfa</guimenuitem></menuchoice>."
 
 #: src/menus/layer/alpha-add.xml:47(para)
 msgid ""

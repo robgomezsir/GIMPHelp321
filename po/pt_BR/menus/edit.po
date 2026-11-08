@@ -289,7 +289,6 @@ msgid "Undo"
 msgstr "Desfazer"
 
 #: src/menus/edit/undo.xml:15(para)
-#, fuzzy
 msgid ""
 "If you have made drawing or editing changes to the image which you don't "
 "want to keep, the <guimenu>Undo</guimenu> command allows you to undo the "
@@ -302,16 +301,17 @@ msgid ""
 "\">Undoing</link> for more information about <acronym>GIMP</acronym>'s very "
 "sophisticated <quote>Undo</quote> functions."
 msgstr ""
-"Se você fez um desenho ou fez alterações na imagem que você não deseja "
-"manter, o comando <guimenu>Desfazer</guimenu> permite que você desfaça a "
-"última alteração e retorne a imagem para seu estado anterior. Quase tudo o "
-"que você faz a uma imagem pode ser desfeito dessa forma (com exceção de "
-"scripts, que desativam essa função). Mais operações de desfazer podem ser "
-"feitas, dependendo da quantidade de níveis de desfazer configuradas na guia "
-"<link linkend=\"gimp-prefs-environment\">Ambiente</link> na janela de "
-"preferências. Veja a seção <link linkend=\"gimp-concepts-undo\">Desfazendo</"
-"link> para mais informação sobre as funcionalidades sofisticadas de "
-"<quote>Desfazer</quote> do <acronym>GIMP</acronym>."
+"Se você fez alterações de desenho ou edição na imagem que não deseja manter, "
+"o comando <guimenu>Desfazer</guimenu> permite desfazer a última alteração e "
+"retornar a imagem ao estado anterior. Quase tudo o que você faz em uma imagem "
+"pode ser desfeito dessa forma (com exceção de scripts, que desativam essa "
+"função). Outras operações de desfazer podem ser realizadas, dependendo do "
+"número de níveis de desfazer configurados na página <link "
+"linkend=\"gimp-prefs-system-resources\">Recursos do sistema</link> da caixa "
+"de diálogo Preferências. Consulte a seção <link "
+"linkend=\"gimp-concepts-undo\">Desfazendo</link> para saber mais sobre o "
+"sofisticado mecanismo do <acronym>GIMP</acronym> conhecido como "
+"<quote>Desfazer</quote>."
 
 #: src/menus/edit/undo.xml:29(para)
 msgid ""
@@ -643,18 +643,12 @@ msgid ""
 "a white pixel, you add it to the dash. The gray areas indicate how the "
 "pattern will be repeated when a dashed line is drawn."
 msgstr ""
-"<guilabel>Padrão do tracejado</guilabel>: Ao nível dos pixels, uma linha "
-"tracejada é desenhada como uma série de pequenas caixinhas. Você pode "
-"modificar o padrão dessas caixinhas. A área em preto com finas linhas "
-"verticais representa os pixels do tracejado. Se você clicar em uma caixinha "
-"preta, você a remove do tracejado, e se clicar numa em branco, você a "
-"acrescenta de volta. As áreas em cinza demonstram como o padrão será "
-"repetido quando a linha tracejada for desenhada. Cada caixinha é um "
-"quadrado, ou seja: seu comprimento é igual a <guilabel>Largura da linha</"
-"guilabel>. (Caso você deseje usar uma ferramenta de pintura  com tracejado, "
-"isso pode ser conseguido usando-se as <link linkend=\"gimp-tool-brush-"
-"dynamics\">dinâmicas de pincéis</link>, configurando-se a curva de \"Esmaecer"
-"\")"
+"<guilabel>Padrão do tracejado</guilabel>: no nível dos pixels, uma linha "
+"tracejada é desenhada como uma série de pequenas caixas. Você pode modificar "
+"o padrão dessas caixas. A área preta com finas linhas verticais representa os "
+"pixels do tracejado. Se você clicar em um pixel preto, ele é removido do "
+"tracejado; se clicar em um pixel branco, ele é acrescentado. As áreas cinzas "
+"indicam como o padrão será repetido quando uma linha tracejada for desenhada."
 
 #: src/menus/edit/stroke-path.xml:168(para)
 msgid ""
@@ -828,7 +822,7 @@ msgstr ""
 #: src/menus/edit/paste-into-selection-in-place.xml:12(secondary)
 #: src/menus/edit/paste-into-selection-in-place.xml:15(primary)
 msgid "Paste Into Selection In Place"
-msgstr ""
+msgstr "Colar na seleção no mesmo lugar"
 
 #: src/menus/edit/paste-into-selection-in-place.xml:18(para)
 msgid ""
@@ -838,27 +832,29 @@ msgid ""
 "originally copied from. This feature is available for both the regular "
 "clipboard and named buffers."
 msgstr ""
+"O comando Colar na seleção coloca o conteúdo da área de transferência no "
+"centro da seleção. Com Colar na seleção no mesmo lugar, você pode colar o "
+"conteúdo da área de transferência nas coordenadas exatas de onde ele foi "
+"originalmente copiado. Esse recurso está disponível tanto para a área de "
+"transferência comum quanto para buffers nomeados."
 
 #: src/menus/edit/paste-into-selection-in-place.xml:28(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste Into Selection In "
 "Place</guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guimenuitem>Colar em</guimenuitem></"
-"menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Colar na seleção no mesmo "
+"lugar</guimenuitem></menuchoice>."
 
 #: src/menus/edit/paste-into-selection.xml:8(title)
 #: src/menus/edit/paste-into-selection.xml:12(secondary)
 #: src/menus/edit/paste-into-selection.xml:15(primary)
-#, fuzzy
 msgid "Paste Into Selection"
-msgstr "Colar em"
+msgstr "Colar na seleção"
 
 #: src/menus/edit/paste-into-selection.xml:18(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Paste Into Selection</guimenuitem> command acts in a "
 "similar way to the <guimenuitem>Paste</guimenuitem> command. The primary "
@@ -869,43 +865,39 @@ msgid ""
 "existing selection. The new selection can be moved as usual, but it is "
 "always clipped by the original selection area."
 msgstr ""
-"O comando <guimenuitem>Colar em</guimenuitem> age de forma bem similar ao "
-"comando <guimenuitem>Colar</guimenuitem>. A diferença principal fica "
-"aparente se houver uma seleção ativa na tela. Ao contrário do comando "
-"<quote>Colar</quote> que simplesmente usa a seleção atual para centralizar o "
-"conteúdo colado e substitui a seleção, <quote>Colar em</quote> corta o "
-"conteúdo colado usando a seleção existente como máscara de recorte. A nova "
-"seleção pode ser movida como de costuma, mas continuará recortada pela área "
-"da seleção original."
+"O comando <guimenuitem>Colar na seleção</guimenuitem> funciona de maneira "
+"semelhante ao comando <guimenuitem>Colar</guimenuitem>. A principal diferença "
+"fica evidente quando há uma seleção na tela. Ao contrário do comando "
+"<quote>Colar</quote>, que simplesmente centraliza os dados colados sobre a "
+"seleção e a substitui, <quote>Colar na seleção</quote> recorta os dados "
+"colados pela seleção existente. A nova seleção pode ser movida como de "
+"costume, mas sempre será recortada pela área da seleção original."
 
 #: src/menus/edit/paste-into-selection.xml:28(para)
-#, fuzzy
 msgid ""
 "If no selection exists, the <quote>Paste Into Selection</quote> command "
 "places the data from the Clipboard into the center of the canvas, as the "
 "<quote>Paste</quote> command does."
 msgstr ""
-"Se não existe uma seleção, o comando <quote>Colar em</quote> coloca o "
-"conteúdo da área de transferência no centro da tela, exatamente como o "
-"comando <quote>Colar</quote> faz."
+"Se não existir seleção, o comando <quote>Colar na seleção</quote> coloca os "
+"dados da área de transferência no centro da tela, como o comando "
+"<quote>Colar</quote> faz."
 
 #: src/menus/edit/paste-into-selection.xml:36(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste Into Selection</"
 "guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guimenuitem>Colar em</guimenuitem></"
-"menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Colar na "
+"seleção</guimenuitem></menuchoice>."
 
 #: src/menus/edit/paste-in-place.xml:8(title)
 #: src/menus/edit/paste-in-place.xml:12(secondary)
 #: src/menus/edit/paste-in-place.xml:15(primary)
-#, fuzzy
 msgid "Paste In Place"
-msgstr "Colar em"
+msgstr "Colar no mesmo lugar"
 
 #: src/menus/edit/paste-in-place.xml:18(para)
 msgid ""
@@ -914,17 +906,21 @@ msgid ""
 "exact coordinates the contents was originally copied from. This feature is "
 "available for both the regular clipboard and named buffers."
 msgstr ""
+"O comando Colar usual coloca o conteúdo da área de transferência no centro da "
+"tela. Com este comando, você pode colar o conteúdo da área de transferência "
+"nas coordenadas exatas de onde ele foi originalmente copiado. Esse recurso "
+"está disponível tanto para a área de transferência comum quanto para buffers "
+"nomeados."
 
 #: src/menus/edit/paste-in-place.xml:28(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste In Place</"
 "guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guimenuitem>Colar em</guimenuitem></"
-"menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Colar no mesmo "
+"lugar</guimenuitem></menuchoice>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1020,25 +1016,22 @@ msgstr ""
 "de texturas do GIMP (<filename class=\"directory\">patterns</filename>)"
 
 #: src/menus/edit/paste-as-pattern.xml:66(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Edit</guimenu><guisubmenu>Paste as </"
 "guisubmenu><guimenuitem>New Pattern…</guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guisubmenu>Colar como</guisubmenu> "
-"<guimenuitem>Nova textura</guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Editar</guimenu><guisubmenu>Colar como "
+"</guisubmenu><guimenuitem>Nova textura…</guimenuitem></menuchoice>."
 
 #: src/menus/edit/paste-as-new-layer-in-place.xml:8(title)
-#, fuzzy
 msgid "Paste As New Layer In Place"
-msgstr "Colar como Nova camada"
+msgstr "Colar como nova camada no mesmo lugar"
 
 #: src/menus/edit/paste-as-new-layer-in-place.xml:19(primary)
-#, fuzzy
 msgid "Paste as New Layer in Place"
-msgstr "Colar como Nova camada"
+msgstr "Colar como nova camada no mesmo lugar"
 
 #: src/menus/edit/paste-as-new-layer-in-place.xml:22(para)
 msgid ""
@@ -1046,22 +1039,27 @@ msgid ""
 "new layer in the active image and pastes the clipboard contents at exact "
 "coordinates the contents was originally copied from."
 msgstr ""
+"O comando <guimenuitem>Colar como nova camada no mesmo lugar</guimenuitem> "
+"cria uma nova camada na imagem ativa e cola o conteúdo da área de "
+"transferência nas coordenadas exatas de onde ele foi originalmente copiado."
 
 #: src/menus/edit/paste-as-new-layer-in-place.xml:27(para)
 msgid ""
 "This feature is available for both the regular clipboard and named buffers."
 msgstr ""
+"Esse recurso está disponível tanto para a área de transferência comum quanto "
+"para buffers nomeados."
 
 #: src/menus/edit/paste-as-new-layer-in-place.xml:33(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Edit</guimenu><guisubmenu>Paste as</"
 "guisubmenu><guimenuitem>New Layer In Place</guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guisubmenu>Colar como</"
-"guisubmenu><guimenuitem>Nova camada</guimenuitem></menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Editar</guimenu><guisubmenu>Colar "
+"como</guisubmenu><guimenuitem>Nova camada no mesmo "
+"lugar</guimenuitem></menuchoice>."
 
 #: src/menus/edit/paste-as-new-layer.xml:8(title)
 #: src/menus/edit/paste-as-new-layer.xml:19(primary)
@@ -1132,7 +1130,6 @@ msgstr ""
 "guisubmenu><guimenuitem>Da área de transferência</guimenuitem></menuchoice>."
 
 #: src/menus/edit/paste-as-new-image.xml:38(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Edit</guimenu><guisubmenu>Paste as</"
@@ -1140,9 +1137,12 @@ msgid ""
 "keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>Ctrl</"
 "keycap><keycap>V </keycap></keycombo>."
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guisubmenu>Colar como</"
-"guisubmenu><guimenuitem>Nova imagem</guimenuitem></menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Editar</guimenu><guisubmenu>Colar "
+"como</guisubmenu><guimenuitem>Nova imagem</guimenuitem></menuchoice>, ou "
+"usando o atalho de teclado "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>V "
+"</keycap></keycombo>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1212,20 +1212,19 @@ msgid ""
 "the impression of a solid line."
 msgstr ""
 "<guilabel>Espaçamento</guilabel>: Quando o pincel desenha uma linha, na "
-"verdade ele é <quote>carimbado</quote> repetidas vezes na imagem. Se as "
-"imagens do pincel carimbadas dessa forma estiverem muito próximas uma das "
-"outras, você terá a impressão de uma linha contínua."
+"verdade ele é carimbado repetidas vezes na imagem. Se as imagens do pincel "
+"carimbadas dessa forma estiverem muito próximas uma das outras, você terá a "
+"impressão de uma linha contínua."
 
 #: src/menus/edit/paste-as-brush.xml:78(para)
-#, fuzzy
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Edit</guimenu><guisubmenu>Paste as </"
 "guisubmenu><guimenuitem>New Brush…</guimenuitem></menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guisubmenu>Colar como</"
-"guisubmenu><guimenuitem>Novo pincel</guimenuitem></menuchoice>."
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenu>Editar</guimenu><guisubmenu>Colar como "
+"</guisubmenu><guimenuitem>Novo pincel…</guimenuitem></menuchoice>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1240,13 +1239,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/edit/paste-as.xml:34(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/edit/paste-as.png'; "
 "md5=197f4a115bde8e076a65f9a2cb5a69b6"
 msgstr ""
 "@@image: 'images/menus/edit/paste-as.png'; "
-"md5=a28dec013f6be3cbeaade0356e0221d1"
+"md5=197f4a115bde8e076a65f9a2cb5a69b6"
 
 #: src/menus/edit/paste-as.xml:14(para)
 msgid ""
@@ -1286,7 +1284,6 @@ msgstr ""
 "diálogo de camadas."
 
 #: src/menus/edit/paste.xml:29(para)
-#, fuzzy
 msgid ""
 "If there is an existing selection on the canvas, it is used to align the "
 "pasted data. If there is already a selection, the data is pasted using the "
@@ -1294,10 +1291,10 @@ msgid ""
 "clipping region for the pasted data, you should use the <quote>Paste Into "
 "Selection</quote> command."
 msgstr ""
-"Se há uma seleção ativa na tela, ela é usada para alinhar o conteúdo colado. "
-"Se já existia uma seleção, o conteúdo é colado usando a seleção como ponto "
-"central.  Se você deseja utilizar a seleção para recortar o conteúdo colado, "
-"você deve usar o comando <quote>Colar em</quote>."
+"Se houver uma seleção na tela, ela será usada para alinhar os dados colados. "
+"Se já existir uma seleção, os dados serão colados usando a seleção como ponto "
+"central. Se você quiser que a seleção seja usada como região de recorte dos "
+"dados colados, use o comando <quote>Colar na seleção</quote>."
 
 #: src/menus/edit/paste.xml:37(para)
 msgid ""
@@ -1305,11 +1302,9 @@ msgid ""
 "time. You cannot work on any other layer while there is a floating "
 "selection; you have to either anchor it or remove it."
 msgstr ""
-"Você só pode ter <emphasis>uma</emphasis> seleção flutuante ativa de cada "
-"vez. Você não pode realizar alterações em outras camadas se houver uma "
-"seleção flutuante; você <emphasis>precisa</emphasis> ancorar, descartar ou "
-"transformar a seleção flutuante em uma nova camada antes de continuar "
-"trabalhando no restante da imagem."
+"Você só pode ter <emphasis>uma</emphasis> seleção flutuante por vez. Você não "
+"pode trabalhar em nenhuma outra camada enquanto houver uma seleção flutuante; "
+"é preciso ancorá-la ou removê-la."
 
 #: src/menus/edit/paste.xml:48(para)
 msgid ""
@@ -1317,9 +1312,8 @@ msgid ""
 "<menuchoice><guimenuitem>Edit</guimenuitem><guimenuitem>Paste</guimenuitem></"
 "menuchoice>."
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guimenuitem>Colar</guimenuitem></"
-"menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em "
+"<menuchoice><guimenuitem>Editar</guimenuitem><guimenuitem>Colar</guimenuitem></menuchoice>."
 
 #: src/menus/edit/paste.xml:57(para)
 msgid ""
@@ -1475,9 +1469,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/edit/introduction.xml:14(None)
-#, fuzzy
 msgid "@@image: 'images/menus/edit.png'; md5=3a45ba1075393185ef19ebd0fecf3e97"
-msgstr "@@image: 'images/menus/edit.png'; md5=c448974ce3ab1612f03ee7d78c141d4c"
+msgstr "@@image: 'images/menus/edit.png'; md5=3a45ba1075393185ef19ebd0fecf3e97"
 
 #: src/menus/edit/introduction.xml:8(title)
 msgid "<quote>Edit</quote> Menu Entries"
@@ -1499,32 +1492,29 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/edit/fill-selection-outline.xml:44(None)
 #: src/menus/edit/fill-path.xml:43(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/edit/fill-selection-outline.png'; "
 "md5=da6d5e14703631e453ffa0cd6602b40e"
 msgstr ""
-"@@image: 'images/menus/edit/paste-new-brush.png'; "
-"md5=31f9bde6d124b01c5f6d60e3f4f20a40"
+"@@image: 'images/menus/edit/fill-selection-outline.png'; "
+"md5=da6d5e14703631e453ffa0cd6602b40e"
 
 #: src/menus/edit/fill-selection-outline.xml:8(title)
 #: src/menus/edit/fill-selection-outline.xml:11(primary)
 msgid "Fill Selection Outline"
-msgstr ""
+msgstr "Preencher contorno da seleção"
 
 #: src/menus/edit/fill-selection-outline.xml:14(para)
-#, fuzzy
 msgid ""
 "This command is usually grayed out. It becomes active when a selection "
 "exists."
 msgstr ""
-"Este comando normalmente está desabilitado. Ele se torna ativo se você "
-"utilizar a função de preenchimento, ou usar a ferramenta de Degradês, ou se "
-"aplicar alguns dos filtros."
+"Este comando normalmente está desabilitado. Ele fica ativo quando existe uma "
+"seleção."
 
 #: src/menus/edit/fill-selection-outline.xml:18(para)
 msgid "TODO."
-msgstr ""
+msgstr "TODO."
 
 #: src/menus/edit/fill-selection-outline.xml:24(title)
 #: src/menus/edit/fill-path.xml:23(title)
@@ -1532,15 +1522,14 @@ msgid "Activate the command"
 msgstr "Ativando o comando"
 
 #: src/menus/edit/fill-selection-outline.xml:25(para)
-#, fuzzy
 msgid ""
 "You can get to this command from the image Menu bar through: "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fill Selection Outline…</"
 "guimenuitem></menuchoice>"
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guimenuitem>Esmaecer...</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em: "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Preencher contorno da "
+"seleção…</guimenuitem></menuchoice>"
 
 #: src/menus/edit/fill-selection-outline.xml:36(para)
 #: src/menus/edit/fill-path.xml:35(para)
@@ -1549,41 +1538,38 @@ msgstr "Esse comando faz aparecer uma janela de diálogo:"
 
 #: src/menus/edit/fill-selection-outline.xml:40(title)
 #: src/menus/edit/fill-path.xml:39(title)
-#, fuzzy
 msgid "The <quote>Choose Fill Style</quote> dialog"
-msgstr "A janela de diálogo de <quote>Escolha o estilo do contorno</quote>"
+msgstr "A caixa de diálogo <quote>Escolher estilo de preenchimento</quote>"
 
 #: src/menus/edit/fill-selection-outline.xml:50(term)
 #: src/menus/edit/fill-path.xml:49(term)
-#, fuzzy
 msgid "Solid color"
-msgstr "Cor sólida / Textura"
+msgstr "Cor sólida"
 
 #: src/menus/edit/fill-selection-outline.xml:52(para)
 #: src/menus/edit/fill-path.xml:51(para)
 msgid "The foreground color of the toolbox is used."
-msgstr ""
+msgstr "A cor de primeiro plano da caixa de ferramentas é usada."
 
 #: src/menus/edit/fill-selection-outline.xml:58(term)
 #: src/menus/edit/fill-path.xml:57(term)
-#, fuzzy
 msgid "Pattern"
-msgstr "Nome da textura"
+msgstr "Textura"
 
 #: src/menus/edit/fill-selection-outline.xml:60(para)
 #: src/menus/edit/fill-path.xml:59(para)
 msgid "The active pattern of the toolbox is used."
-msgstr ""
+msgstr "A textura ativa da caixa de ferramentas é usada."
 
 #: src/menus/edit/fill-selection-outline.xml:66(term)
 #: src/menus/edit/fill-path.xml:65(term)
 msgid "Antialiasing"
-msgstr ""
+msgstr "Suavização"
 
 #: src/menus/edit/fill-selection-outline.xml:68(para)
 #: src/menus/edit/fill-path.xml:67(para)
 msgid "This option is checked by default."
-msgstr ""
+msgstr "Esta opção é marcada por padrão."
 
 #: src/menus/edit/fill-pattern.xml:9(title)
 #: src/menus/edit/fill-pattern.xml:22(primary)
@@ -1659,67 +1645,64 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/edit/fill-path.xml:78(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/edit/fill-path-ex1.png'; "
 "md5=3f28e1964c387069b2de170e2e68b285"
 msgstr ""
-"@@image: 'images/menus/edit/units.png'; md5=9f801aa8c438b02cb90bb1ee86ffb378"
+"@@image: 'images/menus/edit/fill-path-ex1.png'; "
+"md5=3f28e1964c387069b2de170e2e68b285"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/edit/fill-path.xml:87(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/edit/fill-path-ex2.png'; "
 "md5=6e8fbd7abe507f84ce0d23a37e30d4a4"
 msgstr ""
-"@@image: 'images/menus/edit/paste-as.png'; "
-"md5=a28dec013f6be3cbeaade0356e0221d1"
+"@@image: 'images/menus/edit/fill-path-ex2.png'; "
+"md5=6e8fbd7abe507f84ce0d23a37e30d4a4"
 
 #: src/menus/edit/fill-path.xml:8(title)
 #: src/menus/edit/fill-path.xml:11(primary)
-#, fuzzy
 msgid "Fill Path"
-msgstr "Preencher com textura"
+msgstr "Preencher traçado"
 
 #: src/menus/edit/fill-path.xml:14(para)
-#, fuzzy
 msgid ""
 "This command is usually grayed out. It becomes active when a path exists."
 msgstr ""
-"Este comando normalmente está desabilitado. Ele se torna ativo se você "
-"utilizar a função de preenchimento, ou usar a ferramenta de Degradês, ou se "
-"aplicar alguns dos filtros."
+"Este comando normalmente está desabilitado. Ele fica ativo quando existe um "
+"traçado."
 
 #: src/menus/edit/fill-path.xml:17(para)
 msgid ""
 "This function fills all areas delimited by the path from the origine to the "
 "end"
 msgstr ""
+"Esta função preenche todas as áreas delimitadas pelo traçado, do início ao "
+"fim."
 
 #: src/menus/edit/fill-path.xml:24(para)
-#, fuzzy
 msgid ""
 "You can get to this command from the image Menu bar through: "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fill Path…</guimenuitem></"
 "menuchoice>"
 msgstr ""
-"Você pode acessar este comando a partir do menu da janela de imagens "
-"em<menuchoice><guimenu>Editar</guimenu><guimenuitem>Esmaecer...</"
-"guimenuitem></menuchoice>,"
+"Você pode acessar este comando na barra de menus da imagem em: "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Preencher "
+"traçado…</guimenuitem></menuchoice>"
 
 #: src/menus/edit/fill-path.xml:74(title)
 msgid "Fill Path Example"
-msgstr ""
+msgstr "Exemplo de preenchimento de traçado"
 
 #: src/menus/edit/fill-path.xml:81(para)
 msgid "Before filling"
-msgstr ""
+msgstr "Antes do preenchimento"
 
 #: src/menus/edit/fill-path.xml:90(para)
 msgid "After filling"
-msgstr ""
+msgstr "Depois do preenchimento"
 
 #: src/menus/edit/fill-fg.xml:9(title)
 msgid "Fill with FG Color"
@@ -1917,13 +1900,11 @@ msgid ""
 "visible layers (or the selection of the visible layers), that is, the ones "
 "that are marked with an <quote>eye</quote>."
 msgstr ""
-"O comando <guimenuitem>Copiar como é visto</guimenuitem> é similar o comando "
+"O comando <guimenuitem>Copiar visível</guimenuitem> é semelhante ao comando "
 "<link linkend=\"gimp-edit-copy\">Copiar</link>. No entanto, ele não copia "
-"somente o conteúdo da camada ativa: ele copia o conteúdo de todas as camadas "
-"visíveis — isso é, todas as camadas que estão marcadas com o ícone de "
-"olho no diálogo de camadas.Ele leva em conta as configurações de opacidade, "
-"máscaras, e modos de combinação de cada camada, e atua somente nas camadas, "
-"mesmo que o objeto desenhável ativo seja um canal ou uma máscara de camada."
+"apenas o conteúdo da camada atual; ele copia o conteúdo das camadas visíveis "
+"(ou a seleção das camadas visíveis), isto é, as que estão marcadas com um "
+"<quote>olho</quote>."
 
 #: src/menus/edit/copy-visible.xml:31(para)
 msgid ""
@@ -1947,7 +1928,6 @@ msgstr ""
 "guimenuitem></menuchoice>,"
 
 #: src/menus/edit/copy.xml:20(para)
-#, fuzzy
 msgid ""
 "The <guimenuitem>Copy</guimenuitem> command makes a copy of the current "
 "selection and stores it in the Clipboard. The information can be recalled "
@@ -1958,16 +1938,14 @@ msgid ""
 "quote> only works on the current active layer. Any layers above or below it "
 "are ignored."
 msgstr ""
-"O comando <guimenuitem>Copiar</guimenuitem> faz uma cópia do conteúdo da "
-"seleção atual e o guarda na área de transferência, de forma que ele possa "
-"ser colado mais tarde usando os comandos <link linkend=\"gimp-edit-paste"
-"\">Colar</link>, <link linkend=\"gimp-edit-paste-into\">Colar em</link> ou "
-"<link linkend=\"gimp-edit-paste-as-new\">Colar como novo...</link>. Se não "
-"houver seleção, a camada toda é copiada. <quote>Copiar</quote> só usa os "
-"dados da camada ativa: quaisquer camadas acima ou abaixo da mesma são "
-"ignoradas. A opacidade, visibilidade e modo de combinação da camada ativa "
-"não são levadas em conta &mdash; se desejar que sejam, veja o comando <link "
-"linkend=\"gimp-edit-copy-visible\">Copiar como é visto</link>."
+"O comando <guimenuitem>Copiar</guimenuitem> faz uma cópia da seleção atual e "
+"a armazena na área de transferência. As informações podem ser recuperadas "
+"pelos comandos <link linkend=\"gimp-edit-paste\">Colar</link>, <link "
+"linkend=\"gimp-edit-paste-into\">Colar na seleção</link> ou <link "
+"linkend=\"gimp-edit-paste-as-new-image\">Colar como / Nova imagem</link>. Se "
+"não houver seleção, a camada atual inteira é copiada. <quote>Copiar</quote> "
+"atua apenas na camada ativa no momento. Quaisquer camadas acima ou abaixo "
+"dela são ignoradas."
 
 #: src/menus/edit/copy.xml:38(para)
 msgid ""
@@ -2010,13 +1988,13 @@ msgid ""
 "the layer does not have an alpha channel, the deleted area is filled using "
 "the current background color."
 msgstr ""
-"O comando <guimenuitem>Limpar</guimenuitem> remove todo o conteúdo da "
-"seleção atual. Se não houver uma seleção, o conteúdo da camada ativa é "
-"removido. Se a camada ativa tiver um canal Alfa, as partes removidas se "
-"tornam transparentes. Você pode restaurar as cores originais das áreas que "
-"forem limpas usando a ferramenta de Borracha, configurando-a para usar o "
-"modo de <quote>Anti Borracha</quote>. Se a camada atual não tiver um canal "
-"Alfa, a área removida será preenchida com a cor de Fundo atual."
+"O comando <guimenuitem>Limpar</guimenuitem> remove todo o conteúdo da seleção "
+"atual. Se não houver uma seleção, o conteúdo da camada ativa é removido. Se a "
+"camada ativa tiver um canal Alfa, as partes removidas se tornam "
+"transparentes. Você pode restaurar as cores originais das áreas que forem "
+"limpas usando a ferramenta de Borracha, configurando-a para usar o modo de "
+"Anti Borracha. Se a camada atual não tiver um canal Alfa, a área removida "
+"será preenchida com a cor de Fundo atual."
 
 #: src/menus/edit/clear.xml:37(para)
 msgid ""
@@ -2106,10 +2084,9 @@ msgid ""
 "name using a pop-up dialog."
 msgstr ""
 "O comando <guimenuitem>Cortar com nome</guimenuitem> corta o conteúdo da "
-"seleção da camada ativa da mesma forma que o comando <quote>Cortar</quote> "
-"normal, mas em vez de colocar o conteúdo na área de transferência global, "
-"ele fica guardado num buffer especial ao qual você dá um nome usando o "
-"diálogo que aparece."
+"seleção da camada ativa da mesma forma que o comando Cortar normal, mas em "
+"vez de colocar o conteúdo na área de transferência global, ele fica guardado "
+"num buffer especial ao qual você dá um nome usando o diálogo que aparece."
 
 #: src/menus/edit/buffer.xml:63(term)
 msgid "Copy Named"
@@ -2123,9 +2100,9 @@ msgid ""
 "name using a pop-up dialog."
 msgstr ""
 "O comando <guimenuitem>Copiar com nome</guimenuitem> copia o conteúdo da "
-"seleção da mesma forma que o <quote>Copiar</quote>, mas em vez de colocar o "
-"conteúdo na área de transferência global, ele fica guardado num buffer "
-"especial ao qual você dá um nome usando o diálogo que aparece."
+"seleção da mesma forma que o Copiar, mas em vez de colocar o conteúdo na área "
+"de transferência global, ele fica guardado num buffer especial ao qual você "
+"dá um nome usando o diálogo que aparece."
 
 #: src/menus/edit/buffer.xml:75(term)
 msgid "Copy Visible Named"

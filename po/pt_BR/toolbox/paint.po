@@ -22,68 +22,62 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/smudge.xml:21(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/smudge-toolbox.png'; "
 "md5=91e45e2551a8e406fecdca5a1dbd7fc1"
 msgstr ""
-"@@image: 'images/toolbox/toolbox-blur.png'; "
-"md5=b29caec2a631aeeffa7f1dd33ab97cd5"
+"@@image: 'images/toolbox/smudge-toolbox.png'; "
+"md5=91e45e2551a8e406fecdca5a1dbd7fc1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/smudge.xml:102(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/smudge-ex-line.png'; "
 "md5=f88d708c448fc448cf908fe0c72d7ef1"
 msgstr ""
-"@@image: 'images/toolbox/dissolve-mode-example.png'; "
-"md5=74357b38818c9559a0e087f9ef98f7d2"
+"@@image: 'images/toolbox/smudge-ex-line.png'; "
+"md5=f88d708c448fc448cf908fe0c72d7ef1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/smudge.xml:135(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/smudge-dialog.png'; "
 "md5=9c8b7fe967a35d0de8ddcbf3332f6771"
 msgstr ""
-"@@image: 'images/toolbox/brush-tools-box.png'; "
-"md5=3d07dfea4430df33db57677181604e36"
+"@@image: 'images/toolbox/smudge-dialog.png'; "
+"md5=9c8b7fe967a35d0de8ddcbf3332f6771"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/smudge.xml:170(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/smudge-ex-rate.png'; "
 "md5=1ca5fc996ba752bf1539576f59e3a239"
 msgstr ""
-"@@image: 'images/toolbox/mode-erase.png'; "
-"md5=adcbbbf4adef19bbabbc0244bdaa261e"
+"@@image: 'images/toolbox/smudge-ex-rate.png'; "
+"md5=1ca5fc996ba752bf1539576f59e3a239"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/smudge.xml:197(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/smudge-ex-noerasing.jpg'; "
 "md5=6be7d179bedbc27d56dc47d3fb624e61"
 msgstr ""
-"@@image: 'images/toolbox/mode-erase.png'; "
-"md5=adcbbbf4adef19bbabbc0244bdaa261e"
+"@@image: 'images/toolbox/smudge-ex-noerasing.jpg'; "
+"md5=6be7d179bedbc27d56dc47d3fb624e61"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/smudge.xml:227(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/smudge-simpletest.jpg'; "
 "md5=d68bf1688ee41cb3a9a6e9cee2b148ac"
 msgstr ""
-"@@image: 'images/toolbox/painting-examples.png'; "
-"md5=69fd6f09fc8fcb9d939fbc60e5314ab6"
+"@@image: 'images/toolbox/smudge-simpletest.jpg'; "
+"md5=d68bf1688ee41cb3a9a6e9cee2b148ac"
 
 #: src/toolbox/paint/smudge.xml:8(title)
 #: src/toolbox/paint/smudge.xml:11(secondary)
@@ -118,16 +112,16 @@ msgid "Smudge tool"
 msgstr "Ferramenta de borrar"
 
 #: src/toolbox/paint/smudge.xml:30(para)
-#, fuzzy
 msgid ""
 "If the <guilabel>Flow</guilabel> option is set to 0.00 (default), the Smudge "
 "tool uses the current brush to smudge colors on the active layer or a "
 "selection. It takes color in passing and uses it to mix it to the next "
 "colors it meets."
 msgstr ""
-"A ferramenta de borrar usa o pincel ativo para borrar as cores na camada "
-"ativa ou seleção. Ela pega as cores por onde passa e as usa para misturar a "
-"cores próximas, numa distancia que você pode determinar."
+"Se a opção <guilabel>Fluxo</guilabel> estiver definida como 0,00 (padrão), a "
+"ferramenta Borrar usa o pincel atual para borrar as cores na camada ativa ou "
+"na seleção. Ela capta a cor por onde passa e a usa para misturá-la às cores "
+"seguintes que encontra."
 
 #: src/toolbox/paint/smudge.xml:38(para)
 msgid ""
@@ -135,12 +129,17 @@ msgid ""
 "works as a brush using the foreground color of the toolbox and blend it with "
 "the underlying color."
 msgstr ""
+"Quando a opção <guilabel>Fluxo</guilabel> é maior que 0,00, a ferramenta "
+"Borrar funciona como um pincel que usa a cor de primeiro plano da caixa de "
+"ferramentas e a mistura com a cor subjacente."
 
 #: src/toolbox/paint/smudge.xml:25(para)
 msgid ""
 "The Smudge tool evokes finger painting . With GIMP-2.10, it works in two "
 "ways: <placeholder-1/>"
 msgstr ""
+"A ferramenta Borrar lembra a pintura com os dedos. Com o GIMP-2.10, ela "
+"funciona de duas maneiras: <placeholder-1/>"
 
 #: src/toolbox/paint/smudge.xml:48(title)
 #: src/toolbox/paint/perspective-clone.xml:37(title)
@@ -160,14 +159,13 @@ msgid "You can find the Smudge tool in various ways :"
 msgstr "Você pode encontrar a ferramenta de borrar de diversas formas:"
 
 #: src/toolbox/paint/smudge.xml:54(para)
-#, fuzzy
 msgid ""
 "through <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
 "guisubmenu><guimenuitem>Smudge</guimenuitem></menuchoice> in the image menu,"
 msgstr ""
-"através do menu na janela de imagem <menuchoice><guimenu>Ferramentas</"
-"guimenu><guisubmenu>Ferramentas de pintura</guisubmenu><guimenuitem>Borrar.</"
-"guimenuitem></menuchoice> "
+"em <menuchoice><guimenu>Ferramentas</guimenu><guisubmenu>Ferramentas de "
+"pintura</guisubmenu><guimenuitem>Borrar</guimenuitem></menuchoice>, no menu "
+"da imagem,"
 
 #: src/toolbox/paint/smudge.xml:65(para)
 msgid ""
@@ -207,7 +205,6 @@ msgid "Shift"
 msgstr "Shift"
 
 #: src/toolbox/paint/smudge.xml:90(para)
-#, fuzzy
 msgid ""
 "The <keycap>Shift</keycap> key places the smudge tool into straight line "
 "mode. Holding <keycap>Shift</keycap> while clicking the mouse "
@@ -215,15 +212,15 @@ msgid ""
 "Consecutive clicks will continue smudging in straight lines that originate "
 "from the end of the last line."
 msgstr ""
-"A tecla <keycap>Shift</keycap> coloca a ferramenta de borrar no modo de "
-"linha reta. Pressionar a tecla <keycap>Shift</keycap> enquanto clica no "
-"<mousebutton>Botão 1</mousebutton> faz com que o borrão seja feito em linha "
-"reta. Clicar consecutivamente fará com que continue a borrar em linhas retas "
-"a partir do fim da linha anterior."
+"A tecla <keycap>Shift</keycap> coloca a ferramenta Borrar no modo de linha "
+"reta. Manter <keycap>Shift</keycap> pressionada enquanto clica com o "
+"<mousebutton>Botão esquerdo</mousebutton> fará borrar em linha reta. Cliques "
+"consecutivos continuarão a borrar em linhas retas que partem do fim da última "
+"linha."
 
 #: src/toolbox/paint/smudge.xml:105(para)
 msgid "Shift click and drag to create line"
-msgstr ""
+msgstr "Clique com Shift e arraste para criar uma linha"
 
 #: src/toolbox/paint/smudge.xml:115(keycap)
 #: src/toolbox/paint/perspective-clone.xml:70(keycap)
@@ -265,27 +262,25 @@ msgid "Options"
 msgstr "Opções"
 
 #: src/toolbox/paint/smudge.xml:131(title)
-#, fuzzy
 msgid "Smudge Options"
-msgstr "Opções de esmaecimento"
+msgstr "Opções de Borrar"
 
 #: src/toolbox/paint/smudge.xml:144(term)
-#, fuzzy
 msgid ""
 "Opacity; Brush; Size; Aspect ratio; Angle; Spacing; Hardness; Force; "
 "Dynamics; Dynamics Options; Apply Jitter; Smooth stroke; Lock brush to zoom"
 msgstr ""
-"Modo; Opacidade; Pincel; Dinâmicas; Opções de dinâmicas; Aplicar "
-"espalhamento; Pincelada suave; Incremental"
+"Opacidade; Pincel; Tamanho; Proporção; Ângulo; Espaçamento; Dureza; Força; "
+"Dinâmicas; Opções de dinâmicas; Aplicar dispersão; Traço suave; Fixar pincel "
+"no zoom"
 
 #: src/toolbox/paint/smudge.xml:151(para)
-#, fuzzy
 msgid ""
 "<guilabel>Hard edge</guilabel>: this option gives a hard contour to the "
 "smudged area."
 msgstr ""
-"<guilabel>Pressão</guilabel>: Pressione com mais força para tornar o pincel "
-"maior."
+"<guilabel>Borda dura</guilabel>: esta opção dá um contorno duro à área "
+"borrada."
 
 #: src/toolbox/paint/smudge.xml:159(term)
 #: src/toolbox/paint/dynamics.xml:461(term)
@@ -299,19 +294,20 @@ msgid ""
 "This option could be called \"Smudge length\" since it sets the length of "
 "the smudging effect in a stroke."
 msgstr ""
+"Esta opção poderia se chamar \"comprimento do borrão\", pois define o "
+"comprimento do efeito de borrar em um traço."
 
 #: src/toolbox/paint/smudge.xml:166(title)
-#, fuzzy
 msgid "Rate example"
-msgstr "Exemplo de pintura"
+msgstr "Exemplo de Taxa"
 
 #: src/toolbox/paint/smudge.xml:173(para)
 msgid "1: Rate=20 2: Rate=60 3: Rate=90"
-msgstr ""
+msgstr "1: Taxa=20 2: Taxa=60 3: Taxa=90"
 
 #: src/toolbox/paint/smudge.xml:183(term)
 msgid "No erasing effect"
-msgstr ""
+msgstr "Sem efeito de apagamento"
 
 #: src/toolbox/paint/smudge.xml:185(para)
 msgid ""
@@ -319,10 +315,13 @@ msgid ""
 "if this option is checked, and so pixels are not erased. This is useful to "
 "fill a gap between two color areas."
 msgstr ""
+"O borrão pode reduzir o alfa de alguns pixels; esse alfa não é reduzido se "
+"esta opção estiver marcada, e assim os pixels não são apagados. Isso é útil "
+"para preencher uma lacuna entre duas áreas de cor."
 
 #: src/toolbox/paint/smudge.xml:193(title)
 msgid "An example of \"No erasing\" from the programmer"
-msgstr ""
+msgstr "Um exemplo de \"Sem apagamento\" do programador"
 
 #: src/toolbox/paint/smudge.xml:205(term)
 #: src/toolbox/paint/dynamics.xml:476(term)
@@ -336,6 +335,9 @@ msgid ""
 "it is set to 0.00 (works as the original Smudge tool) and set to more than "
 "0.00 (uses the foreground color for smudging)."
 msgstr ""
+"Já vimos o comportamento diferente da opção <quote>Fluxo</quote> quando ela é "
+"definida como 0,00 (funciona como a ferramenta Borrar original) e quando é "
+"definida como mais de 0,00 (usa a cor de primeiro plano para borrar)."
 
 #: src/toolbox/paint/smudge.xml:216(para)
 msgid ""
@@ -344,6 +346,10 @@ msgid ""
 "options in <ulink url=\"https://www.gimp-forum.net/Thread-Customized-smudge-"
 "tool-Smudge-with-painting\">gimp-forum.net</ulink>:"
 msgstr ""
+"<quote>Sem efeito de apagamento</quote> e <quote>Fluxo</quote> são opções "
+"novas no GIMP-2.10. Aqui estão comentários e exemplos do programador dessas "
+"opções em <ulink "
+"url=\"https://www.gimp-forum.net/Thread-Customized-smudge-tool-Smudge-with-painting\">gimp-forum.net</ulink>:"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -358,13 +364,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/perspective-clone.xml:102(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/perspective-clone-dialog.png'; "
 "md5=5bb3af540a6841f1ae11a6582fde9f17"
 msgstr ""
-"@@image: 'images/toolbox/perspective-clone-ex2.png'; "
-"md5=cc40688b038715f2ae6a39ecc2c6c58b"
+"@@image: 'images/toolbox/perspective-clone-dialog.png'; "
+"md5=5bb3af540a6841f1ae11a6582fde9f17"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -484,14 +489,14 @@ msgstr ""
 #: src/toolbox/paint/perspective-clone.xml:124(term)
 #: src/toolbox/paint/heal.xml:133(term) src/toolbox/paint/clone.xml:162(term)
 #: src/toolbox/paint/blur-sharpen.xml:142(term)
-#, fuzzy
 msgid ""
 "Mode; Opacity; Brush; Size; Aspect Ratio; Angle; Spacing; Hardness; "
 "Dynamics; Dynamics Options; Force; Apply Jitter; Smooth Stroke; Lock brush "
 "to view"
 msgstr ""
-"Modo; Opacidade; Pincel, Dinâmicas, Opções de dinâmica; Aplicar "
-"espalhamento; Pincelada suave; Borda dura"
+"Modo; Opacidade; Pincel; Tamanho; Proporção; Ângulo; Espaçamento; Dureza; "
+"Dinâmicas; Opções de dinâmicas; Força; Aplicar dispersão; Traço suave; Fixar "
+"pincel na vista"
 
 #: src/toolbox/paint/perspective-clone.xml:131(para)
 #: src/toolbox/paint/clone.xml:169(para)
@@ -499,6 +504,8 @@ msgid ""
 "<guilabel>Hard edge</guilabel>: this option gives a hard contour to the "
 "cloned area."
 msgstr ""
+"<guilabel>Borda dura</guilabel>: esta opção dá um contorno duro à área "
+"clonada."
 
 #: src/toolbox/paint/perspective-clone.xml:138(term)
 msgid "Source, Alignment"
@@ -549,13 +556,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/pencil.xml:119(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/pencil-dialog.png'; "
 "md5=fefa32bb4664bdb9afe4c51d0dc7d391"
 msgstr ""
-"@@image: 'images/toolbox/clone-aligned.png'; "
-"md5=4a45ef2c6883b44b606086e9f249b157"
+"@@image: 'images/toolbox/pencil-dialog.png'; "
+"md5=fefa32bb4664bdb9afe4c51d0dc7d391"
 
 #: src/toolbox/paint/pencil.xml:12(title)
 #: src/toolbox/paint/pencil.xml:15(secondary)
@@ -639,17 +645,16 @@ msgstr ""
 "\">Seletor de cores</link>."
 
 #: src/toolbox/paint/pencil.xml:101(para)
-#, fuzzy
 msgid ""
 "This key places the pencil tool into straight line mode. Holding "
 "<keycap>Shift</keycap> while clicking the mouse <mousebutton>Left&nbsp;"
 "Button</mousebutton> will generate a straight line. Consecutive clicks will "
 "continue drawing straight lines that originate from the end of the last line."
 msgstr ""
-"Essa tecla coloca a ferramenta de lápis no modo de linha reta. Pressionar "
-"<keycap>Shift</keycap> ao clicar no <mousebutton>Botão 1</mousebutton> irá "
-"criar uma linha reta. Cliques consecutivos fará com que se continue a "
-"desenhar linhas retas que serão criadas a partir do fim da última linha."
+"Esta tecla coloca a ferramenta Lápis no modo de linha reta. Manter "
+"<keycap>Shift</keycap> pressionada enquanto clica com o <mousebutton>Botão "
+"esquerdo</mousebutton> gerará uma linha reta. Cliques consecutivos "
+"continuarão a desenhar linhas retas que partem do fim da última linha."
 
 #: src/toolbox/paint/pencil.xml:116(title)
 msgid "<quote>Pencil</quote> Tool options"
@@ -657,14 +662,14 @@ msgstr "Opções da ferramenta de <quote>lápis</quote>"
 
 #: src/toolbox/paint/pencil.xml:128(term)
 #: src/toolbox/paint/paintbrush.xml:110(term)
-#, fuzzy
 msgid ""
 "Mode; Opacity; Brush; Size; Aspect Ratio; Angle; Spacing; Hardness; "
 "Dynamics; Dynamics Options; Force; Apply Jitter; Smooth Stroke; Lock brush "
 "size to view; Incremental"
 msgstr ""
-"Modo; Opacidade; Pincel; Dinâmicas; Opções de dinâmicas; Aplicar "
-"espalhamento; Pincelada suave; Incremental"
+"Modo; Opacidade; Pincel; Tamanho; Proporção; Ângulo; Espaçamento; Dureza; "
+"Dinâmicas; Opções de dinâmicas; Força; Aplicar dispersão; Traço suave; Fixar "
+"tamanho do pincel na vista; Incremental"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -680,13 +685,12 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/paintbrush.xml:101(None)
 #: src/toolbox/paint/common-features.xml:218(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/paintbrush-dialog.png'; "
 "md5=4e622e5ccca6e3ee56eb5bc0a3e3b92b"
 msgstr ""
-"@@image: 'images/toolbox/paint-dynamics-edit.png'; "
-"md5=4e7fdadec93061c937db33e4fad3129d"
+"@@image: 'images/toolbox/paintbrush-dialog.png'; "
+"md5=4e622e5ccca6e3ee56eb5bc0a3e3b92b"
 
 #: src/toolbox/paint/paintbrush.xml:10(title)
 #: src/toolbox/paint/paintbrush.xml:13(secondary)
@@ -755,81 +759,73 @@ msgstr "Opções da ferramenta de pincel"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/MyPaint-brush.xml:20(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-toolbox.png'; "
 "md5=2acda3a4c90fa8e59367ed7299460131"
 msgstr ""
-"@@image: 'images/toolbox/brush-tools-box.png'; "
-"md5=3d07dfea4430df33db57677181604e36"
+"@@image: 'images/toolbox/MyPaint-brush-toolbox.png'; "
+"md5=2acda3a4c90fa8e59367ed7299460131"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/MyPaint-brush.xml:114(None)
 #: src/toolbox/paint/MyPaint-brush.xml:149(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-icon.png'; "
 "md5=cbf69050843707541c4a2e0f16feac4f"
 msgstr ""
-"@@image: 'images/toolbox/paint-dynamics-options.png'; "
-"md5=bc266e69d5687ef9bfc864df56398449"
+"@@image: 'images/toolbox/MyPaint-brush-icon.png'; "
+"md5=cbf69050843707541c4a2e0f16feac4f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/MyPaint-brush.xml:137(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-options.png'; "
 "md5=a799015c3e1c044eacb2aea65dff2dea"
 msgstr ""
-"@@image: 'images/toolbox/paint-dynamics-tuning.png'; "
-"md5=9df6b640c1d102994c1bb00526faa123"
+"@@image: 'images/toolbox/MyPaint-brush-options.png'; "
+"md5=a799015c3e1c044eacb2aea65dff2dea"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/MyPaint-brush.xml:205(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-collection.png'; "
 "md5=0a2c6b2385074286355cea8b0d3d8eb6"
 msgstr ""
-"@@image: 'images/toolbox/tool-options-brushcommon.png'; "
-"md5=a6232246587d237c99f73f6819b0bffe"
+"@@image: 'images/toolbox/MyPaint-brush-collection.png'; "
+"md5=0a2c6b2385074286355cea8b0d3d8eb6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/MyPaint-brush.xml:249(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity.png'; "
 "md5=0425a275d3d24dc3d2a57e94bd71293b"
 msgstr ""
-"@@image: 'images/toolbox/paint-dynamics-edit.png'; "
-"md5=4e7fdadec93061c937db33e4fad3129d"
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity.png'; "
+"md5=0425a275d3d24dc3d2a57e94bd71293b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/MyPaint-brush.xml:276(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-ex-hardness.png'; "
 "md5=24b66a1862f0bac94f5e71cd2971decd"
 msgstr ""
-"@@image: 'images/toolbox/paint-dynamics-edit.png'; "
-"md5=4e7fdadec93061c937db33e4fad3129d"
+"@@image: 'images/toolbox/MyPaint-brush-ex-hardness.png'; "
+"md5=24b66a1862f0bac94f5e71cd2971decd"
 
 #: src/toolbox/paint/MyPaint-brush.xml:6(title)
 #: src/toolbox/paint/MyPaint-brush.xml:10(secondary)
 #: src/toolbox/paint/MyPaint-brush.xml:12(primary)
-#, fuzzy
 msgid "MyPaint Brush"
-msgstr "Pincel"
+msgstr "Pincel MyPaint"
 
 #: src/toolbox/paint/MyPaint-brush.xml:15(title)
-#, fuzzy
 msgid "MyPaint Brush Tool"
-msgstr "Pincel"
+msgstr "Ferramenta Pincel MyPaint"
 
 #: src/toolbox/paint/MyPaint-brush.xml:25(para)
 msgid ""
@@ -838,22 +834,31 @@ msgid ""
 "be used by other programs. <acronym>GIMP-2.10</acronym> can use these "
 "brushes."
 msgstr ""
+"O <acronym>MyPaint</acronym> é um programa de pintura livre que vem com "
+"muitos pincéis específicos. O Libmypaint foi modificado em 2016 de uma forma "
+"que pode ser usada por outros programas. O <acronym>GIMP-2.10</acronym> pode "
+"usar esses pincéis."
 
 #: src/toolbox/paint/MyPaint-brush.xml:32(para)
 msgid ""
 "You can find many collections of MyPaint brushes throughout the Web, in a "
 "compressed format, often in a .zip file. Unzip this file into a temp folder."
 msgstr ""
+"Você pode encontrar muitas coleções de pincéis MyPaint na Web, em formato "
+"compactado, geralmente em um arquivo .zip. Descompacte esse arquivo em uma "
+"pasta temporária."
 
 #: src/toolbox/paint/MyPaint-brush.xml:39(title)
 msgid "Installing MyPaint Brushes"
-msgstr ""
+msgstr "Instalando pincéis MyPaint"
 
 #: src/toolbox/paint/MyPaint-brush.xml:50(para)
 msgid ""
 "<emphasis>Under Linux</emphasis>: /home/YourUserName/.mypaint/brushes. Take "
 "good note it is a hidden directory."
 msgstr ""
+"<emphasis>No Linux</emphasis>: /home/SeuNomeDeUsuário/.mypaint/brushes. "
+"Observe bem que é um diretório oculto."
 
 #: src/toolbox/paint/MyPaint-brush.xml:55(para)
 msgid ""
@@ -861,12 +866,17 @@ msgid ""
 "Go to your personal MyPaint folder. If it does not exist yet, you have to "
 "create it, with the brushes directory inside."
 msgstr ""
+"Abra seu gerenciador de arquivos. Marque a opção <quote>Mostrar arquivos "
+"ocultos</quote>. Vá até sua pasta pessoal do MyPaint. Se ela ainda não "
+"existir, você precisa criá-la, com o diretório brushes dentro."
 
 #: src/toolbox/paint/MyPaint-brush.xml:60(para)
 msgid ""
 "Copy-paste all the unzipped files from your temp folder to home/"
 "YourUserName/.mypaint/brushes."
 msgstr ""
+"Copie e cole todos os arquivos descompactados da pasta temporária em "
+"home/SeuNomeDeUsuário/.mypaint/brushes."
 
 #: src/toolbox/paint/MyPaint-brush.xml:66(para)
 msgid ""
@@ -875,68 +885,77 @@ msgid ""
 "browser. In the root of your home folder, create a new folder\"mypaint\". "
 "The MyPaint path in Preferences becomes C:\\Users\\your-user-name\\mypaint."
 msgstr ""
+"<emphasis>No Windows 10 (e GIMP 2.10)</emphasis>: ~\\.mypaint\\brushes. "
+"Clique neste item para selecioná-lo e clique no ícone que abre um gerenciador "
+"de arquivos. Na raiz da sua pasta pessoal, crie uma nova pasta \"mypaint\". O "
+"caminho do MyPaint nas Preferências passa a ser "
+"C:\\Users\\seu-nome-de-usuário\\mypaint."
 
 #: src/toolbox/paint/MyPaint-brush.xml:73(para)
 msgid ""
 "Copy-paste all the unzipped files from your temp folder to C:\\Users\\your-"
 "user-name\\mypaint."
 msgstr ""
+"Copie e cole todos os arquivos descompactados da pasta temporária em "
+"C:\\Users\\seu-nome-de-usuário\\mypaint."
 
 #: src/toolbox/paint/MyPaint-brush.xml:40(para)
-#, fuzzy
 msgid ""
 "First go to <menuchoice><guimenu>Preferences</guimenu><guisubmenu>Folders</"
 "guisubmenu><guimenuitem>MyPaint Brushes</guimenuitem></menuchoice>. There, "
 "you will find the path to your personal Mypaint folder. <placeholder-1/>"
 msgstr ""
-"através do menu na janela de imagem <menuchoice><guimenu>Ferramentas</"
-"guimenu><guisubmenu>Ferramentas de pintura</guisubmenu><guimenuitem>Borrar.</"
-"guimenuitem></menuchoice> "
+"Primeiro vá em "
+"<menuchoice><guimenu>Preferências</guimenu><guisubmenu>Pastas</guisubmenu><guimenuitem>Pincéis "
+"MyPaint</guimenuitem></menuchoice>. Lá você encontrará o caminho para sua "
+"pasta pessoal do MyPaint. <placeholder-1/>"
 
 #: src/toolbox/paint/MyPaint-brush.xml:80(para)
 msgid ""
 "Activate the tool as below: you should have got a MyPaint brush icon in the "
 "tool options dialog. Click on this icon to display all MyPaint brushes."
 msgstr ""
+"Ative a ferramenta como abaixo: você deve ter um ícone de pincel MyPaint na "
+"caixa de diálogo de opções da ferramenta. Clique nesse ícone para exibir "
+"todos os pincéis MyPaint."
 
 #: src/toolbox/paint/MyPaint-brush.xml:98(para)
-#, fuzzy
 msgid ""
 "From the image-menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
 "Tools</guisubmenu><guimenuitem>MyPaint Brush</guimenuitem></menuchoice>,"
 msgstr ""
-"Através do menu da janela de imagem: <menuchoice><guimenu>Ferramentas</"
-"guimenu><guisubmenu>Ferramentas de pintura</"
-"guisubmenu><guimenuitem>Restaurar</guimenuitem></menuchoice>,"
+"No menu da imagem: "
+"<menuchoice><guimenu>Ferramentas</guimenu><guisubmenu>Ferramentas de "
+"pintura</guisubmenu><guimenuitem>Pincel MyPaint</guimenuitem></menuchoice>,"
 
 #: src/toolbox/paint/MyPaint-brush.xml:109(para)
-#, fuzzy
 msgid "The Tool can also be called by clicking the tool icon: <placeholder-1/>"
 msgstr ""
-"A ferramenta também pode ser ativada ao clicar no ícone da ferramenta: "
-"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-dodge-22.png\"/"
-"></guiicon>,"
+"A ferramenta também pode ser chamada clicando no ícone da ferramenta: "
+"<placeholder-1/>"
 
 #: src/toolbox/paint/MyPaint-brush.xml:122(para)
-#, fuzzy
 msgid "or by clicking on the <keycap>Y</keycap> keyboard shortcut."
-msgstr "ou clicando no atalho de teclado <keycap>N</keycap>"
+msgstr "ou clicando no atalho de teclado <keycap>Y</keycap>."
 
 #: src/toolbox/paint/MyPaint-brush.xml:133(title)
-#, fuzzy
 msgid "MyPaint Brush Tool Options"
-msgstr "Opções da ferramenta de pincel"
+msgstr "Opções da ferramenta Pincel MyPaint"
 
 #: src/toolbox/paint/MyPaint-brush.xml:142(para)
 msgid ""
 "The available tool options can be accessed by double clicking the Mypaint "
 "brush tool icon. <placeholder-1/>"
 msgstr ""
+"As opções disponíveis da ferramenta podem ser acessadas clicando duas vezes "
+"no ícone da ferramenta Pincel MyPaint. <placeholder-1/>"
 
 #: src/toolbox/paint/MyPaint-brush.xml:155(para)
 msgid ""
 "Options may act somewhat differently according to the MyPaint brush you use."
 msgstr ""
+"As opções podem se comportar de modo um pouco diferente conforme o pincel "
+"MyPaint usado."
 
 #: src/toolbox/paint/MyPaint-brush.xml:162(term)
 #: src/toolbox/paint/eraser.xml:192(term)
@@ -951,30 +970,27 @@ msgid ""
 "To set the opacity of the brush (0.0 - 100.0). Opacity depends on a base: "
 "please see below."
 msgstr ""
+"Define a opacidade do pincel (0,0 - 100,0). A opacidade depende de uma base: "
+"veja abaixo."
 
 #: src/toolbox/paint/MyPaint-brush.xml:172(term)
-#, fuzzy
 msgid "Smooth stroke"
-msgstr "Pincelada suave"
+msgstr "Traço suave"
 
 #: src/toolbox/paint/MyPaint-brush.xml:174(para)
 msgid ""
 "If this option is checked, strokes are smoother. Two options are available:"
 msgstr ""
+"Se esta opção estiver marcada, os traços ficam mais suaves. Duas opções estão "
+"disponíveis:"
 
 #: src/toolbox/paint/MyPaint-brush.xml:180(para)
-#, fuzzy
 msgid "<guilabel>Quality</guilabel>: TODO"
-msgstr ""
-"<guilabel>Rodinha</guilabel>: O tamanho do pincel depende da posição da "
-"rodinha."
+msgstr "<guilabel>Qualidade</guilabel>: TODO"
 
 #: src/toolbox/paint/MyPaint-brush.xml:185(para)
-#, fuzzy
 msgid "<guilabel>Weight</guilabel>: TODO"
-msgstr ""
-"<guilabel>Rodinha</guilabel>: O tamanho do pincel depende da posição da "
-"rodinha."
+msgstr "<guilabel>Peso</guilabel>: TODO"
 
 #: src/toolbox/paint/MyPaint-brush.xml:194(term)
 #: src/toolbox/paint/common-features.xml:262(secondary)
@@ -988,20 +1004,24 @@ msgid ""
 "The icon of the active brush is displayed. If you click on it, the MyPaint "
 "brushes list is displayed and you can select another brush"
 msgstr ""
+"O ícone do pincel ativo é exibido. Se você clicar nele, a lista de pincéis "
+"MyPaint é exibida e você pode selecionar outro pincel"
 
 #: src/toolbox/paint/MyPaint-brush.xml:201(title)
 msgid "A collection of MyPaint brushes"
-msgstr ""
+msgstr "Uma coleção de pincéis MyPaint"
 
 #: src/toolbox/paint/MyPaint-brush.xml:209(para)
 msgid ""
 "In the bottom bar of the dialog, you have buttons for smaller or larger "
 "icons, and view as list or as grid."
 msgstr ""
+"Na barra inferior da caixa de diálogo, há botões para ícones menores ou "
+"maiores e para visualizar como lista ou como grade."
 
 #: src/toolbox/paint/MyPaint-brush.xml:217(term)
 msgid "Erase with this brush"
-msgstr ""
+msgstr "Apagar com este pincel"
 
 #: src/toolbox/paint/MyPaint-brush.xml:219(para)
 msgid ""
@@ -1009,20 +1029,21 @@ msgid ""
 "tool, erased areas are transparent if there is an alpha layer, have the "
 "background color if there is no alpha layer."
 msgstr ""
+"Se esta opção estiver marcada, o pincel atua como uma borracha. Assim como na "
+"ferramenta Borracha, as áreas apagadas ficam transparentes se houver uma "
+"camada alfa, e recebem a cor de fundo se não houver camada alfa."
 
 #: src/toolbox/paint/MyPaint-brush.xml:228(term)
-#, fuzzy
 msgid "Radius"
-msgstr "Radial"
+msgstr "Raio"
 
 #: src/toolbox/paint/MyPaint-brush.xml:230(para)
 msgid "To set the radius of the brush."
-msgstr ""
+msgstr "Define o raio do pincel."
 
 #: src/toolbox/paint/MyPaint-brush.xml:237(term)
-#, fuzzy
 msgid "Base opacity"
-msgstr "Opacidade do pincel"
+msgstr "Opacidade base"
 
 #: src/toolbox/paint/MyPaint-brush.xml:239(para)
 msgid ""
@@ -1030,11 +1051,13 @@ msgid ""
 "this option to 0.50, the maximal opacity becomes 100 * 0.50 = 50, although "
 "it is still 100.0 in the Opacity option."
 msgstr ""
+"Esses valores (0,00 - 2,00) são fatores multiplicadores: se, por exemplo, "
+"você definir esta opção como 0,50, a opacidade máxima passa a ser 100 * 0,50 "
+"= 50, embora ainda conste 100,0 na opção Opacidade."
 
 #: src/toolbox/paint/MyPaint-brush.xml:245(title)
-#, fuzzy
 msgid "Base opacity example"
-msgstr "Exemplo de pintura"
+msgstr "Exemplo de opacidade base"
 
 #: src/toolbox/paint/MyPaint-brush.xml:253(para)
 msgid ""
@@ -1044,6 +1067,11 @@ msgid ""
 "* 1.00 = 50. But this possibility is useful when your Mypaint brush has a "
 "default opacity less than 100."
 msgstr ""
+"A opacidade base pode ultrapassar 1,00, chegando a 2,00. Naturalmente, a "
+"opacidade não pode ultrapassar 100. No exemplo, você pode ver que uma opção "
+"de opacidade acima de 50 (100 * 2,00 = 200) na verdade é uma opacidade de "
+"100, e 25 * 200 = 50 equivale a 50 * 1,00 = 50. Mas essa possibilidade é útil "
+"quando seu pincel MyPaint tem uma opacidade padrão menor que 100."
 
 #: src/toolbox/paint/MyPaint-brush.xml:264(term)
 #: src/toolbox/paint/dynamics.xml:360(term)
@@ -1056,15 +1084,16 @@ msgid ""
 "The harder the brush the sharper the brush. When you reduce hardness, the "
 "Mypaint brush may not act if the the brush size is too small."
 msgstr ""
+"Quanto mais duro o pincel, mais nítido ele é. Quando você reduz a dureza, o "
+"pincel MyPaint pode não atuar se o tamanho do pincel for muito pequeno."
 
 #: src/toolbox/paint/MyPaint-brush.xml:272(title)
-#, fuzzy
 msgid "Hardness example"
-msgstr "Dureza"
+msgstr "Exemplo de dureza"
 
 #: src/toolbox/paint/MyPaint-brush.xml:279(para)
 msgid "This MyPaint brush doesn't act when hardness is less than 0.70."
-msgstr ""
+msgstr "Este pincel MyPaint não atua quando a dureza é menor que 0,70."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1200,9 +1229,8 @@ msgid ""
 "of 0 does not result in a nib of size zero, but rather a nib of minimum size."
 msgstr ""
 "Isso controla o tamanho da abertura de tinta na ponta da caneta (portanto, "
-"<quote>quanta tinta passa</quote>), do minimo ao máximo. Perceba que o "
-"tamanho 0 não resulta numa abertura de tamanho zero, mas sim numa abertura "
-"de tamanho mínimo."
+"quanta tinta passa), do minimo ao máximo. Perceba que o tamanho 0 não resulta "
+"numa abertura de tamanho zero, mas sim numa abertura de tamanho mínimo."
 
 #: src/toolbox/paint/ink.xml:148(term)
 msgid "Tilt"
@@ -1272,24 +1300,22 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/heal.xml:124(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/heal-dialog.png'; "
 "md5=8ed8f672f7ce0086ef9cf4dd3b7ed412"
 msgstr ""
-"@@image: 'images/toolbox/clone-aligned.png'; "
-"md5=4a45ef2c6883b44b606086e9f249b157"
+"@@image: 'images/toolbox/heal-dialog.png'; "
+"md5=8ed8f672f7ce0086ef9cf4dd3b7ed412"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/heal.xml:181(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/heal-compar.png'; "
 "md5=44e17c6f494c975f075af6d8a4b43540"
 msgstr ""
 "@@image: 'images/toolbox/heal-compar.png'; "
-"md5=920f5f8c9590a7870b8206c8df35ec15"
+"md5=44e17c6f494c975f075af6d8a4b43540"
 
 #: src/toolbox/paint/heal.xml:8(title) src/toolbox/paint/heal.xml:11(secondary)
 #: src/toolbox/paint/heal.xml:14(primary)
@@ -1323,7 +1349,6 @@ msgstr ""
 
 # ** EEek: waht is with the 'drage the sample' phraisng? there is no such behavior - just plain click-to-paint.
 #: src/toolbox/paint/heal.xml:36(para)
-#, fuzzy
 msgid ""
 "To use it, first choose a brush with a size adapted to the defect. Then "
 "<keycap>Ctrl</keycap>-click on the area you want to reproduce. Release the "
@@ -1332,13 +1357,12 @@ msgid ""
 "corrected as soon. Else, you can correct it with repeated clicks, but with a "
 "risk of daubing."
 msgstr ""
-"Para usá-la, primeiro escolha um pincel com o tamanho apropriado para o "
-"defeito. Então pressione a tecla <keycap>Ctrl</keycap> enquanto clica na "
-"área que você deseja reproduzir. Solte a tecla <keycap>Ctrl</keycap>, mova o "
-"ponteiro até o defeito, e clique novamente. Clique. Se o defeito é suave, "
-"não muito diferente da área a seu redor, então ele será corrigido "
-"rapidamente. Você também pode corrigir com repetidos cliques, mas corre o "
-"risco de criar uma mancha."
+"Para usá-la, primeiro escolha um pincel com tamanho adequado ao defeito. Em "
+"seguida, clique com <keycap>Ctrl</keycap> na área que você quer reproduzir. "
+"Solte a tecla <keycap>Ctrl</keycap> e arraste a amostra até o defeito. "
+"Clique. Se o defeito for leve, não muito diferente do entorno, ele será "
+"corrigido rapidamente. Caso contrário, você pode corrigi-lo com cliques "
+"repetidos, mas correndo o risco de borrar."
 
 #: src/toolbox/paint/heal.xml:52(para)
 msgid ""
@@ -1400,13 +1424,12 @@ msgid "Heal Tool options"
 msgstr "Opções da ferramenta de restauração"
 
 #: src/toolbox/paint/heal.xml:140(para)
-#, fuzzy
 msgid ""
 "<guilabel>Hard edge</guilabel>: this option gives a hard contour to the "
 "healed area."
 msgstr ""
-"<guilabel>Pressão</guilabel>: Pressione com mais força para tornar a "
-"pincelada menos transparente."
+"<guilabel>Borda dura</guilabel>: esta opção dá um contorno duro à área "
+"corrigida."
 
 #: src/toolbox/paint/heal.xml:147(term) src/toolbox/paint/clone.xml:220(term)
 msgid "Sample merged"
@@ -1425,6 +1448,8 @@ msgid ""
 "See <xref linkend=\"gimp-tool-clone\"/> for using Sample Merged in non-"
 "destructive image editing."
 msgstr ""
+"Consulte <xref linkend=\"gimp-tool-clone\"/> para usar Amostra combinada em "
+"edição não destrutiva de imagem."
 
 #: src/toolbox/paint/heal.xml:160(term) src/toolbox/paint/clone.xml:250(term)
 msgid "Alignment"
@@ -1456,24 +1481,25 @@ msgstr "Comparando <quote>Clonagem</quote> e <quote>Restauração</quote>"
 
 #: src/toolbox/paint/heal.xml:184(para)
 msgid "Cloning on the left. All colors are transferred."
-msgstr ""
+msgstr "Clonagem à esquerda. Todas as cores são transferidas."
 
 #: src/toolbox/paint/heal.xml:187(para)
 msgid ""
 "Healing on the right. Colors are much less transferred, especially on "
 "borders where surrounding pixels of destination are taken in account."
 msgstr ""
+"Correção à direita. Muito menos cores são transferidas, especialmente nas "
+"bordas, onde os pixels vizinhos do destino são levados em conta."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:108(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/toolbox-gradient.png'; "
 "md5=13a8c03679350c949cb1043a88baece6"
 msgstr ""
 "@@image: 'images/toolbox/toolbox-gradient.png'; "
-"md5=388c9a7f96f7778f139f651e2252945f"
+"md5=13a8c03679350c949cb1043a88baece6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1588,123 +1614,112 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:365(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/gradient-repeat-none.png'; "
 "md5=3efe0129b4aa07efd401cd05a4ea3f55"
 msgstr ""
-"@@image: 'images/tool-options/gradient-ang-shapeburst.png'; "
-"md5=4ec1139b49560da41c1efb1f0504d31c"
+"@@image: 'images/tool-options/gradient-repeat-none.png'; "
+"md5=3efe0129b4aa07efd401cd05a4ea3f55"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:378(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/gradient-repeat-sawtooth.png'; "
 "md5=82fb202c0ff19981c945d9873df4b277"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-sawtooth.png'; "
-"md5=efdcc25a545271f79509108933d43a17"
+"@@image: 'images/tool-options/gradient-repeat-sawtooth.png'; "
+"md5=82fb202c0ff19981c945d9873df4b277"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:391(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/gradient-repeat-triangular.png'; "
 "md5=4236c28e4a101c917beedecaae133eb0"
 msgstr ""
-"@@image: 'images/tool-options/gradient-spher-shapeburst.png'; "
-"md5=22f449b03112bd3611ae15d2e0e2d58c"
+"@@image: 'images/tool-options/gradient-repeat-triangular.png'; "
+"md5=4236c28e4a101c917beedecaae133eb0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:403(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/gradient-repeat-truncate.png'; "
 "md5=f327539f5d1052a2890fb5daf8745b18"
 msgstr ""
-"@@image: 'images/tool-options/gradient-linear.png'; "
-"md5=b0c82f501780b3f35d2f581718dea7ed"
+"@@image: 'images/tool-options/gradient-repeat-truncate.png'; "
+"md5=f327539f5d1052a2890fb5daf8745b18"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:443(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/gradient-tool-offset.png'; "
 "md5=db72ac2d72ac2104759dd45635b6631d"
 msgstr ""
-"@@image: 'images/toolbox/blend-tool-offset.png'; "
+"@@image: 'images/toolbox/gradient-tool-offset.png'; "
 "md5=db72ac2d72ac2104759dd45635b6631d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:513(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/gradient-endpoint.png'; "
 "md5=34b149e5103398d533531c1f1b1244c9"
 msgstr ""
-"@@image: 'images/tool-options/gradient-ang-shapeburst.png'; "
-"md5=4ec1139b49560da41c1efb1f0504d31c"
+"@@image: 'images/toolbox/gradient-endpoint.png'; "
+"md5=34b149e5103398d533531c1f1b1244c9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:534(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/gradient-endpoint-move.png'; "
 "md5=2a4b00fdb0d7aae2ed2908c90eda9a3c"
 msgstr ""
-"@@image: 'images/toolbox/mode-dissolve.png'; "
-"md5=4d0cc7ad35249623981c040171445a73"
+"@@image: 'images/toolbox/gradient-endpoint-move.png'; "
+"md5=2a4b00fdb0d7aae2ed2908c90eda9a3c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:559(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/gradient-stop.png'; "
 "md5=fd3a87253e5562146d5f1f578ffa3157"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-sawtooth.png'; "
-"md5=efdcc25a545271f79509108933d43a17"
+"@@image: 'images/toolbox/gradient-stop.png'; "
+"md5=fd3a87253e5562146d5f1f578ffa3157"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:579(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/gradient-midpoint.png'; "
 "md5=51e437782be219770dc237adb70f3cb4"
 msgstr ""
-"@@image: 'images/toolbox/paint-dynamics-edit.png'; "
-"md5=4e7fdadec93061c937db33e4fad3129d"
+"@@image: 'images/toolbox/gradient-midpoint.png'; "
+"md5=51e437782be219770dc237adb70f3cb4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:597(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/gradient-step-orig.jpg'; "
 "md5=9c959c96fe4b6ad97007f4158fb09eb9"
 msgstr ""
-"@@image: 'images/toolbox/toolbox-gradient.png'; "
-"md5=388c9a7f96f7778f139f651e2252945f"
+"@@image: 'images/toolbox/gradient-step-orig.jpg'; "
+"md5=9c959c96fe4b6ad97007f4158fb09eb9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/gradient.xml:608(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/gradient-step.jpg'; "
 "md5=aa7d1bd29075e8e2b324aa3c5cd8f4f7"
 msgstr ""
-"@@image: 'images/toolbox/toolbox-gradient.png'; "
-"md5=388c9a7f96f7778f139f651e2252945f"
+"@@image: 'images/toolbox/gradient-step.jpg'; "
+"md5=aa7d1bd29075e8e2b324aa3c5cd8f4f7"
 
 #: src/toolbox/paint/gradient.xml:8(title)
 #: src/toolbox/paint/gradient.xml:10(primary)
@@ -1719,7 +1734,6 @@ msgid "Tool"
 msgstr "Ferramenta"
 
 #: src/toolbox/paint/gradient.xml:21(para)
-#, fuzzy
 msgid ""
 "This tool fills the selected area with a gradient from the foreground and "
 "background colors by default, but there are many options. To make a "
@@ -1728,15 +1742,11 @@ msgid ""
 "size of your gradient. The softness of the gradient depends on how far you "
 "drag the cursor. The shorter the drag distance, the sharper it will be."
 msgstr ""
-"Essa ferramenta preenche a área selecionada com um degradê das cores frente "
-"e de fundo por padrão, mas existem outras opções. Para produzir um degradê, "
-"arraste o cursor na direção que você deseja que o degradê avance, e solte o "
-"botão do mouse quando você sentir que tem a posição certa e o tamanho do seu "
-"degradê. A suavidade do degradê depende de quão longe você arrasta o cursor. "
-"Quanto mais curta for a distância, mais brusco ele será. Vale mencionar que "
-"o nome em inglês dessa ferramenta é <quote>Blend Tool</quote>, que ao pé da "
-"letra seria ferramenta de <quote>Mistura</quote> &mdash; pode acontecer de "
-"você encontrar trechos do manual, ou no próprio GIMP usando esse outro nome."
+"Esta ferramenta preenche a área selecionada com um degradê das cores de "
+"primeiro plano e de fundo por padrão, mas há muitas opções. Para criar um "
+"degradê, arraste o cursor na direção desejada e solte o botão do mouse quando "
+"achar que a posição e o tamanho estão certos. A suavidade do degradê depende "
+"da distância arrastada: quanto menor a distância, mais brusco ele será."
 
 #: src/toolbox/paint/gradient.xml:29(para)
 msgid ""
@@ -1744,12 +1754,17 @@ msgid ""
 "gradient. With GIMP-2.10, this gradient editor still exists, but you can now "
 "edit it more easily directly on canvas."
 msgstr ""
+"Em versões anteriores do GIMP, era preciso usar o editor de degradês para "
+"modificar o degradê. Com o GIMP-2.10, esse editor ainda existe, mas agora "
+"você pode editá-lo mais facilmente diretamente na tela."
 
 #: src/toolbox/paint/gradient.xml:34(para)
 msgid ""
 "If you click and drag outside the selection, only a part of the gradient "
 "will appear in the selection."
 msgstr ""
+"Se você clicar e arrastar fora da seleção, apenas parte do degradê aparecerá "
+"na seleção."
 
 #: src/toolbox/paint/gradient.xml:38(para)
 msgid ""
@@ -1803,10 +1818,9 @@ msgid ""
 "(even with full opacity) will result in fantastic swirling patterns, "
 "changing and adding every time you drag the cursor."
 msgstr ""
-"Confira a opção de <quote>Diferença</quote> no menu modo, onde fazer a mesma "
-"coisa (mesmo com opacidade total) irá resultar em fantásticas textura de "
-"redemoinho, se alterando e ficando mais complexas a cada vez que você repete "
-"a operação."
+"Confira a opção de Diferença no menu modo, onde fazer a mesma coisa (mesmo "
+"com opacidade total) irá resultar em fantásticas textura de redemoinho, se "
+"alterando e ficando mais complexas a cada vez que você repete a operação."
 
 #: src/toolbox/paint/gradient.xml:76(para)
 msgid ""
@@ -1818,26 +1832,22 @@ msgstr ""
 "guimenuitem></menuchoice>."
 
 #: src/toolbox/paint/gradient.xml:86(para)
-#, fuzzy
 msgid ""
 "By clicking the tool icon <guiicon><inlinegraphic fileref=\"images/toolbox/"
 "stock-tool-gradient-22.png\"/></guiicon>."
 msgstr ""
-"Clicando no ícone da ferramenta <guiicon><inlinegraphic fileref=\"images/"
-"toolbox/stock-tool-blend-22.png\"/></guiicon>."
+"Clicando no ícone da ferramenta <guiicon><inlinegraphic "
+"fileref=\"images/toolbox/stock-tool-gradient-22.png\"/></guiicon>."
 
 #: src/toolbox/paint/gradient.xml:94(para)
-#, fuzzy
 msgid "By clicking on the <keycap>G</keycap> keyboard shortcut."
-msgstr "Clicando no atalho de teclado <keycap>L</keycap>."
+msgstr "Clicando no atalho de teclado <keycap>G</keycap>."
 
 #: src/toolbox/paint/gradient.xml:104(title)
-#, fuzzy
 msgid "The Gradient tool dialog"
-msgstr "A ferramenta de degradês na caixa de ferramentas"
+msgstr "A caixa de diálogo da ferramenta Degradê"
 
 #: src/toolbox/paint/gradient.xml:124(para)
-#, fuzzy
 msgid ""
 "A variety of gradient patterns can be selected from the drop-down list. The "
 "tool causes a shading pattern that transitions from foreground to background "
@@ -1847,18 +1857,17 @@ msgid ""
 "direction with the effect, for instance, of swapping the foreground and "
 "background colors."
 msgstr ""
-"Uma variedade de texturas de degradê podem ser selecionadas a partir da "
-"lista de seleção. A ferramenta cria uma textura com uma variação de cores "
-"que vai da cor de frente até a cor de fundo ou outras cores introduzidas, na "
-"direção que o usuário determinar ao desenhar a linha na imagem. Para os "
-"propósitos de desenhar o degradê, a caixa de seleção <guilabel>Inverter</"
-"guilabel><guiicon><inlinegraphic fileref=\"images/dialogs/stock-flip-"
-"horizontal-16.png\"/></guiicon> reverter a direção do degradê com o efeito, "
-"por um instante, de formatar as cores de frente e de fundo."
+"Uma variedade de padrões de degradê pode ser selecionada na lista suspensa. A "
+"ferramenta cria um padrão de sombreamento que transita da cor de primeiro "
+"plano para a de fundo ou introduz outras cores, na direção que o usuário "
+"determinar desenhando uma linha na imagem. Para os fins de desenhar o "
+"degradê, clicar em <guibutton>Reverter</guibutton> inverte a direção do "
+"degradê, com o efeito, por exemplo, de trocar as cores de primeiro plano e de "
+"fundo."
 
 #: src/toolbox/paint/gradient.xml:134(para)
 msgid "On the right hand, a button to open the Gradient Editor dialog."
-msgstr ""
+msgstr "À direita, um botão para abrir a caixa de diálogo Editor de degradês."
 
 #: src/toolbox/paint/gradient.xml:143(para)
 msgid ""
@@ -1994,8 +2003,8 @@ msgid ""
 "where the line is drawn."
 msgstr ""
 "<guilabel>Cônico (assimétrico)</guilabel> é similar ao <guilabel>Cônico "
-"(simétrico)</guilabel> exceto que o <quote>cone</quote> parece ter um cume "
-"aonde a linha é desenhada."
+"(simétrico)</guilabel> exceto que o cone parece ter um cume aonde a linha é "
+"desenhada."
 
 #: src/toolbox/paint/gradient.xml:316(term)
 msgid "Spiral (clockwise); Spiral (counterclockwise)"
@@ -2026,39 +2035,34 @@ msgid "Repeat"
 msgstr "Repetir"
 
 #: src/toolbox/paint/gradient.xml:359(para)
-#, fuzzy
 msgid "<guilabel>None</guilabel> as default."
-msgstr ""
-"<guilabel>Rodinha</guilabel>: A opacidade depende da posição da rodinha"
+msgstr "<guilabel>Nenhum</guilabel> como padrão."
 
 #: src/toolbox/paint/gradient.xml:370(para)
-#, fuzzy
 msgid ""
 "<guilabel>Sawtooth Wave</guilabel>: the Sawtooth pattern is achieved by "
 "beginning with the foreground, transitioning to the background, then "
 "starting over with the foreground."
 msgstr ""
-"Existem dois modos de repetir: <guilabel>onda de serra</guilabel> e "
-"<guilabel>onda triangular</guilabel>. A textura de serra é conseguida "
-"começando pela cor de frente, passando por uma transição para a cor de "
-"fundo, e então começando novamente com a cor de frente. A triangular começa "
-"com a cor de frente, passando uma transição para a cor de fundo, e então "
-"sofrendo uma nova transição para a cor de frente."
+"<guilabel>Onda dente de serra</guilabel>: o padrão dente de serra é obtido "
+"começando pela cor de primeiro plano, transitando para a cor de fundo e "
+"recomeçando com a cor de primeiro plano."
 
 #: src/toolbox/paint/gradient.xml:383(para)
 msgid ""
 "<guilabel>Triangular Wave</guilabel>: starts with the foreground, "
 "transitions to the background, then transitions back to the foreground."
 msgstr ""
+"<guilabel>Onda triangular</guilabel>: começa com a cor de primeiro plano, "
+"transita para a cor de fundo e então retorna à cor de primeiro plano."
 
 #: src/toolbox/paint/gradient.xml:396(para)
-#, fuzzy
 msgid ""
 "<guilabel>Truncate</guilabel>: areas before and after endpoints are "
 "truncated."
 msgstr ""
-"<guilabel>Pressão</guilabel>: Pressione com mais força para tornar a "
-"pincelada menos transparente."
+"<guilabel>Truncar</guilabel>: as áreas antes e depois dos pontos extremos são "
+"truncadas."
 
 #: src/toolbox/paint/gradient.xml:411(term)
 msgid "Dithering"
@@ -2097,10 +2101,10 @@ msgid ""
 "quote> of the gradient. It determines how far from the clicked starting "
 "point the gradient will begin. Shaped forms are not affected by this option."
 msgstr ""
-"O valor de <guilabel>deslocamento</guilabel> permite aumentar a "
-"<quote>declividade</quote> do degradê. Isso determina o quão distante do "
-"ponto inicial o degradê começará. A opçãode <quote>Acompanha forma</quote> "
-"não é afetadas por essa opção."
+"O valor de <guilabel>Deslocamento</guilabel> permite aumentar a "
+"<quote>inclinação</quote> do degradê. Ele determina a que distância do ponto "
+"inicial clicado o degradê começará. Formas moldadas não são afetadas por esta "
+"opção."
 
 #: src/toolbox/paint/gradient.xml:439(title)
 msgid "<quote>Blend</quote> tool: Offset example"
@@ -2112,13 +2116,15 @@ msgstr "Parte superior, deslocamento = 0 ; Parte inferior, deslocamento = 50%"
 
 #: src/toolbox/paint/gradient.xml:453(term)
 msgid "Instant mode"
-msgstr ""
+msgstr "Modo instantâneo"
 
 #: src/toolbox/paint/gradient.xml:456(para)
 msgid ""
 "The option must be activated (with <keycap>Shift</keycap> also) before "
 "starting drawing gradient."
 msgstr ""
+"A opção deve ser ativada (com <keycap>Shift</keycap> também) antes de começar "
+"a desenhar o degradê."
 
 #: src/toolbox/paint/gradient.xml:461(para)
 msgid ""
@@ -2126,10 +2132,14 @@ msgid ""
 "gradient line disappears as soon as you release the mouse button. You can't "
 "edit color stops before applying the gradient fill."
 msgstr ""
+"Quando esta opção está marcada, a ferramenta Degradê funciona como no "
+"GIMP-2.8: a linha do degradê desaparece assim que você solta o botão do "
+"mouse. Você não pode editar as paradas de cor antes de aplicar o "
+"preenchimento do degradê."
 
 #: src/toolbox/paint/gradient.xml:470(term)
 msgid "Modify active gradient"
-msgstr ""
+msgstr "Modificar degradê ativo"
 
 #: src/toolbox/paint/gradient.xml:472(para)
 msgid ""
@@ -2139,19 +2149,23 @@ msgid ""
 "gradient is not the custom gradient. Allows changing user-writable gradients "
 "directly rather than creating copies of them."
 msgstr ""
+"Quando esta opção está marcada, a ferramenta Degradê funciona como no "
+"GIMP-2.8: o degradê personalizado não é criado automaticamente e deve ser "
+"criado manualmente. A opção pode ser ativada antes de começar a desenhar o "
+"degradê ou se o degradê ativo não for o personalizado. Permite alterar "
+"diretamente degradês graváveis pelo usuário, em vez de criar cópias deles."
 
 #: src/toolbox/paint/gradient.xml:485(title)
-#, fuzzy
 msgid "Editing Gradient"
-msgstr "Degradê"
+msgstr "Editando o degradê"
 
 #: src/toolbox/paint/gradient.xml:487(para)
 msgid "Important change with GIMP-2.10 in editing gradient:"
-msgstr ""
+msgstr "Mudança importante no GIMP-2.10 na edição de degradês:"
 
 #: src/toolbox/paint/gradient.xml:491(term)
 msgid "On-canvas editing"
-msgstr ""
+msgstr "Edição na tela"
 
 #: src/toolbox/paint/gradient.xml:493(para)
 msgid ""
@@ -2160,6 +2174,11 @@ msgid ""
 "colors to color stops, change blending and coloring for segments between "
 "color stops, create color stops from midpoints."
 msgstr ""
+"Todos os recursos antigos da caixa de diálogo Editor de degradês agora estão "
+"disponíveis diretamente na tela. Você pode criar e excluir paradas de cor, "
+"selecioná-las e deslocá-las, atribuir cores às paradas, alterar a mesclagem e "
+"a coloração dos segmentos entre paradas e criar paradas de cor a partir dos "
+"pontos médios."
 
 #: src/toolbox/paint/gradient.xml:500(para)
 msgid ""
@@ -2170,10 +2189,16 @@ msgid ""
 "gradient. It becomes the active gradient and will be preserved across "
 "sessions. Here, we use the Abstract3 gradient."
 msgstr ""
+"Selecione um degradê na caixa de diálogo de degradês. Clique e arraste na "
+"tela. Uma linha é desenhada e o degradê é exibido. Você pode editar esse "
+"degradê movendo o ponteiro do mouse sobre a linha. Assim que você tenta "
+"editar o degradê, o GIMP-2.10 cria um degradê personalizado, que é uma cópia "
+"do degradê selecionado. Ele se torna o degradê ativo e é preservado entre "
+"sessões. Aqui usamos o degradê Abstract3."
 
 #: src/toolbox/paint/gradient.xml:516(para)
 msgid "The Abstract3 gradient, with endpoints"
-msgstr ""
+msgstr "O degradê Abstract3, com pontos extremos"
 
 #: src/toolbox/paint/gradient.xml:521(para)
 msgid ""
@@ -2185,15 +2210,23 @@ msgid ""
 "corner of image or selection), the starting (left) and the ending (right) "
 "color of the gradient."
 msgstr ""
+"Nas duas extremidades da linha, você pode ver um <guilabel>Ponto extremo "
+"inicial</guilabel> e um <guilabel>Ponto extremo final</guilabel>. Clique e "
+"arraste um ponto extremo (o ponteiro do mouse vem acompanhado de uma cruz "
+"móvel) para movê-lo aonde quiser na tela. Uma pequena janela aparece "
+"mostrando dados sobre o ponto extremo selecionado: a posição do mouse (a "
+"origem das coordenadas é o canto superior esquerdo da imagem ou da seleção), "
+"a cor inicial (esquerda) e final (direita) do degradê."
 
 #: src/toolbox/paint/gradient.xml:537(para)
-#, fuzzy
 msgid "End point moved"
-msgstr "Atrás (modo de pintura)"
+msgstr "Ponto final movido"
 
 #: src/toolbox/paint/gradient.xml:543(para)
 msgid "In you only move endpoints, the custom gradient is not created yet."
 msgstr ""
+"Se você mover apenas os pontos extremos, o degradê personalizado ainda não é "
+"criado."
 
 #: src/toolbox/paint/gradient.xml:548(para)
 msgid ""
@@ -2204,10 +2237,16 @@ msgid ""
 "The small data window shows a button that allow you to remove the active "
 "stop."
 msgstr ""
+"Na linha, você pode ver vários pequenos quadrados. São as "
+"<guilabel>paradas</guilabel> que dividem o degradê em segmentos. Você pode "
+"editar os segmentos separadamente. Clique e arraste as paradas para movê-las "
+"(o ponto extremo ativo fica amarelo). Assim que você move uma parada, o "
+"degradê personalizado é criado. A pequena janela de dados mostra um botão que "
+"permite remover a parada ativa."
 
 #: src/toolbox/paint/gradient.xml:562(para)
 msgid "Stop point moved and data window"
-msgstr ""
+msgstr "Parada movida e janela de dados"
 
 #: src/toolbox/paint/gradient.xml:567(para)
 msgid ""
@@ -2217,26 +2256,33 @@ msgid ""
 "guiicon> to create a new stop at midpoint, and <guiicon><inlinegraphic "
 "fileref=\"images/toolbox/gradient-icon2.png\"/></guiicon> to center midpoint."
 msgstr ""
+"Se você mover o ponteiro do mouse sobre a linha, um <guilabel>Ponto "
+"médio</guilabel> aparece. Então, a pequena janela de dados tem dois botões: "
+"<guiicon><inlinegraphic "
+"fileref=\"images/toolbox/gradient-icon1.png\"/></guiicon> para criar uma nova "
+"parada no ponto médio, e <guiicon><inlinegraphic "
+"fileref=\"images/toolbox/gradient-icon2.png\"/></guiicon> para centralizar o "
+"ponto médio."
 
 #: src/toolbox/paint/gradient.xml:582(para)
 msgid ""
 "For Stops and Midpoints, <guilabel>Position</guilabel> refers to the "
 "gradient line: 0 is start endpoint, 100 is end endpoint."
 msgstr ""
+"Para paradas e pontos médios, <guilabel>Posição</guilabel> refere-se à linha "
+"do degradê: 0 é o ponto extremo inicial, 100 é o ponto extremo final."
 
 #: src/toolbox/paint/gradient.xml:593(title)
-#, fuzzy
 msgid "<quote>Step</quote> option example"
-msgstr "Exemplo de <quote>espalhamento</quote>"
+msgstr "Exemplo da opção <quote>Degrau</quote>"
 
 #: src/toolbox/paint/gradient.xml:600(para)
-#, fuzzy
 msgid "Original gradient"
-msgstr "Imagem original"
+msgstr "Degradê original"
 
 #: src/toolbox/paint/gradient.xml:611(para)
 msgid "Step applied at Midpoint2"
-msgstr ""
+msgstr "Degrau aplicado em PontoMédio2"
 
 #: src/toolbox/paint/gradient.xml:586(para)
 msgid ""
@@ -2245,6 +2291,10 @@ msgid ""
 "with GIMP-2.10.8: it creates a hard-edge transition between the two adjacent "
 "color stops at the midpoint. <placeholder-1/>"
 msgstr ""
+"<guilabel>Mesclagem</guilabel>: você pode alterar o modo de mesclagem entre "
+"duas paradas usando a lista suspensa. A opção <guilabel>Degrau</guilabel> "
+"surgiu com o GIMP-2.10.8: ela cria uma transição de borda dura entre as duas "
+"paradas de cor adjacentes no ponto médio. <placeholder-1/>"
 
 #: src/toolbox/paint/gradient.xml:618(para)
 msgid ""
@@ -2254,6 +2304,11 @@ msgid ""
 "from foreground and background colors. Click on a color dwell to open a "
 "color selector."
 msgstr ""
+"<emphasis role=\"bold\">Alterando a cor</emphasis>: nas janelas de dados de "
+"parada e de ponto final, há amostras de cor com uma lista suspensa. A opção "
+"padrão é <guilabel>Fixa</guilabel>; isso significa que a escolha de cor será "
+"independente das cores de primeiro plano e de fundo. Clique em uma amostra de "
+"cor para abrir um seletor de cores."
 
 #: src/toolbox/paint/gradient.xml:631(para)
 msgid ""
@@ -2264,23 +2319,25 @@ msgstr ""
 "ângulos absolutos de 15 graus."
 
 #: src/toolbox/paint/gradient.xml:634(para)
-#, fuzzy
 msgid ""
 "<keycap>Alt</keycap> or <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></"
 "keycombo> to move the whole line."
 msgstr ""
-"Ou usando a tecla de atalho <keycombo><keycap>Shift</keycap><keycap>U</"
-"keycap></keycombo>."
+"<keycap>Alt</keycap> ou "
+"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo> para mover a "
+"linha inteira."
 
 #: src/toolbox/paint/gradient.xml:643(term)
 msgid "The Gradient Editor"
-msgstr ""
+msgstr "O editor de degradês"
 
 #: src/toolbox/paint/gradient.xml:645(para)
 msgid ""
 "The Gradient Editor still exists: <xref linkend=\"gimp-gradient-editor-dialog"
 "\"/>."
 msgstr ""
+"O editor de degradês ainda existe: <xref "
+"linkend=\"gimp-gradient-editor-dialog\"/>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2315,13 +2372,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/eraser.xml:173(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/eraser-dialog.png'; "
 "md5=5277a93de42d54792f09b379e2504241"
 msgstr ""
-"@@image: 'images/toolbox/eraser-ex1.png'; "
-"md5=171238f57248215d31679005777c354b"
+"@@image: 'images/toolbox/eraser-dialog.png'; "
+"md5=5277a93de42d54792f09b379e2504241"
 
 #: src/toolbox/paint/eraser.xml:14(title)
 #: src/toolbox/paint/eraser.xml:17(secondary)
@@ -2390,13 +2446,13 @@ msgid ""
 "the Tool Options. Otherwise, sub-pixel brush placement will cause partial "
 "erasure at the edges of the brush-stroke, even if you use a hard-edged brush."
 msgstr ""
-"Se você precisa apagar completamente algum grupo de pixels, sem deixar "
-"nenhum traço por trás do seu conteúdo anterior, então você deve marcar a "
-"caixa \"Borda dura\" nas opções da ferramenta. Caso contrário, a "
-"substituição de sub-pixels do pincel irá causar um apagamento parcial das "
-"bordas da pincelada, mesmo que use um pincel com bordas duras. Esta opção de "
-"<quote>Borda dura</quote> faz a borracha funcionar tanto como a ferramenta "
-"de pincel (sem borda dura), ou como o lápis."
+"Se você precisa apagar completamente algum grupo de pixels, sem deixar nenhum "
+"traço por trás do seu conteúdo anterior, então você deve marcar a caixa "
+"\"Borda dura\" nas opções da ferramenta. Caso contrário, a substituição de "
+"sub-pixels do pincel irá causar um apagamento parcial das bordas da "
+"pincelada, mesmo que use um pincel com bordas duras. Esta opção de Borda dura "
+"faz a borracha funcionar tanto como a ferramenta de pincel (sem borda dura), "
+"ou como o lápis."
 
 #: src/toolbox/paint/eraser.xml:82(para)
 msgid ""
@@ -2495,12 +2551,12 @@ msgid ""
 "by the Window Manager. If this happens to you, you may be able to use "
 "<keycombo><keycap>Alt</keycap><keycap>Shift</keycap></keycombo> instead."
 msgstr ""
-"Para a borracha, pressionar a tecla <keycap>Alt</keycap> muda para o modo "
-"<quote>anti-borracha</quote>, como descrito na área inferior da seção de "
-"opções da ferramenta. Perceba que em alguns sistemas, a tecla <keycap>Alt</"
-"keycap> em conjunto com o mouse é capturada pelo gerenciador de janelas. "
-"Caso isso aconteça com você, pode usar o atalho <keycombo><keycap>Alt</"
-"keycap><keycap>Shift</keycap></keycombo> no lugar de só <keycap>Alt</keycap>."
+"Para a borracha, manter a tecla <keycap>Alt</keycap> pressionada alterna para "
+"o modo <quote>anti-borracha</quote>, como descrito abaixo na seção Opções da "
+"ferramenta. Observe que, em alguns sistemas, a tecla <keycap>Alt</keycap> é "
+"capturada pelo gerenciador de janelas. Se isso acontecer com você, talvez "
+"possa usar <keycombo><keycap>Alt</keycap><keycap>Shift</keycap></keycombo> em "
+"vez disso."
 
 #: src/toolbox/paint/eraser.xml:167(title)
 #: src/toolbox/paint/common-features.xml:212(title)
@@ -2512,14 +2568,14 @@ msgid "Tool Options for the Eraser tool"
 msgstr "Opções de ferramenta para a ferramenta borracha"
 
 #: src/toolbox/paint/eraser.xml:182(term)
-#, fuzzy
 msgid ""
 "Opacity; Brush; Size; Aspect Ratio; Angle; Spacing; Hardness; Dynamics; "
 "Dynamics Options; Force; Apply Jitter; Smooth Stroke; Lock brush size to "
 "view; Incremental"
 msgstr ""
-"Modo; Opacidade; Pincel; Dinâmicas; Opções de dinâmicas; Aplicar "
-"espalhamento; Pincelada suave; Incremental"
+"Opacidade; Pincel; Tamanho; Proporção; Ângulo; Espaçamento; Dureza; "
+"Dinâmicas; Opções de dinâmicas; Força; Aplicar dispersão; Traço suave; Fixar "
+"tamanho do pincel na vista; Incremental"
 
 #: src/toolbox/paint/eraser.xml:194(para)
 msgid ""
@@ -2559,11 +2615,11 @@ msgid ""
 "the Window Manager, by holding down <keycombo><keycap>Alt</"
 "keycap><keycap>Shift</keycap></keycombo>)."
 msgstr ""
-"A opção de anti-borracha da ferramenta borracha pode <quote>desapagar</"
-"quote> áreas de uma imagem, mesmo que ela esteja completamente transparente. "
-"Essa opção só funciona quando usada em camadas com canal alfa. Além da caixa "
-"de selecionar nas opções da ferramenta, ela também pode ser ativada a "
-"qualquer momento pressionando a tecla <keycap>Alt</keycap> (ou, caso a tecla "
+"A opção de anti-borracha da ferramenta borracha pode desapagar áreas de uma "
+"imagem, mesmo que ela esteja completamente transparente. Essa opção só "
+"funciona quando usada em camadas com canal alfa. Além da caixa de selecionar "
+"nas opções da ferramenta, ela também pode ser ativada a qualquer momento "
+"pressionando a tecla <keycap>Alt</keycap> (ou, caso a tecla "
 "<keycap>Alt</keycap> estiver bloqueada pelo gerenciador de janelas, basta "
 "pressionar <keycombo><keycap>Alt</keycap><keycap>Shift</keycap></keycombo>)."
 
@@ -2576,16 +2632,15 @@ msgid ""
 "erasing increases the alpha value so that you can see the RGB data once "
 "again."
 msgstr ""
-"Para entender como a <quote>anti-borracha</quote> funciona, você precisa "
-"entender que apagar (ou tambem editar-&gt;cortar) afeta apenas o canal alfa, "
-"e não os canais RGB que contém informações de imagem. Mesmo que o resultado "
-"seja completamente transparente, as informações de RGB continuam lá, você "
-"apenas não consegue vê-las. A anti-borracha aumenta o valor de alfa para que "
-"você possa ver as informações de RGB novamente. Outros meios no GIMP que "
-"afetam o canal Alfa também podem tornar a informação de cor visível "
-"novamente &mdash; um exemplo seria usar a ferramenta de Cores&gt;Curvas no "
-"canal Alfa, e posiciona a âncora de canto esquerdo em qualquer ponto "
-"diferente de 0."
+"Para entender como a anti-borracha funciona, você precisa entender que apagar "
+"(ou tambem editar-&gt;cortar) afeta apenas o canal alfa, e não os canais RGB "
+"que contém informações de imagem. Mesmo que o resultado seja completamente "
+"transparente, as informações de RGB continuam lá, você apenas não consegue "
+"vê-las. A anti-borracha aumenta o valor de alfa para que você possa ver as "
+"informações de RGB novamente. Outros meios no GIMP que afetam o canal Alfa "
+"também podem tornar a informação de cor visível novamente &mdash; um exemplo "
+"seria usar a ferramenta de Cores&gt;Curvas no canal Alfa, e posiciona a "
+"âncora de canto esquerdo em qualquer ponto diferente de 0."
 
 #: src/toolbox/paint/eraser.xml:239(primary)
 msgid "Selection"
@@ -2936,15 +2991,14 @@ msgid ""
 "functions"
 msgstr ""
 "Cada coluna na tabela representa uma ação de caneta ou mouse exceto as "
-"funções <quote>aleatório</quote> e de <quote>esmaecer</quote>. Todas as "
-"funções funcionam em mesas digitalizadoras (tablets) gráficas. Algumas das "
-"funções também estão disponíveis através do mouse. Essas funções estão "
-"assinaladas com <quote>(mouse)</quote> nas listas abaixo. As descrições "
-"levam em conta as configurações padrão de todas as funções. Não se preocupe "
-"em decorar as listagens: essa é apenas a documentação formal de como cada "
-"combinação funciona. Na prática, você pode criar suas próprias dinâmicas de "
-"pintura de forma mais intuitiva, sem se preocupar com a descrição exata nas "
-"listagens abaixo."
+"funções aleatório e de esmaecer. Todas as funções funcionam em mesas "
+"digitalizadoras (tablets) gráficas. Algumas das funções também estão "
+"disponíveis através do mouse. Essas funções estão assinaladas com (mouse) nas "
+"listas abaixo. As descrições levam em conta as configurações padrão de todas "
+"as funções. Não se preocupe em decorar as listagens: essa é apenas a "
+"documentação formal de como cada combinação funciona. Na prática, você pode "
+"criar suas próprias dinâmicas de pintura de forma mais intuitiva, sem se "
+"preocupar com a descrição exata nas listagens abaixo."
 
 #: src/toolbox/paint/dynamics.xml:195(para)
 msgid ""
@@ -3001,15 +3055,14 @@ msgstr ""
 "opções de ferramentas."
 
 #: src/toolbox/paint/dynamics.xml:239(para)
-#, fuzzy
 msgid ""
 "Each row shows a brush parameter and seven checkboxes, one for each action. "
 "You connect the parameters to the actions by clicking the appropriate boxes. "
 "Clicking on a selected box will unselect the connection."
 msgstr ""
-"Cada linha mostra um parâmetro de pincel e sete caixas de marcação, uma para "
-"cada ação. Você conecta os parâmetros às ações ao clicar nas caixas "
-"apropriadas. Clicar em uma caixa já selecionada irá desfazer a conexão."
+"Cada linha mostra um parâmetro de pincel e sete caixas de seleção, uma para "
+"cada ação. Você conecta os parâmetros às ações clicando nas caixas "
+"apropriadas. Clicar em uma caixa selecionada desfaz a conexão."
 
 #: src/toolbox/paint/dynamics.xml:249(para)
 msgid ""
@@ -3137,10 +3190,10 @@ msgid ""
 "However, if the color is activated in the dynamics editor, the color is "
 "instead collected from the active gradient."
 msgstr ""
-"Por padrão a cor usada é a cor de frente da caixa de ferramentas. "
-"Entretanto, se a cor é ativada no editor de dinâmicas, então a cor passa a "
-"ser obtida a partir de um ponto do degradê ativo (que pode ser escolhido na "
-"seção de <quote>Opções de dinâmica</quote> da janela de opções da ferramenta)"
+"Por padrão a cor usada é a cor de frente da caixa de ferramentas. Entretanto, "
+"se a cor é ativada no editor de dinâmicas, então a cor passa a ser obtida a "
+"partir de um ponto do degradê ativo (que pode ser escolhido na seção de "
+"Opções de dinâmica da janela de opções da ferramenta)"
 
 #: src/toolbox/paint/dynamics.xml:334(para)
 msgid ""
@@ -3345,8 +3398,8 @@ msgid ""
 "depends on the setting of the Rate slider in the Tool Options dialog."
 msgstr ""
 "As ações dessas ferramentas acontecem de forma mais rápida ou mais lenta. O "
-"<quote>total da taxa</quote> (em inglês: rate) depende da configuração do "
-"seletor de taxa na janela de opções da ferramenta."
+"total da taxa (em inglês: rate) depende da configuração do seletor de taxa na "
+"janela de opções da ferramenta."
 
 #: src/toolbox/paint/dynamics.xml:478(para)
 msgid ""
@@ -3370,11 +3423,11 @@ msgid ""
 "amount of scattering depends on the setting of the jitter slider in the Tool "
 "Options dialog window."
 msgstr ""
-"Normalmente o pincel desenha uma linha <quote>carimbando</quote> diversas "
-"marcas do pincel em sequência. Adicionar espalhamento significa que as "
-"impressões do pincel serão espalhadas ao longo da linha de pintura. A "
-"quantidade de espalhamento depende da configuração do seletor de "
-"espalhamento na janela de opções da ferramenta."
+"Normalmente o pincel desenha uma linha carimbando diversas marcas do pincel "
+"em sequência. Adicionar espalhamento significa que as impressões do pincel "
+"serão espalhadas ao longo da linha de pintura. A quantidade de espalhamento "
+"depende da configuração do seletor de espalhamento na janela de opções da "
+"ferramenta."
 
 #: src/toolbox/paint/dynamics.xml:495(para)
 msgid ""
@@ -3710,13 +3763,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/dodge-burn.xml:104(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/dodge-burn-dialog.png'; "
 "md5=277ecf6497b1e3d1457925a34c08182d"
 msgstr ""
-"@@image: 'images/toolbox/tool-options-fill.png'; "
-"md5=107be7a49e4a9287653cfa4c308c46d3"
+"@@image: 'images/toolbox/dodge-burn-dialog.png'; "
+"md5=277ecf6497b1e3d1457925a34c08182d"
 
 #: src/toolbox/paint/dodge-burn.xml:7(title)
 #: src/toolbox/paint/dodge-burn.xml:10(secondary)
@@ -3774,7 +3826,6 @@ msgstr ""
 "que a tecla <keycap>Ctrl</keycap> seja solta."
 
 #: src/toolbox/paint/dodge-burn.xml:84(para)
-#, fuzzy
 msgid ""
 "<keycap>Shift</keycap> places the Dodge or Burn tool into straight line "
 "mode. Holding <keycap>Shift</keycap> while clicking the mouse "
@@ -3782,35 +3833,33 @@ msgid ""
 "line. Consecutive clicks will continue Dodge or Burn in straight lines that "
 "originate from the end of the last line."
 msgstr ""
-"<keycap>Shift</keycap> coloca a ferramenta de Sub ou Super-exposição no modo "
-"de linha reta. Pressionar <keycap>Shift</keycap> enquanto o "
-"<mousebutton>Botão 1</mousebutton> estiver clicado fará com que a sub-"
-"exposição ou super-exposição aconteça em linha reta. Cliques consecutivos "
-"continuarão a se sub ou super-expor em linhas retas que se originarão a "
-"partir do fim da última linha."
+"<keycap>Shift</keycap> coloca a ferramenta Subexpor ou Superexpor no modo de "
+"linha reta. Manter <keycap>Shift</keycap> pressionada enquanto clica com o "
+"<mousebutton>Botão esquerdo</mousebutton> fará subexpor ou superexpor em "
+"linha reta. Cliques consecutivos continuarão a subexpor ou superexpor em "
+"linhas retas que partem do fim da última linha."
 
 #: src/toolbox/paint/dodge-burn.xml:100(title)
 msgid "<quote>Dodge/Burn</quote> tool options"
 msgstr "Opções da ferramenta de <quote>Sub/Super-exposição</quote>"
 
 #: src/toolbox/paint/dodge-burn.xml:113(term)
-#, fuzzy
 msgid ""
 "Mode; Opacity; Brush; Size; Aspect Ratio; Angle; Spacing; Hardness; "
 "Dynamics; Dynamics Options; Force; Apply Jitter; Smooth Stroke; Lock brush "
 "to view, Incremental"
 msgstr ""
-"Modo; Opacidade; Pincel; Dinâmicas; Opções de dinâmicas; Aplicar "
-"espalhamento; Pincelada suave; Incremental"
+"Modo; Opacidade; Pincel; Tamanho; Proporção; Ângulo; Espaçamento; Dureza; "
+"Dinâmicas; Opções de dinâmicas; Força; Aplicar dispersão; Traço suave; Fixar "
+"pincel na vista, Incremental"
 
 #: src/toolbox/paint/dodge-burn.xml:120(para)
-#, fuzzy
 msgid ""
 "<guilabel>Hard edge</guilabel>: this option gives a hard contour to the "
 "treated area."
 msgstr ""
-"<guilabel>Pressão</guilabel>: Pressione com mais força para tornar a "
-"pincelada menos transparente."
+"<guilabel>Borda dura</guilabel>: esta opção dá um contorno duro à área "
+"tratada."
 
 #: src/toolbox/paint/dodge-burn.xml:129(para)
 msgid "The dodge effect lightens colors."
@@ -3860,46 +3909,42 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:22(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/brush-tools-box.png'; "
 "md5=4408969f9d3cb00626a34b3c404f0bed"
 msgstr ""
 "@@image: 'images/toolbox/brush-tools-box.png'; "
-"md5=3d07dfea4430df33db57677181604e36"
+"md5=4408969f9d3cb00626a34b3c404f0bed"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:345(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/brush-option-spacing-ex.png'; "
 "md5=a37246020a7345ce6cb7e1b6f6eb58b1"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-triangular.png'; "
-"md5=11146d05d5b0796f86d0eba36c5d6fc4"
+"@@image: 'images/tool-options/brush-option-spacing-ex.png'; "
+"md5=a37246020a7345ce6cb7e1b6f6eb58b1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:368(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/brush-option-hardness-ex.png'; "
 "md5=a30c807db8a2cc65027ab663ae854134"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-none.png'; "
-"md5=418008a792aef7556664c8ddf7c2094d"
+"@@image: 'images/tool-options/brush-option-hardness-ex.png'; "
+"md5=a30c807db8a2cc65027ab663ae854134"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:391(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/brush-option-force-ex.png'; "
 "md5=c1047ab1e0c07031d088af9bacea9950"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-none.png'; "
-"md5=418008a792aef7556664c8ddf7c2094d"
+"@@image: 'images/tool-options/brush-option-force-ex.png'; "
+"md5=c1047ab1e0c07031d088af9bacea9950"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3924,57 +3969,52 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:534(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/lockbrush-orig.png'; "
 "md5=f08eb153db29bbd7c89474c987e403e9"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-normal.png'; "
-"md5=df197bc06691283d2b779673bbe451b6"
+"@@image: 'images/tool-options/lockbrush-orig.png'; "
+"md5=f08eb153db29bbd7c89474c987e403e9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:548(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/lockbrush-zoom200-nolock.png'; "
 "md5=d2b2e11cf0bd6dd25028da3072aba174"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-normal.png'; "
-"md5=df197bc06691283d2b779673bbe451b6"
+"@@image: 'images/tool-options/lockbrush-zoom200-nolock.png'; "
+"md5=d2b2e11cf0bd6dd25028da3072aba174"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:561(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/lockbrush-zoom200-lock.png'; "
 "md5=e2dd8c9ac164a606ae3fda627469f6cc"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-normal.png'; "
-"md5=df197bc06691283d2b779673bbe451b6"
+"@@image: 'images/tool-options/lockbrush-zoom200-lock.png'; "
+"md5=e2dd8c9ac164a606ae3fda627469f6cc"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:581(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/lockbrush-rotation-nolock.png'; "
 "md5=22b61d9b206fbee9fa2ad2a0563e7bde"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-normal.png'; "
-"md5=df197bc06691283d2b779673bbe451b6"
+"@@image: 'images/tool-options/lockbrush-rotation-nolock.png'; "
+"md5=22b61d9b206fbee9fa2ad2a0563e7bde"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:597(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tool-options/lockbrush-rotation-lock.png'; "
 "md5=b4a4a2fb8d75bbdd71f8d4754afe2ac0"
 msgstr ""
-"@@image: 'images/tool-options/brush-gradient-none.png'; "
-"md5=418008a792aef7556664c8ddf7c2094d"
+"@@image: 'images/tool-options/lockbrush-rotation-lock.png'; "
+"md5=b4a4a2fb8d75bbdd71f8d4754afe2ac0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4099,11 +4139,12 @@ msgid "the <link linkend=\"gimp-tool-ink\">Ink tool</link>"
 msgstr "a <link linkend=\"gimp-tool-ink\">Ferramenta de tinta</link>"
 
 #: src/toolbox/paint/common-features.xml:54(para)
-#, fuzzy
 msgid ""
 "and <link linkend=\"gimp-tool-mypaint-brush\">MyPaint brushes</link>, a new "
 "feature in Gimp-2.10.6,"
-msgstr "o <link linkend=\"gimp-tool-paintbrush\">Pincel</link>,"
+msgstr ""
+"e <link linkend=\"gimp-tool-mypaint-brush\">pincéis MyPaint</link>, um "
+"recurso novo no GIMP-2.10.6,"
 
 #: src/toolbox/paint/common-features.xml:59(para)
 msgid ""
@@ -4133,12 +4174,11 @@ msgstr ""
 "preenche com uma cor ou textura;"
 
 #: src/toolbox/paint/common-features.xml:77(para)
-#, fuzzy
 msgid ""
 "the <link linkend=\"gimp-tool-gradient\">Gradient</link> fills with "
 "gradients;"
 msgstr ""
-"o <link linkend=\"gimp-tool-blend\">Degradê</link> preenche com degradês;"
+"o <link linkend=\"gimp-tool-gradient\">Degradê</link> preenche com degradês;"
 
 #: src/toolbox/paint/common-features.xml:83(para)
 msgid "the <link linkend=\"gimp-tool-eraser\">Eraser</link> erases;"
@@ -4405,12 +4445,12 @@ msgid ""
 "\">How to vary the size of a brush</link>"
 msgstr ""
 "Essa opção permite modificar precisamente o tamanho de um pincel. Você pode "
-"usar as teclas <quote>[</quote> e <quote>]</quote> para variar o tamanho do "
-"pincel em mais ou menos 1 pixel, mesmo estando com a imagem em foco. Se você "
-"clicar nesse controle, pode usar as teclas Page-Up e Page-Down para variar "
-"entre + e -  10,00.  Você pode obter o mesmo resultado se você definir "
-"corretamente a rodinha do mouse nas preferências. Veja <link linkend=\"gimp-"
-"using-variable-size-brush\">Como alterar o tamanho do pincel</link>"
+"usar as teclas [ e ] para variar o tamanho do pincel em mais ou menos 1 "
+"pixel, mesmo estando com a imagem em foco. Se você clicar nesse controle, "
+"pode usar as teclas Page-Up e Page-Down para variar entre + e - 10,00. Você "
+"pode obter o mesmo resultado se você definir corretamente a rodinha do mouse "
+"nas preferências. Veja <link linkend=\"gimp-using-variable-size-brush\">Como "
+"alterar o tamanho do pincel</link>"
 
 #: src/toolbox/paint/common-features.xml:314(para)
 msgid ""
@@ -4436,42 +4476,39 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:337(para)
 msgid "This option sets the distance between the brush marks in a stroke."
-msgstr ""
+msgstr "Esta opção define a distância entre as marcas do pincel em um traço."
 
 #: src/toolbox/paint/common-features.xml:341(title)
-#, fuzzy
 msgid "Spacing option"
-msgstr "Espaçamento"
+msgstr "Opção Espaçamento"
 
 #: src/toolbox/paint/common-features.xml:348(para)
 msgid "Different spacings"
-msgstr ""
+msgstr "Espaçamentos diferentes"
 
 #: src/toolbox/paint/common-features.xml:360(para)
 msgid "Modifies the size of the brush hard center."
-msgstr ""
+msgstr "Modifica o tamanho do centro duro do pincel."
 
 #: src/toolbox/paint/common-features.xml:364(title)
-#, fuzzy
 msgid "Hardness option"
-msgstr "Dureza"
+msgstr "Opção Dureza"
 
 #: src/toolbox/paint/common-features.xml:371(para)
 msgid "On the left: hardness=50 On the right: hardness=100."
-msgstr ""
+msgstr "À esquerda: dureza=50. À direita: dureza=100."
 
 #: src/toolbox/paint/common-features.xml:383(para)
 msgid "Modifies gain."
-msgstr ""
+msgstr "Modifica o ganho."
 
 #: src/toolbox/paint/common-features.xml:387(title)
-#, fuzzy
 msgid "Force option"
-msgstr "Opções de esmaecimento"
+msgstr "Opção Força"
 
 #: src/toolbox/paint/common-features.xml:394(para)
 msgid "Force is 10%, 20%, 40%, 80%."
-msgstr ""
+msgstr "A força é 10%, 20%, 40%, 80%."
 
 #: src/toolbox/paint/common-features.xml:403(varlistentry:xreflabel)
 msgid "Brush Dynamics"
@@ -4598,9 +4635,8 @@ msgstr ""
 "opção desmarcada 2: valores padrão 3: valores máximos"
 
 #: src/toolbox/paint/common-features.xml:507(term)
-#, fuzzy
 msgid "Lock brush size to view"
-msgstr "O tamanho do pincel - curva de esmaecimento"
+msgstr "Fixar tamanho do pincel na vista"
 
 #: src/toolbox/paint/common-features.xml:509(para)
 msgid ""
@@ -4610,6 +4646,10 @@ msgid ""
 "application to change brush size as you go between the broad strokes and the "
 "detailing."
 msgstr ""
+"Quando você trabalha em uma imagem maior (em pixels) que a sua tela, precisa "
+"ampliar e reduzir bastante. Esta opção permite um processo muito natural de "
+"\"refinamento iterativo\", sem precisar pedir repetidamente ao aplicativo que "
+"altere o tamanho do pincel ao alternar entre traços amplos e detalhamento."
 
 #: src/toolbox/paint/common-features.xml:516(para)
 msgid ""
@@ -4619,6 +4659,11 @@ msgid ""
 "in from 12% to 100%, the brush is now half the size of your screen! So you "
 "have to shrink the brush back down."
 msgstr ""
+"Se o tamanho do pincel for relativo à tela (opção desmarcada), ampliar também "
+"amplia o pincel, que parece maior (ocupa mais pixels na tela). Se você "
+"trabalha com um pincel de 300 pixels de raio e aumenta o zoom de 12% para "
+"100%, o pincel passa a ter metade do tamanho da tela! Então você precisa "
+"reduzi-lo novamente."
 
 #: src/toolbox/paint/common-features.xml:524(para)
 msgid ""
@@ -4626,10 +4671,13 @@ msgid ""
 "zoom in, the size of the displayed brush doesn't change, it looks smaller "
 "and so you can work on tiny details."
 msgstr ""
+"Se o tamanho do pincel for relativo à tela do monitor (opção marcada), ao "
+"ampliar o tamanho do pincel exibido não muda: ele parece menor, e assim você "
+"pode trabalhar em detalhes minúsculos."
 
 #: src/toolbox/paint/common-features.xml:530(title)
 msgid "Lock brush example"
-msgstr ""
+msgstr "Exemplo de fixação do pincel"
 
 #: src/toolbox/paint/common-features.xml:537(para)
 msgid ""
@@ -4638,6 +4686,10 @@ msgid ""
 "is visible. The option is not checked, brush size in toolbox is 100 pixels "
 "high."
 msgstr ""
+"Esta imagem é a captura de uma pequena parte de uma imagem TIFF maior que a "
+"minha tela. Aqui, o GIMP exibe esta imagem TIFF com zoom de 50%, de modo que "
+"a imagem inteira fica visível. A opção não está marcada; o tamanho do pincel "
+"na caixa de ferramentas é de 100 pixels de altura."
 
 #: src/toolbox/paint/common-features.xml:551(para)
 msgid ""
@@ -4645,6 +4697,9 @@ msgid ""
 "the pepper brush that is 100 pixels high in toolbox: displayed brush stroke "
 "is 200 pixels high."
 msgstr ""
+"Captura de tela: zoom 200. A opção não está marcada. Pintamos com o lápis e o "
+"pincel de pimenta que tem 100 pixels de altura na caixa de ferramentas: o "
+"traço exibido tem 200 pixels de altura."
 
 #: src/toolbox/paint/common-features.xml:564(para)
 msgid ""
@@ -4652,32 +4707,39 @@ msgid ""
 "pepper brush that is 100 pixels high in toolbox: displayed brush stroke is "
 "100 pixels high."
 msgstr ""
+"Captura de tela: zoom 200. A opção está marcada. Pintamos com o lápis e o "
+"pincel de pimenta que tem 100 pixels de altura na caixa de ferramentas: o "
+"traço exibido tem 100 pixels de altura."
 
 #: src/toolbox/paint/common-features.xml:572(para)
 msgid "\"Lock brush to view\" can also be used to lock brush to view rotation:"
 msgstr ""
+"\"Fixar pincel na vista\" também pode ser usado para fixar o pincel à rotação "
+"da vista:"
 
 #: src/toolbox/paint/common-features.xml:577(title)
 msgid "Lock brush to view rotation example"
-msgstr ""
+msgstr "Exemplo de fixação do pincel à rotação da vista"
 
 #: src/toolbox/paint/common-features.xml:584(para)
-#, fuzzy
 msgid ""
 "Screenshot. Here, the option is unchecked and we use "
 "<menuchoice><guimenu>View</guimenu><guisubmenu>Flip and Rotate</"
 "guisubmenu><guimenuitem>Rotate 15° clockwise</guimenuitem></menuchoice>: "
 "brush stroke is rotated."
 msgstr ""
-"Através do menu da janela de imagem: <menuchoice><guimenu>Ferramentas</"
-"guimenu><guisubmenu>Ferramentas de pintura</guisubmenu><guimenuitem>Clonagem "
-"em perspectiva</guimenuitem></menuchoice>."
+"Captura de tela. Aqui a opção está desmarcada e usamos "
+"<menuchoice><guimenu>Ver</guimenu><guisubmenu>Inverter e "
+"girar</guisubmenu><guimenuitem>Girar 15° no sentido "
+"horário</guimenuitem></menuchoice>: o traço do pincel é girado."
 
 #: src/toolbox/paint/common-features.xml:600(para)
 msgid ""
 "Same thing but the option is checked: the brush is locked to the original, "
 "not rotated view and brush stoke is not rotated."
 msgstr ""
+"O mesmo, mas com a opção marcada: o pincel fica fixado à vista original, não "
+"girada, e o traço do pincel não é girado."
 
 #: src/toolbox/paint/common-features.xml:611(term)
 msgid "Incremental"
@@ -4686,9 +4748,9 @@ msgstr "Incremental"
 #: src/toolbox/paint/common-features.xml:613(para)
 msgid "Applies the effect incrementally as the mouse pointer moves."
 msgstr ""
+"Aplica o efeito de forma incremental conforme o ponteiro do mouse se move."
 
 #: src/toolbox/paint/common-features.xml:616(para)
-#, fuzzy
 msgid ""
 "The incremental checkbox does not seems to work as everyone expect. If it is "
 "deactivated (the default value) the maximum effect of a single stroke is "
@@ -4701,17 +4763,17 @@ msgid ""
 "control, which automatically implies an incremental effect. See also <xref "
 "linkend=\"gimp-concepts-layer-modes\"/>."
 msgstr ""
-"A caixa de seleção Incremental parece não funcionar como todos esperam. "
-"Quando desativada (valor padrão) o efeito máximo de uma simples pincelada é "
+"A caixa de seleção Incremental não parece funcionar como todos esperam. "
+"Quando desativada (valor padrão), o efeito máximo de uma única pincelada é "
 "determinado pela opacidade definida no seletor de opacidade. Se a opacidade "
-"é definida para menos que 100, mover o pincel sobre o mesmo ponto aumentará "
-"a opacidade caso o pincel seja levantado durante o movimento. Desenhar com a "
-"mesma força não possui tal efeito. Caso o Incremental esteja ativo, o pincel "
-"poderá pintar com opacidade total independente da configuração do seletor, "
-"bastando passar várias vezes o pincel no mesmo ponto. Essa opção está "
-"disponível para todas as ferramentas de pintura, exceto aquelas que possuem "
-"um controlador de <quote>taxa</quote>, que implica automaticamente no efeito "
-"incremental. Veja também <xref linkend=\"gimp-concepts-layer-modes\"/>."
+"for definida para menos de 100, mover o pincel sobre o mesmo ponto aumentará "
+"a opacidade caso o pincel seja levantado nesse meio-tempo. Pintar de novo com "
+"o mesmo traço não tem esse efeito. Se Incremental estiver ativo, o pincel "
+"pintará com opacidade total, independentemente da configuração do seletor. "
+"Esta opção está disponível para todas as ferramentas de pintura, exceto "
+"aquelas que têm um controle de <quote>taxa</quote>, que implica "
+"automaticamente um efeito incremental. Veja também <xref "
+"linkend=\"gimp-concepts-layer-modes\"/>."
 
 #: src/toolbox/paint/common-features.xml:636(title)
 msgid "Paint Mode Examples"
@@ -4829,15 +4891,14 @@ msgstr ""
 "para pintar com a ferramenta de preenchimento."
 
 #: src/toolbox/paint/common-features.xml:744(para)
-#, fuzzy
 msgid ""
 "The next image (below) has two layers. The upper layer is active. Three "
 "brush strokes with pencil, red color at 100%, 50%, 25%: only transparent or "
 "semi-transparent pixels of the layer are painted."
 msgstr ""
-"A próxima imagem (abaixo) possui duas camadas. A camada superior está ativa. "
-"Três pinceladas com o lápis, na cor vermelha em 100%, 50% ou 25%: apenas os "
-"pixels transparentes ou semi-transparentes da camada são afetados."
+"A próxima imagem (abaixo) tem duas camadas. A camada superior está ativa. "
+"Três pinceladas com o lápis, na cor vermelha em 100%, 50% e 25%: apenas os "
+"pixels transparentes ou semitransparentes da camada são pintados."
 
 #: src/toolbox/paint/common-features.xml:750(title)
 msgid "Painting in <quote>Behind</quote> mode"
@@ -4866,7 +4927,6 @@ msgid "White foreground color erased"
 msgstr "Cor de frente branca apagada"
 
 #: src/toolbox/paint/common-features.xml:797(para)
-#, fuzzy
 msgid ""
 "This mode erases the foreground color, replacing it with partial "
 "transparency. It acts like the <link linkend=\"gimp-filter-color-to-alpha"
@@ -4874,11 +4934,11 @@ msgid ""
 "Note that this only works on layers that possess an alpha channel; "
 "otherwise, this mode is identical to Normal."
 msgstr ""
-"Este modo apaga a cor de frente, substituindo-a com um transparente parcial. "
-"Esse modo age como o filtro <link linkend=\"plug-in-colortoalpha\">Cor para "
-"alfa</link>, aplicado a uma área sob a pincelada. Perceba que isso apenas "
-"funciona em camadas que possuem um canal alfa; caso contrário, esse modo "
-"funcionará da mesma forma que o Normal."
+"Este modo apaga a cor de primeiro plano, substituindo-a por transparência "
+"parcial. Age como o filtro <link linkend=\"gimp-filter-color-to-alpha\">Cor "
+"para alfa</link>, aplicado à área sob a pincelada. Observe que isso só "
+"funciona em camadas que possuem canal alfa; caso contrário, este modo é "
+"idêntico ao Normal."
 
 #: src/toolbox/paint/common-features.xml:805(para)
 msgid ""
@@ -4890,13 +4950,12 @@ msgstr ""
 "mostra."
 
 #: src/toolbox/paint/common-features.xml:810(para)
-#, fuzzy
 msgid ""
 "This image below has only one layer, the background layer. Background color "
 "is sky blue. Three brush strokes with pencil:"
 msgstr ""
-"Essa imagem abaixo possui apenas uma camada, a camada de fundo. A cor de "
-"fundo é de céu azul. Três pinceladas com o lápis:"
+"A imagem abaixo tem apenas uma camada, a camada de fundo. A cor de fundo é "
+"azul-céu. Três pinceladas com o lápis:"
 
 #: src/toolbox/paint/common-features.xml:817(para)
 msgid "With the exact color of the blue area: only this blue color is erased."
@@ -4964,24 +5023,22 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/clone.xml:144(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/clone-dialog.png'; "
 "md5=243419fea7ba721c81e5e09c6e8701f7"
 msgstr ""
-"@@image: 'images/toolbox/clone-none.png'; "
-"md5=a33aaa4e72c54efe1c06c94792965068"
+"@@image: 'images/toolbox/clone-dialog.png'; "
+"md5=243419fea7ba721c81e5e09c6e8701f7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/clone.xml:236(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
 "md5=f7e56bcc9c34a4992cba444986a5f98a"
 msgstr ""
-"@@image: 'images/toolbox/clone-aligned.png'; "
-"md5=4a45ef2c6883b44b606086e9f249b157"
+"@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
+"md5=f7e56bcc9c34a4992cba444986a5f98a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5241,7 +5298,6 @@ msgstr ""
 "ferramenta."
 
 #: src/toolbox/paint/clone.xml:197(para)
-#, fuzzy
 msgid ""
 "If you check <guilabel>Sample merged</guilabel> it's what you <quote>see</"
 "quote> (color made with all the layers of a multi-layer image) that's "
@@ -5249,11 +5305,12 @@ msgid ""
 "information about non-destructive image editing with Sample merged see <link "
 "linkend=\"glossary-samplemerge\">Sample Merge</link>."
 msgstr ""
-"Se você marcar <guilabel>Amostra combinada</guilabel> então a cor será o que "
-"você <quote>enxerga</quote> (a cor produzida com todas as camadas de uma "
-"imagem de várias camadas) que será clonada. Caso seja desmarcada, apenas a "
-"camada selecionada será clonada. Para mais informações veja a entrada do "
-"glossário <link linkend=\"glossary-samplemerge\">Amostra combinada</link>."
+"Se você marcar <guilabel>Amostra combinada</guilabel>, o que é clonado é o "
+"que você <quote>vê</quote> (a cor resultante de todas as camadas de uma "
+"imagem com várias camadas). Se estiver desmarcada, apenas a camada "
+"selecionada é clonada. Para mais informações sobre edição não destrutiva com "
+"Amostra combinada, consulte <link linkend=\"glossary-samplemerge\">Amostra "
+"combinada</link>."
 
 #: src/toolbox/paint/clone.xml:209(term)
 msgid "Pattern"
@@ -5274,6 +5331,8 @@ msgid ""
 "If this option is not checked (default), Clone tool samples from the active "
 "layer."
 msgstr ""
+"Se esta opção não estiver marcada (padrão), a ferramenta Clonar amostra a "
+"camada ativa."
 
 #: src/toolbox/paint/clone.xml:226(para)
 msgid ""
@@ -5282,10 +5341,14 @@ msgid ""
 "you create a new layer (transparent) above the image layer; this new layer "
 "being active, all cloned pixels will appear in this layer."
 msgstr ""
+"Se esta opção estiver marcada, a ferramenta Clonar amostra todas as camadas. "
+"Isso permite trabalhar de forma não destrutiva, sem modificar os pixels "
+"originais: você cria uma nova camada (transparente) acima da camada da "
+"imagem; com essa nova camada ativa, todos os pixels clonados aparecerão nela."
 
 #: src/toolbox/paint/clone.xml:239(para)
 msgid "Cloned pixels are in the new layer."
-msgstr ""
+msgstr "Os pixels clonados estão na nova camada."
 
 #: src/toolbox/paint/clone.xml:252(para)
 msgid ""
@@ -5567,24 +5630,22 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/bucket-fill.xml:22(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/toolbox-fill.png'; "
 "md5=b4c77e96f5fff77bffe452d2b951b2f3"
 msgstr ""
-"@@image: 'images/toolbox/toolbox-gradient.png'; "
-"md5=388c9a7f96f7778f139f651e2252945f"
+"@@image: 'images/toolbox/toolbox-fill.png'; "
+"md5=b4c77e96f5fff77bffe452d2b951b2f3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/bucket-fill.xml:119(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/bucket-fill-dialog.png'; "
 "md5=7f0a68162997b041de4e1e3b43f0ddde"
 msgstr ""
-"@@image: 'images/toolbox/toolbox-fill.png'; "
-"md5=6603d60d1afb03f880cd0e14bbaadd83"
+"@@image: 'images/toolbox/bucket-fill-dialog.png'; "
+"md5=7f0a68162997b041de4e1e3b43f0ddde"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5621,55 +5682,52 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/bucket-fill.xml:375(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/bucket-fill-ex-origin.png'; "
 "md5=ca2f63286d1c341979447b993d7b49e8"
 msgstr ""
-"@@image: 'images/toolbox/fill-by-2.png'; md5=dfe53f20d3932514da5b1896127969de"
+"@@image: 'images/toolbox/bucket-fill-ex-origin.png'; "
+"md5=ca2f63286d1c341979447b993d7b49e8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/bucket-fill.xml:381(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/bucket-fill-ex-default.png'; "
 "md5=141eaf6568ba3a982187a7261629a579"
 msgstr ""
-"@@image: 'images/toolbox/fill-by-3.png'; md5=1e4b3e1d866da92623c2293d42b2ab0f"
+"@@image: 'images/toolbox/bucket-fill-ex-default.png'; "
+"md5=141eaf6568ba3a982187a7261629a579"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/bucket-fill.xml:402(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/bucket-fill-source.png'; "
 "md5=5580b55f1a1ed241b92569c279818c37"
 msgstr ""
-"@@image: 'images/toolbox/mode-dissolve.png'; "
-"md5=4d0cc7ad35249623981c040171445a73"
+"@@image: 'images/toolbox/bucket-fill-source.png'; "
+"md5=5580b55f1a1ed241b92569c279818c37"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/bucket-fill.xml:419(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/bucket-fill-ex-feather.png'; "
 "md5=333936445c85afd1e4a4e595f9e845c4"
 msgstr ""
-"@@image: 'images/toolbox/fill-feathered-1.png'; "
-"md5=0ee8f909a4c317295f0b04f497047619"
+"@@image: 'images/toolbox/bucket-fill-ex-feather.png'; "
+"md5=333936445c85afd1e4a4e595f9e845c4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/bucket-fill.xml:432(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/bucket-fill-ex-grow.png'; "
 "md5=a9ca81698b3c219c75a43a38e6a50a5e"
 msgstr ""
-"@@image: 'images/toolbox/eraser-ex2.png'; "
-"md5=8204a324ca11c64d70b5c1749a1a3c5e"
+"@@image: 'images/toolbox/bucket-fill-ex-grow.png'; "
+"md5=a9ca81698b3c219c75a43a38e6a50a5e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5797,6 +5855,9 @@ msgid ""
 "surrounding colors on canvas without having to switch to <emphasis>Color "
 "Picker tool</emphasis>."
 msgstr ""
+"<keycap>Ctrl</keycap>, de forma semelhante às ferramentas de pintura, permite "
+"colher cores ao redor, na tela, sem precisar mudar para a "
+"<emphasis>ferramenta Conta-gotas</emphasis>."
 
 #: src/toolbox/paint/bucket-fill.xml:100(para)
 msgid ""
@@ -5809,6 +5870,8 @@ msgstr ""
 #: src/toolbox/paint/bucket-fill.xml:105(para)
 msgid "<keycap>Alt</keycap> toggles Fill type between FG and BG colors."
 msgstr ""
+"<keycap>Alt</keycap> alterna o tipo de preenchimento entre as cores de "
+"primeiro plano e de fundo."
 
 #: src/toolbox/paint/bucket-fill.xml:115(title)
 msgid "<quote>Bucket Fill</quote> tool options"
@@ -5878,7 +5941,6 @@ msgid "Affected Area"
 msgstr "Área afetada"
 
 #: src/toolbox/paint/bucket-fill.xml:187(para)
-#, fuzzy
 msgid ""
 "<guilabel>Fill whole selection</guilabel> makes GIMP fill a pre-existent "
 "selection or the whole layer. A quicker approach to do the same thing could "
@@ -5886,22 +5948,24 @@ msgid ""
 "onto the selection. Also, pressing <keycap>Ctrl</keycap> key allows you to "
 "pick a color on the image as foreground color."
 msgstr ""
-"Essa opção faz com que o GIMP preencha a seleção pré-existente ou toda a "
-"imagem. Uma outra forma de fazer a mesma coisa seria clicar e arrastar a cor "
-"de frente, cor de fundo ou textura, para dentro da seleção."
+"<guilabel>Preencher a seleção inteira</guilabel> faz o GIMP preencher uma "
+"seleção preexistente ou a camada inteira. Uma abordagem mais rápida para "
+"fazer o mesmo seria clicar e arrastar a cor de primeiro plano, de fundo ou a "
+"textura, soltando-a sobre a seleção. Além disso, pressionar "
+"<keycap>Ctrl</keycap> permite colher uma cor na imagem como cor de primeiro "
+"plano."
 
 #: src/toolbox/paint/bucket-fill.xml:197(para)
-#, fuzzy
 msgid ""
 "<guilabel>Fill similar colors</guilabel>: this is the default setting: the "
 "tool fills the area with a color near the pixel onto you have clicked. The "
 "color similarity is defined by options in Finding Similar Colors. Click and "
 "drag to fill."
 msgstr ""
-"Essa é a configuração padrão: a ferramenta preenche a área que tiver uma cor "
-"próxima a do pixel que você clicou inicialmente. A similaridade de cores é "
-"definida pelo limiar de brilho, que você pode definir com um valor ou com "
-"uma posição do cursor."
+"<guilabel>Preencher cores semelhantes</guilabel>: esta é a configuração "
+"padrão: a ferramenta preenche a área com uma cor próxima à do pixel em que "
+"você clicou. A similaridade de cores é definida pelas opções em Encontrar "
+"cores semelhantes. Clique e arraste para preencher."
 
 #: src/toolbox/paint/bucket-fill.xml:205(para)
 msgid ""
@@ -5910,6 +5974,10 @@ msgid ""
 "quote>, trying to leave no unfilled pixels near the lines, and closing "
 "potential zones."
 msgstr ""
+"<guilabel>Preencher por detecção de arte de linha</guilabel>: este é um "
+"algoritmo novo no GIMP-2.10.10, que permite preencher áreas cercadas por "
+"<quote>artes de linha</quote>, tentando não deixar pixels sem preencher perto "
+"das linhas e fechando zonas potenciais."
 
 #: src/toolbox/paint/bucket-fill.xml:211(para)
 msgid ""
@@ -5917,6 +5985,10 @@ msgid ""
 "clearly problems he met in <ulink url=\"https://girinstud.io/news/2019/02/"
 "smart-colorization-in-gimp/\"/>. Options are described bellow."
 msgstr ""
+"A detecção de arte de linha também é conhecida como Colorização inteligente. "
+"O autor descreve claramente os problemas que encontrou em <ulink "
+"url=\"https://girinstud.io/news/2019/02/smart-colorization-in-gimp/\"/>. As "
+"opções são descritas abaixo."
 
 #: src/toolbox/paint/bucket-fill.xml:224(term)
 msgid "Finding Similar Colors"
@@ -5927,6 +5999,8 @@ msgid ""
 "These options appear when the <guilabel>Fill similar colors</guilabel> "
 "option is checked:"
 msgstr ""
+"Estas opções aparecem quando a opção <guilabel>Preencher cores "
+"semelhantes</guilabel> está marcada:"
 
 #: src/toolbox/paint/bucket-fill.xml:232(para)
 msgid ""
@@ -5956,37 +6030,40 @@ msgid ""
 "To understand what diagonal neighbors are, please refer to <link linkend="
 "\"diagonal-neighbors\">Diagonal-neighbors&gt;</link> in Fuzzy Select tool."
 msgstr ""
+"Para entender o que são vizinhos diagonais, consulte <link "
+"linkend=\"diagonal-neighbors\">Vizinhos diagonais&gt;</link> na ferramenta "
+"Seleção difusa."
 
 #: src/toolbox/paint/bucket-fill.xml:255(para)
 msgid ""
 "Please refer to <link linkend=\"glossary-antialiasing\">Antialiasing</link> "
 "in Glossary."
 msgstr ""
+"Consulte <link linkend=\"glossary-antialiasing\">Suavização</link> no "
+"Glossário."
 
 #: src/toolbox/paint/bucket-fill.xml:262(para)
-#, fuzzy
 msgid ""
 "The <guilabel>Threshold</guilabel> slider sets the level at which color "
 "weights are measured for fill boundaries. A higher setting will fill more of "
 "a multi colored image and conversely, a lower setting will fill less area."
 msgstr ""
-"O seletor de limiar define o nível em que a ponderação de cor é medida para "
-"os calcular os limites de preenchimento. Uma configuração com um valor maior "
-"preencherá mais partes de uma imagem multicolorida e o oposto, uma limiar "
-"menor irá preencher uma área menor."
+"O seletor <guilabel>Limiar</guilabel> define o nível em que os pesos de cor "
+"são medidos para os limites do preenchimento. Um valor mais alto preencherá "
+"mais de uma imagem multicolorida e, inversamente, um valor mais baixo "
+"preencherá menos área."
 
 #: src/toolbox/paint/bucket-fill.xml:270(para)
-#, fuzzy
 msgid ""
 "With the <guilabel>Fill by</guilabel> option you can choose which component "
 "of the image GIMP shall use to calculate the similarity and to determine the "
 "borders of filling."
 msgstr ""
-"Com essa opção você pode escolher qual componente da imagem o GIMP deve usar "
-"para calcular a similaridade e determinar as bordas de preenchimento."
+"Com a opção <guilabel>Preencher por</guilabel>, você pode escolher qual "
+"componente da imagem o GIMP deve usar para calcular a similaridade e "
+"determinar as bordas do preenchimento."
 
 #: src/toolbox/paint/bucket-fill.xml:275(para)
-#, fuzzy
 msgid ""
 "The components you can choose from are <guimenuitem>Composite</guimenuitem>, "
 "<guimenuitem>Red</guimenuitem>, <guimenuitem>Green</guimenuitem>, "
@@ -5996,11 +6073,13 @@ msgid ""
 "Lightness</guimenuitem>, <guimenuitem>LCh Chroma</guimenuitem>, "
 "<guimenuitem>LCh Hue</guimenuitem>,"
 msgstr ""
-"Os componentes que você pode escolher são <guimenuitem>Composto</"
-"guimenuitem>, <guimenuitem>Vermelho</guimenuitem>, <guimenuitem>Verde</"
-"guimenuitem>, <guimenuitem>Azul</guimenuitem>, <guimenuitem>Matiz</"
-"guimenuitem>, <guimenuitem>Saturação</guimenuitem> e <guimenuitem>Valor</"
-"guimenuitem>."
+"Os componentes que você pode escolher são "
+"<guimenuitem>Composto</guimenuitem>, <guimenuitem>Vermelho</guimenuitem>, "
+"<guimenuitem>Verde</guimenuitem>, <guimenuitem>Azul</guimenuitem>, "
+"<guimenuitem>Alfa</guimenuitem>, <guimenuitem>Matiz HSV</guimenuitem>, "
+"<guimenuitem>Saturação HSV</guimenuitem>, <guimenuitem>Valor "
+"HSV</guimenuitem>, <guimenuitem>Luminosidade LCh</guimenuitem>, "
+"<guimenuitem>Croma LCh</guimenuitem>, <guimenuitem>Matiz LCh</guimenuitem>,"
 
 #: src/toolbox/paint/bucket-fill.xml:289(para)
 msgid ""
@@ -6082,63 +6161,76 @@ msgid "Image 3"
 msgstr "Imagem 3"
 
 #: src/toolbox/paint/bucket-fill.xml:368(term)
-#, fuzzy
 msgid "<quote>Line Art Detection</quote> options"
-msgstr "Opções da ferramenta de <quote>lápis</quote>"
+msgstr "Opções de <quote>Detecção de arte de linha</quote>"
 
 #: src/toolbox/paint/bucket-fill.xml:371(title)
-#, fuzzy
 msgid "<quote>Fill by line art detection</quote> example"
-msgstr "Exemplo de <quote>Clonagem em perspectiva</quote>"
+msgstr "Exemplo de <quote>Preencher por detecção de arte de linha</quote>"
 
 #: src/toolbox/paint/bucket-fill.xml:384(para)
 msgid ""
 "Bucket fill tool applied by click-and-drag with default options.They don't "
 "well fit this image, especially on eyebrows that are almost wiped off."
 msgstr ""
+"Ferramenta de preenchimento aplicada por clicar e arrastar com as opções "
+"padrão. Elas não se ajustam bem a esta imagem, especialmente nas "
+"sobrancelhas, que quase desaparecem."
 
 #: src/toolbox/paint/bucket-fill.xml:394(para)
 msgid ""
 "<guilabel>Source</guilabel>: by default, information for line art "
 "computation is taken from all visible layers; you can choose another source:"
 msgstr ""
+"<guilabel>Fonte</guilabel>: por padrão, as informações para o cálculo da arte "
+"de linha são obtidas de todas as camadas visíveis; você pode escolher outra "
+"fonte:"
 
 #: src/toolbox/paint/bucket-fill.xml:407(para)
 msgid ""
 "<guilabel>Fill transparent areas</guilabel>: fills completely transparent "
 "regions."
 msgstr ""
+"<guilabel>Preencher áreas transparentes</guilabel>: preenche regiões "
+"completamente transparentes."
 
 #: src/toolbox/paint/bucket-fill.xml:413(para)
-#, fuzzy
 msgid "<guilabel>Feather edges</guilabel>: feathers fill edges."
 msgstr ""
-"<guilabel>Pressão</guilabel>: Pressione com mais força para tornar o pincel "
-"maior."
+"<guilabel>Suavizar bordas</guilabel>: suaviza as bordas do preenchimento."
 
 #: src/toolbox/paint/bucket-fill.xml:424(para)
 msgid ""
 "<guilabel>Maximum growing size</guilabel>: maximum number of pixels grown "
 "under the line art. Increasing this value makes lines thinner."
 msgstr ""
+"<guilabel>Tamanho máximo de crescimento</guilabel>: número máximo de pixels "
+"crescidos sob a arte de linha. Aumentar esse valor torna as linhas mais "
+"finas."
 
 #: src/toolbox/paint/bucket-fill.xml:435(para)
 msgid ""
 "To improve eyebrows in the example, <guilabel>Maximum growing size</"
 "guilabel> is reduced to 1."
 msgstr ""
+"Para melhorar as sobrancelhas no exemplo, <guilabel>Tamanho máximo de "
+"crescimento</guilabel> é reduzido para 1."
 
 #: src/toolbox/paint/bucket-fill.xml:443(para)
 msgid ""
 "<guilabel>Line art detection threshold</guilabel>: threshold to detect "
 "contour (higher values will detect more pixels)."
 msgstr ""
+"<guilabel>Limiar de detecção de arte de linha</guilabel>: limiar para "
+"detectar contorno (valores mais altos detectam mais pixels)."
 
 #: src/toolbox/paint/bucket-fill.xml:449(para)
 msgid ""
 "<guilabel>Maximum gap length </guilabel>: maximum gap (in pixels) in line "
 "art which can be closed."
 msgstr ""
+"<guilabel>Comprimento máximo de lacuna </guilabel>: lacuna máxima (em pixels) "
+"na arte de linha que pode ser fechada."
 
 #: src/toolbox/paint/bucket-fill.xml:461(title)
 msgid "Fill a feathered selection"
@@ -6249,17 +6341,16 @@ msgstr ""
 "de ferramentas</link>) de acordo com a cor do pixel."
 
 #: src/toolbox/paint/brush-tools.xml:90(para)
-#, fuzzy
 msgid ""
 "This key places these tools into straight line mode. Holding <keycap>Shift</"
 "keycap> while clicking the mouse <mousebutton>left&nbsp;Button</mousebutton> "
 "will generate a straight line. Consecutive clicks will continue drawing "
 "straight lines that originate from the end of the last line."
 msgstr ""
-"Essas teclas colocam essas ferramentas no modo de linha reta. Pressionar "
-"<keycap>Shift</keycap> enquanto clica com o <mousebutton>Botão 1</"
-"mousebutton> gerará uma linha reta. Cliques consecutivos continuarão a "
-"desenhar linhas retas que se originarão do fim da última linha."
+"Esta tecla coloca essas ferramentas no modo de linha reta. Manter "
+"<keycap>Shift</keycap> pressionada enquanto clica com o <mousebutton>Botão "
+"esquerdo</mousebutton> gerará uma linha reta. Cliques consecutivos "
+"continuarão a desenhar linhas retas que partem do fim da última linha."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6274,13 +6365,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/blur-sharpen.xml:133(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/blur-sharpen-dialog.png'; "
 "md5=37570ffaa4eaa722921816b708027bab"
 msgstr ""
-"@@image: 'images/toolbox/tool-options-blur-sharpen.png'; "
-"md5=1a91e7548bf3357611b645b105a97f40"
+"@@image: 'images/toolbox/blur-sharpen-dialog.png'; "
+"md5=37570ffaa4eaa722921816b708027bab"
 
 #: src/toolbox/paint/blur-sharpen.xml:12(title)
 #: src/toolbox/paint/blur-sharpen.xml:16(secondary)
@@ -6312,7 +6402,6 @@ msgstr ""
 "borrar."
 
 #: src/toolbox/paint/blur-sharpen.xml:39(para)
-#, fuzzy
 msgid ""
 "In <quote>Sharpen</quote> mode, the tool works by increasing the contrast "
 "where the brush is applied. A little bit of this may be useful, but over-"
@@ -6321,12 +6410,12 @@ msgid ""
 "unsharp-mask\">Unsharp Mask</link>, do a much cleaner job of sharpening "
 "areas of a layer."
 msgstr ""
-"No modo <quote>tornar nítido</quote>, a ferramenta trabalha aumentando o "
-"contraste onde o pincel é aplicado. Aplicar um pouco disso pode ser útil, "
-"mas um excesso de aplicação criará ruído. Alguns dos <link linkend=\"filters-"
-"enhance\">Filtros de realce</link>, em particular a <link linkend=\"plug-in-"
-"unsharp-mask\">Máscara de desaguçar</link>, fazem um trabalho muito mais "
-"limpo de tornar nítidas áreas de uma camada."
+"No modo <quote>Nitidez</quote>, a ferramenta trabalha aumentando o contraste "
+"onde o pincel é aplicado. Um pouco disso pode ser útil, mas o excesso produz "
+"ruído. Alguns dos <link linkend=\"filters-enhance\">Filtros de realce</link>, "
+"em particular a <link linkend=\"gimp-filter-unsharp-mask\">Máscara de "
+"nitidez</link>, fazem um trabalho muito mais limpo ao tornar nítidas áreas de "
+"uma camada."
 
 #: src/toolbox/paint/blur-sharpen.xml:49(para)
 msgid ""
@@ -6340,15 +6429,15 @@ msgid ""
 "mix together, where the brush is applied, the sharpened version with the "
 "unsharpened version."
 msgstr ""
-"Você pode criar um pincel de nitidez mais sofisticado usando a ferramenta de "
-"clonagem. Para fazer isso, comece por duplicar a camada na qual você deseja "
-"trabalhar, e aplique um filtro de realce, como a máscara de desaguçar, na "
-"cópia. Então ative a ferramenta de clonagem, e marque em Origem nas Opções "
-"da Ferramenta a opção Imagem e a opção Alinhamento em <quote>Registrado</"
-"quote>. Coloque a opacidade em um valor modesto, como 10. Então "
-"<keycap>Ctrl</keycap>-clique na cópia para torná-la a imagem de origem. Se "
-"agora você pintar a camada original, então você irá misturar ambas, onde o "
-"pincel é aplicado, a versão nítida com a versão desfocada."
+"Você pode criar um pincel de nitidez mais sofisticado usando a ferramenta "
+"Clonar. Para isso, comece duplicando a camada em que deseja trabalhar e "
+"aplique um filtro de nitidez, como Máscara de desfoque, na cópia. Então ative "
+"a ferramenta Clonar e, em suas Opções da ferramenta, defina Origem como "
+"<quote>Imagem</quote> e Alinhamento como <quote>Registrado</quote>. Defina a "
+"opacidade em um valor modesto, como 10. Então <keycap>Ctrl</keycap>-clique na "
+"cópia para torná-la a imagem de origem. Se agora você pintar na camada "
+"original, você misturará, onde o pincel for aplicado, a versão nítida com a "
+"versão desfocada."
 
 #: src/toolbox/paint/blur-sharpen.xml:62(para)
 msgid ""
@@ -6416,13 +6505,12 @@ msgid "Tool Options for the Blur/Sharpen tool"
 msgstr "Opções da ferramenta para a ferramenta de desfocar/tornar nítido"
 
 #: src/toolbox/paint/blur-sharpen.xml:149(para)
-#, fuzzy
 msgid ""
 "<guilabel>Hard edge</guilabel>: this option gives a hard contour to the "
 "blurred/sharpened area."
 msgstr ""
-"O seletor de <guilabel>Taxa</guilabel> seleciona a dureza do efeito de "
-"desfocar/tornar nítido."
+"<guilabel>Borda dura</guilabel>: esta opção dá um contorno duro à área "
+"desfocada/nitidificada."
 
 #: src/toolbox/paint/blur-sharpen.xml:156(term)
 msgid "Convolve Type"
@@ -6473,13 +6561,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/airbrush.xml:106(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/toolbox/airbrush-dialog.png'; "
 "md5=21e672cb964bfef4c829db1e5b77c95d"
 msgstr ""
-"@@image: 'images/toolbox/toolbox-airbrush.png'; "
-"md5=075685c9a564f88ae910a5860b3f7288"
+"@@image: 'images/toolbox/airbrush-dialog.png'; "
+"md5=21e672cb964bfef4c829db1e5b77c95d"
 
 #: src/toolbox/paint/airbrush.xml:16(title)
 #: src/toolbox/paint/airbrush.xml:19(primary)
@@ -6534,40 +6621,38 @@ msgstr ""
 "tool-color-picker\">Seletor de cor</link>."
 
 #: src/toolbox/paint/airbrush.xml:88(para)
-#, fuzzy
 msgid ""
 "<keycap>Shift</keycap> places the airbrush into straight line mode. Holding "
 "<keycap>Shift</keycap> while clicking the mouse <mousebutton>Left&nbsp;"
 "Button</mousebutton> will generate a straight line. Consecutive clicks will "
 "continue drawing straight lines that originate from the end of the last line."
 msgstr ""
-"<keycap>Shift</keycap> coloca o aerógrafo no modo de linha reta. Pressionar "
-"<keycap>Shift</keycap> enquanto clica com o <mousebutton>Botão 1</"
-"mousebutton> criará uma linha reta. Cliques consecutivos continuarão a "
-"produzir linhas retas que serão originadas a partir do fim da última linha."
+"<keycap>Shift</keycap> coloca o aerógrafo no modo de linha reta. Manter "
+"<keycap>Shift</keycap> pressionada enquanto clica com o <mousebutton>Botão "
+"esquerdo</mousebutton> gerará uma linha reta. Cliques consecutivos "
+"continuarão a desenhar linhas retas que partem do fim da última linha."
 
 #: src/toolbox/paint/airbrush.xml:102(title)
 msgid "Airbrush options"
 msgstr "Opções de aerógrafo"
 
 #: src/toolbox/paint/airbrush.xml:115(term)
-#, fuzzy
 msgid ""
 "Mode; Opacity; Brush; Size; Aspect Ratio; Angle; Spacing; Hardness; "
 "Dynamics; Dynamics Options; Force; Apply Jitter; Smooth Stroke; Lock brush "
 "size to view"
 msgstr ""
-"Modo; Opacidade; Pincel; Dinâmicas; Opções de dinâmicas; Aplicar "
-"espalhamento; Pincelada suave; Incremental"
+"Modo; Opacidade; Pincel; Tamanho; Proporção; Ângulo; Espaçamento; Dureza; "
+"Dinâmicas; Opções de dinâmicas; Força; Aplicar dispersão; Traço suave; Fixar "
+"tamanho do pincel na vista"
 
 #: src/toolbox/paint/airbrush.xml:122(para)
-#, fuzzy
 msgid ""
 "<guilabel>Motion only</guilabel>: if this option is checked, the airbrush "
 "paints only when it moves."
 msgstr ""
-"<guilabel>Inclinação</guilabel>: O tamanho do pincel depende da inclinação "
-"da caneta."
+"<guilabel>Somente movimento</guilabel>: se esta opção estiver marcada, o "
+"aerógrafo pinta somente quando se move."
 
 #: src/toolbox/paint/airbrush.xml:131(para)
 msgid ""

@@ -1161,8 +1161,8 @@ msgid ""
 "If checked (this is the default), the source image is used as mask. If "
 "unchecked, the <emphasis>inverted</emphasis> source image is used."
 msgstr ""
-"Se habilitado (isso é o padrão), a imagem de origem é usada como máscara. "
-"Caso contrário, o negativo da imagem de origem será usado."
+"Se marcado (este é o padrão), a imagem de origem é usada como máscara. Se "
+"desmarcado, a imagem de origem <emphasis>invertida</emphasis> é usada."
 
 #: src/filters/decor/chrome-it.xml:176(title)
 msgid "How to create the chrome effect"

@@ -20,7 +20,8 @@ msgstr ""
 
 #: src/preface/authors.xml:8(title)
 msgid "<acronym>GIMP</acronym> User Manual Authors and Contributors"
-msgstr "Autores e contribuidores do manual do usuário do GIMP"
+msgstr ""
+"Autores e colaboradores do manual do usuário do <acronym>GIMP</acronym>"
 
 #: src/preface/authors.xml:12(term)
 msgid "Documentation"
