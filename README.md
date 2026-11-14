@@ -1,567 +1,568 @@
 # GIMP-Help
 
-GIMP-Help is a help system designed to display GIMP's User Manual using
-a browser or HTML renderers.  
-Our documentation is written in [DocBook XML](https://docbook.org/), which
-allows us to create a highly customizable documentation system.
+GIMP-Help é um sistema de ajuda criado para exibir o Manual do Usuário do GIMP
+em um navegador ou em renderizadores HTML.  
+Nossa documentação é escrita em [DocBook XML](https://docbook.org/), o que nos
+permite criar um sistema de documentação altamente personalizável.
 
-We currently maintain the following versions of the documentation:
-- The work-in-progress manual for version 3.2 of GIMP is available
-on the `master` branch. We accept and will review MR's targeting 3.2.
-- The manual for version 3.0 of GIMP is available in a branch named
-`gimp-help-3-0` and it is doubtful whether there will be new updates.
-
-
-## Contents
-
-1. [Online manuals](#online-manuals)
-2. [Tips for contributing](#tips-for-contributing)  
-  2.1 [Translating](#how-to-help-translating-the-manual)  
-  2.2 [Manual writing](#how-to-help-writing-the-manual)
-3. [Documentation issues](#documentation-issues)
-4. [Creating a Release](#creating-a-release)
-5. [Updating supported languages](#updating-supported-languages)
-6. [History of the gimp-help module](#history-of-the-gimp-help-module)
+Atualmente mantemos as seguintes versões da documentação:
+- O manual em desenvolvimento para a versão 3.2 do GIMP está disponível no
+branch `master`. Aceitamos e revisaremos MRs destinados à 3.2.
+- O manual para a versão 3.0 do GIMP está disponível em um branch chamado
+`gimp-help-3-0` e é duvidoso que haja novas atualizações.
 
 
-## Online manuals
+## Conteúdo
 
-The online, daily updated, manuals for all supported languages are available at:
+1. [Manuais online](#manuais-online)
+2. [Dicas para contribuir](#dicas-para-contribuir)  
+  2.1 [Traduzindo](#como-ajudar-a-traduzir-o-manual)  
+  2.2 [Escrevendo o manual](#como-ajudar-a-escrever-o-manual)
+3. [Problemas na documentação](#problemas-na-documentação)
+4. [Criando uma versão](#criando-uma-versão)
+5. [Atualizando os idiomas suportados](#atualizando-os-idiomas-suportados)
+6. [História do módulo gimp-help](#história-do-módulo-gimp-help)
 
-- [GIMP 3.2 manuals](https://docs.gimp.org/index.html#gimp-online) (Autotools build)
-- [GIMP 3.2 manuals](https://testing.docs.gimp.org/index.html#gimp-online) (_Experimental meson build)
 
-(This is not a typo.)
+## Manuais online
 
-Manuals for older versions of GIMP are still available:
+Os manuais online, atualizados diariamente, para todos os idiomas suportados
+estão disponíveis em:
 
-- [GIMP manuals](https://docs.gimp.org/online.html)
+- [Manuais do GIMP 3.2](https://docs.gimp.org/index.html#gimp-online) (build com Autotools)
+- [Manuais do GIMP 3.2](https://testing.docs.gimp.org/index.html#gimp-online) (*build experimental com meson)
 
-The offline manuals are available for download from our [Releases page](https://docs.gimp.org/download.html).
+(Isso não é um erro de digitação.)
 
-## Tips for contributing
+Os manuais de versões mais antigas do GIMP continuam disponíveis:
 
-### How to help translating the manual
+- [Manuais do GIMP](https://docs.gimp.org/online.html)
 
-If you are interested in translating the manual the best way to
-start is going to the [DamnedLies translation platform](https://l10n.gnome.org/).
-Register an account there, if you don't have one yet, and apply to be a member
-of the language team for the language you want to translate.  
+Os manuais offline podem ser baixados da nossa [página de versões](https://docs.gimp.org/download.html).
 
-All our translations are done through DamnedLies. To start translating the
-manual go to the [translatable po files](https://l10n.gnome.org/module/gimp-help/)
-for the manual. After you finish translating, you upload it to DamnedLies.
-Your language team will be able to give you more details on this procedure.
+## Dicas para contribuir
 
-**Note:** If your language does not have any po files listed there, your
-language first needs to be added to our repository. In that case, please open
-[an issue](https://gitlab.gnome.org/GNOME/gimp-help/issues) stating which
-language and iso languagecode you would like to have added. Please also give
-us the native localized name for your language to be used on our website.
+### Como ajudar a traduzir o manual
 
-#### How to test your translation
+Se você tem interesse em traduzir o manual, a melhor forma de
+começar é ir até a [plataforma de tradução DamnedLies](https://l10n.gnome.org/).
+Cadastre uma conta lá, caso ainda não tenha uma, e solicite entrada na equipe
+de idioma do idioma que você quer traduzir.  
 
-If you have set up a build environment for gimp-help you can test the
-translation:
-- When using meson (preferred):
-  + Set up your meson build if you haven't done that yet, see [Experimental meson build instructions](#Experimental meson build instructions).
-  + Run `ninja && ninja install`. If you set things up correctly it
-  should find your updated html when opening help from GIMP.
-  + Alternatively only run `ninja`, browse to gimp-help's build folder
-  and open `html/LANG/index.html`, where `LANG` should be replaced by
-  the iso language code of your language.
-- Wen using autotools:
-  + Assuming your autotools build is alread set up, run `make html-LANG`,
-  where LANG is your iso language code. This will generate an HTML version
-  of the user manual. For example use `make html-nl` to make the HTML for
-  the Dutch language.
-  + When that is successful, you can find the index.html file in the
-  `/html/LANG/` folder under your gimp-help build folder.
+Todas as nossas traduções são feitas pelo DamnedLies. Para começar a traduzir o
+manual, vá até os [arquivos po traduzíveis](https://l10n.gnome.org/module/gimp-help/)
+do manual. Depois de terminar a tradução, você o envia ao DamnedLies.
+Sua equipe de idioma poderá dar mais detalhes sobre esse procedimento.
 
-#### How to add localized screenshots
+**Nota:** se o seu idioma não tiver nenhum arquivo po listado lá, primeiro
+é preciso adicioná-lo ao nosso repositório. Nesse caso, abra
+[um issue](https://gitlab.gnome.org/GNOME/gimp-help/issues) informando qual
+idioma e qual código de idioma iso você gostaria de ver incluído. Informe também
+o nome nativo do idioma, que será usado no nosso site.
 
-Localized images also need to be reviewed first by your language team through
-DamnedLies. Discuss with your language team how to do that, after review
-they need to be committed to the gimp-help repository by opening a
-Merge Request (MR).
-Either your language team leader opens the MR with the localized images, or
-at the very least the team leader needs to comment on the MR that
-the changes are vetted and reviewed by your team.
+#### Como testar sua tradução
 
-All images are stored in the top-level 'images' folder. Original
-screenshots in English are in the 'C' subfolder. Localized screenshots
-are in 'LANG' folders, where LANG is your iso language code.
+Se você já configurou um ambiente de build para o gimp-help, pode testar a
+tradução:
+- Ao usar o meson (preferencial):
+  + Configure seu build do meson, caso ainda não tenha feito isso; veja
+  [Instruções do build experimental com meson](#instruções-do-build-experimental-com-meson).
+  + Execute `ninja && ninja install`. Se tudo estiver configurado corretamente,
+  o GIMP deve encontrar o html atualizado ao abrir a ajuda.
+  + Como alternativa, execute apenas `ninja`, navegue até a pasta de build do
+  gimp-help e abra `html/LANG/index.html`, onde `LANG` deve ser substituído
+  pelo código de idioma iso do seu idioma.
+- Ao usar o autotools:
+  + Supondo que seu build com autotools já esteja configurado, execute `make html-LANG`,
+  onde LANG é o código de idioma iso. Isso gera uma versão HTML
+  do manual do usuário. Por exemplo, use `make html-nl` para gerar o HTML
+  do idioma neerlandês.
+  + Quando isso funcionar, o arquivo index.html estará na pasta
+  `/html/LANG/` dentro da sua pasta de build do gimp-help.
 
-It is important to preserve both paths and names when saving localized
-versions of the screenshots. Otherwise documentation won't build properly,
-or the localized images will not be used.
+#### Como adicionar capturas de tela localizadas
 
-More in general, also follow the relevant [guidelines](documentation-guidelines.md)
-regarding image handling. In general you should use the same theme and icon theme
- as the English image.
+As imagens localizadas também precisam ser revisadas antes pela sua equipe de
+idioma pelo DamnedLies. Combine com a sua equipe de idioma como fazer isso;
+após a revisão, elas precisam ser enviadas ao repositório do gimp-help por meio
+de um Merge Request (MR).
+Ou o líder da sua equipe de idioma abre o MR com as imagens localizadas, ou,
+no mínimo, o líder da equipe precisa comentar no MR que as mudanças foram
+conferidas e revisadas pela sua equipe.
 
-### How to help writing the manual
+Todas as imagens ficam na pasta `images`, na raiz do projeto. As capturas
+originais em inglês estão na subpasta `C`. As capturas localizadas ficam em
+pastas `LANG`, onde LANG é o código de idioma iso.
 
-If instead you would like to help out writing and improving the
-manual then this is the right place to start.
+É importante preservar tanto os caminhos quanto os nomes ao salvar versões
+localizadas das capturas de tela. Caso contrário, a documentação não será
+compilada corretamente, ou as imagens localizadas não serão usadas.
 
-First, it would be a good idea to subscribe to messages that have the GIMP or
-documentation tags on [Gnome's Discourse server](https://discourse.gnome.org/).
-Note: when asking a question on Discourse make sure you add tags for GIMP
-and documentation (or i18n if it is related to translations), or we may
-not see your message.
+De modo mais geral, siga também as [diretrizes](documentation-guidelines.md)
+relevantes sobre o tratamento de imagens. Em geral, use o mesmo tema e o mesmo
+tema de ícones da imagem em inglês.
 
-Most of the GIMP developers can also be reached on the #gimp
-IRC channel on irc.gimp.org. The best chances to talk are
-usually during European evening hours.
+### Como ajudar a escrever o manual
 
-If some of the instructions below are unclear, don't hesitate
-to ask in one of the places mentioned above.
+Se, em vez disso, você quiser ajudar a escrever e melhorar o
+manual, então este é o lugar certo para começar.
 
-#### Experimental meson build instructions
-The autotools Makefiles are being phased out and will be replaced
-by meson, which is currently in an experimental stage. You are
-encouraged to use that for building the manual. This should
-be faster than building with autotools.
-For required packages see below, in addition you will also need
-the `meson` package.
+Primeiro, seria uma boa ideia acompanhar as mensagens com as tags GIMP ou
+documentation no [servidor Discourse do Gnome](https://discourse.gnome.org/).
+Nota: ao fazer uma pergunta no Discourse, certifique-se de adicionar as tags GIMP
+e documentation (ou i18n, se for sobre traduções), caso contrário podemos
+não ver a sua mensagem.
 
-To build with meson:
-- Start a terminal.
-- cd to your build directory (create if needed)
-- Setup env vars for `$HELP_PREFIX` and `$SRCDIR` or replace
-with actual values below. Replace "en nl" with the language(s)
-you want to build.
+A maioria dos desenvolvedores do GIMP também pode ser encontrada no canal
+#gimp no IRC, em irc.gimp.org. As melhores chances de conversar são
+normalmente no horário da noite europeia.
+
+Se alguma das instruções abaixo não estiver clara, não hesite
+em perguntar em um dos lugares mencionados acima.
+
+#### Instruções do build experimental com meson
+Os Makefiles do autotools estão sendo descontinuados e serão substituídos
+pelo meson, que atualmente está em fase experimental. Você é
+incentivado a usá-lo para compilar o manual. Isso deve
+ser mais rápido do que compilar com autotools.
+Para os pacotes necessários, veja abaixo; além deles, você também precisará
+do pacote `meson`.
+
+Para compilar com meson:
+- Abra um terminal.
+- Vá para o seu diretório de build (crie-o se necessário).
+- Defina as variáveis de ambiente `$HELP_PREFIX` e `$SRCDIR`, ou substitua
+pelos valores reais abaixo. Substitua "en nl" pelo(s) idioma(s)
+que você quer compilar.
 - `meson setup -Dprefix=$HELP_PREFIX $SRCDIR -Dlanguages="en nl"`
-- Alternatively you can start meson from the source and specify
-the build dir. See the meson manual for details.
-- Next run: `ninja`. When building multiple languages (say more
-than 4), you can specify a max load, e.g. `ninja -l 4.5`.
-- If you want to, you can install the languages so that GIMP can
-find the local manual. Run: `ninja install --no-rebuild`.
-- Optionally test if everything is ok with the build by
-running `ninja test`.
+- Como alternativa, você pode iniciar o meson a partir do código-fonte e indicar
+o diretório de build. Veja o manual do meson para detalhes.
+- Em seguida execute: `ninja`. Ao compilar vários idiomas (digamos mais
+de 4), você pode especificar uma carga máxima, por exemplo `ninja -l 4.5`.
+- Se quiser, você pode instalar os idiomas para que o GIMP encontre
+o manual local. Execute: `ninja install --no-rebuild`.
+- Opcionalmente, teste se tudo está certo no build executando
+`ninja test`.
 
-*Continuing with the regular instructions*
-To get started, here is a checklist of things you should do:
-- If you don't have a [Gnome GitLab](https://gitlab.gnome.org/)
-  account yet, create one (you can use GitHub credentials to login).
-- Make sure you set up set up an [SSH](https://handbook.gnome.org/infrastructure/ssh-keys.html)
-  key or you won't be able to fork projects.
-- Go to https://gitlab.gnome.org/GNOME/gimp-help and
-  create your own fork by clicking on "Fork" on the top
-  right of the page.
-- Go to your fork at https://gitlab.gnome.org/YOUR_USERNAME/gimp-help
-- gimp-help uses a CI pipeline to validate the contents of the repo at each
-  commit. Make sure to setup the CI settings for your fork correctly:
+*Continuando com as instruções normais*
+Para começar, aqui está uma lista de verificação do que você deve fazer:
+- Se você ainda não tem uma conta no [Gnome GitLab](https://gitlab.gnome.org/),
+  crie uma (é possível entrar com credenciais do GitHub).
+- Certifique-se de configurar uma chave [SSH](https://handbook.gnome.org/infrastructure/ssh-keys.html),
+  caso contrário não conseguirá criar forks de projetos.
+- Vá até https://gitlab.gnome.org/GNOME/gimp-help e
+  crie seu próprio fork clicando em "Fork" no canto superior
+  direito da página.
+- Vá até o seu fork em https://gitlab.gnome.org/SEU_USUARIO/gimp-help
+- O gimp-help usa um pipeline de CI para validar o conteúdo do repositório a cada
+  commit. Certifique-se de configurar as opções de CI do seu fork corretamente:
   + `Settings > General > Visibility`:
-    - Set `Project visibility` to `Public`
-    - Enable `Repository` with `Everyone With Access`
-    - Enable `CI/CD` with `Everyone With Access`
-    - Enable `Container registry` (any visibility level)
+    - Defina `Project visibility` como `Public`
+    - Habilite `Repository` com `Everyone With Access`
+    - Habilite `CI/CD` com `Everyone With Access`
+    - Habilite `Container registry` (qualquer nível de visibilidade)
   + `Settings > CI/CD > General pipelines`:
-    - Enable `Public pipelines`
-- Make sure to read our [documentation guidelines](documentation-guidelines.md),
-  which includes the [style guide](documentation-guidelines.md#style-guide).
-- For relatively small and simple edits you can use the web-ide
-  if you don't want to set up a build environment on your computer.
-  + In the left-hand menu, expand the `Code` section, and then select
+    - Habilite `Public pipelines`
+- Certifique-se de ler nossas [diretrizes de documentação](documentation-guidelines.md),
+  que incluem o [guia de estilo](documentation-guidelines.md#style-guide).
+- Para edições relativamente pequenas e simples, você pode usar o web-ide
+  se não quiser configurar um ambiente de build no seu computador.
+  + No menu à esquerda, expanda a seção `Code` e depois selecione
     `Repository`.
-  + From the `+` list at the top of the page, select `New branch`, and then
-    create a new branch from `master` for your updates.
-  + Back on the Repository page, from the `Edit` menu, select `Web IDE`.
-  + In the web IDE, use the file explorer on the left-hand side to navigate to
-    the `/src/` folder, and then select the file you want to update.
-  + Make the required changes.
-  + From the menu of icons on the left-hand side of the page, select
+  + Na lista `+` no topo da página, selecione `New branch` e então
+    crie um novo branch a partir de `master` para suas alterações.
+  + De volta à página do Repository, no menu `Edit`, selecione `Web IDE`.
+  + No web IDE, use o explorador de arquivos à esquerda para navegar até
+    a pasta `/src/` e então selecione o arquivo que você quer atualizar.
+  + Faça as mudanças necessárias.
+  + No menu de ícones à esquerda da página, selecione
     `Source Control`.
-  + In the `Commit message` field, enter a brief description of your changes.
-  + Above the `Commit message` field, select the tick icon to commit your
-    changes.
-  + Make sure the CI pipeline succeeds. Otherwise, inspect the pipeline for the
-    cause of failure and fix it. To view the status of the CI pipeline, select,
-    `Build > Pipelines`.
-  + Next you need to create a Merge Request (MR) for the commit.
-  + This MR will show up in the main gimp-help repository and
-    will be reviewed and evaluated.
-- For more complicated edits, reordering parts of the help,
-  or adding screenshots, you should clone the repository to
-  your computer and work on it locally.
-  + On your fork of gimp-help, click the blue `Code` button
-    and choose your preferred method to clone the repository.
-  + In case you are on Windows, it is strongly advised to
-    set up a MSYS2 environment, so that you can build and
-    test the gimp-help repository. MSYS2 includes multiple environments, each
-    of which is accessed through its own executable. We advise that you use
-    UCRT64 or CLANG64. For more information, refer to
-    [Environments](https://www.msys2.org/docs/environments/) in the MSYS2
-    documentation.
-  + TODO: Other OS's may need some setting up too. Add
-    details here as needed.
-  + You need the following packages to build the documentation:
-    + Minimum: autotools or meson [at least version 1.10], libxslt, python,
-      perl, libxml2, python3-libxml2 (on MSYS2 this is included in libxml2),
-      docbook-xml, and docbook-xsl.
-      With these packages, you can build the English html help.
-    + Version control: git.
-    + To build quick start PDFs: librsvg2-2. For some languages, you may also
-      need to install the appropriate [Noto fonts](https://fonts.google.com/noto). 
-      For more information, refer to
+  + No campo `Commit message`, digite uma breve descrição das suas mudanças.
+  + Acima do campo `Commit message`, selecione o ícone de confirmação para
+    fazer o commit das suas mudanças.
+  + Certifique-se de que o pipeline de CI passa. Caso contrário, inspecione o
+    pipeline para descobrir a causa da falha e corrija. Para ver o status do
+    pipeline de CI, selecione `Build > Pipelines`.
+  + Em seguida, você precisa criar um Merge Request (MR) para o commit.
+  + Esse MR aparecerá no repositório principal do gimp-help e
+    será revisado e avaliado.
+- Para edições mais complicadas, reordenação de partes da ajuda,
+  ou inclusão de capturas de tela, você deve clonar o repositório no
+  seu computador e trabalhar nele localmente.
+  + No seu fork do gimp-help, clique no botão azul `Code`
+    e escolha o seu método preferido para clonar o repositório.
+  + Caso você esteja no Windows, é fortemente recomendado
+    configurar um ambiente MSYS2, para que você possa compilar e
+    testar o repositório gimp-help. O MSYS2 inclui vários ambientes, cada
+    um deles acessado pelo seu próprio executável. Recomendamos usar
+    UCRT64 ou CLANG64. Para mais informações, consulte
+    [Environments](https://www.msys2.org/docs/environments/) na documentação
+    do MSYS2.
+  + TODO: outros sistemas operacionais também podem precisar de alguma configuração. Adicione
+    detalhes aqui conforme necessário.
+  + Você precisa dos seguintes pacotes para compilar a documentação:
+    + Mínimo: autotools ou meson [pelo menos versão 1.10], libxslt, python,
+      perl, libxml2, python3-libxml2 (no MSYS2 isso está incluído no libxml2),
+      docbook-xml e docbook-xsl.
+      Com esses pacotes, você pode compilar a ajuda html em inglês.
+    + Controle de versão: git.
+    + Para compilar os PDFs de início rápido: librsvg2-2. Para alguns idiomas, pode ser necessário
+      instalar as [fontes Noto](https://fonts.google.com/noto) apropriadas.
+      Para mais informações, consulte
       [#410](https://gitlab.gnome.org/GNOME/gimp-help/-/issues/410)
-      To install librsvg2-2 for MSYS2, refer to 
+      Para instalar o librsvg2-2 no MSYS2, consulte
       [Base Package: mingw-w64-librsvg](https://packages.msys2.org/base/mingw-w64-librsvg)
-      for information about what package to install. You can use `make pdf` to
-      build quick start PDFs for all languages. 
-    + For localization: gettext, intltool and the polib Python package for
-      validation of po files.
-      To install polib, use a package manager (e.g., pacman) to install pip,
-      and then use pip to install polib. gettext may already be installed in
-      an MSYS2 environment.
-    + To build the Windows installers: intltool and innosetup. When using meson
-      InnoSetup will be automatically downloaded and installed when needed.
-    + To create an architecture diagram of the build process: dot, which is
-      part of graphviz. Not yet available for our meson build. For MSYS2, refer to
+      para saber qual pacote instalar. Você pode usar `make pdf` para
+      compilar os PDFs de início rápido de todos os idiomas.
+    + Para localização: gettext, intltool e o pacote Python polib para
+      validação dos arquivos po.
+      Para instalar o polib, use um gerenciador de pacotes (por exemplo, pacman) para instalar o pip,
+      e depois use o pip para instalar o polib. O gettext pode já estar instalado
+      em um ambiente MSYS2.
+    + Para compilar os instaladores do Windows: intltool e innosetup. Ao usar o meson,
+      o InnoSetup será baixado e instalado automaticamente quando necessário.
+    + Para criar um diagrama de arquitetura do processo de build: dot, que faz
+      parte do graphviz. Ainda não disponível no nosso build com meson. Para o MSYS2, consulte
       [Base Package: mingw-w64-graphviz](https://packages.msys2.org/base/mingw-w64-graphviz)
-      for information about what package to install. To generate the diagram,
+      para saber qual pacote instalar. Para gerar o diagrama,
       use `make dot`.
-    + To build PDF versions of the help: dblatex (does not work at this time).
-      There currently is no plan to port this to meson. Note that PDF versions
-      of gimp-help are no longer being created because dblatex doesn't seem
-      to be compatible with more recent versions of Python. Refer to
-      [#138](https://gitlab.gnome.org/GNOME/gimp-help/-/issues/138) for more
-      information. When everything is set up correctly, use `make pdf-xx` to
-      build a PDF for a single language or `make pdf-local` to build PDFs for
-      all languages.
-      + TODO: Test and confirm the process to install dblatex. For more
-        information, refer to the
-        [dblatex SourceForce site](https://dblatex.sourceforge.net/).
-    + Note: the autogen script also checks if pngnq and pngcrush are
-      installed, but they are not used.
-  + Assuming you have cloned the git repo on your computer,
-    make a build dir inside or outside your tree depending
-    on your personal preference, then run from the build dir:
+    + Para compilar versões em PDF da ajuda: dblatex (não funciona no momento).
+      Atualmente não há plano de portar isso para o meson. Observe que as versões em PDF
+      do gimp-help não são mais criadas, porque o dblatex parece
+      ser incompatível com versões mais recentes do Python. Consulte
+      [#138](https://gitlab.gnome.org/GNOME/gimp-help/-/issues/138) para mais
+      informações. Quando tudo estiver configurado corretamente, use `make pdf-xx` para
+      compilar um PDF de um único idioma ou `make pdf-local` para compilar PDFs de
+      todos os idiomas.
+      + TODO: testar e confirmar o processo de instalação do dblatex. Para mais
+        informações, consulte o
+        [site do dblatex no SourceForce](https://dblatex.sourceforge.net/).
+    + Nota: o script autogen também verifica se pngnq e pngcrush estão
+      instalados, mas eles não são usados.
+  + Supondo que você clonou o repositório git no seu computador,
+    crie um diretório de build dentro ou fora da árvore, conforme
+    sua preferência pessoal, e então execute a partir do diretório de build:
     `../autogen.sh --prefix=${INSTALL_PREFIX} --without-gimp`.
-    + Note: If you want to build help for only a specific subset of supported
-      languages, add `ALL_LINGUAS="en xx"`; where the value in quotes is a
-      space separated list of language codes. Then, when you use a `make`
-      command without specifying a language, such as `make html` instead of
-      `make html-en`, you will build outputs for only your chosen languages.
-    + Note: You can rerun the autogen script to rebuild the make files. For
-      example, if you want to change which languages you build help for, or
-      you install a new package.
-  + TODO: On Windows you may have to add `--build=mingw64`,
-    possibly also `DESTDIR=$BUILD_DIR $SRCDIR`.
-  + After running autogen once, you can use the following
-    command repeatedly for making the English manual:
+    + Nota: se você quiser compilar a ajuda apenas para um subconjunto específico dos idiomas
+      suportados, adicione `ALL_LINGUAS="en xx"`, onde o valor entre aspas é uma
+      lista de códigos de idioma separados por espaço. Assim, quando você usar um comando `make`
+      sem especificar um idioma, como `make html` em vez de
+      `make html-en`, você compilará a saída apenas para os idiomas escolhidos.
+    + Nota: você pode executar o script autogen novamente para regenerar os makefiles. Por
+      exemplo, se quiser mudar para quais idiomas você compila a ajuda, ou
+      se instalar um novo pacote.
+  + TODO: no Windows talvez você precise adicionar `--build=mingw64`,
+    possivelmente também `DESTDIR=$BUILD_DIR $SRCDIR`.
+  + Depois de executar o autogen uma vez, você pode usar o comando a seguir
+    repetidamente para gerar o manual em inglês:
     `make html-en`.
-  + You can check the output in your build dir in the
-    /html/en/ folder.
-  + If that is working, select a file from the /src/
-    folder that you want to work on and start editing.
-  + When finished with a set of related edits, you
-    should first validate your changes to check that
-    you didn't make any mistakes in the docbook XML
-    format. The command for this is `make validate-en`.
-  + If everything is fine commit your changes with a
-    descriptive commit message. Make sure you always do
-    related changes in a separate branch.
-  + Push your changes to your fork on Gnome GitLab.
-  + Make sure the CI pipeline succeeds. Otherwise, inspect the pipeline for the
-    cause of failure and fix it.
-  + Go to your online fork and click the Merge Request
-    button.
-- Make sure that you have notifications enabled, because you
-  may be asked to change certain things, or need to explain
-  why you made certain changes.
-- Don't expect a reply immediately. There is only a small
-  team working on this. A review can sometimes take weeks or
-  even months, although we try to get back to you sooner.
-- Some additional info can also be read in the manual, see
+  + Você pode verificar a saída no seu diretório de build, na
+    pasta /html/en/.
+  + Se isso funcionar, selecione um arquivo da pasta /src/
+    no qual você quer trabalhar e comece a editar.
+  + Ao terminar um conjunto de edições relacionadas, você
+    deve primeiro validar suas mudanças para verificar que
+    você não cometeu erros no formato docbook XML.
+    O comando para isso é `make validate-en`.
+  + Se tudo estiver certo, faça o commit das suas mudanças com uma
+    mensagem de commit descritiva. Certifique-se de sempre fazer
+    mudanças relacionadas em um branch separado.
+  + Envie suas mudanças para o seu fork no Gnome GitLab.
+  + Certifique-se de que o pipeline de CI passa. Caso contrário, inspecione o pipeline para
+    descobrir a causa da falha e corrija.
+  + Vá até o seu fork online e clique no botão Merge Request.
+- Certifique-se de ter as notificações habilitadas, porque você
+  pode ser solicitado a mudar certas coisas, ou precisar explicar
+  por que fez certas mudanças.
+- Não espere uma resposta imediata. Há apenas uma pequena
+  equipe trabalhando nisso. Uma revisão às vezes pode levar semanas ou
+  até meses, embora tentemos responder o quanto antes.
+- Algumas informações adicionais também podem ser lidas no manual, veja
   https://docs.gimp.org/en/gimp-contributing.html
-  (although some parts there need to be revised).
+  (embora algumas partes de lá precisem ser revisadas).
 
 TODO
-- Mention that make sometimes causes certain po translations
-  to get updated. They should not be committed together with
-  source documentation changes.
-- It may be useful to document the use of virtual environments for python
-  (i.e., [venv](https://docs.python.org/3/library/venv.html)). With MSYS2,
-  a user may encounter an externally-managed-environment error when they
-  attempt to install python packages through pip. 
+- Mencionar que o make às vezes faz com que certas traduções po
+  sejam atualizadas. Elas não devem ser incluídas no commit junto com
+  mudanças na documentação-fonte.
+- Pode ser útil documentar o uso de ambientes virtuais para python
+  (ou seja, [venv](https://docs.python.org/3/library/venv.html)). Com o MSYS2,
+  um usuário pode encontrar o erro externally-managed-environment ao
+  tentar instalar pacotes python pelo pip.
 
-Preferably build the most up to date manual yourself or check
-the latest uploaded version at https://docs.gimp.org/en/.
+De preferência, compile você mesmo o manual mais atualizado ou confira
+a última versão enviada em https://docs.gimp.org/en/.
 
-The source of the manual can be found in XML files in the /src
-directory of this repository. Find a topic that interests you
-or that needs updating and start writing.
+O código-fonte do manual está em arquivos XML no diretório /src
+deste repositório. Encontre um tópico que lhe interesse
+ou que precise de atualização e comece a escrever.
 
-You could also take a look at our issue tracker at
+Você também pode dar uma olhada no nosso issue tracker em
 https://gitlab.gnome.org/GNOME/gimp-help/issues
 
-  ### What you should know
+  ### O que você deve saber
 
-  You should know a bit about Docbook and XML, or be smart enough to learn
-  the syntax yourself. You can get more information about Docbook and XML
-  by using your preferred search engine.
-  Also make sure you read our [documentation guidelines](documentation-guidelines.md).
+  Você deve saber um pouco de Docbook e XML, ou ser esperto o suficiente para aprender
+  a sintaxe sozinho. Você pode obter mais informações sobre Docbook e XML
+  usando o mecanismo de busca de sua preferência.
+  Certifique-se também de ler nossas [diretrizes de documentação](documentation-guidelines.md).
 
-  ### Editors, Programs and Setups
+  ### Editores, programas e configurações
 
-  Use any editor that supports editing XML. Please keep in mind, that the
-  tab width in XML Mode should be 2 spaces.
+  Use qualquer editor que dê suporte a editar XML. Tenha em mente que a
+  largura do tab no modo XML deve ser de 2 espaços.
 
-  Provided you have xmllint installed, you can validate the XML
-  and check the well-formedness of the XML files by running
+  Desde que você tenha o xmllint instalado, você pode validar o XML
+  e verificar a boa formação dos arquivos XML executando
 
     make validate-en
 
-  Running `make validate` is also possible, but validating for all
-  languages takes considerable time.
-  Translators are encouraged to validate their language by replacing
-  `en` above with their language code.
+  Também é possível executar `make validate`, mas validar todos
+  os idiomas leva bastante tempo.
+  Os tradutores são incentivados a validar o seu idioma substituindo
+  `en` acima pelo código de idioma deles.
 
-  When you edit an XML file and want to quickly check your changes,
-  you can create a single quick-and-dirty HTML draft file with
+  Quando você edita um arquivo XML e quer verificar rapidamente suas mudanças,
+  você pode criar um único arquivo HTML de rascunho, sem grandes preocupações, com
 
     make src/of/the/xml-file.draft
 
-  where the target is the path name with extension ".draft" instead
-  of ".xml", or with
+  onde o alvo é o caminho do arquivo com a extensão ".draft" em vez
+  de ".xml", ou com
 
     make preview-src/of/the/xml-file.xml
 
-  where the path name is preceded with "preview-".
+  onde o caminho do arquivo é precedido por "preview-".
 
-  The name of the HTML draft file depends on its id (not on the name
-  of the XML source file!) and is displayed when the file is created.
-
-
-###  Hints for making good screenshots
-
-  * When making screenshots, make sure you use the default GIMP theme
-    and Symbolic icons. In most places we use the dark version of our theme,
-    try to follow that.
-    If we want a completely unified look that would mean creating all images
-    on one platform with one chosen theme. That would lock out contributors
-    on other platforms, which is not something we want to do.
-  * Use default fonts like Bitstream Vera Sans - FIXME This is not a
-    crossplatform default font, we need a better suggestion.
-  * Crop the window manager borders; or even more if the image is intended
-    to only show a limited set of things that need an explanation.
-  * Before saving an image as PNG, check if you can convert it to indexed
-    mode without loss of quality (saves space and bandwidth) FIXME:
-    see pngnq that does that for you including reducing size, but beware
-    for small images size may increase. This also only works well with
-    screenshots that do not show any photos or similar. You have to check
-    first if the resulting image does not differ too much from the original.
-    Maybe tell not to add metadata unless needed, no comment, no thumbnail,
-    maybe also no color profile or is it better to have that included.
-  * TODO Add info about the different pngcrush programs
-    pngnq in my tests is often the smallest (default settings), but check
-    if the result isn't too different from the original.
-  * Provide your source images (eg. for making new screenshots in other
-    languages) - add info where in the source tree they should be added,
-    info to keep xcf size as small as possible, small image dimensions
-    where possible (64 x 64?) - set "use better but slower compression"
-    when saving to xcf; for most example imagess using 8 bit integer precision
-    is enough, unless specifically demonstrating higher bit depth.
+  O nome do arquivo HTML de rascunho depende do id dele (não do nome
+  do arquivo XML de origem!) e é exibido quando o arquivo é criado.
 
 
-## Documentation issues
+###  Dicas para fazer boas capturas de tela
 
-See our Gnome Gitlab issue tracker:
+  * Ao fazer capturas de tela, certifique-se de usar o tema padrão do GIMP
+    e os ícones Symbolic. Na maioria dos lugares usamos a versão escura do nosso tema,
+    procure seguir isso.
+    Se quiséssemos um visual completamente unificado, seria preciso criar todas as imagens
+    em uma única plataforma com um tema escolhido. Isso excluiria colaboradores
+    de outras plataformas, o que não é o que queremos.
+  * Use fontes padrão como Bitstream Vera Sans - FIXME: esta não é uma
+    fonte padrão multiplataforma, precisamos de uma sugestão melhor.
+  * Corte as bordas do gerenciador de janelas; ou até mais, se a imagem for destinada
+    a mostrar apenas um conjunto limitado de coisas que precisam de explicação.
+  * Antes de salvar uma imagem como PNG, verifique se é possível convertê-la para o modo
+    indexado sem perda de qualidade (economiza espaço e banda) FIXME:
+    veja o pngnq, que faz isso para você, incluindo a redução de tamanho, mas cuidado:
+    em imagens pequenas o tamanho pode aumentar. Isso também só funciona bem com
+    capturas de tela que não mostram fotos ou coisas semelhantes. Você precisa verificar
+    primeiro se a imagem resultante não difere muito da original.
+    Talvez diga para não adicionar metadados a menos que seja necessário, sem comentário, sem miniatura,
+    talvez também sem perfil de cor, ou seria melhor incluir? 
+  * TODO: adicionar informações sobre os diferentes programas pngcrush
+    pngnq, nos meus testes, costuma dar o menor resultado (configurações padrão), mas verifique
+    se o resultado não é muito diferente do original.
+  * Forneça suas imagens de origem (por exemplo, para fazer novas capturas de tela em outros
+    idiomas) - adicione informações sobre onde, na árvore de código, elas devem ser colocadas,
+    informações para manter o tamanho do xcf o menor possível, dimensões de imagem pequenas
+    quando possível (64 x 64?) - marque "usar compressão melhor, porém mais lenta"
+    ao salvar em xcf; para a maioria das imagens de exemplo, usar precisão inteira de 8 bits
+    é suficiente, a menos que se queira demonstrar especificamente maior profundidade de bits.
+
+
+## Problemas na documentação
+
+Veja nosso issue tracker no Gnome Gitlab:
 
   https://gitlab.gnome.org/GNOME/gimp-help/issues
 
 
-## Creating a Release
+## Criando uma versão
 
-**Note:** this section needs to be updated.
+**Nota:** esta seção precisa ser atualizada.
 
-**Note2:** For make dist and make dist-check automake 1.16.4 or newer is
-required. Older versions will not recognize README.md as a valid version
-instead of README.
+**Nota2:** para make dist e make dist-check é necessário automake 1.16.4 ou mais recente.
+Versões mais antigas não reconhecerão README.md como uma versão válida
+no lugar de README.
 
-Before you create a release you'll need:
+Antes de criar uma versão, você vai precisar:
 
-    * be a maintainer
-    * have ssh access to pentagon.gimp.org
-    * have access to http://www.gimp.org/admin/
-    * FIXME: Check if this is still up-to-date.
+    * ser um mantenedor
+    * ter acesso ssh a pentagon.gimp.org
+    * ter acesso a http://www.gimp.org/admin/
+    * FIXME: verificar se isso ainda está atualizado.
 
-### Steps
+### Passos
 
-* Make sure that all XML is valid. Run:
+* Certifique-se de que todo o XML é válido. Execute:
 
     make validate-all
 
-* Prepare the NEWS file, by adding an additional release, bugs fixed and
-  contributors. You can use a little shortcut for compiling the
-  contributors using git shortlog (<release tag> is the tag of the last
-  release):
+* Prepare o arquivo NEWS, adicionando uma nova versão, bugs corrigidos e
+  colaboradores. Você pode usar um pequeno atalho para compilar os
+  colaboradores usando o git shortlog (<release tag> é a tag da última
+  versão):
 
     git shortlog -sn <release tag>..HEAD
 
-* Note: the above is not always complete for translators since most
-  translations are committed by language team coordinators, not necessarily
-  the persons that did the actual translation.
+* Nota: o comando acima nem sempre fica completo para tradutores, já que a maioria
+  das traduções é enviada pelos coordenadores das equipes de idioma, não necessariamente
+  pelas pessoas que fizeram a tradução de fato.
 
-* Check if the authors.xml have to be adjusted for this release.
+* Verifique se o authors.xml precisa ser ajustado para esta versão.
 
-* Bump the version number (help_(major, minor, micro)_version) in
-  configure.ac, commit, push. Rule of thumb: It should document the
-  current GIMP stable release. The minor version aligns therefore with
-  the current stable release.
+* Aumente o número da versão (help_(major, minor, micro)_version) no
+  configure.ac, faça o commit, envie. Regra geral: ele deve documentar
+  a versão estável atual do GIMP. A versão menor, portanto, acompanha
+  a versão estável atual.
 
     vi configure.ac
 
-* Create a distribution package:
+* Crie um pacote de distribuição:
 
     make dist
 
-* Tag the release:
+* Marque a versão com uma tag:
 
     git tag -s
 
-  Rule of thumb: Use capital case, whitespace delimited by underscores.
+  Regra geral: use maiúsculas, separadas por sublinhado.
 
-* Copy the *.bz2 on to pentagon.gimp.org:/srv/ftp/pub/gimp/help/:
+* Copie o *.bz2 para pentagon.gimp.org:/srv/ftp/pub/gimp/help/:
 
     scp gimp-help-*.tar.* pentagon.gimp.org:/srv/ftp/pub/gimp/help/
 
-  Verify the tarball appears on:
+  Verifique se o tarball aparece em:
 
     http://download.gimp.org/pub/gimp/help/
 
-* Add the Windows installers
+* Adicione os instaladores do Windows
 
-* Update our websites: docs.gimp.org and gimp.org/docs
+* Atualize nossos sites: docs.gimp.org e gimp.org/docs
 
-* Announce the release on http://www.gimp.org/admin/. Click on `Pending
-  News` → `New News`, fill in the form (subject, announce), choose a
-  reading wilber and press `Save`. Depending if it needs review (ask one
-  of the developers), approve it to publish it.
+* Anuncie a versão em http://www.gimp.org/admin/. Clique em `Pending
+  News` → `New News`, preencha o formulário (subject, announce), escolha um
+  wilber de leitura e pressione `Save`. Dependendo de precisar de revisão (pergunte a
+  um dos desenvolvedores), aprove para publicá-lo.
 
-* Announce the release on Discourse using gimp and documentation tags:
+* Anuncie a versão no Discourse usando as tags gimp e documentation:
 
     Discourse
     https://discourse.gnome.org/
 
-  Template:
+  Modelo:
 
-      GIMP Manual <version> released
+      Manual do GIMP <version> lançado
 
-      We've released a new version of the user manual with:
+      Lançamos uma nova versão do manual do usuário com:
 
         * <Changelog here>
 
-      Download the packages from our download software.
+      Baixe os pacotes no nosso software de download.
 
-    For easy installation we suggest that you wait until an installer for this
-    release has been packaged for your platform. Find more releases and information
-    about our goals and how you can help at https://docs.gimp.org.
+    Para facilitar a instalação, sugerimos que você espere até que um instalador desta
+    versão tenha sido empacotado para a sua plataforma. Encontre mais versões e informações
+    sobre nossos objetivos e como você pode ajudar em https://docs.gimp.org.
 
 
-## Updating supported languages
+## Atualizando os idiomas suportados
 
-When adding a new language for translation, several files need to be
-updated. After the meson build is declared stable, the autotools related
-files will be removed. These are marked *autotools only*.
+Ao adicionar um novo idioma para tradução, vários arquivos precisam ser
+atualizados. Depois que o build com meson for declarado estável, os arquivos
+relacionados ao autotools serão removidos. Eles estão marcados como *somente autotools*.
 
-A Python script is available to automate updating all files. This script
-should be used instead of updating manually:
-  - From the `gimp-help` source folder start `../tools/add_lang.py` with
-  the following command line parameters in this order:
-    + iso language code
-    + US English name for the language
-    + Native localized name of the language
-    + Location of the build folder (only needed for the second run)
-  - Pay attention to possible warnings in the terminal and if necessary
-  act on them.
-  - Run the `meson` command shown at the end followed by `ninja` which
-    will create necessary po files that need to be added to our
-    meson.build files.
-  - Run the `add_lang.py` script again with the same parameters.
-  - Unless errors or warnings show up in your terminal you can now
-    create an MR with all changed files.
+Um script Python está disponível para automatizar a atualização de todos os arquivos. Esse script
+deve ser usado em vez de atualizar manualmente:
+  - A partir da pasta de código-fonte do `gimp-help`, inicie `../tools/add_lang.py` com
+  os seguintes parâmetros de linha de comando, nesta ordem:
+    + código de idioma iso
+    + nome do idioma em inglês (EUA)
+    + nome nativo localizado do idioma
+    + local da pasta de build (necessário apenas na segunda execução)
+  - Preste atenção a possíveis avisos no terminal e, se necessário,
+  aja de acordo com eles.
+  - Execute o comando `meson` mostrado no final, seguido de `ninja`, que
+    criará os arquivos po necessários, os quais precisam ser adicionados aos nossos
+    arquivos meson.build.
+  - Execute o script `add_lang.py` novamente com os mesmos parâmetros.
+  - A menos que apareçam erros ou avisos no seu terminal, você já pode
+    criar um MR com todos os arquivos alterados.
 
-In case there are issues with the script here is the list of files
-that need to be updated:
+Caso haja problemas com o script, aqui está a lista de arquivos
+que precisam ser atualizados:
 
-  - [configure.ac](configure.ac); *autotools only*
-    - Update ALL_LINGUAS
-  - [Makefile.GNU](Makefile.GNU); *autotools only*
-    - Update ALL_LINGUAS
-  - [po/LINGUAS](po/LINGUAS) *meson only*
-    - Add language code on a separate line in the correct
-    alphabetical position.
-  - [quickreference/po/meson.build](quickreference/po/meson.build) *meson only*
-    Add new po file to `qr_po_files`.
-  - [po-windows-installer/meson.build](po-windows-installer/meson.build) *meson only*
-    Add new po file to `installer_po_files`.
+  - [configure.ac](configure.ac); *somente autotools*
+    - Atualize ALL_LINGUAS
+  - [Makefile.GNU](Makefile.GNU); *somente autotools*
+    - Atualize ALL_LINGUAS
+  - [po/LINGUAS](po/LINGUAS) *somente meson*
+    - Adicione o código do idioma em uma linha separada, na posição
+    alfabética correta.
+  - [quickreference/po/meson.build](quickreference/po/meson.build) *somente meson*
+    Adicione o novo arquivo po em `qr_po_files`.
+  - [po-windows-installer/meson.build](po-windows-installer/meson.build) *somente meson*
+    Adicione o novo arquivo po em `installer_po_files`.
   - [stylesheets/languageVocab.xml](stylesheets/languageVocab.xml)
-    - Update vocab
+    - Atualize o vocab
   - [stylesheets/authors_common.xsl](stylesheets/authors_common.xsl)
-    - Update `<xsl:variable name="languages">`
+    - Atualize `<xsl:variable name="languages">`
   - [tools/get_po_status.pl](tools/get_po_status.pl)
-    - Update my %Languages
+    - Atualize my %Languages
   - [web/website.xml](web/website.xml)
-    - Update list of online user manuals and quickreference PDF's
+    - Atualize a lista de manuais do usuário online e PDFs de referência rápida
   - [.gitlab-ci.yml](.gitlab-ci.yml)
-    - Add language code to the relevant `MAKE_LANGS_` [number]. *autotools only*
-    - Add language code to the relevant `MESON_LANGS_` [number]. *meson only*
-    - Note: after committing make sure that the build job doesn't take too
-      long. When it takes more than 50 minutes, it might be time to split
-      the build job because we don't want time-outs.
-  - [build/windows/installer/installer-gimp-help-msys2.sh](build/windows/installer/installer-gimp-help-msys2.sh) *autotools only* **TODO** Not touched by `add_lang.py`!
-    - Check if the language is part of the official languages installed
-      together with Inno Setup. An up-to-date list can be found at
+    - Adicione o código do idioma ao `MAKE_LANGS_` [número] correspondente. *somente autotools*
+    - Adicione o código do idioma ao `MESON_LANGS_` [número] correspondente. *somente meson*
+    - Nota: após o commit, certifique-se de que o job de build não leve
+      muito tempo. Quando levar mais de 50 minutos, pode ser hora de dividir
+      o job de build, porque não queremos time-outs.
+  - [build/windows/installer/installer-gimp-help-msys2.sh](build/windows/installer/installer-gimp-help-msys2.sh) *somente autotools* **TODO** não é tratado pelo `add_lang.py`!
+    - Verifique se o idioma faz parte dos idiomas oficiais instalados
+      junto com o Inno Setup. Uma lista atualizada pode ser encontrada no
       [github](https://github.com/jrsoftware/issrc/tree/main/Files/Languages).
-    - If not, check if there is an unofficial translation,
-      [here](https://github.com/jrsoftware/issrc/tree/main/Files/Languages/Unofficial).
-    - If there is, then add it to the download_lang commands.
-    - If no translation is available, `Default.isl` can be used.
+    - Se não, verifique se existe uma tradução não oficial,
+      [aqui](https://github.com/jrsoftware/issrc/tree/main/Files/Languages/Unofficial).
+    - Se existir, adicione-a aos comandos download_lang.
+    - Se não houver tradução disponível, `Default.isl` pode ser usado.
   - [build/windows/installer/languages.isi](build/windows/installer/languages.isi)
-    - All languages with InnoSetup translations are already added. You only
-    need to update this when InnoSetup adds a new language or when the
-    language you are adding does not have an InnoSetup translation. In which
-    case you have to rename a copy of `Default.isl` and update the language
-    name and code. Then:
-    - Add an if LANG test and define LANGFILE for your language.
-  - `po/new langcode` needs `meson.build` files copied from another language
-    to all folders. *meson only*
+    - Todos os idiomas com traduções do InnoSetup já estão adicionados. Você só
+    precisa atualizar isso quando o InnoSetup adicionar um novo idioma ou quando o
+    idioma que você está adicionando não tiver uma tradução do InnoSetup. Nesse
+    caso, você precisa renomear uma cópia de `Default.isl` e atualizar o nome
+    e o código do idioma. Depois:
+    - Adicione um teste if LANG e defina LANGFILE para o seu idioma.
+  - `po/novo código de idioma` precisa de arquivos `meson.build` copiados de outro idioma
+    para todas as pastas. *somente meson*
 
-*autotools only*
-Note: If your build directory is not a child of the source directory, then
-`msginit` will not fill in PACKAGE_VERSION in the header of the po files.
-Since msginit tries to find `configure`, copying that to your build directory
-can solve that issue. In that case, make sure to update it when switching
-branches.
+*somente autotools*
+Nota: se o seu diretório de build não for filho do diretório de origem,
+o `msginit` não preencherá PACKAGE_VERSION no cabeçalho dos arquivos po.
+Como o msginit tenta encontrar o `configure`, copiá-lo para o diretório de build
+pode resolver esse problema. Nesse caso, certifique-se de atualizá-lo ao trocar
+de branch.
 
-When all of the above are updated, run:
-  - `make po` in the main build directory
-  - `make po` in the quickreference directory
-    (creates po files for quickreference)
-  - `make update-po` in the po-windows-installer directory
-    (creates po files for Windows installer; ensure charset is UTF-8)
+Quando tudo acima estiver atualizado, execute:
+  - `make po` no diretório de build principal
+  - `make po` no diretório quickreference
+    (cria arquivos po para a referência rápida)
+  - `make update-po` no diretório po-windows-installer
+    (cria arquivos po para o instalador do Windows; certifique-se de que o charset seja UTF-8)
 
-This should create the necessary po files for the newly added language.
-Note: some po files for other languages may have been updated too, but you
-should only commit the files relevant for the new language.
+Isso deve criar os arquivos po necessários para o idioma recém-adicionado.
+Nota: alguns arquivos po de outros idiomas também podem ter sido atualizados, mas você
+deve enviar apenas os arquivos relevantes para o novo idioma.
 
 
-## History of the gimp-help module
+## História do módulo gimp-help
 
-The development on the original gimp-help modules came pretty much to a
-stop after the first few stable versions of GIMP 1.2 were released. This is
-due to several reasons, one of them being that all of the original
-documentation had been converted from HTML to DocBook/SGML and apart from a
-bit new content, lots of markup and proofreading not too much happened to
-the organization of the complete mess.
+O desenvolvimento dos módulos gimp-help originais praticamente parou
+depois das primeiras versões estáveis do GIMP 1.2 serem lançadas. Isso se deve
+a vários motivos, um deles sendo que toda a documentação original havia sido
+convertida de HTML para DocBook/SGML e, além de um
+pouco de conteúdo novo, muita marcação e revisão de texto, não aconteceu muita coisa
+na organização da bagunça completa.
 
-Daniel Egger and Mel Boyce were not too happy about the quirks with
-this help system. So they started completely from scratch creating a new
-manual based on Docbook/XML called gimp-help-2.
+Daniel Egger e Mel Boyce não ficaram muito felizes com as esquisitices
+desse sistema de ajuda. Então eles começaram completamente do zero, criando um novo
+manual baseado em Docbook/XML, chamado gimp-help-2.
 
-Later this was renamed to gimp-help.
+Mais tarde, ele foi renomeado para gimp-help.
