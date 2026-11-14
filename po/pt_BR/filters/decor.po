@@ -7,25 +7,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help-2 filters~decor\n"
-"POT-Creation-Date: 2013-12-02 09:39-0200\n"
+"POT-Creation-Date: 2026-11-08 00:49-0300\n"
 "PO-Revision-Date: 2014-01-22 20:52-0300\n"
 "Last-Translator: Luciana Montelione <lucianamontelione@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.6.3\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:29(None)
-#: src/filters/decor/coffee.xml:29(None)
+#: src/filters/decor/stain.xml:29(None) src/filters/decor/slide.xml:29(None)
 #: src/filters/decor/round-corners.xml:29(None)
-#: src/filters/decor/addborder.xml:29(None)
 #: src/filters/decor/old-photo.xml:29(None)
-#: src/filters/decor/slide.xml:29(None)
+#: src/filters/decor/fuzzyborder.xml:29(None)
+#: src/filters/decor/fog.xml:26(None) src/filters/decor/addborder.xml:29(None)
 msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
@@ -33,7 +33,898 @@ msgstr ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/stain.xml:38(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/decor-taj-slide.jpg'; "
+#| "md5=d0de0d2396ce54020d1b714becb3e1fb"
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-stain.jpg'; "
+"md5=0e0856cde49b7c00e5b94080af4c31a4"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-stain.jpg'; "
+"md5=0e0856cde49b7c00e5b94080af4c31a4"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/stain.xml:83(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/slide.png'; "
+#| "md5=e5a02058389e1dc28733bb78a44baec2"
+msgid ""
+"@@image: 'images/filters/decor/stain.png'; "
+"md5=eaf669264dfa4d28392ba0b01015b954"
+msgstr ""
+"@@image: 'images/filters/decor/stain.png'; "
+"md5=eaf669264dfa4d28392ba0b01015b954"
+
+#: src/filters/decor/stain.xml:11(title)
+#: src/filters/decor/stain.xml:16(tertiary)
+#: src/filters/decor/stain.xml:19(primary)
+#| msgid "Stains"
+msgid "Stain"
+msgstr "Manchas"
+
+#: src/filters/decor/stain.xml:14(primary)
+#: src/filters/decor/slide.xml:14(primary)
+#: src/filters/decor/round-corners.xml:14(primary)
+#: src/filters/decor/old-photo.xml:14(primary)
+#: src/filters/decor/introduction.xml:15(primary)
+#: src/filters/decor/fuzzyborder.xml:14(primary)
+#: src/filters/decor/fog.xml:12(primary)
+#: src/filters/decor/chrome-it.xml:9(primary)
+#: src/filters/decor/carve-it.xml:16(primary)
+#: src/filters/decor/addborder.xml:15(primary)
+#: src/filters/decor/add-bevel.xml:15(primary)
+msgid "Filters"
+msgstr "Filtros"
+
+#: src/filters/decor/stain.xml:15(secondary)
+#: src/filters/decor/slide.xml:15(secondary)
+#: src/filters/decor/round-corners.xml:15(secondary)
+#: src/filters/decor/old-photo.xml:15(secondary)
+#: src/filters/decor/introduction.xml:16(secondary)
+#: src/filters/decor/introduction.xml:20(primary)
+#: src/filters/decor/fuzzyborder.xml:15(secondary)
+#: src/filters/decor/fog.xml:13(secondary)
+#: src/filters/decor/chrome-it.xml:10(secondary)
+#: src/filters/decor/carve-it.xml:17(secondary)
+msgid "Decor"
+msgstr "Decoração"
+
+#: src/filters/decor/stain.xml:23(title) src/filters/decor/slide.xml:23(title)
+#: src/filters/decor/round-corners.xml:23(title)
+#: src/filters/decor/old-photo.xml:23(title)
+#: src/filters/decor/fuzzyborder.xml:23(title)
+#: src/filters/decor/fog.xml:19(title)
+#: src/filters/decor/chrome-it.xml:18(title)
+#: src/filters/decor/carve-it.xml:25(title)
+#: src/filters/decor/addborder.xml:23(title)
+#: src/filters/decor/add-bevel.xml:23(title)
+msgid "Overview"
+msgstr "Visão geral"
+
+#: src/filters/decor/stain.xml:25(title)
+#| msgid "Example for the <quote>Slide</quote> filter"
+msgid "Example for the <quote>Stain</quote> filter"
+msgstr "Exemplo para o filtro <quote>Slide</quote>"
+
+#: src/filters/decor/stain.xml:32(para) src/filters/decor/slide.xml:32(para)
+#: src/filters/decor/round-corners.xml:32(para)
+#: src/filters/decor/old-photo.xml:32(para)
+#: src/filters/decor/fuzzyborder.xml:32(para)
+#: src/filters/decor/fog.xml:29(para) src/filters/decor/chrome-it.xml:27(para)
+#: src/filters/decor/carve-it.xml:34(para)
+#: src/filters/decor/addborder.xml:32(para)
+#: src/filters/decor/add-bevel.xml:60(para)
+msgid "Original image"
+msgstr "Imagem original"
+
+#: src/filters/decor/stain.xml:41(para)
+msgid ""
+"<quote>Stain</quote> applied with the gradient <quote>Cold Steel 2</quote>"
+msgstr ""
+"<quote>Mancha</quote> aplicado com o gradiente <quote>Aço frio 2</quote>"
+
+#: src/filters/decor/stain.xml:46(para)
+#| msgid ""
+#| "This filter adds realistic looking coffee stains to the image."
+msgid "This filter adds stains to the image."
+msgstr "Este filtro adiciona manchas à imagem."
+
+#: src/filters/decor/stain.xml:49(para)
+#| msgid ""
+#| "Every stain is created in a layer of its own. The stain layers are randomly "
+#| "moved to let the stains spread out (at the end you may see the boundary of "
+#| "the moved top layer). So after applying the filter you can easily edit "
+#| "(e.g., move, scale, remove) the coffee stains, or create additional stains "
+#| "using the filter again."
+msgid ""
+"Every stain is created in a layer of its own. The stain layers are randomly "
+"moved to let the stains spread out (at the end you may see the boundary of "
+"the moved top layer). So after applying the filter you can easily edit "
+"(e.g., move, scale, remove) the stains, or create additional stains using "
+"the filter again."
+msgstr ""
+"Cada mancha é criada numa camada separada. As camadas com as manchas são "
+"colocadas aleatoriamente  de forma que as manchas fiquem espalhadas (ao "
+"final da aplicação você pode ver os limites da camada de cima, movida). "
+"Então, depois de aplicar esse filtro você pode facilmente editar as manchas "
+"de café (por exemplo, movendo, redimensionando, apagando), ou criar mais "
+"manchas usando o filtro novamente."
+
+#: src/filters/decor/stain.xml:57(para)
+#: src/filters/decor/add-bevel.xml:83(para)
+msgid ""
+"If the image is in grayscale mode or indexed mode, this menu entry is "
+"disabled."
+msgstr ""
+"Se a imagem estiver no modo tons de cinza ou indexado, esta entrada de menu "
+"fica desabilitada."
+
+#: src/filters/decor/stain.xml:65(title) src/filters/decor/slide.xml:66(title)
+#: src/filters/decor/round-corners.xml:63(title)
+#: src/filters/decor/old-photo.xml:58(title)
+#: src/filters/decor/fuzzyborder.xml:58(title)
+#: src/filters/decor/fog.xml:57(title)
+#: src/filters/decor/chrome-it.xml:54(title)
+#: src/filters/decor/carve-it.xml:64(title)
+#: src/filters/decor/addborder.xml:57(title)
+#: src/filters/decor/add-bevel.xml:91(title)
+#| msgid "Activating the filter"
+msgid "Activating the Filter"
+msgstr "Ativando o filtro"
+
+#: src/filters/decor/stain.xml:66(para)
+#| msgid ""
+#| "The filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Slide</guimenuitem></menuchoice>."
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Stain…</guimenuitem></menuchoice>."
+msgstr ""
+"Este filtro pode ser encontrado no menu da janela de imagens em "
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Slide</guimenuitem></menuchoice>"
+
+#: src/filters/decor/stain.xml:77(title) src/filters/decor/slide.xml:78(title)
+#: src/filters/decor/round-corners.xml:75(title)
+#: src/filters/decor/old-photo.xml:70(title)
+#: src/filters/decor/fuzzyborder.xml:70(title)
+#: src/filters/decor/fog.xml:69(title)
+#: src/filters/decor/chrome-it.xml:66(title)
+#: src/filters/decor/carve-it.xml:82(title)
+#: src/filters/decor/addborder.xml:69(title)
+#: src/filters/decor/add-bevel.xml:103(title)
+msgid "Options"
+msgstr "Opções"
+
+#: src/filters/decor/stain.xml:79(title)
+#| msgid "<quote>Slide</quote> options"
+msgid "<quote>Stain</quote> options"
+msgstr "Opções de <quote>Slide</quote>"
+
+#: src/filters/decor/stain.xml:89(term)
+msgid "Number of stains to add"
+msgstr "Número de manchas a adicionar"
+
+#: src/filters/decor/stain.xml:91(para)
+#| msgid "The number of the coffee stains (1-10)."
+msgid "The number of stains (1-10)."
+msgstr "O número de manchas (1-10)."
+
+#: src/filters/decor/stain.xml:95(term)
+msgid "Darken only"
+msgstr "Somente escurecer"
+
+#: src/filters/decor/stain.xml:97(para)
+msgid ""
+"Since every stain is created in a layer of its own, all layers have to be "
+"merged to make the appearance of the image. If this option is checked, the "
+"relevant <link linkend=\"gimp-concepts-layer-modes\">layer mode</link> is "
+"set to <quote>Darken only</quote>, otherwise it is set to "
+"<quote>Normal</quote>."
+msgstr ""
+"Uma vez que cada mancha é criada numa camada separada, todas as camadas tem "
+"que ser combinadas para o efeito final da imagem. Se esta opção estiver "
+"ligada, o <link linkend=\"gimp-concepts-layer-modes\">Modo de camada</link> "
+"das camadas de mancha é configurado para ser <quote>Somente "
+"escurecer</quote>, senão, o modo <quote>Normal</quote> é usado."
+
+#: src/filters/decor/stain.xml:105(para)
+#| msgid ""
+#| "The layer mode determines how the pixels of the layers are combined. In "
+#| "<quote>Normal</quote> mode, every coffee stain covers the pixels of the "
+#| "layers below. As a rule of thumb, if layer mode <quote>Darken only</quote> "
+#| "is set, coffee stains covers the corresponding pixels of the layers below "
+#| "them only if these pixels are lighter."
+msgid ""
+"The layer mode determines how the pixels of the layers are combined. If "
+"<quote>Darken only</quote> is unchecked we use <quote>Normal</quote> mode, "
+"and every stain covers the pixels of the layers below. If <quote>Darken "
+"only</quote> is checked, stains cover the corresponding pixels of the layers"
+" below them only if these pixels are lighter."
+msgstr ""
+"O modo de camada determina como os pixels das camadas são combinados. Se "
+"<quote>Somente escurecer</quote> estiver desmarcado, usamos o modo "
+"<quote>Normal</quote>, e cada mancha cobre os pixels das camadas abaixo. Se "
+"<quote>Somente escurecer</quote> estiver marcado, as manchas cobrem os "
+"pixels correspondentes das camadas abaixo delas apenas se esses pixels forem"
+" mais claros."
+
+#: src/filters/decor/stain.xml:116(term)
+msgid "Gradient to color stains"
+msgstr "Gradiente para colorir as manchas"
+
+#: src/filters/decor/stain.xml:118(para)
+msgid "The gradient that is used for created stains."
+msgstr "O gradiente usado para as manchas criadas."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/slide.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-slide.jpg'; "
+"md5=d0de0d2396ce54020d1b714becb3e1fb"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-slide.jpg'; "
+"md5=d0de0d2396ce54020d1b714becb3e1fb"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/slide.xml:84(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/slide.png'; "
+#| "md5=e5a02058389e1dc28733bb78a44baec2"
+msgid ""
+"@@image: 'images/filters/decor/slide.png'; "
+"md5=3593917bc0c5fbe7b2074b963743d507"
+msgstr ""
+"@@image: 'images/filters/decor/slide.png'; "
+"md5=3593917bc0c5fbe7b2074b963743d507"
+
+#: src/filters/decor/slide.xml:11(title)
+#: src/filters/decor/slide.xml:16(tertiary)
+#: src/filters/decor/slide.xml:19(primary)
+msgid "Slide"
+msgstr "Slide"
+
+#: src/filters/decor/slide.xml:25(title)
+msgid "Example for the <quote>Slide</quote> filter"
+msgstr "Exemplo para o filtro <quote>Slide</quote>"
+
+#: src/filters/decor/slide.xml:41(para)
+#: src/filters/decor/round-corners.xml:41(para)
+#: src/filters/decor/old-photo.xml:41(para)
+#: src/filters/decor/fuzzyborder.xml:41(para)
+#: src/filters/decor/fog.xml:38(para) src/filters/decor/chrome-it.xml:36(para)
+#: src/filters/decor/carve-it.xml:43(para)
+#: src/filters/decor/addborder.xml:41(para)
+#: src/filters/decor/add-bevel.xml:43(para)
+#: src/filters/decor/add-bevel.xml:78(para)
+msgid "Filter applied"
+msgstr "Filtro aplicado"
+
+#: src/filters/decor/slide.xml:45(para)
+msgid ""
+"This filter makes your image look like a slide, by adding a slide-film like "
+"black frame, sprocket holes, and labels."
+msgstr ""
+"Este filtro faz sua imagem parecer como se fosse uma foto como se ela "
+"estivesse impressa em filme (analógico), adicionando uma moldura preta, "
+"furinhos para puxar o filme e rótulos."
+
+#: src/filters/decor/slide.xml:49(para)
+msgid ""
+"If necessary, the image will be cropped to fit into an aspect ratio of width"
+" : height = 3:2. If image width is greater than image height, black frames "
+"will be added at the top and the bottom of the image, else the frames will "
+"be added on the left and right sides. You may select the color as well as "
+"the font of the text appearing on the frames. The current background color "
+"will be used for drawing the holes."
+msgstr ""
+"Se for necessário a imagem será cortada para caber na proporção de 3:2 usada"
+" em filmes comerciais. Se a largura for maior que a altura, a moldura preta "
+"será adicionada em cima e em baixo da imagem, senão, serão colocadas dos "
+"lados direito e esquerdo. Você pode selecionar a cor e a fonte do texto que "
+"aparecerá nos quadros. A cor de fundo atual será usada para preencher os "
+"furinhos."
+
+#: src/filters/decor/slide.xml:58(para)
+#| msgid ""
+#| "The script only works on RGB and grayscale images that contain one layer. "
+#| "Otherwise the menu entry is insensitive and grayed out."
+msgid ""
+"The filter only works on RGB and grayscale images without an alpha channel. "
+"Otherwise, the menu entry is disabled."
+msgstr ""
+"O filtro só funciona em imagens RGB e em tons de cinza sem canal alfa. Caso "
+"contrário, a entrada de menu fica desabilitada."
+
+#: src/filters/decor/slide.xml:67(para)
+#| msgid ""
+#| "The filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Slide</guimenuitem></menuchoice>."
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Slide…</guimenuitem></menuchoice>."
+msgstr ""
+"Este filtro pode ser encontrado no menu da janela de imagens em "
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Slide</guimenuitem></menuchoice>"
+
+#: src/filters/decor/slide.xml:80(title)
+msgid "<quote>Slide</quote> options"
+msgstr "Opções de <quote>Slide</quote>"
+
+#: src/filters/decor/slide.xml:90(term)
+msgid "Text"
+msgstr "Texto"
+
+#: src/filters/decor/slide.xml:92(para)
+#| msgid ""
+#| "A short label that will be displayed in the top and bottom (or the left and "
+#| "right) of the frame. The text must be really short."
+msgid ""
+"A short label that will be displayed in the top (or the left) of the frame. "
+"The text must be really short."
+msgstr ""
+"Um rótulo curto que será colocado na parte de cima e de baixo (ou direita e "
+"esquerda) da moldura, imitando o que seria a marca do fabricante do filme. O"
+" texto deve ser realmente curto."
+
+#: src/filters/decor/slide.xml:99(term)
+msgid "Number"
+msgstr "Número"
+
+#: src/filters/decor/slide.xml:101(para)
+msgid ""
+"Here you may enter a text for simulating consecutive numbers. Two numbers "
+"will be displayed: this number and this number with the character "
+"<quote>A</quote> appended."
+msgstr ""
+"Aqui você pode entrar um texto que simula números consecutivos. Dois números"
+" serão mostrados: este número, e o mesmo número seguido da letra "
+"<quote>A</quote>"
+
+#: src/filters/decor/slide.xml:109(term)
+msgid "Font"
+msgstr "Fonte"
+
+#: src/filters/decor/slide.xml:111(para)
+msgid ""
+"Clicking on this button opens the <link linkend=\"gimp-font-dialog\">Font "
+"dialog</link>, where you can choose a font for the text on the frame."
+msgstr ""
+"Ao clicar nesse botão, se abre um <link linkend=\"gimp-font-dialog\">diálogo"
+" de escolha de fonte</link>, onde você poderá escolher uma fonte para o "
+"texto na moldura."
+
+#: src/filters/decor/slide.xml:119(term)
+#| msgid "Fontcolor"
+msgid "Font color"
+msgstr "Cor da fonte"
+
+#: src/filters/decor/slide.xml:121(para)
+msgid ""
+"Clicking on this button brings up a color selection dialog that allows you "
+"to choose the color of the text."
+msgstr ""
+"Ao clicar nesse botão, se abre um diálogo de escolha de cores, onde você "
+"pode determinar a cor do texto."
+
+#: src/filters/decor/slide.xml:128(term)
+#: src/filters/decor/round-corners.xml:216(term)
+#: src/filters/decor/old-photo.xml:161(term)
+#: src/filters/decor/fuzzyborder.xml:245(term)
+#: src/filters/decor/add-bevel.xml:124(term)
+msgid "Work on copy"
+msgstr "Trabalhar em uma cópia"
+
+#: src/filters/decor/slide.xml:130(para)
+#| msgid ""
+#| "If checked, the filter creates a new window containing a copy of the image "
+#| "with the filter applied. The original image remains unchanged."
+msgid ""
+"If checked, the filter creates a copy of the image with the filter applied. "
+"The original image remains unchanged."
+msgstr ""
+"Se selecionada, o filtro criará uma nova janela contendo uma cópia da imagem"
+" com o filtro aplicado. A imagem original permanece inalterada."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-round-corners.png'; "
+"md5=f6577bb2fb5697398158b010eb21568f"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-round-corners.png'; "
+"md5=f6577bb2fb5697398158b010eb21568f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:81(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/round-corners.png'; "
+#| "md5=b8544045a8a9930b6406ad8df35f6a12"
+msgid ""
+"@@image: 'images/filters/decor/round-corners.png'; "
+"md5=5c767737d98805ab80d4f1e4652e81cd"
+msgstr ""
+"@@image: 'images/filters/decor/round-corners.png'; "
+"md5=5c767737d98805ab80d4f1e4652e81cd"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:107(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-rad15.png'; "
+"md5=dad9038e5795f083a3af51c3870090b1"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-rad15.png'; "
+"md5=dad9038e5795f083a3af51c3870090b1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:118(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-rad35.png'; "
+"md5=d8ba6e07a5eb3e78c985a97922a4c8c7"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-rad35.png'; "
+"md5=d8ba6e07a5eb3e78c985a97922a4c8c7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:127(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-rad50.png'; "
+"md5=d5604620fe79184229088088c01f14d1"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-rad50.png'; "
+"md5=d5604620fe79184229088088c01f14d1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:136(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-rad65.png'; "
+"md5=7ac72b1017f2c8e174db7454c825a13a"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-rad65.png'; "
+"md5=7ac72b1017f2c8e174db7454c825a13a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:168(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-shadow1.png'; "
+"md5=dad9038e5795f083a3af51c3870090b1"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-shadow1.png'; "
+"md5=dad9038e5795f083a3af51c3870090b1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:179(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-shadow2.png'; "
+"md5=131cadb293db64e06c80eabd6ce927ec"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-shadow2.png'; "
+"md5=131cadb293db64e06c80eabd6ce927ec"
+
+#: src/filters/decor/round-corners.xml:11(title)
+#: src/filters/decor/round-corners.xml:16(tertiary)
+#: src/filters/decor/round-corners.xml:19(primary)
+msgid "Round Corners"
+msgstr "Arredondar cantos"
+
+#: src/filters/decor/round-corners.xml:25(title)
+msgid "Example for the <quote>Round Corners</quote> filter"
+msgstr "Exemplo para o filtro <quote>Arredondar cantos</quote>"
+
+#: src/filters/decor/round-corners.xml:45(para)
+msgid ""
+"This filter rounds the corners of an image, optionally adding a drop-shadow "
+"and a background layer."
+msgstr ""
+"Este filtro arredonda os cantos de uma imagem, adicionando, opcionalmente, "
+"uma camada de fundo e uma sombra."
+
+#: src/filters/decor/round-corners.xml:49(para)
+msgid ""
+"The filter works on RGB and grayscale images that contain only one layer. It"
+" creates a copy of the image or can optionally work on the original. It uses"
+" the current background color to create a background layer."
+msgstr ""
+"O filtro funciona em imagens RGB e em tons de cinza que contenham uma única "
+"camada. Ele cria uma cópia da imagem, ou pode, opcionalmente, atuar na "
+"imagem original. Ele usa a cor de fundo atual para criar a camada de fundo."
+
+#: src/filters/decor/round-corners.xml:56(para)
+#: src/filters/decor/old-photo.xml:51(para)
+#: src/filters/decor/fuzzyborder.xml:51(para)
+#: src/filters/decor/fog.xml:49(para)
+msgid "If the image is in indexed mode, this menu entry is disabled."
+msgstr ""
+"Se a imagem estiver no modo indexado, esta entrada de menu fica "
+"desabilitada."
+
+#: src/filters/decor/round-corners.xml:64(para)
+#| msgid ""
+#| "This filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Round"
+#| " Corners</guimenuitem></menuchoice>."
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Round"
+" Corners…</guimenuitem></menuchoice>."
+msgstr ""
+"Esse filtro pode ser encontrado no menu da janela de imagens em "
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Arredondar"
+" cantos</guimenuitem></menuchoice>"
+
+#: src/filters/decor/round-corners.xml:77(title)
+msgid "<quote>Round Corners</quote> options"
+msgstr "Opções de <quote>Arredondar cantos</quote>"
+
+#: src/filters/decor/round-corners.xml:87(term)
+msgid "Edge radius"
+msgstr "Raio dos cantos"
+
+#: src/filters/decor/round-corners.xml:89(para)
+msgid ""
+"Rounding corners is done by selecting a quarter of a circle at every corner "
+"and removing the area not covered by this selection. The <quote>edge "
+"radius</quote> is the radius of the constructing circle."
+msgstr ""
+"O arredondamento dos cantos é feito selecionando-se um quarto de círculo em "
+"cada canto, e removendo a área que não está coberta por esta seleção. O "
+"<quote>Raio dos cantos</quote> é o raio deste círculo de construção."
+
+#: src/filters/decor/round-corners.xml:95(para)
+#| msgid ""
+#| "In the examples below, the filter was applied to a 100x100 pixels image, "
+#| "with varying edge radius. For radius = 50, the four quadrants just form a "
+#| "circle with diameter = 100, which exactly fits into the original image "
+#| "outline. A radius greater than 50 is possible, but look what happens..."
+msgid ""
+"In the examples below, the filter was applied to a 100×100 pixels image, "
+"with varying edge radius. For radius = 50, the four quadrants just form a "
+"circle with diameter = 100, which exactly fits into the original image "
+"outline. A radius greater than 50 is possible, but look what happens:"
+msgstr ""
+"Nos exemplos abaixo, o filtro foi aplicado a uma imagem de 100x100 pixels, "
+"variando-se o raio dos cantos. Para um raio = 50, os quatro quadrantes "
+"simplesmente formam um círculo com diâmetro  = 100, que cabe exatamente "
+"dentro da imagem original. Um raio maior que 50 é possível, mas veja o que "
+"ocorre..."
+
+#: src/filters/decor/round-corners.xml:103(title)
+msgid "Edge radius examples"
+msgstr "Exemplos do raio dos cantos"
+
+#: src/filters/decor/round-corners.xml:110(para)
+#| msgid "A 100x100 pixels image, edge radius: 15 (default)."
+msgid "A 100×100 pixels image, edge radius: 15 (default)."
+msgstr "Uma imagem com 100x100 pixels, raio dos cantos: 15 (padrão)."
+
+#: src/filters/decor/round-corners.xml:121(para)
+msgid "Edge radius: 35."
+msgstr "Raio dos cantos: 35."
+
+#: src/filters/decor/round-corners.xml:130(para)
+msgid "Edge radius: 50."
+msgstr "Raio dos cantos: 50."
+
+#: src/filters/decor/round-corners.xml:139(para)
+msgid "Edge radius: 65. Ouch!"
+msgstr "Raio dos cantos: 65. Ups!"
+
+#: src/filters/decor/round-corners.xml:146(term)
+msgid "Add drop-shadow"
+msgstr "Adicionar sombra de projeção"
+
+#: src/filters/decor/round-corners.xml:148(para)
+msgid ""
+"When this option is checked, the filter will cast a shadow behind your image"
+" after rounding the image corners."
+msgstr ""
+"Quando esta opção está ligada, o filtro vai criar uma sombra atrás da sua "
+"imagem, depois de criar os cantos arredondados."
+
+#: src/filters/decor/round-corners.xml:155(term)
+msgid "Shadow X/Y offset"
+msgstr "Deslocamento X/Y da sombra"
+
+#: src/filters/decor/round-corners.xml:157(para)
+msgid ""
+"X and Y offset determine where the shadow will be placed in relation to the "
+"image. Offset is measured in pixels. High values make the shadow look like "
+"it's far away, and low values will make it look closer to the image."
+msgstr ""
+"Os deslocamentos X e Y determinam onde a sombra será colocada em relação a "
+"imagem. O deslocamento é medido em pixels. Valores altos fazem parecer que a"
+" sombra está longe, e valores baixos vão  fazer parecer que a sombra está "
+"próxima da imagem."
+
+#: src/filters/decor/round-corners.xml:164(title)
+msgid "Shadow offset examples"
+msgstr "Exemplos de deslocamento da sombra"
+
+#: src/filters/decor/round-corners.xml:171(para)
+msgid "Shadow X offset: 8, Y offset: 8 (default)."
+msgstr "Deslocamento X da sombra: 8, Deslocamento Y: 8 (padrão)."
+
+#: src/filters/decor/round-corners.xml:182(para)
+msgid "Shadow X offset: 16, Y offset: 4."
+msgstr "Deslocamento X da sombra: 16, Deslocamento Y: 4."
+
+#: src/filters/decor/round-corners.xml:186(para)
+msgid ""
+"Note that the shadow offsets as well as the blur radius are limited to "
+"background area."
+msgstr ""
+"Note que tanto os deslocamentos da sombra quanto o raio de desfocagem ficam "
+"limitados à área de fundo."
+
+#: src/filters/decor/round-corners.xml:193(term)
+msgid "Blur radius"
+msgstr "Raio de desfoque"
+
+#: src/filters/decor/round-corners.xml:195(para)
+msgid ""
+"When <guilabel>Add drop-shadow</guilabel> is checked, you may select a blur "
+"radius, which will be used by the <link linkend=\"script-fu-drop-"
+"shadow\">Drop Shadow</link> filter. The image will be enlarged in both "
+"dimensions depending on the blur radius and the shadow offsets."
+msgstr ""
+"Quando <guilabel>Adicionar sombra de projeção</guilabel> está ligada, você "
+"pode selecionar um raio de desfoque, que será usado pelo filtro de <link "
+"linkend=\"script-fu-drop-shadow\">Sombra projetada</link>. A imagem será "
+"tornada maior  em ambas as dimensões dependendo das configurações de raio de"
+" desfoque e deslocamento da sombra."
+
+#: src/filters/decor/round-corners.xml:205(term)
+msgid "Add background"
+msgstr "Adicionar fundo"
+
+#: src/filters/decor/round-corners.xml:207(para)
+msgid ""
+"When you check this option (it is checked by default), the filter will add a"
+" background layer below the existing layer, filled with the current "
+"background color. The size of this new layer depends on the blur radius and "
+"the shadow offsets."
+msgstr ""
+"Quando você seleciona esta opção (ela fica ligada por padrão), o filtro irá "
+"adicionar uma camada de fundo abaixo da camada existente, preenchida com a "
+"cor de fundo atual. O tamanho desta camada dependerá do raio de desfoque e "
+"dos deslocamentos da sombra."
+
+#: src/filters/decor/round-corners.xml:218(para)
+#: src/filters/decor/old-photo.xml:163(para)
+#: src/filters/decor/fuzzyborder.xml:247(para)
+#: src/filters/decor/add-bevel.xml:126(para)
+msgid ""
+"If checked, the filter creates a new window containing a copy of the image "
+"with the filter applied. The original image remains unchanged."
+msgstr ""
+"Se selecionada, o filtro criará uma nova janela contendo uma cópia da imagem"
+" com o filtro aplicado. A imagem original permanece inalterada."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-old-photo.jpg'; "
+"md5=1ec97d5505efa048bddfeb749304476e"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-old-photo.jpg'; "
+"md5=1ec97d5505efa048bddfeb749304476e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:76(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/old-photo.png'; "
+#| "md5=65de0ed40debc1faa63c16bebdfab91e"
+msgid ""
+"@@image: 'images/filters/decor/old-photo.png'; "
+"md5=0909346feeca79c2870af80cc1bda7b1"
+msgstr ""
+"@@image: 'images/filters/decor/old-photo.png'; "
+"md5=0909346feeca79c2870af80cc1bda7b1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:93(None)
+msgid ""
+"@@image: 'images/filters/examples/old-photo-defocus.png'; "
+"md5=f8842c9806c22f7a82ef019c986a8ee2"
+msgstr ""
+"@@image: 'images/filters/examples/old-photo-defocus.png'; "
+"md5=f8842c9806c22f7a82ef019c986a8ee2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:102(None)
+msgid ""
+"@@image: 'images/filters/examples/old-photo-focus.png'; "
+"md5=e62f2704a8d75922f7a31a5cd8377c00"
+msgstr ""
+"@@image: 'images/filters/examples/old-photo-focus.png'; "
+"md5=e62f2704a8d75922f7a31a5cd8377c00"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:149(None)
+msgid ""
+"@@image: 'images/filters/examples/old-photo-mottle.png'; "
+"md5=d2033beee3ec9fd9bd77c30dcc199be0"
+msgstr ""
+"@@image: 'images/filters/examples/old-photo-mottle.png'; "
+"md5=d2033beee3ec9fd9bd77c30dcc199be0"
+
+#: src/filters/decor/old-photo.xml:11(title)
+#: src/filters/decor/old-photo.xml:16(tertiary)
+#: src/filters/decor/old-photo.xml:19(primary)
+msgid "Old Photo"
+msgstr "Foto antiga"
+
+#: src/filters/decor/old-photo.xml:25(title)
+msgid "Example for the <quote>Old Photo</quote> filter"
+msgstr "Exemplo do filtro <quote>Foto antiga</quote>"
+
+#: src/filters/decor/old-photo.xml:45(para)
+msgid ""
+"This filter makes an image look like an old photo: blurred, with a jagged "
+"border, toned with a brown shade, and marked with spots."
+msgstr ""
+"Este filtro faz ma imagem parecer como uma foto antiga: desfocada, com uma "
+"borda irregular, tonalizada em um matiz marrom, e marcada com manchas"
+
+#: src/filters/decor/old-photo.xml:59(para)
+#| msgid ""
+#| "The filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Old"
+#| " Photo</guimenuitem></menuchoice>."
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Old"
+" Photo…</guimenuitem></menuchoice>."
+msgstr ""
+"Esse filtro pode ser encontrado no menu da janela de imagens em "
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Foto"
+" antiga</guimenuitem></menuchoice>"
+
+#: src/filters/decor/old-photo.xml:72(title)
+msgid "<quote>Old Photo</quote> options"
+msgstr "Opções de <quote>Foto antiga</quote>"
+
+#: src/filters/decor/old-photo.xml:82(term)
+msgid "Defocus"
+msgstr "Desfocar"
+
+#: src/filters/decor/old-photo.xml:84(para)
+#| msgid ""
+#| "If checked, a <link linkend=\"plug-in-gauss\">Gaussian blur</link> will be "
+#| "applied to the image, making it less clear."
+msgid ""
+"If checked, a <link linkend=\"gimp-filter-gaussian-blur\">Gaussian "
+"blur</link> will be applied to the image, making it less clear."
+msgstr ""
+"Se marcado, um <link linkend=\"gimp-filter-gaussian-blur\">desfoque "
+"gaussiano</link> será aplicado à imagem, deixando-a menos nítida."
+
+#: src/filters/decor/old-photo.xml:89(title)
+msgid "Example for the <quote>Defocus</quote> option"
+msgstr "Exemplo para a opção <quote>Desfocar</quote>"
+
+#: src/filters/decor/old-photo.xml:96(para)
+msgid "Defocus enabled"
+msgstr "Desfocar habilitado"
+
+#: src/filters/decor/old-photo.xml:105(para)
+msgid "Defocus disabled"
+msgstr "Desfocar desabilitado"
+
+#: src/filters/decor/old-photo.xml:112(term)
+#: src/filters/decor/fuzzyborder.xml:91(term)
+msgid "Border size"
+msgstr "Tamanho da borda"
+
+#: src/filters/decor/old-photo.xml:114(para)
+msgid ""
+"When you choose a border size &gt; 0, the <link linkend=\"script-fu-fuzzy-"
+"border\">Fuzzy Border</link> filter will be applied to the image, adding a "
+"white, jagged border."
+msgstr ""
+"Quando você escolhe um tamanho de borda menor que zero, o filtro <link "
+"linkend=\"script-fu-fuzzy-border\">Borrar borda</link> será aplicado a "
+"imagem, adicionando uma borda branca, recortada."
+
+#: src/filters/decor/old-photo.xml:122(term)
+msgid "Sepia"
+msgstr "Sépia"
+
+#: src/filters/decor/old-photo.xml:127(para)
+msgid "See Wikipedia <xref linkend=\"bibliography-online-wkpd-sepia\"/>."
+msgstr "Veja na Wikipedia <xref linkend=\"bibliography-online-wkpd-sepia\"/>."
+
+#: src/filters/decor/old-photo.xml:132(para)
+msgid "Compare <xref linkend=\"gimp-tool-color-balance\"/>."
+msgstr "Compare <xref linkend=\"gimp-tool-color-balance\"/>."
+
+#: src/filters/decor/old-photo.xml:124(para)
+msgid ""
+"If checked, the filter reproduces the effect of aging in old, traditional "
+"black-and-white photographs, toned with sepia (shades of "
+"brown).<placeholder-1/> To achieve this effect, the filter desaturates the "
+"image, reduces brightness and contrast, and modifies the color "
+"balance.<placeholder-2/>"
+msgstr ""
+"Se habilitado, o filtro reproduz o efeito de envelhecimento em fotografias "
+"antigas tradicionais em preto e branco, tonalizadas com sépia (tons de "
+"marrom). <placeholder-1/> Para obter esse efeito, o filtro dessatura a "
+"imagem, reduz o brilho e contraste e modifica o balanço de cores. "
+"<placeholder-2/>"
+
+#: src/filters/decor/old-photo.xml:139(term)
+msgid "Mottle"
+msgstr "Matizar"
+
+#: src/filters/decor/old-photo.xml:141(para)
+msgid "When you check this option, the image will be marked with spots."
+msgstr "Quando você habilitar esta opção, a imagem será marcada por manchas."
+
+#: src/filters/decor/old-photo.xml:145(title)
+msgid "Example for the <quote>Mottle</quote> option"
+msgstr "Exemplo para a opção <quote>Matizar</quote>"
+
+#: src/filters/decor/old-photo.xml:152(para)
+msgid "A plain white image mottled (without Defocus or Sepia)"
+msgstr "Uma imagem branca com o matizado (sem Desfocar ou Sépia)"
+
+#: src/filters/decor/introduction.xml:12(title)
+#: src/filters/decor/introduction.xml:17(tertiary)
+msgid "Introduction"
+msgstr "Introdução"
+
+#: src/filters/decor/introduction.xml:22(para)
+#| msgid ""
+#| "These filters are image-dependent Script-Fu scripts. They create decorative "
+#| "borders, and some of them add some nice special effects to the image."
+msgid ""
+"Decor filters create decorative borders, and some of them add some special "
+"effects to the image."
+msgstr ""
+"Os filtros Decorativos criam bordas decorativas, e alguns deles adicionam "
+"efeitos especiais à imagem."
+
+#: src/filters/decor/introduction.xml:27(para)
+msgid "This category describes the following filters:"
+msgstr "Esta categoria descreve os seguintes filtros:"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/decor/fuzzyborder.xml:38(None)
 msgid ""
@@ -43,19 +934,24 @@ msgstr ""
 "@@image: 'images/filters/examples/decor-taj-fuzzyborder.jpg'; "
 "md5=e1c8616c18bfa8cb4948765e546344b6"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:71(None)
+#: src/filters/decor/fuzzyborder.xml:76(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/fuzzyborder.png'; "
+#| "md5=cb437dd59f9e88f97fd7ca28adc828ff"
 msgid ""
 "@@image: 'images/filters/decor/fuzzyborder.png'; "
-"md5=cb437dd59f9e88f97fd7ca28adc828ff"
+"md5=53057c7391aa1b8bdbf7331309cf9ef5"
 msgstr ""
 "@@image: 'images/filters/decor/fuzzyborder.png'; "
-"md5=cb437dd59f9e88f97fd7ca28adc828ff"
+"md5=53057c7391aa1b8bdbf7331309cf9ef5"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:106(None)
+#: src/filters/decor/fuzzyborder.xml:111(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-blur.png'; "
 "md5=573a17db4ab01f59589e83106b554956"
@@ -63,9 +959,10 @@ msgstr ""
 "@@image: 'images/filters/examples/fuzzyborder-blur.png'; "
 "md5=573a17db4ab01f59589e83106b554956"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:115(None)
+#: src/filters/decor/fuzzyborder.xml:120(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-noblur.png'; "
 "md5=76f2a8e68406da076216116de68d327f"
@@ -73,9 +970,10 @@ msgstr ""
 "@@image: 'images/filters/examples/fuzzyborder-noblur.png'; "
 "md5=76f2a8e68406da076216116de68d327f"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:127(None)
+#: src/filters/decor/fuzzyborder.xml:132(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-blurx16.png'; "
 "md5=28eacae4912acd5e327735c6b9ec2786"
@@ -83,9 +981,10 @@ msgstr ""
 "@@image: 'images/filters/examples/fuzzyborder-blurx16.png'; "
 "md5=28eacae4912acd5e327735c6b9ec2786"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:136(None)
+#: src/filters/decor/fuzzyborder.xml:141(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-noblurx16.png'; "
 "md5=3f845a5fcb1508c008198fa0b1b887cf"
@@ -93,9 +992,10 @@ msgstr ""
 "@@image: 'images/filters/examples/fuzzyborder-noblurx16.png'; "
 "md5=3f845a5fcb1508c008198fa0b1b887cf"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:157(None)
+#: src/filters/decor/fuzzyborder.xml:162(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-gran1.png'; "
 "md5=53bfd2db2e5776c920ef1de5c0b691f9"
@@ -103,9 +1003,10 @@ msgstr ""
 "@@image: 'images/filters/examples/fuzzyborder-gran1.png'; "
 "md5=53bfd2db2e5776c920ef1de5c0b691f9"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:166(None)
+#: src/filters/decor/fuzzyborder.xml:171(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-gran4.png'; "
 "md5=f3532096fb20f5969dad2eac34375cda"
@@ -113,9 +1014,10 @@ msgstr ""
 "@@image: 'images/filters/examples/fuzzyborder-gran4.png'; "
 "md5=f3532096fb20f5969dad2eac34375cda"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:175(None)
+#: src/filters/decor/fuzzyborder.xml:180(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-gran16.png'; "
 "md5=e2ac4eecb2968589c8718a0919b99a27"
@@ -123,9 +1025,10 @@ msgstr ""
 "@@image: 'images/filters/examples/fuzzyborder-gran16.png'; "
 "md5=e2ac4eecb2968589c8718a0919b99a27"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:195(None)
+#: src/filters/decor/fuzzyborder.xml:200(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-shadow100.png'; "
 "md5=22df77b7fca08fd0986bea3755392b68"
@@ -133,9 +1036,10 @@ msgstr ""
 "@@image: 'images/filters/examples/fuzzyborder-shadow100.png'; "
 "md5=22df77b7fca08fd0986bea3755392b68"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:207(None)
+#: src/filters/decor/fuzzyborder.xml:212(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-shadow10.png'; "
 "md5=0166b366ca72cfcb3ca604fee41f5136"
@@ -143,9 +1047,10 @@ msgstr ""
 "@@image: 'images/filters/examples/fuzzyborder-shadow10.png'; "
 "md5=0166b366ca72cfcb3ca604fee41f5136"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/fuzzyborder.xml:218(None)
+#: src/filters/decor/fuzzyborder.xml:223(None)
 msgid ""
 "@@image: 'images/filters/examples/fuzzyborder-noshadow.png'; "
 "md5=1cead351bf0ded0bd1c8f869a78790d3"
@@ -159,62 +1064,9 @@ msgstr ""
 msgid "Fuzzy Border"
 msgstr "Borrar borda"
 
-#: src/filters/decor/fuzzyborder.xml:14(primary)
-#: src/filters/decor/carve-it.xml:16(primary)
-#: src/filters/decor/coffee.xml:14(primary)
-#: src/filters/decor/add-bevel.xml:15(primary)
-#: src/filters/decor/chrome-it.xml:9(primary)
-#: src/filters/decor/round-corners.xml:14(primary)
-#: src/filters/decor/addborder.xml:15(primary)
-#: src/filters/decor/old-photo.xml:14(primary)
-#: src/filters/decor/introduction.xml:15(primary)
-#: src/filters/decor/slide.xml:14(primary)
-msgid "Filters"
-msgstr "Filtros"
-
-#: src/filters/decor/fuzzyborder.xml:15(secondary)
-#: src/filters/decor/carve-it.xml:17(secondary)
-#: src/filters/decor/coffee.xml:15(secondary)
-#: src/filters/decor/chrome-it.xml:10(secondary)
-#: src/filters/decor/round-corners.xml:15(secondary)
-#: src/filters/decor/old-photo.xml:15(secondary)
-#: src/filters/decor/introduction.xml:16(secondary)
-#: src/filters/decor/introduction.xml:20(primary)
-#: src/filters/decor/slide.xml:15(secondary)
-msgid "Decor"
-msgstr "Decoração"
-
-#: src/filters/decor/fuzzyborder.xml:23(title)
-#: src/filters/decor/carve-it.xml:25(title)
-#: src/filters/decor/coffee.xml:23(title)
-#: src/filters/decor/add-bevel.xml:23(title)
-#: src/filters/decor/chrome-it.xml:18(title)
-#: src/filters/decor/round-corners.xml:23(title)
-#: src/filters/decor/addborder.xml:23(title)
-#: src/filters/decor/old-photo.xml:23(title)
-#: src/filters/decor/slide.xml:23(title)
-msgid "Overview"
-msgstr "Visão geral"
-
 #: src/filters/decor/fuzzyborder.xml:25(title)
 msgid "Example for the <quote>Fuzzy Border</quote> filter"
 msgstr "Exemplo do filtro <quote>Borrar borda</quote>"
-
-#: src/filters/decor/fuzzyborder.xml:32(para)
-#: src/filters/decor/carve-it.xml:34(para)
-#: src/filters/decor/coffee.xml:32(para)
-#: src/filters/decor/add-bevel.xml:60(para)
-#: src/filters/decor/chrome-it.xml:27(para)
-#: src/filters/decor/round-corners.xml:32(para)
-#: src/filters/decor/addborder.xml:32(para)
-#: src/filters/decor/old-photo.xml:32(para)
-#: src/filters/decor/slide.xml:32(para)
-msgid "Original image"
-msgstr "Imagem original"
-
-#: src/filters/decor/fuzzyborder.xml:41(para)
-msgid "<quote>Fuzzy Border</quote> applied"
-msgstr "<quote>Borrar borda</quote> aplicado"
 
 #: src/filters/decor/fuzzyborder.xml:45(para)
 msgid ""
@@ -222,52 +1074,34 @@ msgid ""
 "jagged and fuzzy, and you can specify color and thickness of the fading "
 "border. Optionally you may add a shadow to the image."
 msgstr ""
-"Esse filtro cria uma borda que se esmaece de forma bem interessante: a borda "
-"da imagem vai parecer irregular e borrada, como se fosse papel rasgado "
+"Esse filtro cria uma borda que se esmaece de forma bem interessante: a borda"
+" da imagem vai parecer irregular e borrada, como se fosse papel rasgado "
 "colado sobre outra folha. Você pode especificar a cor e a espessura da "
 "borda. Opcionalmente, você pode adicionar uma sombra a imagem."
 
-#: src/filters/decor/fuzzyborder.xml:53(title)
-#: src/filters/decor/coffee.xml:58(title)
-#: src/filters/decor/add-bevel.xml:85(title)
-#: src/filters/decor/round-corners.xml:58(title)
-#: src/filters/decor/addborder.xml:57(title)
-#: src/filters/decor/old-photo.xml:53(title)
-#: src/filters/decor/slide.xml:64(title)
-msgid "Activate the filter"
-msgstr "Ativar o filtro"
-
-#: src/filters/decor/fuzzyborder.xml:54(para)
+#: src/filters/decor/fuzzyborder.xml:59(para)
+#| msgid ""
+#| "This filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Add"
+#| " Border</guimenuitem></menuchoice>."
 msgid ""
-"You can find this filter in the image window menu through "
-"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
-"guisubmenu><guimenuitem>Fuzzy Border</guimenuitem></menuchoice>."
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Fuzzy"
+" Border…</guimenuitem></menuchoice>."
 msgstr ""
-"Você pode encontrar esse filtro em <menuchoice><guimenu>Filtros</"
-"guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Borrar borda</"
-"guimenuitem></menuchoice>."
+"Esse filtro pode ser encontrado no menu da janela de imagens em "
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Adicionar"
+" borda</guimenuitem></menuchoice>."
 
-#: src/filters/decor/fuzzyborder.xml:65(title)
-#: src/filters/decor/carve-it.xml:76(title)
-#: src/filters/decor/coffee.xml:70(title)
-#: src/filters/decor/add-bevel.xml:97(title)
-#: src/filters/decor/chrome-it.xml:72(title)
-#: src/filters/decor/round-corners.xml:70(title)
-#: src/filters/decor/addborder.xml:69(title)
-#: src/filters/decor/old-photo.xml:65(title)
-#: src/filters/decor/slide.xml:76(title)
-msgid "Options"
-msgstr "Opções"
-
-#: src/filters/decor/fuzzyborder.xml:67(title)
+#: src/filters/decor/fuzzyborder.xml:72(title)
 msgid "<quote>Fuzzy Border</quote> options"
 msgstr "Opções do <quote>Borrar borda</quote>"
 
-#: src/filters/decor/fuzzyborder.xml:77(term)
+#: src/filters/decor/fuzzyborder.xml:82(term)
 msgid "Color"
 msgstr "Cor"
 
-#: src/filters/decor/fuzzyborder.xml:79(para)
+#: src/filters/decor/fuzzyborder.xml:84(para)
 msgid ""
 "Clicking on this button brings up the color selector dialog that allows you "
 "to choose the border color."
@@ -275,90 +1109,87 @@ msgstr ""
 "Ao clicar nesse botão, aparece um diálogo de seleção de cores para que você "
 "escolha a cor da borda."
 
-#: src/filters/decor/fuzzyborder.xml:86(term)
-#: src/filters/decor/old-photo.xml:107(term)
-msgid "Border size"
-msgstr "Tamanho da borda"
-
-#: src/filters/decor/fuzzyborder.xml:88(para)
+#: src/filters/decor/fuzzyborder.xml:93(para)
 msgid ""
 "Here you can set the thickness of the fuzzy border, in pixels. Maximum is "
 "300 pixels, regardless of the image width or height."
 msgstr ""
-"Aqui você pode especificar a espessura da borda borrada, em pixels. O máximo "
-"é 300 pixels, não importa qual a altura ou largura da imagem."
+"Aqui você pode especificar a espessura da borda borrada, em pixels. O máximo"
+" é 300 pixels, não importa qual a altura ou largura da imagem."
 
-#: src/filters/decor/fuzzyborder.xml:95(term)
+#: src/filters/decor/fuzzyborder.xml:100(term)
 msgid "Blur border"
 msgstr "Desfocar borda"
 
-#: src/filters/decor/fuzzyborder.xml:97(para)
+#: src/filters/decor/fuzzyborder.xml:102(para)
 msgid ""
 "If checked, the border will be blurred. The example below shows the effect "
 "of blurring:"
 msgstr ""
-"Se selecionada, a borda resultante será desfocada. O exemplo abaixo mostra o "
-"efeito desse desfocamento"
+"Se selecionada, a borda resultante será desfocada. O exemplo abaixo mostra o"
+" efeito desse desfocamento"
 
-#: src/filters/decor/fuzzyborder.xml:102(title)
+#: src/filters/decor/fuzzyborder.xml:107(title)
 msgid "<quote>Blur border</quote> example"
 msgstr "Exemplo de <quote>Borrar borda</quote>"
 
-#: src/filters/decor/fuzzyborder.xml:109(para)
-#: src/filters/decor/fuzzyborder.xml:130(para)
-msgid "<quote>Blur</quote> checked"
+#: src/filters/decor/fuzzyborder.xml:114(para)
+#: src/filters/decor/fuzzyborder.xml:135(para)
+#| msgid "<quote>Blur</quote> checked"
+msgid "<quote>Blur border</quote> checked"
 msgstr "<quote>Desfocar</quote> selecionado"
 
-#: src/filters/decor/fuzzyborder.xml:118(para)
-#: src/filters/decor/fuzzyborder.xml:139(para)
-msgid "<quote>Blur</quote> unchecked"
+#: src/filters/decor/fuzzyborder.xml:123(para)
+#: src/filters/decor/fuzzyborder.xml:144(para)
+#| msgid "<quote>Blur</quote> unchecked"
+msgid "<quote>Blur border</quote> unchecked"
 msgstr "<quote>Desfocar</quote> não selecionado"
 
-#: src/filters/decor/fuzzyborder.xml:123(title)
+#: src/filters/decor/fuzzyborder.xml:128(title)
 msgid "<quote>Blur border</quote> zoomed (1600%)"
 msgstr "<quote>Borrar borda</quote> com zoom (1600%)"
 
-#: src/filters/decor/fuzzyborder.xml:146(term)
+#: src/filters/decor/fuzzyborder.xml:151(term)
 msgid "Granularity"
 msgstr "Granularidade"
 
-#: src/filters/decor/fuzzyborder.xml:148(para)
+#: src/filters/decor/fuzzyborder.xml:153(para)
 msgid ""
-"The border's granularity is almost the size of pixel blocks spread to create "
-"the effect of a jagged and fuzzy border."
+"The border's granularity is almost the size of pixel blocks spread to create"
+" the effect of a jagged and fuzzy border."
 msgstr ""
-"A granularidade da borda representa o tamanho dos blocos de pixel espalhados "
-"para criar o efeito de uma borda irregular."
+"A granularidade da borda representa o tamanho dos blocos de pixel espalhados"
+" para criar o efeito de uma borda irregular."
 
-#: src/filters/decor/fuzzyborder.xml:153(title)
+#: src/filters/decor/fuzzyborder.xml:158(title)
 msgid "Granularity example (without blurring)"
 msgstr "Exemplo de granularidade (sem desfocar)"
 
-#: src/filters/decor/fuzzyborder.xml:160(para)
+#: src/filters/decor/fuzzyborder.xml:165(para)
 msgid "Granularity 1 (min)"
 msgstr "Granularidade 1 (minímo)"
 
-#: src/filters/decor/fuzzyborder.xml:169(para)
+#: src/filters/decor/fuzzyborder.xml:174(para)
 msgid "Granularity 4 (default)"
 msgstr "Granularidade 4 (padrão)"
 
-#: src/filters/decor/fuzzyborder.xml:178(para)
+#: src/filters/decor/fuzzyborder.xml:183(para)
 msgid "Granularity 16 (max)"
 msgstr "Granularidade 16 (máximo)"
 
-#: src/filters/decor/fuzzyborder.xml:185(term)
+#: src/filters/decor/fuzzyborder.xml:190(term)
 msgid "Add shadow"
 msgstr "Adicionar sombra"
 
-#: src/filters/decor/fuzzyborder.xml:187(para)
+#: src/filters/decor/fuzzyborder.xml:192(para)
 msgid "If checked, the filter will also create a shadow at the border."
 msgstr "Se selecionado, o filtro também vai criar uma sombra na borda."
 
-#: src/filters/decor/fuzzyborder.xml:191(title)
+#: src/filters/decor/fuzzyborder.xml:196(title)
 msgid "<quote>Add shadow</quote> example"
 msgstr "Exemplo da opção <quote>Adicionar sombra</quote>"
 
-#: src/filters/decor/fuzzyborder.xml:198(para)
+#: src/filters/decor/fuzzyborder.xml:203(para)
 msgid ""
 "<quote>Add shadow</quote> checked, shadow weight 100% (default shadow "
 "weight)."
@@ -366,19 +1197,19 @@ msgstr ""
 "<quote>Adicionar sombra</quote> selecionado, Quantidade de sombra em 100% "
 "(quantidade de sombra padrão)"
 
-#: src/filters/decor/fuzzyborder.xml:210(para)
+#: src/filters/decor/fuzzyborder.xml:215(para)
 msgid "<quote>Add shadow</quote> with shadow weight 10%."
 msgstr "<quote>Adicionar sombra</quote>, com quantidade de sombra em 10%"
 
-#: src/filters/decor/fuzzyborder.xml:221(para)
+#: src/filters/decor/fuzzyborder.xml:226(para)
 msgid "<quote>Add shadow</quote> unchecked (default)"
 msgstr "<quote>Adicionar sombra</quote> não selecionado (opção padrão)"
 
-#: src/filters/decor/fuzzyborder.xml:230(term)
+#: src/filters/decor/fuzzyborder.xml:235(term)
 msgid "Shadow weight"
 msgstr "Quantidade de sombra"
 
-#: src/filters/decor/fuzzyborder.xml:232(para)
+#: src/filters/decor/fuzzyborder.xml:237(para)
 msgid ""
 "If <guilabel>Add shadow</guilabel> is checked, you may set the shadow "
 "opacity here. Defaults to 100% (full opacity)."
@@ -386,31 +1217,11 @@ msgstr ""
 "Se <guilabel>Adicionar sombra</guilabel> estiver selecionada, você pode "
 "configurar a opacidade da sombra aqui. O padrão é 100% (opacidade total)"
 
-#: src/filters/decor/fuzzyborder.xml:240(term)
-#: src/filters/decor/add-bevel.xml:118(term)
-#: src/filters/decor/round-corners.xml:211(term)
-#: src/filters/decor/old-photo.xml:156(term)
-#: src/filters/decor/slide.xml:126(term)
-msgid "Work on copy"
-msgstr "Trabalhar em uma cópia"
-
-#: src/filters/decor/fuzzyborder.xml:242(para)
-#: src/filters/decor/add-bevel.xml:120(para)
-#: src/filters/decor/round-corners.xml:213(para)
-#: src/filters/decor/old-photo.xml:158(para)
-#: src/filters/decor/slide.xml:128(para)
-msgid ""
-"If checked, the filter creates a new window containing a copy of the image "
-"with the filter applied. The original image remains unchanged."
-msgstr ""
-"Se selecionada, o filtro criará uma nova janela contendo uma cópia da imagem "
-"com o filtro aplicado. A imagem original permanece inalterada."
-
-#: src/filters/decor/fuzzyborder.xml:250(term)
+#: src/filters/decor/fuzzyborder.xml:255(term)
 msgid "Flatten image"
 msgstr "Achatar imagem"
 
-#: src/filters/decor/fuzzyborder.xml:252(para)
+#: src/filters/decor/fuzzyborder.xml:257(para)
 msgid ""
 "If unchecked, the filter keeps the additional layers it used to create the "
 "border and the shadow (if demanded). Default is to merge down all layers."
@@ -420,10 +1231,138 @@ msgstr ""
 "(inclusive outras camadas da imagem, não relacionadas diretamente com o "
 "filtro)"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/carve-it.xml:31(None)
+#: src/filters/decor/fog.xml:35(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/decor/taj-chrome-it.jpg'; "
+#| "md5=5d3cafbf777b9e1979315b19ec9d75f5"
+msgid ""
+"@@image: 'images/filters/examples/decor/taj-fog.jpg'; "
+"md5=7605a84912d5f2490869129293d76520"
+msgstr ""
+"@@image: 'images/filters/examples/decor/taj-fog.jpg'; "
+"md5=7605a84912d5f2490869129293d76520"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fog.xml:75(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/chrome-it.png'; "
+#| "md5=0226b96a33a5a4d787577f2a12aac7ce"
+msgid ""
+"@@image: 'images/filters/decor/fog-dialog.png'; "
+"md5=7955a7b9eaa079ac1f02a6ba7fcf8439"
+msgstr ""
+"@@image: 'images/filters/decor/fog-dialog.png'; "
+"md5=7955a7b9eaa079ac1f02a6ba7fcf8439"
+
+#: src/filters/decor/fog.xml:9(title) src/filters/decor/fog.xml:14(tertiary)
+#: src/filters/decor/fog.xml:16(primary)
+msgid "Fog"
+msgstr "Névoa"
+
+#: src/filters/decor/fog.xml:22(title)
+#| msgid "Example for the <quote>Slide</quote> filter"
+msgid "Example for the <quote>Fog</quote> filter"
+msgstr "Exemplo para o filtro <quote>Slide</quote>"
+
+#: src/filters/decor/fog.xml:43(para)
+msgid ""
+"This filter adds a new layer with some clouds to the image that look like "
+"fog or smoke. The clouds are created with the <link linkend=\"gimp-filter-"
+"plasma\">Plasma</link> texture."
+msgstr ""
+"Este filtro adiciona à imagem uma nova camada com nuvens que parecem névoa "
+"ou fumaça. As nuvens são criadas com a textura <link linkend=\"gimp-filter-"
+"plasma\">Plasma</link>."
+
+#: src/filters/decor/fog.xml:58(para)
+#| msgid ""
+#| "This filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Add"
+#| " Border</guimenuitem></menuchoice>."
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Fog…</guimenuitem></menuchoice>."
+msgstr ""
+"Esse filtro pode ser encontrado no menu da janela de imagens em "
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Adicionar"
+" borda</guimenuitem></menuchoice>."
+
+#: src/filters/decor/fog.xml:71(title)
+#| msgid "<quote>Slide</quote> options"
+msgid "<quote>Fog</quote> options"
+msgstr "Opções de <quote>Slide</quote>"
+
+#: src/filters/decor/fog.xml:81(para)
+msgid ""
+"Among the few filter options, only <quote>Turbulence</quote> is somewhat "
+"important, because you can't change it later and have to undo and repeat the"
+" filter if the result doesn't fit your desire."
+msgstr ""
+"Entre as poucas opções do filtro, apenas <quote>Turbulência</quote> é de "
+"certa forma importante, porque você não pode alterá-la depois e terá que "
+"desfazer e repetir o filtro se o resultado não ficar como você quer."
+
+#: src/filters/decor/fog.xml:87(term)
+msgid "Layer name"
+msgstr "Nome da camada"
+
+#: src/filters/decor/fog.xml:89(para)
+msgid ""
+"The name of the layer. You can change it later in the <link linkend=\"gimp-"
+"layer-attributes\">Layers Dialog</link>."
+msgstr ""
+"O nome da camada. Você pode alterá-lo depois na <link linkend=\"gimp-layer-"
+"attributes\">Caixa de diálogo Camadas</link>."
+
+#: src/filters/decor/fog.xml:96(term)
+#| msgid "Fontcolor"
+msgid "Fog color"
+msgstr "Cor da névoa"
+
+#: src/filters/decor/fog.xml:98(para)
+msgid ""
+"Defaults to some kind of sandy brown (240, 180, 70). Click on the color "
+"button to change this if you think that is not the natural color of fog."
+msgstr ""
+"O padrão é uma espécie de marrom arenoso (240, 180, 70). Clique no botão de "
+"cor para mudar isto se achar que não é a cor natural da névoa."
+
+#: src/filters/decor/fog.xml:106(term)
+msgid "Turbulence"
+msgstr "Turbulência"
+
+#: src/filters/decor/fog.xml:108(para)
+msgid ""
+"This is actually the Turbulence option of the <link linkend=\"gimp-filter-"
+"plasma\">Plasma</link> filter: it controls the complexity of the clouds, "
+"from soft (low values) to hard (high values)."
+msgstr ""
+"Esta é na verdade a opção Turbulência do filtro <link linkend=\"gimp-filter-"
+"plasma\">Plasma</link>: ela controla a complexidade das nuvens, de suave "
+"(valores baixos) a intensa (valores altos)."
+
+#: src/filters/decor/fog.xml:117(term)
+msgid "Opacity"
+msgstr "Opacidade"
+
+#: src/filters/decor/fog.xml:119(para)
+msgid ""
+"The opacity of the layer. You can change it later in the <link "
+"linkend=\"gimp-layer-dialog-opacity-scale\">Layers Dialog</link>."
+msgstr ""
+"A opacidade da camada. Você pode alterá-la depois na <link linkend=\"gimp-"
+"layer-dialog-opacity-scale\">Caixa de diálogo Camadas</link>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/decor/chrome-it.xml:24(None)
+#: src/filters/decor/carve-it.xml:31(None)
 msgid ""
 "@@image: 'images/filters/examples/taj_grayscale.jpg'; "
 "md5=c79e63396ac6779a397cb69b163363b0"
@@ -431,7 +1370,431 @@ msgstr ""
 "@@image: 'images/filters/examples/taj_grayscale.jpg'; "
 "md5=c79e63396ac6779a397cb69b163363b0"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:33(None)
+msgid ""
+"@@image: 'images/filters/examples/decor/taj-chrome-it.jpg'; "
+"md5=5d3cafbf777b9e1979315b19ec9d75f5"
+msgstr ""
+"@@image: 'images/filters/examples/decor/taj-chrome-it.jpg'; "
+"md5=5d3cafbf777b9e1979315b19ec9d75f5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:72(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/chrome-it-step3.png'; "
+#| "md5=c6399c39d7bd76f3fa09ceb19aced1e2"
+msgid ""
+"@@image: 'images/filters/decor/chrome-it.png'; "
+"md5=991cbd32a0c5b5cee0a41a1f4414673b"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it.png'; "
+"md5=991cbd32a0c5b5cee0a41a1f4414673b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:121(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-env-example.png'; "
+"md5=0b7925b90319f8ac25398db069053a20"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-env-example.png'; "
+"md5=0b7925b90319f8ac25398db069053a20"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:196(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step1.png'; "
+"md5=af1a392e2bc85138891aa5fcfdf62720"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step1.png'; "
+"md5=af1a392e2bc85138891aa5fcfdf62720"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:213(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step2.png'; "
+"md5=419de82eb2b8dba22a6b69da60de3298"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step2.png'; "
+"md5=419de82eb2b8dba22a6b69da60de3298"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:228(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step3.png'; "
+"md5=c6399c39d7bd76f3fa09ceb19aced1e2"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step3.png'; "
+"md5=c6399c39d7bd76f3fa09ceb19aced1e2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:249(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step4.png'; "
+"md5=63c56909c3a6d10f17ac17b9adb21aa1"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step4.png'; "
+"md5=63c56909c3a6d10f17ac17b9adb21aa1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:272(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step5.png'; "
+"md5=22ae575f63063b20d7613ac343b1a90f"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step5.png'; "
+"md5=22ae575f63063b20d7613ac343b1a90f"
+
+#: src/filters/decor/chrome-it.xml:6(title)
+#: src/filters/decor/chrome-it.xml:11(tertiary)
+#: src/filters/decor/chrome-it.xml:14(primary)
+msgid "Stencil Chrome"
+msgstr "Estêncil de cromagem"
+
+#: src/filters/decor/chrome-it.xml:20(title)
+msgid "Example for the <quote>Stencil Chrome</quote> filter"
+msgstr "Exemplo do filtro <quote>Estêncil de cromagem</quote>"
+
+#: src/filters/decor/chrome-it.xml:40(para)
+#| msgid ""
+#| "This filter provides a state of the art chrome effect. The source image must"
+#| " be an image in grayscale mode, containing a single layer without alpha "
+#| "channel. This layer is used as mask (<quote>stencil</quote>) for the chrome "
+#| "effect."
+msgid ""
+"This filter provides a chrome effect. The source image must be an image "
+"containing a single layer. This layer is used as mask "
+"(<quote>stencil</quote>) for the chrome effect."
+msgstr ""
+"Esse filtro cria um efeito de cromagem avançado. A imagem de origem deve ser"
+" uma camada em tons de cinza, sem canal alfa, ou uma máscara de camada ou "
+"canal. Essa camada será usada como uma máscara (<quote>estêncil</quote>) "
+"para o efeito de cromagem."
+
+#: src/filters/decor/chrome-it.xml:45(para)
+#| msgid ""
+#| "The filter creates a new image with the chrome effect applied to the source "
+#| "image or, if a selection exists, to the selection of the source image (a "
+#| "nice background is added too)."
+msgid ""
+"The filter creates a new image with the chrome effect applied to the source "
+"image or, if a selection exists, to the selection of the source image (a "
+"nice background is added too). If no environment map image is specified, a "
+"copy of the source image will be used."
+msgstr ""
+"O filtro cria uma nova imagem com o efeito cromado aplicado à imagem de "
+"origem ou, se existir uma seleção, à seleção da imagem de origem (também é "
+"adicionado um belo fundo). Se nenhuma imagem de mapa de ambiente for "
+"especificada, será usada uma cópia da imagem de origem."
+
+#: src/filters/decor/chrome-it.xml:55(para)
+#| msgid ""
+#| "This filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Stencil"
+#| " Chrome</guimenuitem></menuchoice>."
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Stencil"
+" Chrome…</guimenuitem></menuchoice>."
+msgstr ""
+"Esse filtro pode ser encontrado no menu da janela de imagens em "
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Estêncil"
+" de cromagem</guimenuitem></menuchoice>"
+
+#: src/filters/decor/chrome-it.xml:68(title)
+msgid "<quote>Stencil Chrome</quote> options"
+msgstr "Opções de  <quote>Estêncil de cromagem</quote>"
+
+#: src/filters/decor/chrome-it.xml:78(term)
+msgid "Chrome saturation"
+msgstr "Saturação de cromo"
+
+#: src/filters/decor/chrome-it.xml:79(term)
+msgid "Chrome lightness"
+msgstr "Luminosidade de cromo"
+
+#. TRANSLATORS: <quote>d "Chrome", "Highlight" and
+#. "Drop Shadow" are the layer names set by the script.
+#: src/filters/decor/chrome-it.xml:83(para)
+msgid ""
+"Use this option to control how <link linkend=\"gimp-tool-hue-"
+"saturation\">saturation and lightness</link> of the <quote>Chrome</quote> "
+"layer are adjusted. Negative values decrease saturation and lightness "
+"respectively."
+msgstr ""
+"Use esta opção para controlar como a <link linkend=\"gimp-tool-hue-"
+"saturation\">saturação e a luminosidade </link> da camada "
+"<quote>Cromar</quote> são ajustadas. Valores negativos diminuem a saturação "
+"e a luminosidade respectivamente."
+
+#: src/filters/decor/chrome-it.xml:92(term)
+msgid "Chrome factor"
+msgstr "Fator de cromo"
+
+#: src/filters/decor/chrome-it.xml:94(para)
+msgid ""
+"This factor lets you adjust offsets, feather radius, and brush size used to "
+"construct the <quote>Chrome</quote> and <quote>Highlight</quote> layer (and "
+"the <quote>Drop Shadow</quote> as well)."
+msgstr ""
+"Este fator permite que você ajuste deslocamentos, raio de desfocagem e "
+"tamanho do pincel usados para construir as camadas de <quote>Cromar</quote> "
+"e <quote>Cor de destaque</quote> (e também da camada de <quote>Sombra "
+"projetada</quote>)"
+
+#: src/filters/decor/chrome-it.xml:100(para)
+msgid ""
+"Change with caution, decreasing this value may make the chrome effect worse."
+" The default factor 0.75 seems to be a good choice."
+msgstr ""
+"Mude com cautela, diminuir este valor pode tornar o efeito de cromagem pior."
+" O valor padrão de 0,75 parece ser uma boa escolha."
+
+#: src/filters/decor/chrome-it.xml:107(term)
+msgid "Environment map"
+msgstr "Mapa de ambiente"
+
+#: src/filters/decor/chrome-it.xml:109(para)
+#| msgid ""
+#| "The environment map is an image that is added as some kind of "
+#| "<quote>noise</quote> to the source. The effect is best to see if you use a "
+#| "simple map with some obvious shapes:"
+msgid ""
+"The environment map is an image that is added as some kind of "
+"<quote>noise</quote> to the source. If no image is selected here, the source"
+" image will be used."
+msgstr ""
+"O mapa de ambiente é uma imagem adicionada como uma espécie de "
+"<quote>ruído</quote> à origem. Se nenhuma imagem for selecionada aqui, a "
+"imagem de origem será usada."
+
+#: src/filters/decor/chrome-it.xml:114(para)
+#| msgid ""
+#| "The environment map is an image that is added as some kind of "
+#| "<quote>noise</quote> to the source. The effect is best to see if you use a "
+#| "simple map with some obvious shapes:"
+msgid ""
+"The effect is best to see if you use a simple map with some obvious shapes:"
+msgstr ""
+"O efeito é melhor visto se você usar um mapa simples com algumas formas "
+"evidentes:"
+
+#: src/filters/decor/chrome-it.xml:124(para)
+msgid "Using a simple environment map"
+msgstr "Usando um mapa de ambiente simples"
+
+#: src/filters/decor/chrome-it.xml:127(para)
+#| msgid ""
+#| "The environment map must be an image in grayscale mode too. Size doesn't "
+#| "matter, the environment map is scaled to the size of the source image."
+msgid ""
+"The size of the environment map image doesn't matter, it is scaled to the "
+"size of the source image."
+msgstr ""
+"O tamanho da imagem do mapa de ambiente não importa, pois ela é escalada "
+"para o tamanho da imagem de origem."
+
+#: src/filters/decor/chrome-it.xml:134(term)
+msgid "Highlight balance"
+msgstr "Equilíbrio de reflexos"
+
+#: src/filters/decor/chrome-it.xml:136(para)
+msgid ""
+"This color is used to modify the <link linkend=\"gimp-tool-color-"
+"balance\">color balance</link> of the <quote>Highlight</quote> layer: the "
+"amount of red, green, and blue colors is increased according to the "
+"corresponding values of the specified option."
+msgstr ""
+"Esta cor é usada para modificar o <link linkend=\"gimp-tool-color-"
+"balance\">balanço de cor</link> da camada <quote>Cor de destaque</quote>: a "
+"quantidade de vermelho, verde e azul é aumentada de acordo com os valores "
+"correspondentes da cor escolhida aqui."
+
+#. cf. bug #624761
+#: src/filters/decor/chrome-it.xml:144(para)
+msgid "Avoid colors with red, green or blue value &gt; 230."
+msgstr "Evite cores com valores de vermelho, verde ou azul &gt; 230."
+
+#: src/filters/decor/chrome-it.xml:150(term)
+msgid "Chrome balance"
+msgstr "Equilíbrio de cromo"
+
+#: src/filters/decor/chrome-it.xml:152(para)
+msgid ""
+"Same as above, but modifies the <link linkend=\"gimp-tool-color-"
+"balance\">color balance</link> of the <quote>Chrome</quote> layer."
+msgstr ""
+"O mesmo que acima, mas modifica o <link linkend=\"gimp-tool-color-"
+"balance\">equilíbrio de cores</link> da camada <quote>Cromar</quote>."
+
+#: src/filters/decor/chrome-it.xml:160(term)
+msgid "Chrome white areas"
+msgstr "Cromar áreas em branco"
+
+#: src/filters/decor/chrome-it.xml:162(para)
+msgid ""
+"If checked (this is the default), the source image is used as mask. If "
+"unchecked, the <emphasis>inverted</emphasis> source image is used."
+msgstr ""
+"Se marcado (este é o padrão), a imagem de origem é usada como máscara. Se "
+"desmarcado, a imagem de origem <emphasis>invertida</emphasis> é usada."
+
+#: src/filters/decor/chrome-it.xml:173(title)
+msgid "How to create the chrome effect"
+msgstr "Como criar o efeito de cromo"
+
+# ** EEEk: link to the script fu tutorial?
+#: src/filters/decor/chrome-it.xml:174(para)
+msgid ""
+"The following section provides a brief and simplified description of how the"
+" script (actually this filter is a Script-Fu) creates the chrome effect."
+msgstr ""
+"A seção seguinte prove uma descrição breve e simplificada de como o script "
+"(esse filtro é criado como um script-fu) cria o efeito de cromo."
+
+#: src/filters/decor/chrome-it.xml:179(para)
+#| msgid ""
+#| "If you apply the filter to your source images and then look at the <link "
+#| "linkend=\"gimp-layer-dialog\">layer dialog</link> of the resulting image, "
+#| "you will see that there are two main layers which make up the chrome effect:"
+#| " the <quote>Chrome</quote> layer and the <quote>Highlight</quote> layer. "
+#| "These layers are created as follows:"
+msgid ""
+"If you apply the filter to your source images and then look at the <link "
+"linkend=\"gimp-layer-dialog\">Layers Dialog</link> of the resulting image, "
+"you will see that there are two main layers which make up the chrome effect:"
+" the <quote>Chrome</quote> layer and the <quote>Highlight</quote> layer. "
+"These layers are created as follows:"
+msgstr ""
+"Se você aplicar o filtro nas suas imagens de origem e então observar o <link"
+" linkend=\"gimp-layer-dialog\">diálogo de Camadas</link> da imagem "
+"resultante, você verá que há duas camadas principais que compõem o efeito de"
+" cromagem: a camada <quote>Cromar</quote> e a camada <quote>Cor de "
+"destaque</quote>. Essas camadas são criadas dessa forma:"
+
+#: src/filters/decor/chrome-it.xml:188(para)
+msgid ""
+"The script constructs a somewhat simplified and blurred layer from the "
+"source image (from the inverted source image if "
+"<guilabel>Chrome&nbsp;white&nbsp;areas</guilabel> is unchecked)."
+msgstr ""
+"O script constrói uma camada simplificada e desfocada a partir da imagem de "
+"origem (ou da imagem invertida se <guilabel>Cromar áreas em "
+"branco</guilabel> estiver desligado)."
+
+#: src/filters/decor/chrome-it.xml:199(para)
+msgid ""
+"The <guilabel>Chrome factor</guilabel> controls the appearance of this "
+"layer."
+msgstr ""
+"O <guilabel>Fator de cromo</guilabel> controla a aparência desta camada."
+
+#: src/filters/decor/chrome-it.xml:205(para)
+msgid ""
+"The (scaled) environment map is blurred and merged into the above layer with"
+" 50% opacity. (Do you spot the cat in the introducing <link "
+"linkend=\"script-fu-sota-chrome-it-example\">example</link>?)"
+msgstr ""
+"O mapa de ambiente (redimensionado) é desfocado e mesclado com a imagem "
+"acima, com opacidade de 50%. (Você consegue ver o gato no <link "
+"linkend=\"script-fu-sota-chrome-it-example\">exemplo da introdução</link>?)"
+
+#: src/filters/decor/chrome-it.xml:216(para)
+msgid "Merging the environment map"
+msgstr "Mesclando o mapa de ambiente"
+
+#: src/filters/decor/chrome-it.xml:221(para)
+msgid ""
+"The brightness (value) of the layer is modified according to a spline-based "
+"intensity curve."
+msgstr ""
+"O brilho (valor) da camada é baseado de acordo com uma curva spline de "
+"intensidades."
+
+#: src/filters/decor/chrome-it.xml:231(para)
+msgid "Modifying the intensity curve"
+msgstr "Modificando a curva de intensidade"
+
+#: src/filters/decor/chrome-it.xml:236(para)
+msgid ""
+"A layer mask is added, initialized with the source image (the <quote>Chrome "
+"Stencil</quote>). This is the <quote>Chrome</quote> layer before the final "
+"step."
+msgstr ""
+"Uma máscara de camada é adicionada, e inicializada com a imagem de origem (o"
+" <quote>Estêncil de cromagem</quote>). Essa é a camada <quote>Cromar "
+"</quote>antes do passo final."
+
+#: src/filters/decor/chrome-it.xml:241(para)
+msgid ""
+"The <quote>Highlight</quote> layer is a copy of the <quote>Chrome</quote> "
+"layer where the layer mask is stroked with a white brush."
+msgstr ""
+"A camada <quote>Cor de destaque</quote> é uma cópia da camada "
+"<quote>Cromar</quote> onde a máscara de camada é contornada com um pincel "
+"branco."
+
+#: src/filters/decor/chrome-it.xml:252(para)
+msgid "Chrome and Highlight base"
+msgstr "Base para Cromar e Cor de destaque"
+
+# ** EEek: avoiding line breaks inside the guilabel item, if desired, should
+# be done on the style sheets, not having to manually type tens of &nbsp; in
+# each manual translation.
+#: src/filters/decor/chrome-it.xml:257(para)
+msgid ""
+"For both layers the color balance is modified (according to "
+"<guilabel>Highlight&nbsp;balance</guilabel> and "
+"<guilabel>Chrome&nbsp;balance</guilabel>), increasing the amount of red, "
+"green, and blue, with emphasis on highlights."
+msgstr ""
+"Para ambas as camadas, o balanço de cor é modificado (de acordo com o "
+"<guilabel>Equilíbrio de reflexo</guilabel> e o <guilabel>Equilíbrio de "
+"cromo</guilabel>), aumentando a quantidade de vermelho, verde e azul com "
+"ênfase nas partes claras."
+
+#: src/filters/decor/chrome-it.xml:263(para)
+msgid ""
+"Additionally, saturation and lightness of the <quote>Chrome</quote> layer "
+"are modified (controlled by <guilabel>Chrome&nbsp;saturation</guilabel> and "
+"<guilabel>Chrome&nbsp;lightness</guilabel>)."
+msgstr ""
+"Adicionalmente, a saturação e a luminosidade da camada <quote>Cromar</quote>"
+" são modificados (controlados pelos ajustes <guilabel>Saturação do "
+"cromo</guilabel> e <guilabel>Luminosidade do cromo</guilabel>)."
+
+#: src/filters/decor/chrome-it.xml:275(para)
+msgid "Chrome and Highlight layer"
+msgstr "Camadas Cromar e Cor de destaque"
+
+#: src/filters/decor/chrome-it.xml:280(para)
+msgid ""
+"Now add a drop shadow and a background layer and you get the <link "
+"linkend=\"script-fu-sota-chrome-it-example\">Example image</link> for the "
+"<quote>Stencil Chrome</quote> filter."
+msgstr ""
+"Agora, adicione uma sombra projetada e uma camada de fundo, e você obterá a "
+"<link linkend=\"script-fu-sota-chrome-it-example\">Imagem de exemplo</link> "
+"para o filtro <quote>Estêncil de cromagem</quote>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/decor/carve-it.xml:40(None)
 msgid ""
@@ -441,19 +1804,24 @@ msgstr ""
 "@@image: 'images/filters/examples/decor-taj-carve-it.jpg'; "
 "md5=773eda4466ccde9a1d1a5613426f9734"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/carve-it.xml:82(None)
+#: src/filters/decor/carve-it.xml:88(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/carve-it.png'; "
+#| "md5=0280485e1da5df08bf85e98220a2f791"
 msgid ""
 "@@image: 'images/filters/decor/carve-it.png'; "
-"md5=0280485e1da5df08bf85e98220a2f791"
+"md5=b3e7113b4284e0bc31a46af0287da052"
 msgstr ""
 "@@image: 'images/filters/decor/carve-it.png'; "
-"md5=0280485e1da5df08bf85e98220a2f791"
+"md5=b3e7113b4284e0bc31a46af0287da052"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/carve-it.xml:110(None)
+#: src/filters/decor/carve-it.xml:115(None)
 msgid ""
 "@@image: 'images/filters/examples/carve-it-mask.jpg'; "
 "md5=fc0c338bc8d19dbd9a41061f5a90cc75"
@@ -461,9 +1829,10 @@ msgstr ""
 "@@image: 'images/filters/examples/carve-it-mask.jpg'; "
 "md5=fc0c338bc8d19dbd9a41061f5a90cc75"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/carve-it.xml:119(None)
+#: src/filters/decor/carve-it.xml:124(None)
 msgid ""
 "@@image: 'images/filters/examples/carve-it-invmask.jpg'; "
 "md5=d62e3899aeb063dd610c058b3bbf75b1"
@@ -471,9 +1840,10 @@ msgstr ""
 "@@image: 'images/filters/examples/carve-it-invmask.jpg'; "
 "md5=d62e3899aeb063dd610c058b3bbf75b1"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/carve-it.xml:147(None)
+#: src/filters/decor/carve-it.xml:152(None)
 msgid ""
 "@@image: 'images/filters/examples/carve-it-normal.png'; "
 "md5=ca24a4ba100bbeded0ffe541d3c096a2"
@@ -481,9 +1851,10 @@ msgstr ""
 "@@image: 'images/filters/examples/carve-it-normal.png'; "
 "md5=ca24a4ba100bbeded0ffe541d3c096a2"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/carve-it.xml:156(None)
+#: src/filters/decor/carve-it.xml:161(None)
 msgid ""
 "@@image: 'images/filters/examples/carve-it-stencil.png'; "
 "md5=874864468819cb795b7b1cb7e4800eaf"
@@ -491,9 +1862,10 @@ msgstr ""
 "@@image: 'images/filters/examples/carve-it-stencil.png'; "
 "md5=874864468819cb795b7b1cb7e4800eaf"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/carve-it.xml:165(None)
+#: src/filters/decor/carve-it.xml:170(None)
 msgid ""
 "@@image: 'images/filters/examples/carve-it-invers.png'; "
 "md5=3f66d89d3cda2bbef11974b251579977"
@@ -510,10 +1882,6 @@ msgstr "Esculpir estêncil"
 #: src/filters/decor/carve-it.xml:27(title)
 msgid "Example for the <quote>Stencil Carve</quote> filter"
 msgstr "Exemplo para o filtro <quote>Esculpir estêncil</quote>"
-
-#: src/filters/decor/carve-it.xml:43(para)
-msgid "<quote>Stencil Carve</quote> applied"
-msgstr "<quote>Esculpir estêncil</quote> aplicado"
 
 #: src/filters/decor/carve-it.xml:47(para)
 msgid ""
@@ -532,74 +1900,81 @@ msgstr ""
 "de cinza, também com uma única camada. A imagem de destino deve ter o mesmo "
 "tamanho que a imagem de origem."
 
-#: src/filters/decor/carve-it.xml:58(title)
-#: src/filters/decor/chrome-it.xml:54(title)
-msgid "Activating the filter"
-msgstr "Ativando o filtro"
-
-#: src/filters/decor/carve-it.xml:59(para)
+#: src/filters/decor/carve-it.xml:56(para)
 msgid ""
-"This filter is found in the image window menu under "
-"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
-"guisubmenu><guimenuitem>Stencil Carve</guimenuitem></menuchoice>."
+"If the image is in RGB mode or indexed mode, this menu entry is disabled."
+msgstr ""
+"Se a imagem estiver no modo RGB ou indexado, esta entrada de menu fica "
+"desabilitada."
+
+#: src/filters/decor/carve-it.xml:65(para)
+#| msgid ""
+#| "This filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Stencil"
+#| " Carve</guimenuitem></menuchoice>."
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Stencil"
+" Carve…</guimenuitem></menuchoice>."
 msgstr ""
 "Este filtro pode ser encontrado no menu da janela de imagens em "
-"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</"
-"guisubmenu><guimenuitem>Esculpir estêncil</guimenuitem></menuchoice>"
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Esculpir"
+" estêncil</guimenuitem></menuchoice>"
 
-#: src/filters/decor/carve-it.xml:68(para)
+#: src/filters/decor/carve-it.xml:74(para)
+#| msgid ""
+#| "If this command remains grayed out although the image is grayscale, check "
+#| "for an Alpha channel and delete it."
 msgid ""
-"If this command remains grayed out although the image is grayscale, check "
-"for an Alpha channel and delete it."
+"If this command remains disabled although the image is grayscale, check for "
+"an Alpha channel and delete it."
 msgstr ""
 "Se esse comando estiver desabilitado e a imagem for em tons de cinza, "
 "verifique se há um canal alfa e remova-o."
 
-#: src/filters/decor/carve-it.xml:78(title)
+#: src/filters/decor/carve-it.xml:84(title)
 msgid "<quote>Stencil Carve</quote> options"
 msgstr "Opções de <quote>Esculpir estêncil</quote>"
 
-#: src/filters/decor/carve-it.xml:88(term)
-msgid "Image to carve"
-msgstr "Imagem a esculpir"
+#: src/filters/decor/carve-it.xml:94(term)
+msgid "Mask drawable"
+msgstr "Desenhável da máscara"
 
-#: src/filters/decor/carve-it.xml:90(para)
+#: src/filters/decor/carve-it.xml:96(para)
 msgid ""
-"Here you may select the target image, i.e. the image the carving effect is "
-"applied to. The drop-down list will show you a list of opened images which "
-"may be carved."
+"Here you may select the target image and its layer or channel which the "
+"carving effect is applied to."
 msgstr ""
-"Aqui você seleciona uma imagem de alvo, i.e. a imagem em que o efeito de "
-"esculpir será aplicado. A lista flutuante vai exibir uma lista de todas as "
-"camadas, em todas as imagens abertas, em que o efeito possa ser aplicado."
+"Aqui você pode selecionar a imagem de destino e sua camada ou canal a que o "
+"efeito de entalhe será aplicado."
 
-#: src/filters/decor/carve-it.xml:98(term)
+#: src/filters/decor/carve-it.xml:103(term)
 msgid "Carve white areas"
 msgstr "Esculpir áreas em branco"
 
-#: src/filters/decor/carve-it.xml:100(para)
+#: src/filters/decor/carve-it.xml:105(para)
 msgid ""
 "If checked (default), the source image is used as stencil as described "
 "above. If unchecked, the <emphasis>inverted</emphasis> source image is used "
 "as stencil, e.g.:"
 msgstr ""
 "Se selecionado (padrão), a imagem de origiem é usada como estêncil como "
-"descrito acima. Caso contrário, o <emphasis>negativo</emphasis> da imagem de "
-"origem é usado como estêncil. Exemplo:"
+"descrito acima. Caso contrário, o <emphasis>negativo</emphasis> da imagem de"
+" origem é usado como estêncil. Exemplo:"
 
-#: src/filters/decor/carve-it.xml:106(title)
+#: src/filters/decor/carve-it.xml:111(title)
 msgid "Engraving Masks"
 msgstr "Máscaras de relevo"
 
-#: src/filters/decor/carve-it.xml:113(para)
+#: src/filters/decor/carve-it.xml:118(para)
 msgid "Normal mask"
 msgstr "Máscara normal"
 
-#: src/filters/decor/carve-it.xml:122(para)
+#: src/filters/decor/carve-it.xml:127(para)
 msgid "Inverted mask"
 msgstr "Máscara invertida"
 
-#: src/filters/decor/carve-it.xml:126(para)
+#: src/filters/decor/carve-it.xml:131(para)
 msgid ""
 "In the example below, the source is a grayscale image. The target is an "
 "image with a wood pattern."
@@ -607,20 +1982,20 @@ msgstr ""
 "No exemplo abaixo, a origem é uma imagem em tons de cinza. O alvo é uma "
 "imagem com uma textura de madeira."
 
-#: src/filters/decor/carve-it.xml:130(para)
+#: src/filters/decor/carve-it.xml:135(para)
 msgid ""
 "On the left, <guilabel>Carve white areas</guilabel> is enabled. The pixels "
-"of the target image corresponding to white pixels in the stencil (around the "
-"text) have been carved. The result is an embossed text."
+"of the target image corresponding to white pixels in the stencil (around the"
+" text) have been carved. The result is an embossed text."
 msgstr ""
 "A esquerda, <guilabel>Esculpir áreas brancas</guilabel> está habilitado. Os "
 "pixels da imagem destino correpondendo aos pixels brancos no estêncil (em "
 "volta do texto) foram esculpidos. O resultado é um texto gravado em relevo."
 
-#: src/filters/decor/carve-it.xml:136(para)
+#: src/filters/decor/carve-it.xml:141(para)
 msgid ""
-"On the right, <guilabel>Carve white areas</guilabel> is disabled. The pixels "
-"of the target image corresponding to the black pixels in the stencil (the "
+"On the right, <guilabel>Carve white areas</guilabel> is disabled. The pixels"
+" of the target image corresponding to the black pixels in the stencil (the "
 "text) have been carved. The result is a hollow text."
 msgstr ""
 "À direita, <guilabel>Esculpir áreas brancas</guilabel> está desligado. Os "
@@ -628,924 +2003,24 @@ msgstr ""
 "texto) foram esculpidos. O resultado é o texto com letras escavadas na nova "
 "imagem."
 
-#: src/filters/decor/carve-it.xml:143(title)
+#: src/filters/decor/carve-it.xml:148(title)
 msgid "Example for <quote>Carve white areas</quote>"
 msgstr "Exemplo com <quote>Esculpir áreas em branco</quote>"
 
-#: src/filters/decor/carve-it.xml:150(para)
+#: src/filters/decor/carve-it.xml:155(para)
 msgid "White areas carved"
 msgstr "Áreas em branco esculpidas"
 
-#: src/filters/decor/carve-it.xml:159(para)
+#: src/filters/decor/carve-it.xml:164(para)
 msgid "Stencil"
 msgstr "Estêncil"
 
-#: src/filters/decor/carve-it.xml:168(para)
+#: src/filters/decor/carve-it.xml:173(para)
 msgid "Black areas carved"
 msgstr "Áreas em preto esculpidas"
 
-#: src/filters/decor/carve-it.xml:172(para)
-msgid ""
-"Information about the many layers created by this filter can be found in "
-"<xref linkend=\"bibliography-books-grokking\"/>."
-msgstr ""
-"Informações sobre as várias camadas criadas por esse filtro podem ser "
-"encontradas em <xref linkend=\"bibliography-books-grokking\"/>."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/coffee.xml:38(None)
-msgid ""
-"@@image: 'images/filters/examples/decor-taj-coffee.jpg'; "
-"md5=bb05618f70f3aca7ba08c9ec7eaf0cbd"
-msgstr ""
-"@@image: 'images/filters/examples/decor-taj-coffee.jpg'; "
-"md5=bb05618f70f3aca7ba08c9ec7eaf0cbd"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/coffee.xml:76(None)
-msgid ""
-"@@image: 'images/filters/decor/coffee.png'; "
-"md5=4f6a2e718d4641c74dbcd9927bcfe602"
-msgstr ""
-"@@image: 'images/filters/decor/coffee.png'; "
-"md5=4f6a2e718d4641c74dbcd9927bcfe602"
-
-#: src/filters/decor/coffee.xml:11(title)
-#: src/filters/decor/coffee.xml:16(tertiary)
-#: src/filters/decor/coffee.xml:19(primary)
-msgid "Coffee Stain"
-msgstr "Mancha de café"
-
-#: src/filters/decor/coffee.xml:25(title)
-msgid "Example for the <quote>Coffee Stain</quote> filter"
-msgstr "Exemplo para o filtro <quote>Mancha de café</quote>"
-
-#: src/filters/decor/coffee.xml:41(para)
-msgid "<quote>Coffee Stain</quote> applied"
-msgstr "<quote>Manca de café</quote> aplicado"
-
-#: src/filters/decor/coffee.xml:45(para)
-msgid "This filter adds realistic looking coffee stains to the image."
-msgstr "Esse filtro adiciona manchas de café realistas a imagem"
-
-#: src/filters/decor/coffee.xml:48(para)
-msgid ""
-"Every stain is created in a layer of its own. The stain layers are randomly "
-"moved to let the stains spread out (at the end you may see the boundary of "
-"the moved top layer). So after applying the filter you can easily edit (e."
-"g., move, scale, remove) the coffee stains, or create additional stains "
-"using the filter again."
-msgstr ""
-"Cada mancha é criada numa camada separada. As camadas com as manchas são "
-"colocadas aleatoriamente  de forma que as manchas fiquem espalhadas (ao "
-"final da aplicação você pode ver os limites da camada de cima, movida). "
-"Então, depois de aplicar esse filtro você pode facilmente editar as manchas "
-"de café (por exemplo, movendo, redimensionando, apagando), ou criar mais "
-"manchas usando o filtro novamente."
-
-#: src/filters/decor/coffee.xml:59(para)
-msgid ""
-"The filter is found in the image window menu under "
-"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
-"guisubmenu><guimenuitem>Coffee Stain</guimenuitem></menuchoice>."
-msgstr ""
-"Esse filtro pode ser encontrado no menu da janela de imagens em "
-"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</"
-"guisubmenu><guimenuitem>Mancha de café</guimenuitem></menuchoice>"
-
-#: src/filters/decor/coffee.xml:72(title)
-msgid "<quote>Coffee Stain</quote> options"
-msgstr "Opções para <quote>Mancha de café</quote>"
-
-#: src/filters/decor/coffee.xml:82(term)
-msgid "Stains"
-msgstr "Manchas"
-
-#: src/filters/decor/coffee.xml:84(para)
-msgid "The number of the coffee stains (1-10)."
-msgstr "O número de manchas de café a serem criadas (1 - 10)"
-
-#: src/filters/decor/coffee.xml:88(term)
-msgid "Darken only"
-msgstr "Somente escurecer"
-
-#: src/filters/decor/coffee.xml:90(para)
-msgid ""
-"Since every stain is created in a layer of its own, all layers have to be "
-"merged to make the appearance of the image. If this option is checked, the "
-"relevant <link linkend=\"gimp-concepts-layer-modes\">layer mode</link> is "
-"set to <quote>Darken only</quote>, otherwise it is set to <quote>Normal</"
-"quote>."
-msgstr ""
-"Uma vez que cada mancha é criada numa camada separada, todas as camadas tem "
-"que ser combinadas para o efeito final da imagem. Se esta opção estiver "
-"ligada, o <link linkend=\"gimp-concepts-layer-modes\">Modo de camada</link> "
-"das camadas de mancha é configurado para ser <quote>Somente escurecer</"
-"quote>, senão, o modo <quote>Normal</quote> é usado."
-
-#: src/filters/decor/coffee.xml:98(para)
-msgid ""
-"The layer mode determines how the pixels of the layers are combined. In "
-"<quote>Normal</quote> mode, every coffee stain covers the pixels of the "
-"layers below. As a rule of thumb, if layer mode <quote>Darken only</quote> "
-"is set, coffee stains covers the corresponding pixels of the layers below "
-"them only if these pixels are lighter."
-msgstr ""
-"O modo de camada determina como os pixels das camadas são combinados. No "
-"modo <quote>Normal</quote> cada mancha encobre os pixels das camadas abaixo. "
-"Como uma regra geral, se o modo de combinação <quote>Somente escurecer</"
-"quote> estiver ligado, os pixels das manchas de café vão cobrir os pixels "
-"das camadas abaixo somente se aqueles pixels forem mais claros."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/add-bevel.xml:29(None)
-msgid ""
-"@@image: 'images/filters/examples/decor-add-bevel20.png'; "
-"md5=52b49e5bae2b4d9e4ff4d431bdea2dff"
-msgstr ""
-"@@image: 'images/filters/examples/decor-add-bevel20.png'; "
-"md5=52b49e5bae2b4d9e4ff4d431bdea2dff"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/add-bevel.xml:40(None)
-msgid ""
-"@@image: 'images/filters/examples/decor-add-bevel21.png'; "
-"md5=8f09b747dc660c62b15ca822625964c6"
-msgstr ""
-"@@image: 'images/filters/examples/decor-add-bevel21.png'; "
-"md5=8f09b747dc660c62b15ca822625964c6"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/add-bevel.xml:57(None)
-msgid ""
-"@@image: 'images/filters/examples/decor-add-bevel10.png'; "
-"md5=6458e691714810031db22551391fca91"
-msgstr ""
-"@@image: 'images/filters/examples/decor-add-bevel10.png'; "
-"md5=6458e691714810031db22551391fca91"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/add-bevel.xml:66(None)
-msgid ""
-"@@image: 'images/filters/examples/decor-add-bevel12.png'; "
-"md5=5b3f2f42725a2c4acd3d7557d6025b2d"
-msgstr ""
-"@@image: 'images/filters/examples/decor-add-bevel12.png'; "
-"md5=5b3f2f42725a2c4acd3d7557d6025b2d"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/add-bevel.xml:75(None)
-msgid ""
-"@@image: 'images/filters/examples/decor-add-bevel11.png'; "
-"md5=852e74774370ea76ec0de1ba40f23622"
-msgstr ""
-"@@image: 'images/filters/examples/decor-add-bevel11.png'; "
-"md5=852e74774370ea76ec0de1ba40f23622"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/add-bevel.xml:103(None)
-msgid ""
-"@@image: 'images/filters/decor/add-bevel.png'; "
-"md5=6c7a9d8947c98d6fed42f9667e9a34ec"
-msgstr ""
-"@@image: 'images/filters/decor/add-bevel.png'; "
-"md5=6c7a9d8947c98d6fed42f9667e9a34ec"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/add-bevel.xml:137(None)
-msgid ""
-"@@image: 'images/filters/examples/decor-add-bevel23.png'; "
-"md5=042e83414562dac841238be141bf585f"
-msgstr ""
-"@@image: 'images/filters/examples/decor-add-bevel23.png'; "
-"md5=042e83414562dac841238be141bf585f"
-
-#: src/filters/decor/add-bevel.xml:12(title)
-#: src/filters/decor/add-bevel.xml:16(secondary)
-#: src/filters/decor/add-bevel.xml:19(primary)
-msgid "Add Bevel"
-msgstr "Adicionar chanfro"
-
-#: src/filters/decor/add-bevel.xml:25(title)
-msgid "Example for the <quote>Add Bevel</quote> filter"
-msgstr "Exemplo para o filtro <quote>Adicionar chanfro</quote>"
-
-#: src/filters/decor/add-bevel.xml:32(para)
-msgid "Original image, the colored rectangle is selected"
-msgstr "Imagem original, o retângulo colorido está selecionado"
-
-#: src/filters/decor/add-bevel.xml:43(para)
-msgid "<quote>Add Bevel</quote> applied"
-msgstr "<quote>Adicionar chanfro</quote> aplicado"
-
-#: src/filters/decor/add-bevel.xml:47(para)
-msgid ""
-"This filter adds a slight bevel to an image using a <link linkend=\"plug-in-"
-"bump-map\">bump map</link> (see below). If there is a selection, it is "
-"bevelled, otherwise the filter has no effect."
-msgstr ""
-"Esse filtro adiciona uma imitação de borda chanfrada (contorno 3D "
-"arredondado) a uma imagem, usando o plug-in de <link linkend=\"plug-in-bump-"
-"map\">Mapa de relevo</link>. Se houver uma seleção, seus limites são "
-"chanfrados, caso contrário não haverá nenhum efeito."
-
-#: src/filters/decor/add-bevel.xml:53(title)
-msgid "Another <quote>Add Bevel</quote> example, with bumpmap"
-msgstr "Outro exemplo de <quote>Adicionar chanfro</quote>, com mapa de relevo"
-
-#: src/filters/decor/add-bevel.xml:69(para)
-msgid "Bumpmap"
-msgstr "Mapa de relevo"
-
-#: src/filters/decor/add-bevel.xml:78(para)
-msgid "Filter applied"
-msgstr "Filtro aplicado"
-
-#: src/filters/decor/add-bevel.xml:86(para)
-msgid ""
-"You can find this filter in the image window menu under "
-"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
-"guisubmenu><guimenuitem>Add Bevel</guimenuitem></menuchoice>."
-msgstr ""
-"Esse filtro pode ser encontrado no menu da janela de imagens em "
-"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</"
-"guisubmenu><guimenuitem>Adicionar chanfro</guimenuitem></menuchoice>"
-
-#: src/filters/decor/add-bevel.xml:99(title)
-msgid "<quote>Add Bevel</quote> options"
-msgstr "Opções de <quote>Adicionar chanfro</quote>"
-
-#: src/filters/decor/add-bevel.xml:109(term)
-msgid "Thickness"
-msgstr "Espessura"
-
-#: src/filters/decor/add-bevel.xml:111(para)
-msgid ""
-"You can specify the thickness of the bevel, in pixels. Maximal thickness is "
-"30 pixels."
-msgstr ""
-"Você pode especificar a espessura do chanfro, em pixels. A espessura máxima "
-"é 30 pixels."
-
-#: src/filters/decor/add-bevel.xml:128(term)
-msgid "Keep bump layer"
-msgstr "Manter camada de relevo"
-
-#: src/filters/decor/add-bevel.xml:130(para)
-msgid ""
-"When checked, you will keep the generated bumpmap as a new, not visible "
-"layer (below the layer dialog):"
-msgstr ""
-"Quando selecionada, você verá o mapa de relevo gerado como uma nova camada, "
-"marcada como não visível (abaixo, o diálogo de Camadas):"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/chrome-it.xml:33(None)
-msgid ""
-"@@image: 'images/filters/examples/decor/taj-chrome-it.jpg'; "
-"md5=5d3cafbf777b9e1979315b19ec9d75f5"
-msgstr ""
-"@@image: 'images/filters/examples/decor/taj-chrome-it.jpg'; "
-"md5=5d3cafbf777b9e1979315b19ec9d75f5"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/chrome-it.xml:78(None)
-msgid ""
-"@@image: 'images/filters/decor/chrome-it.png'; "
-"md5=0226b96a33a5a4d787577f2a12aac7ce"
-msgstr ""
-"@@image: 'images/filters/decor/chrome-it.png'; "
-"md5=0226b96a33a5a4d787577f2a12aac7ce"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/chrome-it.xml:123(None)
-msgid ""
-"@@image: 'images/filters/decor/chrome-it-env-example.png'; "
-"md5=0b7925b90319f8ac25398db069053a20"
-msgstr ""
-"@@image: 'images/filters/decor/chrome-it-env-example.png'; "
-"md5=0b7925b90319f8ac25398db069053a20"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/chrome-it.xml:199(None)
-msgid ""
-"@@image: 'images/filters/decor/chrome-it-step1.png'; "
-"md5=af1a392e2bc85138891aa5fcfdf62720"
-msgstr ""
-"@@image: 'images/filters/decor/chrome-it-step1.png'; "
-"md5=af1a392e2bc85138891aa5fcfdf62720"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/chrome-it.xml:216(None)
-msgid ""
-"@@image: 'images/filters/decor/chrome-it-step2.png'; "
-"md5=419de82eb2b8dba22a6b69da60de3298"
-msgstr ""
-"@@image: 'images/filters/decor/chrome-it-step2.png'; "
-"md5=419de82eb2b8dba22a6b69da60de3298"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/chrome-it.xml:231(None)
-msgid ""
-"@@image: 'images/filters/decor/chrome-it-step3.png'; "
-"md5=c6399c39d7bd76f3fa09ceb19aced1e2"
-msgstr ""
-"@@image: 'images/filters/decor/chrome-it-step3.png'; "
-"md5=c6399c39d7bd76f3fa09ceb19aced1e2"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/chrome-it.xml:252(None)
-msgid ""
-"@@image: 'images/filters/decor/chrome-it-step4.png'; "
-"md5=63c56909c3a6d10f17ac17b9adb21aa1"
-msgstr ""
-"@@image: 'images/filters/decor/chrome-it-step4.png'; "
-"md5=63c56909c3a6d10f17ac17b9adb21aa1"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/chrome-it.xml:275(None)
-msgid ""
-"@@image: 'images/filters/decor/chrome-it-step5.png'; "
-"md5=22ae575f63063b20d7613ac343b1a90f"
-msgstr ""
-"@@image: 'images/filters/decor/chrome-it-step5.png'; "
-"md5=22ae575f63063b20d7613ac343b1a90f"
-
-#: src/filters/decor/chrome-it.xml:6(title)
-#: src/filters/decor/chrome-it.xml:11(tertiary)
-#: src/filters/decor/chrome-it.xml:14(primary)
-msgid "Stencil Chrome"
-msgstr "Estêncil de cromagem"
-
-#: src/filters/decor/chrome-it.xml:20(title)
-msgid "Example for the <quote>Stencil Chrome</quote> filter"
-msgstr "Exemplo do filtro <quote>Estêncil de cromagem</quote>"
-
-#: src/filters/decor/chrome-it.xml:36(para)
-msgid "<quote>Stencil Chrome</quote> applied"
-msgstr "<quote>Estêncil de cromagem</quote> aplicado"
-
-#: src/filters/decor/chrome-it.xml:40(para)
-msgid ""
-"This filter provides a state of the art chrome effect. The source image must "
-"be an image in grayscale mode, containing a single layer without alpha "
-"channel. This layer is used as mask (<quote>stencil</quote>) for the chrome "
-"effect."
-msgstr ""
-"Esse filtro cria um efeito de cromagem avançado. A imagem de origem deve ser "
-"uma camada em tons de cinza, sem canal alfa, ou uma máscara de camada ou "
-"canal. Essa camada será usada como uma máscara (<quote>estêncil</quote>) "
-"para o efeito de cromagem."
-
-#: src/filters/decor/chrome-it.xml:46(para)
-msgid ""
-"The filter creates a new image with the chrome effect applied to the source "
-"image or, if a selection exists, to the selection of the source image (a "
-"nice background is added too)."
-msgstr ""
-"O filtro cria uma nova imagem com o efeito de cromagem aplicado a imagem de "
-"origem, ou, caso exista uma seleção, à seleção da imagem de origem (também é "
-"adicionada uma imagem de fundo, a partir de uma textura)"
-
-#: src/filters/decor/chrome-it.xml:55(para)
-msgid ""
-"This filter is found in the image window menu under "
-"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
-"guisubmenu><guimenuitem>Stencil Chrome</guimenuitem></menuchoice>."
-msgstr ""
-"Esse filtro pode ser encontrado no menu da janela de imagens em "
-"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</"
-"guisubmenu><guimenuitem>Estêncil de cromagem</guimenuitem></menuchoice>"
-
-#: src/filters/decor/chrome-it.xml:64(para)
-msgid ""
-"If this command remains grayed out although the image is in grayscale mode, "
-"check for an Alpha channel and delete it."
-msgstr ""
-"Este comando permanece cinza e insensível a não ser que o objeto desenhável "
-"ativo seja em tons de cinza. Se você estiver em uma imagem em tons de cinza "
-"e ainda assim o filtro estiver desabilitado, verifique se a camada atual tem "
-"um canal alfa e remova-o."
-
-#: src/filters/decor/chrome-it.xml:74(title)
-msgid "<quote>Stencil Chrome</quote> options"
-msgstr "Opções de  <quote>Estêncil de cromagem</quote>"
-
-#: src/filters/decor/chrome-it.xml:84(term)
-msgid "Chrome saturation"
-msgstr "Saturação de cromo"
-
-#: src/filters/decor/chrome-it.xml:85(term)
-msgid "Chrome lightness"
-msgstr "Luminosidade de cromo"
-
-#. TRANSLATORS: <quote>d "Chrome", "Highlight" and
-#. "Drop Shadow" are the layer names set by the script.
-#: src/filters/decor/chrome-it.xml:89(para)
-msgid ""
-"Use this option to control how <link linkend=\"gimp-tool-hue-saturation"
-"\">saturation and lightness</link> of the <quote>Chrome</quote> layer are "
-"adjusted. Negative values decrease saturation and lightness respectively."
-msgstr ""
-"Use esta opção para controlar como a <link linkend=\"gimp-tool-hue-saturation"
-"\">saturação e a luminosidade </link> da camada <quote>Cromar</quote> são "
-"ajustadas. Valores negativos diminuem a saturação e a luminosidade "
-"respectivamente."
-
-#: src/filters/decor/chrome-it.xml:98(term)
-msgid "Chrome factor"
-msgstr "Fator de cromo"
-
-#: src/filters/decor/chrome-it.xml:100(para)
-msgid ""
-"This factor lets you adjust offsets, feather radius, and brush size used to "
-"construct the <quote>Chrome</quote> and <quote>Highlight</quote> layer (and "
-"the <quote>Drop Shadow</quote> as well)."
-msgstr ""
-"Este fator permite que você ajuste deslocamentos, raio de desfocagem e "
-"tamanho do pincel usados para construir as camadas de <quote>Cromar</quote> "
-"e <quote>Cor de destaque</quote> (e também da camada de <quote>Sombra "
-"projetada</quote>)"
-
-#: src/filters/decor/chrome-it.xml:106(para)
-msgid ""
-"Change with caution, decreasing this value may make the chrome effect worse. "
-"The default factor 0.75 seems to be a good choice."
-msgstr ""
-"Mude com cautela, diminuir este valor pode tornar o efeito de cromagem pior. "
-"O valor padrão de 0,75 parece ser uma boa escolha."
-
-#: src/filters/decor/chrome-it.xml:113(term)
-msgid "Environment map"
-msgstr "Mapa de ambiente"
-
-#: src/filters/decor/chrome-it.xml:115(para)
-msgid ""
-"The environment map is an image that is added as some kind of <quote>noise</"
-"quote> to the source. The effect is best to see if you use a simple map with "
-"some obvious shapes:"
-msgstr ""
-"O mapa de ambiente é uma imagem que é adicionada como um tipo de "
-"<quote>ruído</quote> à imagem de origem. O efeito fica melhor se você "
-"utilizar um mapa simples com algumas formas óbvias:"
-
-#: src/filters/decor/chrome-it.xml:126(para)
-msgid "Using a simple environment map"
-msgstr "Usando um mapa de ambiente simples"
-
-#: src/filters/decor/chrome-it.xml:129(para)
-msgid ""
-"The environment map must be an image in grayscale mode too. Size doesn't "
-"matter, the environment map is scaled to the size of the source image."
-msgstr ""
-"O mapa de ambiente precisa ser uma imagem em tons de cinza também. O tamanho "
-"não importa: o mapa de ambiente é redimensionado para o tamanho da imagem de "
-"origem."
-
-#: src/filters/decor/chrome-it.xml:137(term)
-msgid "Highlight balance"
-msgstr "Equilíbrio de reflexos"
-
-#: src/filters/decor/chrome-it.xml:139(para)
-msgid ""
-"This color is used to modify the <link linkend=\"gimp-tool-color-balance"
-"\">color balance</link> of the <quote>Highlight</quote> layer: the amount of "
-"red, green, and blue colors is increased according to the corresponding "
-"values of the specified option."
-msgstr ""
-"Esta cor é usada para modificar o <link linkend=\"gimp-tool-color-balance"
-"\">balanço de cor</link> da camada <quote>Cor de destaque</quote>: a "
-"quantidade de vermelho, verde e azul é aumentada de acordo com os valores "
-"correspondentes da cor escolhida aqui."
-
-#. cf. bug #624761
-#: src/filters/decor/chrome-it.xml:147(para)
-msgid "Avoid colors with red, green or blue value &gt; 230."
-msgstr "Evite cores com valores de vermelho, verde ou azul &gt; 230."
-
-#: src/filters/decor/chrome-it.xml:153(term)
-msgid "Chrome balance"
-msgstr "Equilíbrio de cromo"
-
-#: src/filters/decor/chrome-it.xml:155(para)
-msgid ""
-"Same as above, but modifies the <link linkend=\"gimp-tool-color-balance"
-"\">color balance</link> of the <quote>Chrome</quote> layer."
-msgstr ""
-"O mesmo que acima, mas modifica o <link linkend=\"gimp-tool-color-balance"
-"\">equilíbrio de cores</link> da camada <quote>Cromar</quote>."
-
-#: src/filters/decor/chrome-it.xml:163(term)
-msgid "Chrome white areas"
-msgstr "Cromar áreas em branco"
-
-#: src/filters/decor/chrome-it.xml:165(para)
-msgid ""
-"If checked (this is the default), the source image is used as mask. If "
-"unchecked, the <emphasis>inverted</emphasis> source image is used."
-msgstr ""
-"Se marcado (este é o padrão), a imagem de origem é usada como máscara. Se "
-"desmarcado, a imagem de origem <emphasis>invertida</emphasis> é usada."
-
-#: src/filters/decor/chrome-it.xml:176(title)
-msgid "How to create the chrome effect"
-msgstr "Como criar o efeito de cromo"
-
-# ** EEEk: link to the script fu tutorial?
-#: src/filters/decor/chrome-it.xml:177(para)
-msgid ""
-"The following section provides a brief and simplified description of how the "
-"script (actually this filter is a Script-Fu) creates the chrome effect."
-msgstr ""
-"A seção seguinte prove uma descrição breve e simplificada de como o script "
-"(esse filtro é criado como um script-fu) cria o efeito de cromo."
-
-#: src/filters/decor/chrome-it.xml:182(para)
-msgid ""
-"If you apply the filter to your source images and then look at the <link "
-"linkend=\"gimp-layer-dialog\">layer dialog</link> of the resulting image, "
-"you will see that there are two main layers which make up the chrome effect: "
-"the <quote>Chrome</quote> layer and the <quote>Highlight</quote> layer. "
-"These layers are created as follows:"
-msgstr ""
-"Se você aplicar o filtro nas suas imagens de origem e então observar o <link "
-"linkend=\"gimp-layer-dialog\">diálogo de Camadas</link> da imagem "
-"resultante, você verá que há duas camadas principais que compõem o efeito de "
-"cromagem: a camada <quote>Cromar</quote> e a camada <quote>Cor de destaque</"
-"quote>. Essas camadas são criadas dessa forma:"
-
-#: src/filters/decor/chrome-it.xml:191(para)
-msgid ""
-"The script constructs a somewhat simplified and blurred layer from the "
-"source image (from the inverted source image if <guilabel>Chrome&nbsp;"
-"white&nbsp;areas</guilabel> is unchecked)."
-msgstr ""
-"O script constrói uma camada simplificada e desfocada a partir da imagem de "
-"origem (ou da imagem invertida se <guilabel>Cromar áreas em branco</"
-"guilabel> estiver desligado)."
-
-#: src/filters/decor/chrome-it.xml:202(para)
-msgid ""
-"The <guilabel>Chrome factor</guilabel> controls the appearance of this layer."
-msgstr ""
-"O <guilabel>Fator de cromo</guilabel> controla a aparência desta camada."
-
-#: src/filters/decor/chrome-it.xml:208(para)
-msgid ""
-"The (scaled) environment map is blurred and merged into the above layer with "
-"50% opacity. (Do you spot the cat in the introducing <link linkend=\"script-"
-"fu-sota-chrome-it-example\">example</link>?)"
-msgstr ""
-"O mapa de ambiente (redimensionado) é desfocado e mesclado com a imagem "
-"acima, com opacidade de 50%. (Você consegue ver o gato no <link linkend="
-"\"script-fu-sota-chrome-it-example\">exemplo da introdução</link>?)"
-
-#: src/filters/decor/chrome-it.xml:219(para)
-msgid "Merging the environment map"
-msgstr "Mesclando o mapa de ambiente"
-
-#: src/filters/decor/chrome-it.xml:224(para)
-msgid ""
-"The brightness (value) of the layer is modified according to a spline-based "
-"intensity curve."
-msgstr ""
-"O brilho (valor) da camada é baseado de acordo com uma curva spline de "
-"intensidades."
-
-#: src/filters/decor/chrome-it.xml:234(para)
-msgid "Modifying the intensity curve"
-msgstr "Modificando a curva de intensidade"
-
-#: src/filters/decor/chrome-it.xml:239(para)
-msgid ""
-"A layer mask is added, initialized with the source image (the <quote>Chrome "
-"Stencil</quote>). This is the <quote>Chrome</quote> layer before the final "
-"step."
-msgstr ""
-"Uma máscara de camada é adicionada, e inicializada com a imagem de origem (o "
-"<quote>Estêncil de cromagem</quote>). Essa é a camada <quote>Cromar </"
-"quote>antes do passo final."
-
-#: src/filters/decor/chrome-it.xml:244(para)
-msgid ""
-"The <quote>Highlight</quote> layer is a copy of the <quote>Chrome</quote> "
-"layer where the layer mask is stroked with a white brush."
-msgstr ""
-"A camada <quote>Cor de destaque</quote> é uma cópia da camada <quote>Cromar</"
-"quote> onde a máscara de camada é contornada com um pincel branco."
-
-#: src/filters/decor/chrome-it.xml:255(para)
-msgid "Chrome and Highlight base"
-msgstr "Base para Cromar e Cor de destaque"
-
-# ** EEek: avoiding line breaks inside the guilabel item, if desired, should be done on the style sheets, not having to manually type tens of &nbsp; in each manual translation.
-#: src/filters/decor/chrome-it.xml:260(para)
-msgid ""
-"For both layers the color balance is modified (according to "
-"<guilabel>Highlight&nbsp;balance</guilabel> and <guilabel>Chrome&nbsp;"
-"balance</guilabel>), increasing the amount of red, green, and blue, with "
-"emphasis on highlights."
-msgstr ""
-"Para ambas as camadas, o balanço de cor é modificado (de acordo com o "
-"<guilabel>Equilíbrio de reflexo</guilabel> e o <guilabel>Equilíbrio de "
-"cromo</guilabel>), aumentando a quantidade de vermelho, verde e azul com "
-"ênfase nas partes claras."
-
-#: src/filters/decor/chrome-it.xml:266(para)
-msgid ""
-"Additionally, saturation and lightness of the <quote>Chrome</quote> layer "
-"are modified (controlled by <guilabel>Chrome&nbsp;saturation</guilabel> and "
-"<guilabel>Chrome&nbsp;lightness</guilabel>)."
-msgstr ""
-"Adicionalmente, a saturação e a luminosidade da camada <quote>Cromar</quote> "
-"são modificados (controlados pelos ajustes <guilabel>Saturação do cromo</"
-"guilabel> e <guilabel>Luminosidade do cromo</guilabel>)."
-
-#: src/filters/decor/chrome-it.xml:278(para)
-msgid "Chrome and Highlight layer"
-msgstr "Camadas Cromar e Cor de destaque"
-
-#: src/filters/decor/chrome-it.xml:283(para)
-msgid ""
-"Now add a drop shadow and a background layer and you get the <link linkend="
-"\"script-fu-sota-chrome-it-example\">Example image</link> for the "
-"<quote>Stencil Chrome</quote> filter."
-msgstr ""
-"Agora, adicione uma sombra projetada e uma camada de fundo, e você obterá a "
-"<link linkend=\"script-fu-sota-chrome-it-example\">Imagem de exemplo</link> "
-"para o filtro <quote>Estêncil de cromagem</quote>."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/round-corners.xml:38(None)
-msgid ""
-"@@image: 'images/filters/examples/decor-taj-round-corners.png'; "
-"md5=f6577bb2fb5697398158b010eb21568f"
-msgstr ""
-"@@image: 'images/filters/examples/decor-taj-round-corners.png'; "
-"md5=f6577bb2fb5697398158b010eb21568f"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/round-corners.xml:76(None)
-msgid ""
-"@@image: 'images/filters/decor/round-corners.png'; "
-"md5=b8544045a8a9930b6406ad8df35f6a12"
-msgstr ""
-"@@image: 'images/filters/decor/round-corners.png'; "
-"md5=b8544045a8a9930b6406ad8df35f6a12"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/round-corners.xml:102(None)
-msgid ""
-"@@image: 'images/filters/examples/round-corners-rad15.png'; "
-"md5=dad9038e5795f083a3af51c3870090b1"
-msgstr ""
-"@@image: 'images/filters/examples/round-corners-rad15.png'; "
-"md5=dad9038e5795f083a3af51c3870090b1"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/round-corners.xml:113(None)
-msgid ""
-"@@image: 'images/filters/examples/round-corners-rad35.png'; "
-"md5=d8ba6e07a5eb3e78c985a97922a4c8c7"
-msgstr ""
-"@@image: 'images/filters/examples/round-corners-rad35.png'; "
-"md5=d8ba6e07a5eb3e78c985a97922a4c8c7"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/round-corners.xml:122(None)
-msgid ""
-"@@image: 'images/filters/examples/round-corners-rad50.png'; "
-"md5=d5604620fe79184229088088c01f14d1"
-msgstr ""
-"@@image: 'images/filters/examples/round-corners-rad50.png'; "
-"md5=d5604620fe79184229088088c01f14d1"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/round-corners.xml:131(None)
-msgid ""
-"@@image: 'images/filters/examples/round-corners-rad65.png'; "
-"md5=7ac72b1017f2c8e174db7454c825a13a"
-msgstr ""
-"@@image: 'images/filters/examples/round-corners-rad65.png'; "
-"md5=7ac72b1017f2c8e174db7454c825a13a"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/round-corners.xml:163(None)
-msgid ""
-"@@image: 'images/filters/examples/round-corners-shadow1.png'; "
-"md5=dad9038e5795f083a3af51c3870090b1"
-msgstr ""
-"@@image: 'images/filters/examples/round-corners-shadow1.png'; "
-"md5=dad9038e5795f083a3af51c3870090b1"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/round-corners.xml:174(None)
-msgid ""
-"@@image: 'images/filters/examples/round-corners-shadow2.png'; "
-"md5=131cadb293db64e06c80eabd6ce927ec"
-msgstr ""
-"@@image: 'images/filters/examples/round-corners-shadow2.png'; "
-"md5=131cadb293db64e06c80eabd6ce927ec"
-
-#: src/filters/decor/round-corners.xml:11(title)
-#: src/filters/decor/round-corners.xml:16(tertiary)
-#: src/filters/decor/round-corners.xml:19(primary)
-msgid "Round Corners"
-msgstr "Arredondar cantos"
-
-#: src/filters/decor/round-corners.xml:25(title)
-msgid "Example for the <quote>Round Corners</quote> filter"
-msgstr "Exemplo para o filtro <quote>Arredondar cantos</quote>"
-
-#: src/filters/decor/round-corners.xml:41(para)
-msgid "<quote>Round Corners</quote> applied"
-msgstr "<quote>Arredondar cantos</quote> aplicado"
-
-#: src/filters/decor/round-corners.xml:45(para)
-msgid ""
-"This filter rounds the corners of an image, optionally adding a drop-shadow "
-"and a background layer."
-msgstr ""
-"Este filtro arredonda os cantos de uma imagem, adicionando, opcionalmente, "
-"uma camada de fundo e uma sombra."
-
-#: src/filters/decor/round-corners.xml:49(para)
-msgid ""
-"The filter works on RGB and grayscale images that contain only one layer. It "
-"creates a copy of the image or can optionally work on the original. It uses "
-"the current background color to create a background layer."
-msgstr ""
-"O filtro funciona em imagens RGB e em tons de cinza que contenham uma única "
-"camada. Ele cria uma cópia da imagem, ou pode, opcionalmente, atuar na "
-"imagem original. Ele usa a cor de fundo atual para criar a camada de fundo."
-
-#: src/filters/decor/round-corners.xml:59(para)
-msgid ""
-"This filter is found in the image window menu under "
-"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
-"guisubmenu><guimenuitem>Round Corners</guimenuitem></menuchoice>."
-msgstr ""
-"Esse filtro pode ser encontrado no menu da janela de imagens em "
-"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</"
-"guisubmenu><guimenuitem>Arredondar cantos</guimenuitem></menuchoice>"
-
-#: src/filters/decor/round-corners.xml:72(title)
-msgid "<quote>Round Corners</quote> options"
-msgstr "Opções de <quote>Arredondar cantos</quote>"
-
-#: src/filters/decor/round-corners.xml:82(term)
-msgid "Edge radius"
-msgstr "Raio dos cantos"
-
-#: src/filters/decor/round-corners.xml:84(para)
-msgid ""
-"Rounding corners is done by selecting a quarter of a circle at every corner "
-"and removing the area not covered by this selection. The <quote>edge radius</"
-"quote> is the radius of the constructing circle."
-msgstr ""
-"O arredondamento dos cantos é feito selecionando-se um quarto de círculo em "
-"cada canto, e removendo a área que não está coberta por esta seleção. O "
-"<quote>Raio dos cantos</quote> é o raio deste círculo de construção."
-
-#: src/filters/decor/round-corners.xml:90(para)
-msgid ""
-"In the examples below, the filter was applied to a 100x100 pixels image, "
-"with varying edge radius. For radius = 50, the four quadrants just form a "
-"circle with diameter = 100, which exactly fits into the original image "
-"outline. A radius greater than 50 is possible, but look what happens..."
-msgstr ""
-"Nos exemplos abaixo, o filtro foi aplicado a uma imagem de 100x100 pixels, "
-"variando-se o raio dos cantos. Para um raio = 50, os quatro quadrantes "
-"simplesmente formam um círculo com diâmetro  = 100, que cabe exatamente "
-"dentro da imagem original. Um raio maior que 50 é possível, mas veja o que "
-"ocorre..."
-
-#: src/filters/decor/round-corners.xml:98(title)
-msgid "Edge radius examples"
-msgstr "Exemplos do raio dos cantos"
-
-#: src/filters/decor/round-corners.xml:105(para)
-msgid "A 100x100 pixels image, edge radius: 15 (default)."
-msgstr "Uma imagem com 100x100 pixels, raio dos cantos: 15 (padrão)."
-
-#: src/filters/decor/round-corners.xml:116(para)
-msgid "Edge radius: 35."
-msgstr "Raio dos cantos: 35."
-
-#: src/filters/decor/round-corners.xml:125(para)
-msgid "Edge radius: 50."
-msgstr "Raio dos cantos: 50."
-
-#: src/filters/decor/round-corners.xml:134(para)
-msgid "Edge radius: 65. Ouch!"
-msgstr "Raio dos cantos: 65. Ups!"
-
-#: src/filters/decor/round-corners.xml:141(term)
-msgid "Add drop-shadow"
-msgstr "Adicionar sombra de projeção"
-
-#: src/filters/decor/round-corners.xml:143(para)
-msgid ""
-"When this option is checked, the filter will cast a shadow behind your image "
-"after rounding the image corners."
-msgstr ""
-"Quando esta opção está ligada, o filtro vai criar uma sombra atrás da sua "
-"imagem, depois de criar os cantos arredondados."
-
-#: src/filters/decor/round-corners.xml:150(term)
-msgid "Shadow X/Y offset"
-msgstr "Deslocamento X/Y da sombra"
-
-#: src/filters/decor/round-corners.xml:152(para)
-msgid ""
-"X and Y offset determine where the shadow will be placed in relation to the "
-"image. Offset is measured in pixels. High values make the shadow look like "
-"it's far away, and low values will make it look closer to the image."
-msgstr ""
-"Os deslocamentos X e Y determinam onde a sombra será colocada em relação a "
-"imagem. O deslocamento é medido em pixels. Valores altos fazem parecer que a "
-"sombra está longe, e valores baixos vão  fazer parecer que a sombra está "
-"próxima da imagem."
-
-#: src/filters/decor/round-corners.xml:159(title)
-msgid "Shadow offset examples"
-msgstr "Exemplos de deslocamento da sombra"
-
-#: src/filters/decor/round-corners.xml:166(para)
-msgid "Shadow X offset: 8, Y offset: 8 (default)."
-msgstr "Deslocamento X da sombra: 8, Deslocamento Y: 8 (padrão)."
-
-#: src/filters/decor/round-corners.xml:177(para)
-msgid "Shadow X offset: 16, Y offset: 4."
-msgstr "Deslocamento X da sombra: 16, Deslocamento Y: 4."
-
-#: src/filters/decor/round-corners.xml:181(para)
-msgid ""
-"Note that the shadow offsets as well as the blur radius are limited to "
-"background area."
-msgstr ""
-"Note que tanto os deslocamentos da sombra quanto o raio de desfocagem ficam "
-"limitados à área de fundo."
-
-#: src/filters/decor/round-corners.xml:188(term)
-msgid "Blur radius"
-msgstr "Raio de desfoque"
-
-#: src/filters/decor/round-corners.xml:190(para)
-msgid ""
-"When <guilabel>Add drop-shadow</guilabel> is checked, you may select a blur "
-"radius, which will be used by the <link linkend=\"script-fu-drop-shadow"
-"\">Drop Shadow</link> filter. The image will be enlarged in both dimensions "
-"depending on the blur radius and the shadow offsets."
-msgstr ""
-"Quando <guilabel>Adicionar sombra de projeção</guilabel> está ligada, você "
-"pode selecionar um raio de desfoque, que será usado pelo filtro de <link "
-"linkend=\"script-fu-drop-shadow\">Sombra projetada</link>. A imagem será "
-"tornada maior  em ambas as dimensões dependendo das configurações de raio de "
-"desfoque e deslocamento da sombra."
-
-#: src/filters/decor/round-corners.xml:200(term)
-msgid "Add background"
-msgstr "Adicionar fundo"
-
-#: src/filters/decor/round-corners.xml:202(para)
-msgid ""
-"When you check this option (it is checked by default), the filter will add a "
-"background layer below the existing layer, filled with the current "
-"background color. The size of this new layer depends on the blur radius and "
-"the shadow offsets."
-msgstr ""
-"Quando você seleciona esta opção (ela fica ligada por padrão), o filtro irá "
-"adicionar uma camada de fundo abaixo da camada existente, preenchida com a "
-"cor de fundo atual. O tamanho desta camada dependerá do raio de desfoque e "
-"dos deslocamentos da sombra."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/decor/addborder.xml:38(None)
 msgid ""
@@ -1555,17 +2030,22 @@ msgstr ""
 "@@image: 'images/filters/examples/decor-taj-addborder.jpg'; "
 "md5=6de726815377184a6271f86393265bd8"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/decor/addborder.xml:75(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/addborder.png'; "
+#| "md5=a83413778fa2b30fa89a34503ccee721"
 msgid ""
 "@@image: 'images/filters/decor/addborder.png'; "
-"md5=a83413778fa2b30fa89a34503ccee721"
+"md5=343eec4b5cf4a943717d804435c72982"
 msgstr ""
 "@@image: 'images/filters/decor/addborder.png'; "
-"md5=a83413778fa2b30fa89a34503ccee721"
+"md5=343eec4b5cf4a943717d804435c72982"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/decor/addborder.xml:136(None)
 msgid ""
@@ -1585,16 +2065,12 @@ msgstr "Adicionar borda"
 msgid "Example for the <quote>Add Border</quote> filter"
 msgstr "Exemplo para o filtro <quote>Adicionar borda</quote>"
 
-#: src/filters/decor/addborder.xml:41(para)
-msgid "Border added"
-msgstr "Borda adicionada"
-
 #: src/filters/decor/addborder.xml:45(para)
 msgid ""
-"This filter just does what its name says: it adds a border to the image. You "
-"can specify the thickness of the border as well as the color. The four sides "
-"of the border are colored in different shades, so the image area will appear "
-"raised."
+"This filter just does what its name says: it adds a border to the image. You"
+" can specify the thickness of the border as well as the color. The four "
+"sides of the border are colored in different shades, so the image area will "
+"appear raised."
 msgstr ""
 "Este filtro faz exatamente o que o nome diz: ele adiciona uma borda à "
 "imagem. Você pode especificar a espessura da borda bem como sua cor. Os "
@@ -1609,14 +2085,18 @@ msgstr ""
 "serão pintadas por cima da imagem"
 
 #: src/filters/decor/addborder.xml:58(para)
+#| msgid ""
+#| "This filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Add"
+#| " Border</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the image window menu under "
-"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
-"guisubmenu><guimenuitem>Add Border</guimenuitem></menuchoice>."
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Add"
+" Border…</guimenuitem></menuchoice>."
 msgstr ""
 "Esse filtro pode ser encontrado no menu da janela de imagens em "
-"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</"
-"guisubmenu><guimenuitem>Adicionar borda</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Adicionar"
+" borda</guimenuitem></menuchoice>."
 
 #: src/filters/decor/addborder.xml:71(title)
 msgid "<quote>Add Border</quote> options"
@@ -1631,10 +2111,14 @@ msgid "Border Y size"
 msgstr "Tamanho Y da borda"
 
 #: src/filters/decor/addborder.xml:84(para)
+#| msgid ""
+#| "Here you can select the thickness of the added border, in pixels. X size "
+#| "(left an right) and Y size (top and bottom) may be different. Maximum is 250"
+#| " pixels."
 msgid ""
 "Here you can select the thickness of the added border, in pixels. X size "
-"(left an right) and Y size (top and bottom) may be different. Maximum is 250 "
-"pixels."
+"(left and right) and Y size (top and bottom) may be different. Maximum is "
+"250 pixels."
 msgstr ""
 "Aqui você pode selecionar a espessura da borda a ser adicionada, em pixels. "
 "Os tamanhos X (esquerda e direita) e  Y (acima e abaixo) podem ser "
@@ -1647,11 +2131,11 @@ msgstr "Cor da borda"
 #: src/filters/decor/addborder.xml:94(para)
 msgid ""
 "Clicking on this button brings up the color selector dialog that allows you "
-"to choose an <quote>average</quote> border color (see below, <guilabel>Delta "
-"value on color</guilabel>)."
+"to choose an <quote>average</quote> border color (see below, <guilabel>Delta"
+" value on color</guilabel>)."
 msgstr ""
-"Ao clicar neste botão, surge um diálogo de seleção de cores, que permite que "
-"você escolha uma cor <quote>média</quote> para a borda (veja abaixo, "
+"Ao clicar neste botão, surge um diálogo de seleção de cores, que permite que"
+" você escolha uma cor <quote>média</quote> para a borda (veja abaixo, "
 "<guilabel>Influência da iluminação na cor</guilabel>)."
 
 #: src/filters/decor/addborder.xml:102(term)
@@ -1671,17 +2155,17 @@ msgid ""
 "This option makes the border sides to be colored in different shades and "
 "thus makes the image to appear raised. The actual color of the respective "
 "border side is computed for every color component red, green, and "
-"blue<placeholder-1/> from the <quote>average</quote><guilabel>Border color</"
-"guilabel> as follows (resulting values less than 0 are set to 0, values "
-"greater than 255 are set to 255):"
+"blue<placeholder-1/> from the <quote>average</quote><guilabel>Border "
+"color</guilabel> as follows (resulting values less than 0 are set to 0, "
+"values greater than 255 are set to 255):"
 msgstr ""
 "Esta opção faz com que os lados da borda sejam coloridos em tons diferentes "
 "e assim, faz parecer que a imagem está levantada (como um botão em relevo). "
 "A cor real para cada lado da borda é calculado para cada componente de cor "
-"(vermelho, verde e azul <placeholder-1/>) a partir da cor <quote>média</"
-"quote> especificada em <guilabel>Cor da borda</guilabel> como se segue: "
-"(valores resultantes menores que 0 ficam como 0, e valores maiores que 255, "
-"ficam sendo 255)"
+"(vermelho, verde e azul <placeholder-1/>) a partir da cor "
+"<quote>média</quote> especificada em <guilabel>Cor da borda</guilabel> como "
+"se segue: (valores resultantes menores que 0 ficam como 0, e valores maiores"
+" que 255, ficam sendo 255)"
 
 #: src/filters/decor/addborder.xml:119(para)
 msgid "Top shade = Border color + Delta"
@@ -1704,9 +2188,12 @@ msgid "Delta examples"
 msgstr "Exemplos de influência"
 
 #: src/filters/decor/addborder.xml:139(para)
+#| msgid ""
+#| "<quote>Add Border</quote> filter applied with <guilabel>Delta "
+#| "value</guilabel> 25, then with 75, 125, 175, and 225."
 msgid ""
-"<quote>Add Border</quote> filter applied with <guilabel>Delta value</"
-"guilabel> 25, then with 75, 125, 175, and 225."
+"<quote>Add Border</quote> filter applied with <guilabel>Delta value on "
+"color</guilabel> 25, then with 75, 125, 175, and 225."
 msgstr ""
 "Filtro <quote>Adicionar borda</quote> aplicado com valor de "
 "<guilabel>influência da iluminação na cor</guilabel> 25, então com 75, 125, "
@@ -1718,322 +2205,313 @@ msgid ""
 "shades of the borders are: top: (38,31,207) + (25,25,25) = (63,56,232), "
 "right: (38,31,207) + (-13,-13,-13) = (25,18,194), etc."
 msgstr ""
-"Exemplo: a cor padrão é azul (38,31,207), a influência padrão é 25. Então as "
-"cores da borda serão: topo: (38,31,207) + (25,25,25) = (63,56,232), direita: "
-"(38,31,207) + (-13,-13,-13) = (25,18,194), etc."
+"Exemplo: a cor padrão é azul (38,31,207), a influência padrão é 25. Então as"
+" cores da borda serão: topo: (38,31,207) + (25,25,25) = (63,56,232), "
+"direita: (38,31,207) + (-13,-13,-13) = (25,18,194), etc."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#: src/filters/decor/addborder.xml:156(term)
+msgid "Allow resizing"
+msgstr "Permitir redimensionamento"
+
+#: src/filters/decor/addborder.xml:158(para)
+msgid ""
+"By default, the image size is increased by twice the specified border size "
+"to create the border in this additional space. If your image already has the"
+" intended final size, disable this option."
+msgstr ""
+"Por padrão, o tamanho da imagem é aumentado em duas vezes o tamanho de borda"
+" especificado para criar a borda nesse espaço adicional. Se sua imagem já "
+"tiver o tamanho final desejado, desabilite esta opção."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/old-photo.xml:38(None)
+#: src/filters/decor/add-bevel.xml:29(None)
 msgid ""
-"@@image: 'images/filters/examples/decor-taj-old-photo.jpg'; "
-"md5=1ec97d5505efa048bddfeb749304476e"
+"@@image: 'images/filters/examples/decor-add-bevel20.png'; "
+"md5=52b49e5bae2b4d9e4ff4d431bdea2dff"
 msgstr ""
-"@@image: 'images/filters/examples/decor-taj-old-photo.jpg'; "
-"md5=1ec97d5505efa048bddfeb749304476e"
+"@@image: 'images/filters/examples/decor-add-bevel20.png'; "
+"md5=52b49e5bae2b4d9e4ff4d431bdea2dff"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/old-photo.xml:71(None)
+#: src/filters/decor/add-bevel.xml:40(None)
 msgid ""
-"@@image: 'images/filters/decor/old-photo.png'; "
-"md5=65de0ed40debc1faa63c16bebdfab91e"
+"@@image: 'images/filters/examples/decor-add-bevel21.png'; "
+"md5=8f09b747dc660c62b15ca822625964c6"
 msgstr ""
-"@@image: 'images/filters/decor/old-photo.png'; "
-"md5=65de0ed40debc1faa63c16bebdfab91e"
+"@@image: 'images/filters/examples/decor-add-bevel21.png'; "
+"md5=8f09b747dc660c62b15ca822625964c6"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/old-photo.xml:88(None)
+#: src/filters/decor/add-bevel.xml:57(None)
 msgid ""
-"@@image: 'images/filters/examples/old-photo-defocus.png'; "
-"md5=f8842c9806c22f7a82ef019c986a8ee2"
+"@@image: 'images/filters/examples/decor-add-bevel10.png'; "
+"md5=6458e691714810031db22551391fca91"
 msgstr ""
-"@@image: 'images/filters/examples/old-photo-defocus.png'; "
-"md5=f8842c9806c22f7a82ef019c986a8ee2"
+"@@image: 'images/filters/examples/decor-add-bevel10.png'; "
+"md5=6458e691714810031db22551391fca91"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/old-photo.xml:97(None)
+#: src/filters/decor/add-bevel.xml:66(None)
 msgid ""
-"@@image: 'images/filters/examples/old-photo-focus.png'; "
-"md5=e62f2704a8d75922f7a31a5cd8377c00"
+"@@image: 'images/filters/examples/decor-add-bevel12.png'; "
+"md5=5b3f2f42725a2c4acd3d7557d6025b2d"
 msgstr ""
-"@@image: 'images/filters/examples/old-photo-focus.png'; "
-"md5=e62f2704a8d75922f7a31a5cd8377c00"
+"@@image: 'images/filters/examples/decor-add-bevel12.png'; "
+"md5=5b3f2f42725a2c4acd3d7557d6025b2d"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/old-photo.xml:144(None)
+#: src/filters/decor/add-bevel.xml:75(None)
 msgid ""
-"@@image: 'images/filters/examples/old-photo-mottle.png'; "
-"md5=d2033beee3ec9fd9bd77c30dcc199be0"
+"@@image: 'images/filters/examples/decor-add-bevel11.png'; "
+"md5=852e74774370ea76ec0de1ba40f23622"
 msgstr ""
-"@@image: 'images/filters/examples/old-photo-mottle.png'; "
-"md5=d2033beee3ec9fd9bd77c30dcc199be0"
+"@@image: 'images/filters/examples/decor-add-bevel11.png'; "
+"md5=852e74774370ea76ec0de1ba40f23622"
 
-#: src/filters/decor/old-photo.xml:11(title)
-#: src/filters/decor/old-photo.xml:16(tertiary)
-#: src/filters/decor/old-photo.xml:19(primary)
-msgid "Old Photo"
-msgstr "Foto antiga"
-
-#: src/filters/decor/old-photo.xml:25(title)
-msgid "Example for the <quote>Old Photo</quote> filter"
-msgstr "Exemplo do filtro <quote>Foto antiga</quote>"
-
-#: src/filters/decor/old-photo.xml:41(para)
-msgid "<quote>Old Photo</quote> applied"
-msgstr "<quote>Foto antiga</quote> aplicado"
-
-#: src/filters/decor/old-photo.xml:45(para)
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/add-bevel.xml:109(None)
+#| msgid ""
+#| "@@image: 'images/filters/decor/add-bevel.png'; "
+#| "md5=6c7a9d8947c98d6fed42f9667e9a34ec"
 msgid ""
-"This filter makes an image look like an old photo: blurred, with a jagged "
-"border, toned with a brown shade, and marked with spots."
+"@@image: 'images/filters/decor/add-bevel.png'; "
+"md5=0133dbce34ce209e111197f3dd1dbf3f"
 msgstr ""
-"Este filtro faz ma imagem parecer como uma foto antiga: desfocada, com uma "
-"borda irregular, tonalizada em um matiz marrom, e marcada com manchas"
+"@@image: 'images/filters/decor/add-bevel.png'; "
+"md5=0133dbce34ce209e111197f3dd1dbf3f"
 
-#: src/filters/decor/old-photo.xml:54(para)
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/add-bevel.xml:143(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/decor-add-bevel10.png'; "
+#| "md5=6458e691714810031db22551391fca91"
 msgid ""
-"The filter is found in the image window menu under "
-"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
-"guisubmenu><guimenuitem>Old Photo</guimenuitem></menuchoice>."
+"@@image: 'images/filters/examples/decor-add-bevel23.png'; "
+"md5=afe674b6b318e8b94394fc33496a9331"
+msgstr ""
+"@@image: 'images/filters/examples/decor-add-bevel23.png'; "
+"md5=afe674b6b318e8b94394fc33496a9331"
+
+#: src/filters/decor/add-bevel.xml:12(title)
+#: src/filters/decor/add-bevel.xml:16(secondary)
+#: src/filters/decor/add-bevel.xml:19(primary)
+msgid "Add Bevel"
+msgstr "Adicionar chanfro"
+
+#: src/filters/decor/add-bevel.xml:25(title)
+msgid "Example for the <quote>Add Bevel</quote> filter"
+msgstr "Exemplo para o filtro <quote>Adicionar chanfro</quote>"
+
+#: src/filters/decor/add-bevel.xml:32(para)
+msgid "Original image, the colored rectangle is selected"
+msgstr "Imagem original, o retângulo colorido está selecionado"
+
+#: src/filters/decor/add-bevel.xml:47(para)
+#| msgid ""
+#| "This filter adds a slight bevel to an image using a <link linkend=\"plug-in-"
+#| "bump-map\">bump map</link> (see below). If there is a selection, it is "
+#| "bevelled, otherwise the filter has no effect."
+msgid ""
+"This filter adds a slight bevel to an image using a <link linkend=\"gimp-"
+"filter-bump-map\">bump map</link> (see below). If there is a selection, it "
+"is bevelled, otherwise the filter has no effect."
+msgstr ""
+"Este filtro adiciona um leve chanfro à imagem usando um <link "
+"linkend=\"gimp-filter-bump-map\">mapa de relevo</link> (veja abaixo). Se "
+"houver uma seleção, ela recebe o chanfro; caso contrário, o filtro não tem "
+"efeito."
+
+#: src/filters/decor/add-bevel.xml:53(title)
+msgid "Another <quote>Add Bevel</quote> example, with bumpmap"
+msgstr "Outro exemplo de <quote>Adicionar chanfro</quote>, com mapa de relevo"
+
+#: src/filters/decor/add-bevel.xml:69(para)
+msgid "Bumpmap"
+msgstr "Mapa de relevo"
+
+#: src/filters/decor/add-bevel.xml:92(para)
+#| msgid ""
+#| "This filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Add"
+#| " Border</guimenuitem></menuchoice>."
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Add"
+" Bevel…</guimenuitem></menuchoice>."
 msgstr ""
 "Esse filtro pode ser encontrado no menu da janela de imagens em "
-"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</"
-"guisubmenu><guimenuitem>Foto antiga</guimenuitem></menuchoice>"
+"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Adicionar"
+" borda</guimenuitem></menuchoice>."
 
-#: src/filters/decor/old-photo.xml:67(title)
-msgid "<quote>Old Photo</quote> options"
-msgstr "Opções de <quote>Foto antiga</quote>"
+#: src/filters/decor/add-bevel.xml:105(title)
+msgid "<quote>Add Bevel</quote> options"
+msgstr "Opções de <quote>Adicionar chanfro</quote>"
 
-#: src/filters/decor/old-photo.xml:77(term)
-msgid "Defocus"
-msgstr "Desfocar"
+#: src/filters/decor/add-bevel.xml:115(term)
+msgid "Thickness"
+msgstr "Espessura"
 
-#: src/filters/decor/old-photo.xml:79(para)
+#: src/filters/decor/add-bevel.xml:117(para)
 msgid ""
-"If checked, a <link linkend=\"plug-in-gauss\">Gaussian blur</link> will be "
-"applied to the image, making it less clear."
+"You can specify the thickness of the bevel, in pixels. Maximal thickness is "
+"30 pixels."
 msgstr ""
-"Se selecionada, uma <link linkend=\"plug-in-gauss\">Desfocagem gaussiana</"
-"link> será aplicada a foto, tornando-a menos clara."
+"Você pode especificar a espessura do chanfro, em pixels. A espessura máxima "
+"é 30 pixels."
 
-#: src/filters/decor/old-photo.xml:84(title)
-msgid "Example for the <quote>Defocus</quote> option"
-msgstr "Exemplo para a opção <quote>Desfocar</quote>"
+#: src/filters/decor/add-bevel.xml:134(term)
+msgid "Keep bump layer"
+msgstr "Manter camada de relevo"
 
-#: src/filters/decor/old-photo.xml:91(para)
-msgid "Defocus enabled"
-msgstr "Desfocar habilitado"
-
-#: src/filters/decor/old-photo.xml:100(para)
-msgid "Defocus disabled"
-msgstr "Desfocar desabilitado"
-
-#: src/filters/decor/old-photo.xml:109(para)
+#: src/filters/decor/add-bevel.xml:136(para)
+#| msgid ""
+#| "When checked, you will keep the generated bumpmap as a new, not visible "
+#| "layer (below the layer dialog):"
 msgid ""
-"When you choose a border size &gt; 0, the <link linkend=\"script-fu-fuzzy-"
-"border\">Fuzzy Border</link> filter will be applied to the image, adding a "
-"white, jagged border."
+"When checked, you will keep the generated bumpmap as a new, not visible "
+"layer:"
 msgstr ""
-"Quando você escolhe um tamanho de borda menor que zero, o filtro <link "
-"linkend=\"script-fu-fuzzy-border\">Borrar borda</link> será aplicado a "
-"imagem, adicionando uma borda branca, recortada."
+"Quando selecionada, você verá o mapa de relevo gerado como uma nova camada, "
+"marcada como não visível (abaixo, o diálogo de Camadas):"
 
-#: src/filters/decor/old-photo.xml:117(term)
-msgid "Sepia"
-msgstr "Sépia"
-
-#: src/filters/decor/old-photo.xml:122(para)
-msgid "See Wikipedia <xref linkend=\"bibliography-online-wkpd-sepia\"/>."
-msgstr "Veja na Wikipedia <xref linkend=\"bibliography-online-wkpd-sepia\"/>."
-
-#: src/filters/decor/old-photo.xml:127(para)
-msgid "Compare <xref linkend=\"gimp-tool-color-balance\"/>."
-msgstr "Compare <xref linkend=\"gimp-tool-color-balance\"/>."
-
-#: src/filters/decor/old-photo.xml:119(para)
+#: src/filters/decor/add-bevel.xml:146(para)
 msgid ""
-"If checked, the filter reproduces the effect of aging in old, traditional "
-"black-and-white photographs, toned with sepia (shades of brown)."
-"<placeholder-1/> To achieve this effect, the filter desaturates the image, "
-"reduces brightness and contrast, and modifies the color balance."
-"<placeholder-2/>"
+"<link linkend=\"gimp-layer-dialog\">Layers Dialog</link> with <quote>Keep "
+"bump layer</quote> enabled"
 msgstr ""
-"Se habilitado, o filtro reproduz o efeito de envelhecimento em fotografias "
-"antigas tradicionais em preto e branco, tonalizadas com sépia (tons de "
-"marrom). <placeholder-1/> Para obter esse efeito, o filtro dessatura a "
-"imagem, reduz o brilho e contraste e modifica o balanço de cores. "
-"<placeholder-2/>"
+"<link linkend=\"gimp-layer-dialog\">Caixa de diálogo Camadas</link> com "
+"<quote>Manter camada de relevo</quote> habilitado"
 
-#: src/filters/decor/old-photo.xml:134(term)
-msgid "Mottle"
-msgstr "Matizar"
+#~ msgid "<quote>Fuzzy Border</quote> applied"
+#~ msgstr "<quote>Borrar borda</quote> aplicado"
 
-#: src/filters/decor/old-photo.xml:136(para)
-msgid "When you check this option, the image will be marked with spots."
-msgstr "Quando você habilitar esta opção, a imagem será marcada por manchas."
+#~ msgid "Activate the filter"
+#~ msgstr "Ativar o filtro"
 
-#: src/filters/decor/old-photo.xml:140(title)
-msgid "Example for the <quote>Mottle</quote> option"
-msgstr "Exemplo para a opção <quote>Matizar</quote>"
+#~ msgid ""
+#~ "You can find this filter in the image window menu through "
+#~ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Fuzzy"
+#~ " Border</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Você pode encontrar esse filtro em "
+#~ "<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Borrar"
+#~ " borda</guimenuitem></menuchoice>."
 
-#: src/filters/decor/old-photo.xml:147(para)
-msgid "A plain white image mottled (without Defocus or Sepia)"
-msgstr "Uma imagem branca com o matizado (sem Desfocar ou Sépia)"
+#~ msgid "<quote>Stencil Carve</quote> applied"
+#~ msgstr "<quote>Esculpir estêncil</quote> aplicado"
 
-#: src/filters/decor/introduction.xml:12(title)
-#: src/filters/decor/introduction.xml:17(tertiary)
-msgid "Introduction"
-msgstr "Introdução"
+#~ msgid "Image to carve"
+#~ msgstr "Imagem a esculpir"
 
-#: src/filters/decor/introduction.xml:22(para)
-msgid ""
-"These filters are image-dependent Script-Fu scripts. They create decorative "
-"borders, and some of them add some nice special effects to the image."
-msgstr ""
-"Esses filtros são scripts de script-fu que dependem de imagens. Eles criam "
-"bordas decorativas, e alguns deles adicionam belos efeitos especiais as "
-"imagens."
+#~ msgid ""
+#~ "Here you may select the target image, i.e. the image the carving effect is "
+#~ "applied to. The drop-down list will show you a list of opened images which "
+#~ "may be carved."
+#~ msgstr ""
+#~ "Aqui você seleciona uma imagem de alvo, i.e. a imagem em que o efeito de "
+#~ "esculpir será aplicado. A lista flutuante vai exibir uma lista de todas as "
+#~ "camadas, em todas as imagens abertas, em que o efeito possa ser aplicado."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/slide.xml:38(None)
-msgid ""
-"@@image: 'images/filters/examples/decor-taj-slide.jpg'; "
-"md5=d0de0d2396ce54020d1b714becb3e1fb"
-msgstr ""
-"@@image: 'images/filters/examples/decor-taj-slide.jpg'; "
-"md5=d0de0d2396ce54020d1b714becb3e1fb"
+#~ msgid ""
+#~ "Information about the many layers created by this filter can be found in "
+#~ "<xref linkend=\"bibliography-books-grokking\"/>."
+#~ msgstr ""
+#~ "Informações sobre as várias camadas criadas por esse filtro podem ser "
+#~ "encontradas em <xref linkend=\"bibliography-books-grokking\"/>."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/decor/slide.xml:82(None)
-msgid ""
-"@@image: 'images/filters/decor/slide.png'; "
-"md5=e5a02058389e1dc28733bb78a44baec2"
-msgstr ""
-"@@image: 'images/filters/decor/slide.png'; "
-"md5=e5a02058389e1dc28733bb78a44baec2"
+#~ msgid ""
+#~ "@@image: 'images/filters/examples/decor-taj-coffee.jpg'; "
+#~ "md5=bb05618f70f3aca7ba08c9ec7eaf0cbd"
+#~ msgstr ""
+#~ "@@image: 'images/filters/examples/decor-taj-coffee.jpg'; "
+#~ "md5=bb05618f70f3aca7ba08c9ec7eaf0cbd"
 
-#: src/filters/decor/slide.xml:11(title)
-#: src/filters/decor/slide.xml:16(tertiary)
-#: src/filters/decor/slide.xml:19(primary)
-msgid "Slide"
-msgstr "Slide"
+#~ msgid ""
+#~ "@@image: 'images/filters/decor/coffee.png'; "
+#~ "md5=4f6a2e718d4641c74dbcd9927bcfe602"
+#~ msgstr ""
+#~ "@@image: 'images/filters/decor/coffee.png'; "
+#~ "md5=4f6a2e718d4641c74dbcd9927bcfe602"
 
-#: src/filters/decor/slide.xml:25(title)
-msgid "Example for the <quote>Slide</quote> filter"
-msgstr "Exemplo para o filtro <quote>Slide</quote>"
+#~ msgid "Coffee Stain"
+#~ msgstr "Mancha de café"
 
-#: src/filters/decor/slide.xml:41(para)
-msgid "<quote>Slide</quote> applied"
-msgstr "<quote>Slide</quote> aplicado"
+#~ msgid "Example for the <quote>Coffee Stain</quote> filter"
+#~ msgstr "Exemplo para o filtro <quote>Mancha de café</quote>"
 
-#: src/filters/decor/slide.xml:45(para)
-msgid ""
-"This filter makes your image look like a slide, by adding a slide-film like "
-"black frame, sprocket holes, and labels."
-msgstr ""
-"Este filtro faz sua imagem parecer como se fosse uma foto como se ela "
-"estivesse impressa em filme (analógico), adicionando uma moldura preta, "
-"furinhos para puxar o filme e rótulos."
+#~ msgid "<quote>Coffee Stain</quote> applied"
+#~ msgstr "<quote>Manca de café</quote> aplicado"
 
-#: src/filters/decor/slide.xml:49(para)
-msgid ""
-"If necessary, the image will be cropped to fit into an aspect ratio of "
-"width : height = 3:2. If image width is greater than image height, black "
-"frames will be added at the top and the bottom of the image, else the frames "
-"will be added on the left and right sides. You may select the color as well "
-"as the font of the text appearing on the frames. The current background "
-"color will be used for drawing the holes."
-msgstr ""
-"Se for necessário a imagem será cortada para caber na proporção de 3:2 usada "
-"em filmes comerciais. Se a largura for maior que a altura, a moldura preta "
-"será adicionada em cima e em baixo da imagem, senão, serão colocadas dos "
-"lados direito e esquerdo. Você pode selecionar a cor e a fonte do texto que "
-"aparecerá nos quadros. A cor de fundo atual será usada para preencher os "
-"furinhos."
+#~ msgid ""
+#~ "The filter is found in the image window menu under "
+#~ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Coffee"
+#~ " Stain</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Esse filtro pode ser encontrado no menu da janela de imagens em "
+#~ "<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Mancha"
+#~ " de café</guimenuitem></menuchoice>"
 
-#: src/filters/decor/slide.xml:57(para)
-msgid ""
-"The script only works on RGB and grayscale images that contain one layer. "
-"Otherwise the menu entry is insensitive and grayed out."
-msgstr ""
-"O filtro funciona para imagens com camadas sem canal alfa, caso contrário a "
-"entrada será insensível e apagada."
+#~ msgid "<quote>Coffee Stain</quote> options"
+#~ msgstr "Opções para <quote>Mancha de café</quote>"
 
-#: src/filters/decor/slide.xml:65(para)
-msgid ""
-"The filter is found in the image window menu under "
-"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
-"guisubmenu><guimenuitem>Slide</guimenuitem></menuchoice>."
-msgstr ""
-"Este filtro pode ser encontrado no menu da janela de imagens em "
-"<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</"
-"guisubmenu><guimenuitem>Slide</guimenuitem></menuchoice>"
+#~ msgid ""
+#~ "@@image: 'images/filters/examples/decor-add-bevel23.png'; "
+#~ "md5=042e83414562dac841238be141bf585f"
+#~ msgstr ""
+#~ "@@image: 'images/filters/examples/decor-add-bevel23.png'; "
+#~ "md5=042e83414562dac841238be141bf585f"
 
-#: src/filters/decor/slide.xml:78(title)
-msgid "<quote>Slide</quote> options"
-msgstr "Opções de <quote>Slide</quote>"
+#~ msgid "<quote>Add Bevel</quote> applied"
+#~ msgstr "<quote>Adicionar chanfro</quote> aplicado"
 
-#: src/filters/decor/slide.xml:88(term)
-msgid "Text"
-msgstr "Texto"
+#~ msgid ""
+#~ "You can find this filter in the image window menu under "
+#~ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Add"
+#~ " Bevel</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Esse filtro pode ser encontrado no menu da janela de imagens em "
+#~ "<menuchoice><guimenu>Filtros</guimenu><guisubmenu>Decoração</guisubmenu><guimenuitem>Adicionar"
+#~ " chanfro</guimenuitem></menuchoice>"
 
-#: src/filters/decor/slide.xml:90(para)
-msgid ""
-"A short label that will be displayed in the top and bottom (or the left and "
-"right) of the frame. The text must be really short."
-msgstr ""
-"Um rótulo curto que será colocado na parte de cima e de baixo (ou direita e "
-"esquerda) da moldura, imitando o que seria a marca do fabricante do filme. O "
-"texto deve ser realmente curto."
+#~ msgid "<quote>Stencil Chrome</quote> applied"
+#~ msgstr "<quote>Estêncil de cromagem</quote> aplicado"
 
-#: src/filters/decor/slide.xml:97(term)
-msgid "Number"
-msgstr "Número"
+#~ msgid ""
+#~ "If this command remains grayed out although the image is in grayscale mode, "
+#~ "check for an Alpha channel and delete it."
+#~ msgstr ""
+#~ "Este comando permanece cinza e insensível a não ser que o objeto desenhável "
+#~ "ativo seja em tons de cinza. Se você estiver em uma imagem em tons de cinza "
+#~ "e ainda assim o filtro estiver desabilitado, verifique se a camada atual tem"
+#~ " um canal alfa e remova-o."
 
-#: src/filters/decor/slide.xml:99(para)
-msgid ""
-"Here you may enter a text for simulating consecutive numbers. Two numbers "
-"will be displayed: this number and this number with the character <quote>A</"
-"quote> appended."
-msgstr ""
-"Aqui você pode entrar um texto que simula números consecutivos. Dois números "
-"serão mostrados: este número, e o mesmo número seguido da letra <quote>A</"
-"quote>"
+#~ msgid "<quote>Round Corners</quote> applied"
+#~ msgstr "<quote>Arredondar cantos</quote> aplicado"
 
-#: src/filters/decor/slide.xml:107(term)
-msgid "Font"
-msgstr "Fonte"
+#~ msgid "Border added"
+#~ msgstr "Borda adicionada"
 
-#: src/filters/decor/slide.xml:109(para)
-msgid ""
-"Clicking on this button opens the <link linkend=\"gimp-font-dialog\">Font "
-"dialog</link>, where you can choose a font for the text on the frame."
-msgstr ""
-"Ao clicar nesse botão, se abre um <link linkend=\"gimp-font-dialog\">diálogo "
-"de escolha de fonte</link>, onde você poderá escolher uma fonte para o texto "
-"na moldura."
+#~ msgid "<quote>Old Photo</quote> applied"
+#~ msgstr "<quote>Foto antiga</quote> aplicado"
 
-#: src/filters/decor/slide.xml:117(term)
-msgid "Fontcolor"
-msgstr "Cor da fonte"
+#~ msgid "<quote>Slide</quote> applied"
+#~ msgstr "<quote>Slide</quote> aplicado"
 
-#: src/filters/decor/slide.xml:119(para)
-msgid ""
-"Clicking on this button brings up a color selection dialog that allows you "
-"to choose the color of the text."
-msgstr ""
-"Ao clicar nesse botão, se abre um diálogo de escolha de cores, onde você "
-"pode determinar a cor do texto."
-
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/decor/slide.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"João S. O. Bueno, gwidion@gmail.com,2014\n"
-"Luciana Montelione, lucianamontelione@gmail.com, 2014"
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "João S. O. Bueno, gwidion@gmail.com,2014\n"
+#~ "Luciana Montelione, lucianamontelione@gmail.com, 2014"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help 2.9.5\n"
-"POT-Creation-Date: 2023-08-25 18:11+0000\n"
-"PO-Revision-Date: 2023-10-03 \n"
+"POT-Creation-Date: 2026-11-08 00:49-0300\n"
+"PO-Revision-Date: 2023-10-03\n"
 "Last-Translator: Automatically generated <>\n"
 "Language-Team: none <>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/desaturate/sepia.xml:24(None)
 msgid ""
@@ -22,7 +23,8 @@ msgstr ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/desaturate/sepia.xml:33(None)
 msgid ""
@@ -32,15 +34,19 @@ msgstr ""
 "@@image: 'images/filters/examples/color-taj-sepia.jpg'; "
 "md5=52dce765126709cf80a341f655dbc08d"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/desaturate/sepia.xml:64(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/desaturate/sepia.png'; "
+#| "md5=bb9910bb30683246f40eefb3c831be89"
 msgid ""
 "@@image: 'images/menus/colors/desaturate/sepia.png'; "
-"md5=bb9910bb30683246f40eefb3c831be89"
+"md5=a877e6eadded4d3ede450783bc390066"
 msgstr ""
 "@@image: 'images/menus/colors/desaturate/sepia.png'; "
-"md5=bb9910bb30683246f40eefb3c831be89"
+"md5=a877e6eadded4d3ede450783bc390066"
 
 #: src/menus/colors/desaturate/sepia.xml:6(title)
 #: src/menus/colors/desaturate/sepia.xml:11(tertiary)
@@ -72,8 +78,8 @@ msgid "Example for the <quote>Sepia</quote> filter"
 msgstr "Exemplo para o filtro <quote>Sépia</quote>"
 
 #: src/menus/colors/desaturate/sepia.xml:27(para)
-#: src/menus/colors/desaturate/desaturate.xml:161(para)
-#: src/menus/colors/desaturate/desaturate.xml:170(para)
+#: src/menus/colors/desaturate/desaturate.xml:171(para)
+#: src/menus/colors/desaturate/desaturate.xml:180(para)
 msgid "Original image"
 msgstr "Imagem original"
 
@@ -90,22 +96,25 @@ msgstr ""
 "branco com uma tonalidade quente amarronzada."
 
 #: src/menus/colors/desaturate/sepia.xml:47(title)
-msgid "Activating the Filter"
-msgstr "Ativando o filtro"
+#: src/menus/colors/desaturate/desaturate.xml:37(title)
+#: src/menus/colors/desaturate/color-to-gray.xml:30(title)
+msgid "Activating the Command"
+msgstr "Ativando o Comando"
 
 #: src/menus/colors/desaturate/sepia.xml:48(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Desaturate…</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the image window menu under "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
-"guisubmenu><guimenuitem>Sepia…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Sepia…</guimenuitem></menuchoice>."
 msgstr ""
-"Este filtro é encontrado no menu da janela de imagem em "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Dessaturar</"
-"guisubmenu><guimenuitem>Sépia…</guimenuitem></menuchoice>."
+"Você pode acessar este comando pela barra de menus da imagem em "
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Dessaturar</guisubmenu><guimenuitem>Dessaturar…</guimenuitem></menuchoice>."
 
 #: src/menus/colors/desaturate/sepia.xml:59(title)
 #: src/menus/colors/desaturate/desaturate.xml:49(title)
-#: src/menus/colors/desaturate/color-to-gray.xml:46(title)
+#: src/menus/colors/desaturate/color-to-gray.xml:42(title)
 msgid "Options"
 msgstr "Opções"
 
@@ -114,10 +123,42 @@ msgid "<quote>Sepia</quote> options"
 msgstr "Opções de <quote>sépia</quote>"
 
 #: src/menus/colors/desaturate/sepia.xml:70(term)
+#: src/menus/colors/desaturate/desaturate.xml:63(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:54(term)
+msgid "Presets"
+msgstr "Pré-configurações"
+
+#: src/menus/colors/desaturate/sepia.xml:71(term)
+#: src/menus/colors/desaturate/desaturate.xml:64(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:57(term)
+#| msgid "Options"
+msgid "Blending Options"
+msgstr "Opções de mesclagem"
+
+#: src/menus/colors/desaturate/sepia.xml:72(term)
+#: src/menus/colors/desaturate/desaturate.xml:65(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:58(term)
+#| msgid "Overview"
+msgid "Preview"
+msgstr "Pré-visualizar"
+
+#: src/menus/colors/desaturate/sepia.xml:73(term)
+#: src/menus/colors/desaturate/desaturate.xml:66(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:59(term)
+msgid "Merge filter"
+msgstr "Mesclar filtro"
+
+#: src/menus/colors/desaturate/sepia.xml:74(term)
+#: src/menus/colors/desaturate/desaturate.xml:67(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:60(term)
+msgid "Split view"
+msgstr "Vista dividida"
+
+#: src/menus/colors/desaturate/sepia.xml:80(term)
 msgid "Effect strength"
 msgstr "Força do efeito"
 
-#: src/menus/colors/desaturate/sepia.xml:72(para)
+#: src/menus/colors/desaturate/sepia.xml:82(para)
 msgid ""
 "This slider lets you control how much the effect blends into the original "
 "image. 0.000 is no effect at all, 1.000 is completely replacing the image "
@@ -127,14 +168,14 @@ msgstr ""
 "à imagem original. 0,000 representa efeito nenhum, 1,000 é a substituição "
 "completa da imagem pela sua versão em tons de sépia."
 
-#: src/menus/colors/desaturate/sepia.xml:80(term)
+#: src/menus/colors/desaturate/sepia.xml:90(term)
 msgid "sRGB"
 msgstr "sRGB"
 
-#: src/menus/colors/desaturate/sepia.xml:82(para)
+#: src/menus/colors/desaturate/sepia.xml:92(para)
 msgid ""
-"This checkbox allows you processing the image in either sRGB gamma-corrected "
-"(checked) or linear (unchecked) color space."
+"This checkbox allows you processing the image in either sRGB gamma-corrected"
+" (checked) or linear (unchecked) color space."
 msgstr ""
 "Esta opção lhe permite processar a imagem no espaço de cores sRGB, ou "
 "corrigido pela gama (selecionada) ou linear (não selecionada)."
@@ -146,26 +187,31 @@ msgstr "Mono Misturador"
 #: src/menus/colors/desaturate/mono-mixer.xml:8(para)
 msgid ""
 "The Mono Mixer in the <guisubmenu>Desaturate</guisubmenu> submenu is the "
-"same operation as listed in the <guisubmenu>Components</guisubmenu> submenu. "
-"For more information see there: <xref linkend=\"gimp-filter-mono-mixer\"/>."
+"same operation as listed in the <guisubmenu>Components</guisubmenu> submenu."
+" For more information see there: <xref linkend=\"gimp-filter-mono-mixer\"/>."
 msgstr ""
 "O Mono Misturador no submenu <guisubmenu>Dessaturar</guisubmenu> é a mesma "
 "operação listada no submenu <guisubmenu>Componentes</guisubmenu>. Para mais "
 "informações, veja: <xref linkend=\"gimp-filter-mono-mixer\"/>."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/desaturate/desaturate.xml:55(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/desaturate/desaturate.png'; "
+#| "md5=7c93eb531c72f2b7437658e25f6a2c7d"
 msgid ""
 "@@image: 'images/menus/colors/desaturate/desaturate.png'; "
-"md5=7c93eb531c72f2b7437658e25f6a2c7d"
+"md5=394eb629dc244a094595c5a8c63655a3"
 msgstr ""
 "@@image: 'images/menus/colors/desaturate/desaturate.png'; "
-"md5=7c93eb531c72f2b7437658e25f6a2c7d"
+"md5=394eb629dc244a094595c5a8c63655a3"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:158(None)
+#: src/menus/colors/desaturate/desaturate.xml:168(None)
 msgid ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-original-"
 "sunflower.png'; md5=9148c43888a8340a83f98f21be122b1b"
@@ -173,9 +219,10 @@ msgstr ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-original-"
 "sunflower.png'; md5=9148c43888a8340a83f98f21be122b1b"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:167(None)
+#: src/menus/colors/desaturate/desaturate.xml:177(None)
 msgid ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-original-red-"
 "globe.png'; md5=e069e02418ef06b083d5e9c3a801b5a4"
@@ -183,9 +230,10 @@ msgstr ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-original-red-"
 "globe.png'; md5=e069e02418ef06b083d5e9c3a801b5a4"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:178(None)
+#: src/menus/colors/desaturate/desaturate.xml:186(None)
 msgid ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-luminance-"
 "sunflower.png'; md5=1b75c7de8c6fa8396a873ec73c566eb6"
@@ -193,9 +241,10 @@ msgstr ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-luminance-"
 "sunflower.png'; md5=1b75c7de8c6fa8396a873ec73c566eb6"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:187(None)
+#: src/menus/colors/desaturate/desaturate.xml:195(None)
 msgid ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-luminance-red-"
 "globe.png'; md5=1b6d76dad650e07538f19904df6b249e"
@@ -203,29 +252,32 @@ msgstr ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-luminance-red-"
 "globe.png'; md5=1b6d76dad650e07538f19904df6b249e"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:198(None)
+#: src/menus/colors/desaturate/desaturate.xml:204(None)
 msgid ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-sunflower."
-"png'; md5=3c67924a72f0b431599241821e662f4a"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-"
+"sunflower.png'; md5=3c67924a72f0b431599241821e662f4a"
 msgstr ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-sunflower."
-"png'; md5=3c67924a72f0b431599241821e662f4a"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-"
+"sunflower.png'; md5=3c67924a72f0b431599241821e662f4a"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:209(None)
+#: src/menus/colors/desaturate/desaturate.xml:215(None)
 msgid ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-red-globe."
-"png'; md5=6c1e4e1919377560d6ec19af5c13c045"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-red-"
+"globe.png'; md5=6c1e4e1919377560d6ec19af5c13c045"
 msgstr ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-red-globe."
-"png'; md5=6c1e4e1919377560d6ec19af5c13c045"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-red-"
+"globe.png'; md5=6c1e4e1919377560d6ec19af5c13c045"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:222(None)
+#: src/menus/colors/desaturate/desaturate.xml:226(None)
 msgid ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-lightness-"
 "sunflower.png'; md5=207b375bf7bd8e5ae5227e569aa84f99"
@@ -233,9 +285,10 @@ msgstr ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-lightness-"
 "sunflower.png'; md5=207b375bf7bd8e5ae5227e569aa84f99"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:233(None)
+#: src/menus/colors/desaturate/desaturate.xml:237(None)
 msgid ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-lightness-red-"
 "globe.png'; md5=18b088f290f8b8a39ac33c84a66ce97c"
@@ -243,45 +296,49 @@ msgstr ""
 "@@image: 'images/menus/colors/desaturate/colors-desaturate-lightness-red-"
 "globe.png'; md5=18b088f290f8b8a39ac33c84a66ce97c"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:246(None)
+#: src/menus/colors/desaturate/desaturate.xml:248(None)
 msgid ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-average-sunflower."
-"png'; md5=f733b41f74d2eca92a93e1b3b8bdea2a"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-average-"
+"sunflower.png'; md5=f733b41f74d2eca92a93e1b3b8bdea2a"
 msgstr ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-average-sunflower."
-"png'; md5=f733b41f74d2eca92a93e1b3b8bdea2a"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-average-"
+"sunflower.png'; md5=f733b41f74d2eca92a93e1b3b8bdea2a"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/desaturate.xml:257(None)
+#: src/menus/colors/desaturate/desaturate.xml:259(None)
 msgid ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-average-red-globe."
-"png'; md5=3c298fd3af821ebd32e347ca61a4a905"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-average-red-"
+"globe.png'; md5=3c298fd3af821ebd32e347ca61a4a905"
 msgstr ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-average-red-globe."
-"png'; md5=3c298fd3af821ebd32e347ca61a4a905"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-average-red-"
+"globe.png'; md5=3c298fd3af821ebd32e347ca61a4a905"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/desaturate/desaturate.xml:270(None)
 msgid ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-value-sunflower."
-"png'; md5=f23d785271db1a2771142c55b35c9a4d"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-value-"
+"sunflower.png'; md5=f23d785271db1a2771142c55b35c9a4d"
 msgstr ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-value-sunflower."
-"png'; md5=f23d785271db1a2771142c55b35c9a4d"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-value-"
+"sunflower.png'; md5=f23d785271db1a2771142c55b35c9a4d"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/desaturate/desaturate.xml:281(None)
 msgid ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-value-red-globe."
-"png'; md5=97487f0a6c3f7398dc68e770968b58a5"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-value-red-"
+"globe.png'; md5=97487f0a6c3f7398dc68e770968b58a5"
 msgstr ""
-"@@image: 'images/menus/colors/desaturate/colors-desaturate-value-red-globe."
-"png'; md5=97487f0a6c3f7398dc68e770968b58a5"
+"@@image: 'images/menus/colors/desaturate/colors-desaturate-value-red-"
+"globe.png'; md5=97487f0a6c3f7398dc68e770968b58a5"
 
 #: src/menus/colors/desaturate/desaturate.xml:18(para)
 msgid ""
@@ -290,41 +347,37 @@ msgid ""
 "differs from converting the image to grayscale in two respects. First, it "
 "only operates on the active layer and second, the colors on the layer are "
 "still RGB values with three components, with R=G=B, which makes gray. This "
-"means that you then can paint on the layer, or individual parts of it, using "
-"non-gray colors."
+"means that you then can paint on the layer, or individual parts of it, using"
+" non-gray colors."
 msgstr ""
-"Ao usar o comando <guimenuitem>Dessaturar</guimenuitem>, você pode converter "
-"todas as cores na camada ativa para as tonalidades correspondentes de cinza. "
-"Isto se diferencia da conversão da imagem para Tons de cinza em dois pontos. "
-"Primeiro, o comando só opera na camada ativa, e segundo, as cores na camada "
-"ainda são valores RGB com três componentes, com R=G=B, que produz cinza. "
-"Isto significa que você pode então pintar sobre a camada, ou em partes "
-"individuais dela, usando cores não-cinzentas."
+"Ao usar o comando <guimenuitem>Dessaturar</guimenuitem>, você pode converter"
+" todas as cores na camada ativa para as tonalidades correspondentes de "
+"cinza. Isto se diferencia da conversão da imagem para Tons de cinza em dois "
+"pontos. Primeiro, o comando só opera na camada ativa, e segundo, as cores na"
+" camada ainda são valores RGB com três componentes, com R=G=B, que produz "
+"cinza. Isto significa que você pode então pintar sobre a camada, ou em "
+"partes individuais dela, usando cores não-cinzentas."
 
 #: src/menus/colors/desaturate/desaturate.xml:29(para)
 msgid ""
-"This command only works on layers of <link linkend=\"glossary-rgb\">RGB</"
-"link> images. If the image is in Grayscale or Indexed mode, it can do "
-"nothing."
+"This command only works on layers of <link linkend=\"glossary-"
+"rgb\">RGB</link> images. If the image is in Grayscale or Indexed mode, it "
+"can do nothing."
 msgstr ""
-"Este comando só funciona em camadas de imagens <link linkend=\"glossary-rgb"
-"\">RGB</link>. Se a imagem estiver no modo Tons de Cinza ou Indexada, ele "
-"não consegue fazer nada."
-
-#: src/menus/colors/desaturate/desaturate.xml:37(title)
-#: src/menus/colors/desaturate/color-to-gray.xml:30(title)
-msgid "Activating the Command"
-msgstr "Ativando o Comando"
+"Este comando só funciona em camadas de imagens <link linkend=\"glossary-"
+"rgb\">RGB</link>. Se a imagem estiver no modo Tons de Cinza ou Indexada, ele"
+" não consegue fazer nada."
 
 #: src/menus/colors/desaturate/desaturate.xml:38(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Desaturate…</guimenuitem></menuchoice>."
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
-"guisubmenu><guimenuitem>Desaturate…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Desaturate…</guimenuitem></menuchoice>."
 msgstr ""
 "Você pode acessar este comando pela barra de menus da imagem em "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Dessaturar</"
-"guisubmenu><guimenuitem>Dessaturar…</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Dessaturar</guisubmenu><guimenuitem>Dessaturar…</guimenuitem></menuchoice>."
 
 #: src/menus/colors/desaturate/desaturate.xml:51(title)
 msgid "The <quote>Desaturate</quote> option dialog"
@@ -338,91 +391,91 @@ msgstr ""
 "<guilabel>Modo:</guilabel> Cinco opções são disponibilizadas para converter "
 "de colorido para preto-e-branco:"
 
-#: src/menus/colors/desaturate/desaturate.xml:63(link)
+#: src/menus/colors/desaturate/desaturate.xml:73(link)
 msgid "Luminance"
 msgstr "Luminância"
 
-#: src/menus/colors/desaturate/desaturate.xml:66(para)
+#: src/menus/colors/desaturate/desaturate.xml:76(para)
 msgid ""
-"The shades of gray will be calculated using <ulink url=\"http://"
-"brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html\"> linearized sRGB</ulink> "
-"as"
+"The shades of gray will be calculated using <ulink "
+"url=\"http://brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html\"> linearized"
+" sRGB</ulink> as"
 msgstr ""
-"Os tons de cinza serão calculados usando-se <ulink url=\"http://"
-"brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html\">sRGB linearizado</ulink> "
-"como"
+"Os tons de cinza serão calculados usando-se <ulink "
+"url=\"http://brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html\">sRGB "
+"linearizado</ulink> como"
 
-#: src/menus/colors/desaturate/desaturate.xml:73(phrase)
+#: src/menus/colors/desaturate/desaturate.xml:83(phrase)
 msgid "Luminance = (0.22 &times; R) + (0.72 &times; G) + (0.06 &times; B)"
 msgstr "Luminância = (0,22 &times; R) + (0,72 &times; G) + (0,06 &times; B)"
 
-#: src/menus/colors/desaturate/desaturate.xml:85(link)
+#: src/menus/colors/desaturate/desaturate.xml:95(link)
 msgid "Luma"
 msgstr "Luma"
 
-#: src/menus/colors/desaturate/desaturate.xml:87(para)
+#: src/menus/colors/desaturate/desaturate.xml:97(para)
 msgid "The shades of gray will be calculated using non-linearized sRGB"
 msgstr "Os tons de cinza serão calculados usando-se sRGB não-linearizado"
 
-#: src/menus/colors/desaturate/desaturate.xml:92(phrase)
+#: src/menus/colors/desaturate/desaturate.xml:102(phrase)
 msgid "Luma = (0.22 &times; R) + (0.72 &times; G) + (0.06 &times; B)"
 msgstr "Luma = (0,22 &times; R) + (0,72 &times; G) + (0,06 &times; B)"
 
-#: src/menus/colors/desaturate/desaturate.xml:102(link)
+#: src/menus/colors/desaturate/desaturate.xml:112(link)
 msgid "Lightness (HSL)"
 msgstr "Luminosidade (HSL)"
 
-#: src/menus/colors/desaturate/desaturate.xml:105(para)
-#: src/menus/colors/desaturate/desaturate.xml:122(para)
-#: src/menus/colors/desaturate/desaturate.xml:138(para)
+#: src/menus/colors/desaturate/desaturate.xml:115(para)
+#: src/menus/colors/desaturate/desaturate.xml:132(para)
+#: src/menus/colors/desaturate/desaturate.xml:148(para)
 msgid "The shades of gray will be calculated as"
 msgstr "Os tons de cinza serão calculados como"
 
-#: src/menus/colors/desaturate/desaturate.xml:109(phrase)
+#: src/menus/colors/desaturate/desaturate.xml:119(phrase)
 msgid "Lightness (HSL) = &frac12;&times; (max(R,G,B) + min(R,G,B))"
 msgstr "Luminosidade (HSL) = &frac12;&times; (máx(R,G,B) + mín(R,G,B))"
 
-#: src/menus/colors/desaturate/desaturate.xml:119(link)
+#: src/menus/colors/desaturate/desaturate.xml:129(link)
 msgid "Average (HSI Intensity)"
 msgstr "Média (Intensidade HSI)"
 
-#: src/menus/colors/desaturate/desaturate.xml:126(phrase)
+#: src/menus/colors/desaturate/desaturate.xml:136(phrase)
 msgid "Average (HSI Intensity) = (R + G + B) &divide; 3"
 msgstr "Média (Intensidade HSI) = (R+G+B) &divide; 3"
 
-#: src/menus/colors/desaturate/desaturate.xml:135(link)
+#: src/menus/colors/desaturate/desaturate.xml:145(link)
 msgid "Value (HSV)"
 msgstr "Valor (HSV)"
 
-#: src/menus/colors/desaturate/desaturate.xml:142(phrase)
+#: src/menus/colors/desaturate/desaturate.xml:152(phrase)
 msgid "Value (HSV) = max(R,G,B)"
 msgstr "Valor (HSV) = máx(R,G,B)"
 
-#: src/menus/colors/desaturate/desaturate.xml:153(title)
+#: src/menus/colors/desaturate/desaturate.xml:163(title)
 msgid ""
-"Using the five modes to convert two very different color images to black and "
-"white"
+"Using the five modes to convert two very different color images to black and"
+" white"
 msgstr ""
-"Usando os cinco modos para converter duas imagens coloridas muito diferentes "
-"para preto-e-branco"
+"Usando os cinco modos para converter duas imagens coloridas muito diferentes"
+" para preto-e-branco"
 
-#: src/menus/colors/desaturate/desaturate.xml:181(para)
-#: src/menus/colors/desaturate/desaturate.xml:190(para)
+#: src/menus/colors/desaturate/desaturate.xml:189(para)
+#: src/menus/colors/desaturate/desaturate.xml:198(para)
 msgid "<quote>Luminance</quote> applied"
 msgstr "<quote>Luminância</quote> aplicada"
 
-#: src/menus/colors/desaturate/desaturate.xml:201(para)
-#: src/menus/colors/desaturate/desaturate.xml:212(para)
+#: src/menus/colors/desaturate/desaturate.xml:207(para)
+#: src/menus/colors/desaturate/desaturate.xml:218(para)
 msgid "<quote>Luma</quote> applied."
 msgstr "<quote>Luma</quote> aplicada."
 
-#: src/menus/colors/desaturate/desaturate.xml:225(para)
-#: src/menus/colors/desaturate/desaturate.xml:236(para)
+#: src/menus/colors/desaturate/desaturate.xml:229(para)
+#: src/menus/colors/desaturate/desaturate.xml:240(para)
 msgid "<quote>Lightness (HSL)</quote> applied."
 msgstr "<quote>Luminosidade (HSL)</quote> aplicada."
 
-#: src/menus/colors/desaturate/desaturate.xml:249(para)
-#: src/menus/colors/desaturate/desaturate.xml:260(para)
+#: src/menus/colors/desaturate/desaturate.xml:251(para)
+#: src/menus/colors/desaturate/desaturate.xml:262(para)
 msgid "<quote>Average (HSI Intensity)</quote> applied."
 msgstr "<quote>Média (Intensidade HSI)</quote> aplicada."
 
@@ -470,8 +523,8 @@ msgstr ""
 
 #: src/menus/colors/desaturate/desaturate.xml:322(para)
 msgid ""
-"The hues (for example yellows vs reds) of the various saturated colors in an "
-"image also make a difference."
+"The hues (for example yellows vs reds) of the various saturated colors in an"
+" image also make a difference."
 msgstr ""
 "Os matizes (por exemplo, amarelos vs. vermelhos) das várias cores saturadas "
 "em uma imagem também fazem diferença."
@@ -483,10 +536,10 @@ msgid ""
 "image, and also lighter than all the other ways to convert to black and "
 "white."
 msgstr ""
-"Sendo o máximo dos valores dos canais RGB para cada pixel, uma conversão por "
-"Valor HSV para preto-e-branco é sempre mais clara do que a imagem colorida "
-"original, e também mais clara do que todos os outros modos de conversão para "
-"preto-e-branco."
+"Sendo o máximo dos valores dos canais RGB para cada pixel, uma conversão por"
+" Valor HSV para preto-e-branco é sempre mais clara do que a imagem colorida "
+"original, e também mais clara do que todos os outros modos de conversão para"
+" preto-e-branco."
 
 #: src/menus/colors/desaturate/desaturate.xml:338(para)
 msgid "Comparing the red globe to the yellow sunflower:"
@@ -532,8 +585,8 @@ msgstr "Mais informação sobre Luminância:"
 
 #: src/menus/colors/desaturate/desaturate.xml:374(para)
 msgid ""
-"\"Luminance\" is the only physically meaningful way to convert a color image "
-"to black and white, as the resulting black and white image has the same "
+"\"Luminance\" is the only physically meaningful way to convert a color image"
+" to black and white, as the resulting black and white image has the same "
 "relative luminance (reflects the same percentage of light from the various "
 "shades of gray) as the colors in the original color image."
 msgstr ""
@@ -549,22 +602,28 @@ msgstr "Luminância deve ser calculada usando-se valores RGB linearizados."
 #: src/menus/colors/desaturate/desaturate.xml:388(para)
 msgid ""
 "For convenience we say \"Luminance\", but what we really mean is \"Relative "
-"Luminance\". For more information, see <ulink url=\"https://en.wikipedia.org/"
-"wiki/Relative_luminance\">Relative Luminance</ulink> and <ulink url="
-"\"https://en.wikipedia.org/wiki/CIE_1931_color_space#Meaning_of_X,_Y_and_Z"
-"\"> CIE 1931 [XYZ] color space</ulink>."
+"Luminance\". For more information, see <ulink "
+"url=\"https://en.wikipedia.org/wiki/Relative_luminance\">Relative "
+"Luminance</ulink> and <ulink "
+"url=\"https://en.wikipedia.org/wiki/CIE_1931_color_space#Meaning_of_X,_Y_and_Z\">"
+" CIE 1931 [XYZ] color space</ulink>."
 msgstr ""
 "Por conveniência, dizemos \"Luminância\", mas, na verdade, queremos dizer "
-"\"Luminância Relativa\". Para mais informação, veja <ulink url=\"https://en."
-"wikipedia.org/wiki/Relative_luminance\">Luminância Relativa</ulink> e <ulink "
-"url=\"https://en.wikipedia.org/wiki/CIE_1931_color_space#Meaning_of_X,"
-"_Y_and_Z\"> Espaço de cores CIE 1931 [XYZ]</ulink>."
+"\"Luminância Relativa\". Para mais informação, veja <ulink "
+"url=\"https://en.wikipedia.org/wiki/Relative_luminance\">Luminância "
+"Relativa</ulink> e <ulink "
+"url=\"https://en.wikipedia.org/wiki/CIE_1931_color_space#Meaning_of_X,_Y_and_Z\">"
+" Espaço de cores CIE 1931 [XYZ]</ulink>."
 
 #: src/menus/colors/desaturate/desaturate.xml:398(para)
+#| msgid ""
+#| "GIMP 2.10 uses hard-coded sRGB values to do Luminance conversions to black "
+#| "and white. \"Future GIMP\" will support correct conversions for images in "
+#| "other color spaces."
 msgid ""
-"GIMP 2.10 uses hard-coded sRGB values to do Luminance conversions to black "
-"and white. \"Future GIMP\" will support correct conversions for images in "
-"other color spaces."
+"GIMP uses hard-coded sRGB values to do Luminance conversions to black and "
+"white. \"Future GIMP\" will support correct conversions for images in other "
+"color spaces."
 msgstr ""
 "GIMP 2.10 usa valores sRGB definidos diretamente no código-fonte para fazer "
 "conversões por Luminância para preto-e-branco. O \"GIMP do futuro\" "
@@ -575,89 +634,98 @@ msgid "More information about Luma:"
 msgstr "Mais informação sobre Luma:"
 
 #: src/menus/colors/desaturate/desaturate.xml:412(para)
+#| msgid ""
+#| "\"Luma\" is what you get if you use the formula for Luminance on RGB values "
+#| "that haven't been properly linearized. Luma corresponds to GIMP 2.8's "
+#| "\"Luminosity\" method of converting to black and white."
 msgid ""
 "\"Luma\" is what you get if you use the formula for Luminance on RGB values "
-"that haven't been properly linearized. Luma corresponds to GIMP 2.8's "
-"\"Luminosity\" method of converting to black and white."
+"that haven't been properly linearized."
 msgstr ""
-"\"Luma\" é o que você obtém se usar a fórmula da Luminância em valores RGB "
-"que não foram apropriadamente linearizados. Luma corresponde ao método "
-"\"Luminosidade\" do GIMP 2.8 para conversão em preto-e-branco."
+"\"Luma\" é o que você obtém se usar a fórmula de Luminância em valores RGB "
+"que não foram linearizados corretamente."
 
-#: src/menus/colors/desaturate/desaturate.xml:420(para)
+#: src/menus/colors/desaturate/desaturate.xml:418(para)
+#| msgid ""
+#| "Compared to GIMP 2.8, GIMP 2.10's \"Luma\" option uses slightly different "
+#| "multipliers. Unlike the GIMP 2.8 multipliers, the GIMP 2.10 multipliers have"
+#| " been properly Bradford-adapted from D65 to D50, which is required for use "
+#| "in an ICC profile color-managed editing application (at least until the next"
+#| " version of the ICC specs is released and people figure out how to deal with"
+#| " the new freedom to use non-D50 reference white points)."
 msgid ""
-"Compared to GIMP 2.8, GIMP 2.10's \"Luma\" option uses slightly different "
-"multipliers. Unlike the GIMP 2.8 multipliers, the GIMP 2.10 multipliers have "
-"been properly Bradford-adapted from D65 to D50, which is required for use in "
-"an ICC profile color-managed editing application (at least until the next "
-"version of the ICC specs is released and people figure out how to deal with "
-"the new freedom to use non-D50 reference white points)."
+"The multipliers have been properly Bradford-adapted to D50, which is "
+"required for use in an ICC profile color-managed editing application (at "
+"least until the next version of the ICC specs is released and people figure "
+"out how to deal with the new freedom to use non-D50 reference white points)."
 msgstr ""
-"Comparado ao GIMP 2.8, a opção \"Luma\" do GIMP 2.10 usa multiplicadores "
-"ligeiramente diferentes. Diferentemente dos multiplicadores do GIMP 2.8, os "
-"do GIMP 2.10 foram apropriadamente adaptados pelo método de Bradford de D65 "
-"para D50, que é requerido para uso em um aplicativo de edição gerenciado por "
-"perfil de cores ICC (pelo menos até a próxima versão das especificações ICC "
-"ser lançada e as pessoas descobrirem como lidar com a nova liberdade para "
-"usar pontos brancos de referência que não sejam D50)."
+"Os multiplicadores foram devidamente adaptados por Bradford a D50, o que é "
+"necessário para uso em um aplicativo de edição com gerenciamento de cor por "
+"perfil ICC (pelo menos até que a próxima versão das especificações ICC seja "
+"lançada e as pessoas descubram como lidar com a nova liberdade de usar "
+"pontos de branco de referência diferentes de D50)."
 
-#: src/menus/colors/desaturate/desaturate.xml:431(para)
+#: src/menus/colors/desaturate/desaturate.xml:427(para)
+#| msgid ""
+#| "GIMP 2.10 uses hard-coded sRGB values to do Luma conversions to black and "
+#| "white. \"Future GIMP\" will support correct conversions for images in other "
+#| "color spaces."
 msgid ""
-"GIMP 2.10 uses hard-coded sRGB values to do Luma conversions to black and "
-"white. \"Future GIMP\" will support correct conversions for images in other "
-"color spaces."
+"<acronym>GIMP</acronym> uses hard-coded sRGB values to do Luma conversions "
+"to black and white. \"Future GIMP\" will support correct conversions for "
+"images in other color spaces."
 msgstr ""
-"GIMP 2.10 usa valores sRGB definidos diretamente no código-fonte para fazer "
-"conversões por Luma para preto-e-branco. O \"GIMP do futuro\" suportará "
-"conversões corretas para imagens em outros espaços de cores."
+"O <acronym>GIMP</acronym> usa valores sRGB fixos para fazer conversões Luma "
+"para preto e branco. O \"GIMP do futuro\" dará suporte a conversões corretas"
+" para imagens em outros espaços de cor."
 
-#: src/menus/colors/desaturate/desaturate.xml:441(emphasis)
+#: src/menus/colors/desaturate/desaturate.xml:437(emphasis)
 msgid "More information about Lightness, Average, and Value:"
 msgstr "Mais informação sobre Luminosidade, Média e Valor:"
 
-#: src/menus/colors/desaturate/desaturate.xml:444(para)
+#: src/menus/colors/desaturate/desaturate.xml:440(para)
 msgid ""
 "The \"Lightness (HSL)\", \"Average (HSI Intensity)\", and \"Value (HSV)\" "
-"ways to convert a color image to black and white use color space models that "
-"were invented for fast processing on consumer-grade computers from the "
-"1990s. For details see <ulink url=\"https://en.wikipedia.org/wiki/HSL_and_HSV"
-"\">HSL and HSV</ulink>, paying particular attention to the section on <ulink "
-"url=\"https://en.wikipedia.org/wiki/HSL_and_HSV#Disadvantages"
-"\">Disadvantages</ulink>."
+"ways to convert a color image to black and white use color space models that"
+" were invented for fast processing on consumer-grade computers from the "
+"1990s. For details see <ulink "
+"url=\"https://en.wikipedia.org/wiki/HSL_and_HSV\">HSL and HSV</ulink>, "
+"paying particular attention to the section on <ulink "
+"url=\"https://en.wikipedia.org/wiki/HSL_and_HSV#Disadvantages\">Disadvantages</ulink>."
 msgstr ""
-"Os modos \"Luminosidade (HSL)\", \"Média (Intensidade HSI)\" e \"Valor (HSV)"
-"\" para converter uma imagem colorida para preto-e-branco usam modelos de "
-"espaços de cores que foram inventados para processamento rápido em "
+"Os modos \"Luminosidade (HSL)\", \"Média (Intensidade HSI)\" e \"Valor "
+"(HSV)\" para converter uma imagem colorida para preto-e-branco usam modelos "
+"de espaços de cores que foram inventados para processamento rápido em "
 "computadores em nível de consumidor dos anos 90. Para detalhes, veja <ulink "
 "url=\"https://en.wikipedia.org/wiki/HSL_and_HSV\">HSL e HSV</ulink>, "
-"prestando atenção em particular à seção em <ulink url=\"https://en.wikipedia."
-"org/wiki/HSL_and_HSV#Disadvantages\">Desvantagens</ulink>."
+"prestando atenção em particular à seção em <ulink "
+"url=\"https://en.wikipedia.org/wiki/HSL_and_HSV#Disadvantages\">Desvantagens</ulink>."
 
-#: src/menus/colors/desaturate/desaturate.xml:455(para)
+#: src/menus/colors/desaturate/desaturate.xml:451(para)
 msgid ""
 "<emphasis>In case you are wondering why LAB Lightness</emphasis> is not "
-"among the options for converting an RGB image to black and white, a properly "
-"calculated conversion from RGB to LAB Lightness, and then back to RGB, "
+"among the options for converting an RGB image to black and white, a properly"
+" calculated conversion from RGB to LAB Lightness, and then back to RGB, "
 "produces exactly the same result as the Luminance conversion to black and "
 "white. Here is why:"
 msgstr ""
-"<emphasis>Caso você esteja se perguntando por que Luminosidade LAB</"
-"emphasis> não está entre as opções para conversão de imagem RGB em preto-e-"
-"branco, uma conversão apropriadamente calculada de RGB para Luminosidade "
-"LAB, e então de volta para RGB, produz exatamente o mesmo resultado que a "
-"conversão por Luminância para preto-e-branco. Eis o porquê:"
+"<emphasis>Caso você esteja se perguntando por que Luminosidade "
+"LAB</emphasis> não está entre as opções para conversão de imagem RGB em "
+"preto-e-branco, uma conversão apropriadamente calculada de RGB para "
+"Luminosidade LAB, e então de volta para RGB, produz exatamente o mesmo "
+"resultado que a conversão por Luminância para preto-e-branco. Eis o porquê:"
 
-#: src/menus/colors/desaturate/desaturate.xml:464(para)
+#: src/menus/colors/desaturate/desaturate.xml:460(para)
 msgid ""
 "In the XYZ color space, Y is Luminance. So if you convert a color RGB image "
-"to XYZ, the \"Y\" of XYZ is the same number as the R=G=B values that you get "
-"when you calculate RGB Luminance."
+"to XYZ, the \"Y\" of XYZ is the same number as the R=G=B values that you get"
+" when you calculate RGB Luminance."
 msgstr ""
 "No espaço de cores XYZ, Y é a Luminância. Então, se você converter uma "
 "imagem colorida em RGB para XYZ, o \"Y\" em XYZ é o mesmo número que os "
 "valores R=G=B que você teria ao calcular Luminância RGB."
 
-#: src/menus/colors/desaturate/desaturate.xml:471(para)
+#: src/menus/colors/desaturate/desaturate.xml:467(para)
 msgid ""
 "LAB is a perceptually uniform transform of XYZ. If you convert from RGB to "
 "XYZ and then to LAB, and set A=B=0.0 (or 0.5 for image editors that put the "
@@ -665,11 +733,11 @@ msgid ""
 "back to XYZ, the X and Z values will change, but Y will not change."
 msgstr ""
 "LAB é uma transformação perceptivamente uniforme de XYZ. Se você converter "
-"de RGB para XYZ e então para LAB, e definir A=B=0,0 (ou 0,5 para editores de "
-"imagem que colocam o ponto médio dos eixos A e B em 0,5 em vez de 0,0), e "
+"de RGB para XYZ e então para LAB, e definir A=B=0,0 (ou 0,5 para editores de"
+" imagem que colocam o ponto médio dos eixos A e B em 0,5 em vez de 0,0), e "
 "então converter de volta para XYZ, os valores X e Z mudarão, mas Y não."
 
-#: src/menus/colors/desaturate/desaturate.xml:480(para)
+#: src/menus/colors/desaturate/desaturate.xml:476(para)
 msgid ""
 "Tutorials that produce anything other than Relative Luminance when "
 "converting an RGB image to black and white using LAB Lightness, very sadly "
@@ -680,15 +748,19 @@ msgstr ""
 "infelizmente estão lidando com diversos erros matemáticos nas rotinas de "
 "conversão."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/color-to-gray.xml:52(None)
+#: src/menus/colors/desaturate/color-to-gray.xml:48(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/desaturate/color-to-gray-dialog.png'; "
+#| "md5=cbbea317bcb80ce4eab2eaf8be06933e"
 msgid ""
 "@@image: 'images/menus/colors/desaturate/color-to-gray-dialog.png'; "
-"md5=cbbea317bcb80ce4eab2eaf8be06933e"
+"md5=e083897034397f5a3fb51039c5035053"
 msgstr ""
 "@@image: 'images/menus/colors/desaturate/color-to-gray-dialog.png'; "
-"md5=cbbea317bcb80ce4eab2eaf8be06933e"
+"md5=e083897034397f5a3fb51039c5035053"
 
 #: src/menus/colors/desaturate/color-to-gray.xml:9(title)
 #: src/menus/colors/desaturate/color-to-gray.xml:13(secondary)
@@ -700,47 +772,47 @@ msgstr "Cor para Cinza"
 #: src/menus/colors/desaturate/color-to-gray.xml:23(para)
 msgid ""
 "This color to grayscale conversion uses envelopes formed with the so-called "
-"<ulink url=\"https://pippin.gimp.org/publications/Kolaas_11_jist_preprint.pdf"
-"\">STRESS</ulink> approach to perform local-difference preserving grayscale "
-"generation."
+"<ulink "
+"url=\"https://pippin.gimp.org/publications/Kolaas_11_jist_preprint.pdf\">STRESS</ulink>"
+" approach to perform local-difference preserving grayscale generation."
 msgstr ""
-"Esta conversão de cor para tons de cinza usa envelopes formados com a tal da "
-"abordagem <ulink url=\"https://pippin.gimp.org/publications/"
-"Kolaas_11_jist_preprint.pdf\">STRESS</ulink> para realizar a geração de tons "
-"de cinza com preservação da diferença local."
+"Esta conversão de cor para tons de cinza usa envelopes formados com a tal da"
+" abordagem <ulink "
+"url=\"https://pippin.gimp.org/publications/Kolaas_11_jist_preprint.pdf\">STRESS</ulink>"
+" para realizar a geração de tons de cinza com preservação da diferença "
+"local."
 
-#: src/menus/colors/desaturate/color-to-gray.xml:33(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:31(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Color"
+#| " to Gray</guimenuitem></menuchoice>."
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
-"guisubmenu><guimenuitem>Color to Gray</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Color"
+" to Gray…</guimenuitem></menuchoice>."
 msgstr ""
 "Você pode acessar este comando pela barra de menus da imagem em "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Dessaturar</"
-"guisubmenu><guimenuitem>Cor para Cinza</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Dessaturar</guisubmenu><guimenuitem>Cor"
+" para Cinza</guimenuitem></menuchoice>."
 
-#: src/menus/colors/desaturate/color-to-gray.xml:48(title)
+#: src/menus/colors/desaturate/color-to-gray.xml:44(title)
 msgid "<quote>Color to Gray</quote> settings"
 msgstr "Configurações de <quote>Cor para Cinza</quote>"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:58(term)
-msgid "Presets"
-msgstr "Pré-configurações"
+#: src/menus/colors/desaturate/color-to-gray.xml:55(term)
+msgid "Input Type"
+msgstr "Tipo de Entrada"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:60(para)
-msgid ""
-"<quote>Presets</quote> are a common feature for several Colors commands. You "
-"can find its description in <xref linkend=\"colors-common-features\"/>."
-msgstr ""
-"<quote>Pré-configurações</quote> são uma funcionalidade comum para vários "
-"comandos de Cores. Você pode ler sobre em <xref linkend=\"colors-common-"
-"features\"/>."
+#: src/menus/colors/desaturate/color-to-gray.xml:56(term)
+msgid "Clipping"
+msgstr "Recorte"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:69(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:67(term)
 msgid "Radius"
 msgstr "Raio"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:71(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:69(para)
 msgid ""
 "Neighborhood taken into account, this is the radius in pixels taken into "
 "account when deciding which colors map to which gray values."
@@ -748,21 +820,21 @@ msgstr ""
 "Vizinhança levada em conta, este é o raio em pixels considerado ao decidir "
 "quais cores mapear para quais valores de cinza."
 
-#: src/menus/colors/desaturate/color-to-gray.xml:79(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:77(term)
 msgid "Samples"
 msgstr "Amostras"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:81(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:79(para)
 msgid "Number of samples to do per iteration looking for the range of colors."
 msgstr ""
 "Número de amostras a retirar por iteração ao procurar pelo intervalo de "
 "cores."
 
-#: src/menus/colors/desaturate/color-to-gray.xml:89(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:87(term)
 msgid "Iterations"
 msgstr "Iterações"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:91(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:89(para)
 msgid ""
 "Number of iterations, a higher number of iterations provides less noisy "
 "results at a computational cost."
@@ -770,27 +842,41 @@ msgstr ""
 "Número de iterações, um número maior providencia resultados com menos ruído "
 "ao custo de processamento."
 
-#: src/menus/colors/desaturate/color-to-gray.xml:99(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:97(term)
 msgid "Enhance Shadows"
 msgstr "Melhorar Sombras"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:101(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:99(para)
 msgid "When enabled details in shadows are boosted at the expense of noise."
 msgstr "Quando ativado, detalhes em sombras são aumentados ao custo de ruído."
 
-#: src/menus/colors/desaturate/color-to-gray.xml:108(term)
-msgid "Blending Options, Preview and Split view"
-msgstr "Opções de Mistura, Pré-Visualização e Visão Dividida"
+#~ msgid "Activating the Filter"
+#~ msgstr "Ativando o filtro"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:110(para)
-msgid ""
-"These are common features described in <xref linkend=\"colors-common-features"
-"\"/>."
-msgstr ""
-"Estas são funcionalidades comuns descritas em <xref linkend=\"colors-common-"
-"features\"/>."
+#~ msgid ""
+#~ "This filter is found in the image window menu under "
+#~ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Sepia…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Este filtro é encontrado no menu da janela de imagem em "
+#~ "<menuchoice><guimenu>Cores</guimenu><guisubmenu>Dessaturar</guisubmenu><guimenuitem>Sépia…</guimenuitem></menuchoice>."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/colors/desaturate/color-to-gray.xml:0(None)
-msgid "translator-credits"
-msgstr "Víttor Paulo Vieira da Costa <vittorpaulovc@gmail.com>, 2023"
+#~ msgid ""
+#~ "<quote>Presets</quote> are a common feature for several Colors commands. You"
+#~ " can find its description in <xref linkend=\"colors-common-features\"/>."
+#~ msgstr ""
+#~ "<quote>Pré-configurações</quote> são uma funcionalidade comum para vários "
+#~ "comandos de Cores. Você pode ler sobre em <xref linkend=\"colors-common-"
+#~ "features\"/>."
+
+#~ msgid "Blending Options, Preview and Split view"
+#~ msgstr "Opções de Mistura, Pré-Visualização e Visão Dividida"
+
+#~ msgid ""
+#~ "These are common features described in <xref linkend=\"colors-common-"
+#~ "features\"/>."
+#~ msgstr ""
+#~ "Estas são funcionalidades comuns descritas em <xref linkend=\"colors-common-"
+#~ "features\"/>."
+
+#~ msgid "translator-credits"
+#~ msgstr "Víttor Paulo Vieira da Costa <vittorpaulovc@gmail.com>, 2023"

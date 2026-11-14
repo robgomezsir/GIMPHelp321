@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help-2 preface\n"
-"POT-Creation-Date: 2023-06-20 04:36+0000\n"
+"POT-Creation-Date: 2026-11-08 00:55-0300\n"
 "PO-Revision-Date: 2023-09-25 14:52-0300\n"
 "Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -27,161 +27,199 @@ msgstr ""
 msgid "Documentation"
 msgstr "Documentação"
 
-#: src/preface/authors.xml:331(term)
+#: src/preface/authors.xml:419(term)
 msgid "Translations"
 msgstr "Traduções"
 
-#: src/preface/authors.xml:340(phrase) src/preface/authors.xml:388(phrase)
-#: src/preface/authors.xml:444(phrase) src/preface/authors.xml:460(phrase)
-#: src/preface/authors.xml:500(phrase) src/preface/authors.xml:548(phrase)
-#: src/preface/authors.xml:596(phrase) src/preface/authors.xml:852(phrase)
-#: src/preface/authors.xml:868(phrase) src/preface/authors.xml:1020(phrase)
-#: src/preface/authors.xml:1092(phrase) src/preface/authors.xml:1100(phrase)
-#: src/preface/authors.xml:1108(phrase) src/preface/authors.xml:1116(phrase)
-#: src/preface/authors.xml:1124(phrase) src/preface/authors.xml:1132(phrase)
-#: src/preface/authors.xml:1140(phrase) src/preface/authors.xml:1156(phrase)
+#: src/preface/authors.xml:428(phrase) src/preface/authors.xml:492(phrase)
+#: src/preface/authors.xml:564(phrase) src/preface/authors.xml:588(phrase)
+#: src/preface/authors.xml:636(phrase) src/preface/authors.xml:692(phrase)
+#: src/preface/authors.xml:748(phrase) src/preface/authors.xml:1060(phrase)
+#: src/preface/authors.xml:1084(phrase) src/preface/authors.xml:1236(phrase)
+#: src/preface/authors.xml:1316(phrase) src/preface/authors.xml:1324(phrase)
+#: src/preface/authors.xml:1332(phrase) src/preface/authors.xml:1348(phrase)
+#: src/preface/authors.xml:1356(phrase) src/preface/authors.xml:1364(phrase)
+#: src/preface/authors.xml:1372(phrase) src/preface/authors.xml:1388(phrase)
 msgid "(German)"
 msgstr "(Alemão)"
 
-#: src/preface/authors.xml:348(phrase) src/preface/authors.xml:436(phrase)
-#: src/preface/authors.xml:732(phrase)
+#: src/preface/authors.xml:436(phrase) src/preface/authors.xml:548(phrase)
+#: src/preface/authors.xml:908(phrase)
 msgid "(Danish)"
 msgstr "(Dinamarquês)"
 
-#: src/preface/authors.xml:356(phrase) src/preface/authors.xml:412(phrase)
-#: src/preface/authors.xml:532(phrase) src/preface/authors.xml:628(phrase)
-#: src/preface/authors.xml:708(phrase) src/preface/authors.xml:932(phrase)
-#: src/preface/authors.xml:1036(phrase)
+#: src/preface/authors.xml:444(phrase) src/preface/authors.xml:516(phrase)
+#: src/preface/authors.xml:676(phrase) src/preface/authors.xml:788(phrase)
+#: src/preface/authors.xml:876(phrase) src/preface/authors.xml:1148(phrase)
+#: src/preface/authors.xml:1260(phrase)
 msgid "(Swedish)"
 msgstr "(Sueco)"
 
-#: src/preface/authors.xml:364(phrase) src/preface/authors.xml:420(phrase)
-#: src/preface/authors.xml:556(phrase) src/preface/authors.xml:828(phrase)
-#: src/preface/authors.xml:836(phrase) src/preface/authors.xml:876(phrase)
-#: src/preface/authors.xml:892(phrase)
-msgid "(Italian)"
-msgstr "(Italiano)"
-
-#: src/preface/authors.xml:372(phrase) src/preface/authors.xml:428(phrase)
-#: src/preface/authors.xml:516(phrase) src/preface/authors.xml:524(phrase)
-#: src/preface/authors.xml:668(phrase) src/preface/authors.xml:700(phrase)
-#: src/preface/authors.xml:812(phrase) src/preface/authors.xml:844(phrase)
-#: src/preface/authors.xml:884(phrase) src/preface/authors.xml:1012(phrase)
-msgid "(Spanish)"
-msgstr "(Espanhol)"
-
-#: src/preface/authors.xml:380(phrase) src/preface/authors.xml:404(phrase)
-#: src/preface/authors.xml:660(phrase) src/preface/authors.xml:756(phrase)
-#: src/preface/authors.xml:916(phrase) src/preface/authors.xml:948(phrase)
-#: src/preface/authors.xml:1028(phrase) src/preface/authors.xml:1076(phrase)
-#: src/preface/authors.xml:1164(phrase) src/preface/authors.xml:1204(phrase)
+#: src/preface/authors.xml:452(phrase) src/preface/authors.xml:484(phrase)
+#: src/preface/authors.xml:508(phrase) src/preface/authors.xml:820(phrase)
+#: src/preface/authors.xml:932(phrase) src/preface/authors.xml:940(phrase)
+#: src/preface/authors.xml:1132(phrase) src/preface/authors.xml:1164(phrase)
+#: src/preface/authors.xml:1244(phrase) src/preface/authors.xml:1300(phrase)
+#: src/preface/authors.xml:1404(phrase) src/preface/authors.xml:1460(phrase)
 msgid "(Russian)"
 msgstr "(Russo)"
 
-#: src/preface/authors.xml:396(phrase) src/preface/authors.xml:476(phrase)
-#: src/preface/authors.xml:764(phrase) src/preface/authors.xml:772(phrase)
-#: src/preface/authors.xml:964(phrase) src/preface/authors.xml:996(phrase)
-#: src/preface/authors.xml:1044(phrase) src/preface/authors.xml:1084(phrase)
+#: src/preface/authors.xml:460(phrase) src/preface/authors.xml:532(phrase)
+#: src/preface/authors.xml:700(phrase) src/preface/authors.xml:1028(phrase)
+#: src/preface/authors.xml:1036(phrase) src/preface/authors.xml:1092(phrase)
+#: src/preface/authors.xml:1108(phrase)
+msgid "(Italian)"
+msgstr "(Italiano)"
+
+#: src/preface/authors.xml:468(phrase) src/preface/authors.xml:540(phrase)
+#: src/preface/authors.xml:660(phrase) src/preface/authors.xml:668(phrase)
+#: src/preface/authors.xml:836(phrase) src/preface/authors.xml:868(phrase)
+#: src/preface/authors.xml:1012(phrase) src/preface/authors.xml:1044(phrase)
+#: src/preface/authors.xml:1100(phrase) src/preface/authors.xml:1228(phrase)
+msgid "(Spanish)"
+msgstr "(Espanhol)"
+
+#: src/preface/authors.xml:476(phrase)
+#| msgid "(Hungarian)"
+msgid "(Bulgarian)"
+msgstr "(búlgaro)"
+
+#: src/preface/authors.xml:500(phrase) src/preface/authors.xml:612(phrase)
+#: src/preface/authors.xml:644(phrase) src/preface/authors.xml:828(phrase)
+#: src/preface/authors.xml:956(phrase) src/preface/authors.xml:964(phrase)
+#: src/preface/authors.xml:1180(phrase) src/preface/authors.xml:1212(phrase)
+#: src/preface/authors.xml:1268(phrase) src/preface/authors.xml:1308(phrase)
+#: src/preface/authors.xml:1396(phrase)
 msgid "(French)"
 msgstr "(Francês)"
 
-#: src/preface/authors.xml:452(phrase)
+#: src/preface/authors.xml:524(phrase)
+#| msgid "Mick Curtis (English)"
+msgid "(British English)"
+msgstr "(inglês britânico)"
+
+#: src/preface/authors.xml:556(phrase)
+#| msgid "(Italian)"
+msgid "(Lithuanian)"
+msgstr "(lituano)"
+
+#: src/preface/authors.xml:572(phrase)
 msgid "(Hungarian)"
 msgstr "(Húngaro)"
 
-#: src/preface/authors.xml:468(phrase) src/preface/authors.xml:572(phrase)
-#: src/preface/authors.xml:620(phrase) src/preface/authors.xml:796(phrase)
-#: src/preface/authors.xml:908(phrase) src/preface/authors.xml:1180(phrase)
-#: src/preface/authors.xml:1188(phrase) src/preface/authors.xml:1212(phrase)
+#: src/preface/authors.xml:580(phrase)
+msgid "(Kazakh)"
+msgstr "(cazaque)"
+
+#: src/preface/authors.xml:596(phrase) src/preface/authors.xml:604(phrase)
+#: src/preface/authors.xml:716(phrase) src/preface/authors.xml:780(phrase)
+#: src/preface/authors.xml:996(phrase) src/preface/authors.xml:1124(phrase)
+#: src/preface/authors.xml:1428(phrase) src/preface/authors.xml:1436(phrase)
+#: src/preface/authors.xml:1468(phrase)
 msgid "(Simplified Chinese)"
 msgstr "(Chinês Simplificado)"
 
-#: src/preface/authors.xml:484(phrase) src/preface/authors.xml:492(phrase)
-#: src/preface/authors.xml:1060(phrase)
+#: src/preface/authors.xml:620(phrase) src/preface/authors.xml:628(phrase)
+#: src/preface/authors.xml:1284(phrase)
 msgid "(Korean)"
 msgstr "(Coreano)"
 
-#: src/preface/authors.xml:508(phrase)
+#: src/preface/authors.xml:652(phrase) src/preface/authors.xml:1476(phrase)
 msgid "(Persian)"
 msgstr "(Persa)"
 
-#: src/preface/authors.xml:540(phrase) src/preface/authors.xml:644(phrase)
+#: src/preface/authors.xml:684(phrase) src/preface/authors.xml:804(phrase)
 msgid "(Romanian)"
 msgstr "(Romeno)"
 
-#: src/preface/authors.xml:564(phrase) src/preface/authors.xml:716(phrase)
+#: src/preface/authors.xml:708(phrase) src/preface/authors.xml:884(phrase)
 msgid "(Czech)"
 msgstr "(Tcheco)"
 
-#: src/preface/authors.xml:580(phrase)
-msgid "(Greek)"
-msgstr "(Grego)"
-
-#: src/preface/authors.xml:588(phrase) src/preface/authors.xml:604(phrase)
-#: src/preface/authors.xml:636(phrase) src/preface/authors.xml:740(phrase)
-#: src/preface/authors.xml:804(phrase) src/preface/authors.xml:980(phrase)
-#: src/preface/authors.xml:1172(phrase)
-msgid "(Brazilian Portuguese)"
-msgstr "(Português Brasileiro)"
-
-#: src/preface/authors.xml:612(phrase) src/preface/authors.xml:748(phrase)
-msgid "(Catalan)"
-msgstr "(Catalão)"
-
-#: src/preface/authors.xml:652(phrase) src/preface/authors.xml:676(phrase)
-#: src/preface/authors.xml:684(phrase) src/preface/authors.xml:820(phrase)
-#: src/preface/authors.xml:924(phrase) src/preface/authors.xml:940(phrase)
-#: src/preface/authors.xml:988(phrase) src/preface/authors.xml:1004(phrase)
+#: src/preface/authors.xml:724(phrase) src/preface/authors.xml:812(phrase)
+#: src/preface/authors.xml:844(phrase) src/preface/authors.xml:852(phrase)
+#: src/preface/authors.xml:1020(phrase) src/preface/authors.xml:1140(phrase)
+#: src/preface/authors.xml:1156(phrase) src/preface/authors.xml:1204(phrase)
+#: src/preface/authors.xml:1220(phrase)
 msgid "(Dutch)"
 msgstr "(Holandês)"
 
-#: src/preface/authors.xml:692(phrase)
+#: src/preface/authors.xml:732(phrase)
+msgid "(Greek)"
+msgstr "(Grego)"
+
+#: src/preface/authors.xml:740(phrase) src/preface/authors.xml:764(phrase)
+#: src/preface/authors.xml:796(phrase) src/preface/authors.xml:916(phrase)
+#: src/preface/authors.xml:948(phrase) src/preface/authors.xml:1004(phrase)
+#: src/preface/authors.xml:1196(phrase) src/preface/authors.xml:1412(phrase)
+#: src/preface/authors.xml:1420(phrase)
+msgid "(Brazilian Portuguese)"
+msgstr "(Português Brasileiro)"
+
+#: src/preface/authors.xml:756(phrase) src/preface/authors.xml:1252(phrase)
+msgid "(Turkish)"
+msgstr "(turco)"
+
+#: src/preface/authors.xml:772(phrase) src/preface/authors.xml:924(phrase)
+msgid "(Catalan)"
+msgstr "(Catalão)"
+
+#: src/preface/authors.xml:860(phrase)
 msgid "(Portuguese)"
 msgstr "(Português)"
 
-#: src/preface/authors.xml:724(phrase) src/preface/authors.xml:1068(phrase)
-msgid "(Japanese)"
-msgstr "(Japonês)"
-
-#: src/preface/authors.xml:780(phrase) src/preface/authors.xml:788(phrase)
-msgid "(Norwegian Nynorsk)"
-msgstr "(Nynorsk Norueguês)"
-
-#: src/preface/authors.xml:860(phrase)
-msgid "(Slovenian)"
-msgstr "(Esloveno)"
-
-#: src/preface/authors.xml:900(phrase) src/preface/authors.xml:1052(phrase)
-msgid "(Croatian)"
-msgstr "(Croata)"
-
-#: src/preface/authors.xml:956(phrase) src/preface/authors.xml:972(phrase)
-msgid "(Polish)"
-msgstr "(Polonês)"
-
-#: src/preface/authors.xml:1148(phrase)
+#: src/preface/authors.xml:892(phrase) src/preface/authors.xml:1380(phrase)
 msgid "(Finnish)"
 msgstr "(Finlandês)"
 
-#: src/preface/authors.xml:1196(phrase)
+#: src/preface/authors.xml:900(phrase) src/preface/authors.xml:1292(phrase)
+#: src/preface/authors.xml:1340(phrase) src/preface/authors.xml:1444(phrase)
+msgid "(Japanese)"
+msgstr "(Japonês)"
+
+#: src/preface/authors.xml:972(phrase) src/preface/authors.xml:980(phrase)
+msgid "(Norwegian Nynorsk)"
+msgstr "(Nynorsk Norueguês)"
+
+#: src/preface/authors.xml:988(phrase)
+msgid "(Esperanto)"
+msgstr "(esperanto)"
+
+#: src/preface/authors.xml:1052(phrase)
+#| msgid "(Persian)"
+msgid "(Serbian)"
+msgstr "(sérvio)"
+
+#: src/preface/authors.xml:1068(phrase)
+msgid "(Slovenian)"
+msgstr "(Esloveno)"
+
+#: src/preface/authors.xml:1076(phrase) src/preface/authors.xml:1172(phrase)
+#: src/preface/authors.xml:1188(phrase)
+msgid "(Polish)"
+msgstr "(Polonês)"
+
+#: src/preface/authors.xml:1116(phrase) src/preface/authors.xml:1276(phrase)
+msgid "(Croatian)"
+msgstr "(Croata)"
+
+#: src/preface/authors.xml:1452(phrase)
 msgid "(Ukrainian)"
 msgstr "(Ucraniano)"
 
-#: src/preface/authors.xml:1218(term)
+#: src/preface/authors.xml:1482(term)
 msgid "Graphics, Stylesheets"
 msgstr "Gráficos, Folhas de estilo"
 
-#: src/preface/authors.xml:1257(term)
+#: src/preface/authors.xml:1521(term)
 msgid "Build System, Technical Contributions"
 msgstr "Sistema de compilação, contribuições técnicas"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/preface/authors.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Willer Gomes Júnior <willer@ogomes.com>, 2012\n"
-"Enrico Nicoletto <liverig@gmail.com>, 2013\n"
-"Víttor Paulo Vieira da Costa <vittorpaulovc@gmail.com>, 2023"
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Willer Gomes Júnior <willer@ogomes.com>, 2012\n"
+#~ "Enrico Nicoletto <liverig@gmail.com>, 2013\n"
+#~ "Víttor Paulo Vieira da Costa <vittorpaulovc@gmail.com>, 2023"
 
 #~ msgid "Content Writers"
 #~ msgstr "Escritores de conteúdo"
@@ -440,9 +478,6 @@ msgstr ""
 
 #~ msgid "Grigory Bakunov (Russian)"
 #~ msgstr "Grigory Bakunov (Russo)"
-
-#~ msgid "Mick Curtis (English)"
-#~ msgstr "Mick Curtis (Inglês)"
 
 #~ msgid "Pierre PERRIER (French)"
 #~ msgstr "Pierre PERRIER (Francês)"

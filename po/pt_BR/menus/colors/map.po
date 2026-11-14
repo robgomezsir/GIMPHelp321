@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help-2 menus~colors~map\n"
-"POT-Creation-Date: 2013-12-02 09:40-0200\n"
+"POT-Creation-Date: 2026-11-08 00:49-0300\n"
 "PO-Revision-Date: 2014-01-23 01:48-0200\n"
 "Last-Translator: Joao S. O. Bueno <gwidion@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -19,12 +19,122 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 1.4\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/alienmap2.xml:30(None)
+#: src/menus/colors/map/set-colormap.xml:23(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/map/set-colormap.png'; "
+#| "md5=1644f6412141486bf20c4ad9fe20e9fd"
+msgid ""
+"@@image: 'images/menus/colors/map/set-colormap.png'; "
+"md5=b4f6dec5c215746b48d112851ebeb0a0"
+msgstr ""
+"@@image: 'images/menus/colors/map/set-colormap.png'; "
+"md5=b4f6dec5c215746b48d112851ebeb0a0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/map/set-colormap.xml:38(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/map/select-palette.png'; "
+#| "md5=e5ef8829936d4e436c84bc515de8299d"
+msgid ""
+"@@image: 'images/menus/colors/map/select-palette.png'; "
+"md5=5d9eaa0734d8ea8ff7fab5e947d5f86c"
+msgstr ""
+"@@image: 'images/menus/colors/map/select-palette.png'; "
+"md5=5d9eaa0734d8ea8ff7fab5e947d5f86c"
+
+#: src/menus/colors/map/set-colormap.xml:8(title)
+#: src/menus/colors/map/set-colormap.xml:15(primary)
+msgid "Set Colormap"
+msgstr "Especifica o mapa de cores"
+
+#: src/menus/colors/map/set-colormap.xml:11(primary)
+#: src/menus/colors/map/rearrange-colormap.xml:11(primary)
+msgid "Colormap"
+msgstr "Mapa de cores"
+
+#: src/menus/colors/map/set-colormap.xml:12(secondary)
+msgid "Set"
+msgstr "Definir"
+
+#: src/menus/colors/map/set-colormap.xml:19(title)
+msgid "The <quote>Set Colormap</quote> window"
+msgstr "A janela <quote>Específica o mapa de cores</quote>"
+
+#: src/menus/colors/map/set-colormap.xml:27(para)
+msgid ""
+"This command opens a dialog which allows you to select another palette to "
+"replace the color map of your indexed image. First click in the button with "
+"the name of the current palette (which is not the color map of your image "
+"yet) to open the Palette Selector:"
+msgstr ""
+"Este comando abre uma caixa de dialogo na qual você poderá alterar a cor de "
+"sua imagem indexada através de uma paleta de cores. Primeiro clique no botão"
+" com o nome da paleta de cores atual (que não é o seu mapa de cores de sua "
+"imagem ainda) para abrir o seu seletor de paletas:"
+
+#: src/menus/colors/map/set-colormap.xml:34(title)
+msgid "The <quote>Palette Selection</quote> dialog"
+msgstr "A caixa de dialogo <quote>Seleção de Paleta</quote>"
+
+#: src/menus/colors/map/set-colormap.xml:42(para)
+#| msgid ""
+#| "Once you have chosen the wanted palette, click the <guibutton>OK</guibutton>"
+#| " button in the <quote>Set Palette</quote> dialog to replace the image "
+#| "colormap."
+msgid ""
+"Choose the palette you want to use from this list and then click the "
+"<guibutton>Close</guibutton> button in that dialog, followed by the "
+"<guibutton>OK</guibutton> button in the <quote>Set Colormap</quote> dialog "
+"to replace the image colormap."
+msgstr ""
+"Escolha a paleta que deseja usar nesta lista e clique no botão "
+"<guibutton>Fechar</guibutton> dessa caixa de diálogo, seguido do botão "
+"<guibutton>OK</guibutton> na caixa de diálogo <quote>Definir mapa de "
+"cores</quote> para substituir o mapa de cores da imagem."
+
+#: src/menus/colors/map/set-colormap.xml:49(para)
+#: src/menus/colors/map/rearrange-colormap.xml:35(para)
+msgid "If your image is not indexed, this command is disabled."
+msgstr "Se sua imagem não for indexada, este comando fica desabilitado."
+
+#: src/menus/colors/map/set-colormap.xml:55(title)
+#: src/menus/colors/map/sample-colorize.xml:53(title)
+#: src/menus/colors/map/rearrange-colormap.xml:41(title)
+#: src/menus/colors/map/palettemap.xml:35(title)
+#: src/menus/colors/map/gradientmap.xml:60(title)
+#: src/menus/colors/map/color-rotate.xml:48(title)
+#: src/menus/colors/map/color-exchange.xml:51(title)
+#: src/menus/colors/map/alien-map.xml:45(title)
+#| msgid "Activate the command"
+msgid "Activating the Command"
+msgstr "Ativar o comando"
+
+#: src/menus/colors/map/set-colormap.xml:56(para)
+#| msgid ""
+#| "This command is found in the image window menu under "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Set"
+#| " Colormap</guimenuitem></menuchoice>."
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Set"
+" Colormap…</guimenuitem></menuchoice>."
+msgstr ""
+"Este comando se encontra na janela de Imagem, no menu "
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</guisubmenu><guimenuitem>Especifica"
+" o mapa de cores</guimenuitem></menuchoice>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/map/sample-colorize.xml:30(None)
-#: src/menus/colors/map/rotate-colormap.xml:30(None)
-#: src/menus/colors/map/exchange.xml:31(None)
+#: src/menus/colors/map/color-rotate.xml:23(None)
+#: src/menus/colors/map/color-exchange.xml:25(None)
+#: src/menus/colors/map/alien-map.xml:23(None)
 msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
@@ -32,187 +142,421 @@ msgstr ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/alienmap2.xml:39(None)
+#: src/menus/colors/map/sample-colorize.xml:39(None)
 msgid ""
-"@@image: 'images/filters/examples/color-taj-alien2.jpg'; "
-"md5=b8f6eaff369300062d0be069768bdb7c"
+"@@image: 'images/filters/examples/color-taj-sample-colorize.jpg'; "
+"md5=87f37e02e38b00be18f65dd42be563a6"
 msgstr ""
-"@@image: 'images/filters/examples/color-taj-alien2.jpg'; "
-"md5=b8f6eaff369300062d0be069768bdb7c"
+"@@image: 'images/filters/examples/color-taj-sample-colorize.jpg'; "
+"md5=87f37e02e38b00be18f65dd42be563a6"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/alienmap2.xml:72(None)
+#: src/menus/colors/map/sample-colorize.xml:71(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/map/samplecolorize.png'; "
+#| "md5=cce523dd28227e467863e75e69c217a9"
 msgid ""
-"@@image: 'images/menus/colors/map/alienmap.png'; "
-"md5=45177a5f3c7e57b1c2916488fb12cef4"
+"@@image: 'images/menus/colors/map/samplecolorize.png'; "
+"md5=601e1a2f776123e84a4dcdf523e1b40f"
 msgstr ""
-"@@image: 'images/menus/colors/map/alienmap.png'; "
-"md5=45177a5f3c7e57b1c2916488fb12cef4"
+"@@image: 'images/menus/colors/map/samplecolorize.png'; "
+"md5=601e1a2f776123e84a4dcdf523e1b40f"
 
-#: src/menus/colors/map/alienmap2.xml:13(title)
-#: src/menus/colors/map/alienmap2.xml:17(secondary)
-#: src/menus/colors/map/alienmap2.xml:20(primary)
-msgid "Alien Map"
-msgstr "Mapeamento alien"
+#: src/menus/colors/map/sample-colorize.xml:13(title)
+#: src/menus/colors/map/sample-colorize.xml:17(secondary)
+#: src/menus/colors/map/sample-colorize.xml:20(primary)
+msgid "Sample Colorize"
+msgstr "Colorizar a partir de amostra"
 
-#: src/menus/colors/map/alienmap2.xml:16(primary)
-#: src/menus/colors/map/palettemap.xml:9(primary)
 #: src/menus/colors/map/sample-colorize.xml:16(primary)
-#: src/menus/colors/map/rotate-colormap.xml:16(primary)
+#: src/menus/colors/map/palettemap.xml:9(primary)
 #: src/menus/colors/map/gradientmap.xml:17(primary)
-#: src/menus/colors/map/exchange.xml:17(primary)
+#: src/menus/colors/map/color-rotate.xml:9(primary)
+#: src/menus/colors/map/color-exchange.xml:11(primary)
+#: src/menus/colors/map/alien-map.xml:9(primary)
 msgid "Colors"
 msgstr "Cores"
 
-#: src/menus/colors/map/alienmap2.xml:24(title)
-#: src/menus/colors/map/palettemap.xml:18(title)
 #: src/menus/colors/map/sample-colorize.xml:24(title)
-#: src/menus/colors/map/rotate-colormap.xml:24(title)
+#: src/menus/colors/map/palettemap.xml:18(title)
 #: src/menus/colors/map/gradientmap.xml:26(title)
-#: src/menus/colors/map/exchange.xml:25(title)
+#: src/menus/colors/map/color-rotate.xml:17(title)
+#: src/menus/colors/map/color-exchange.xml:19(title)
+#: src/menus/colors/map/alien-map.xml:17(title)
 msgid "Overview"
 msgstr "Visão geral"
 
-#: src/menus/colors/map/alienmap2.xml:26(title)
-msgid "Alien Map filter example"
-msgstr "Exemplo do filtro Mapeamento alien"
+#: src/menus/colors/map/sample-colorize.xml:26(title)
+msgid "Example for the <quote>Sample Colorize</quote> filter"
+msgstr "Exemplo para o filtro <quote>Colorizar a partir de amostra </quote> "
 
-#: src/menus/colors/map/alienmap2.xml:33(para)
 #: src/menus/colors/map/sample-colorize.xml:33(para)
-#: src/menus/colors/map/rotate-colormap.xml:32(para)
-#: src/menus/colors/map/exchange.xml:34(para)
+#: src/menus/colors/map/color-rotate.xml:25(para)
+#: src/menus/colors/map/color-exchange.xml:28(para)
+#: src/menus/colors/map/alien-map.xml:26(para)
 msgid "Original image"
 msgstr "Imagem original"
 
-#: src/menus/colors/map/alienmap2.xml:42(para)
-#: src/menus/colors/map/exchange.xml:43(para)
-msgid "Filter applied"
-msgstr "Filtro aplicado"
+#: src/menus/colors/map/sample-colorize.xml:42(para)
+msgid "Filter <quote>Sample Colorize</quote> applied"
+msgstr "Fitro <quote>Colorizar a partir de amostra </quote> aplicado"
 
-#: src/menus/colors/map/alienmap2.xml:46(para)
+#: src/menus/colors/map/sample-colorize.xml:46(para)
 msgid ""
-"This filter renders very modified colors by applying trigonometric "
-"functions. Alien Map can work on images having <link linkend=\"glossary-"
-"colormodel\">RGB and HSV</link> color models."
+"This filter allows you to colorize old black-and-white images by mapping a "
+"color source image or a gradient against it."
 msgstr ""
-"Este filtro produz cores bem modificadas, usando como base a aplicação de "
-"funções trigonométricas. O Mapeamento alien pode trabalhar com imagens "
-"usando os modelos de cor: <link linkend=\"glossary-colormodel\">RGB e HSL</"
-"link>"
+"Este filtro permite que você colorize uma imagem antiga, ou  preto e branco,"
+" mapeando as cores a partir de uma outra imagem,  ou de um degradê!"
 
-#: src/menus/colors/map/alienmap2.xml:54(title)
-#: src/menus/colors/map/palettemap.xml:38(title)
-#: src/menus/colors/map/sample-colorize.xml:59(title)
-#: src/menus/colors/map/gradientmap.xml:60(title)
-#: src/menus/colors/map/exchange.xml:51(title)
-msgid "Activate the filter"
-msgstr "Ativar o filtro"
-
-#: src/menus/colors/map/alienmap2.xml:55(para)
+#: src/menus/colors/map/sample-colorize.xml:54(para)
+#| msgid ""
+#| "You can access this filter in the image window menu under "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette"
+#| " Map</guimenuitem></menuchoice>."
 msgid ""
-"You can find this filter in the image window menu under "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Alien Map</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Sample"
+" Colorize…</guimenuitem></menuchoice>."
 msgstr ""
-"Você pode encontrar este filtro na janela de imagem, no menu "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</"
-"guisubmenu><guimenuitem>Mapeamento Alien</guimenuitem></menuchoice>."
+"Você pode acessar este comando no menu principal em "
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</guisubmenu><guimenuitem>Colorir"
+" por amostragem…</guimenuitem></menuchoice>."
 
-#: src/menus/colors/map/alienmap2.xml:66(title)
-#: src/menus/colors/map/sample-colorize.xml:71(title)
-#: src/menus/colors/map/exchange.xml:63(title)
+#: src/menus/colors/map/sample-colorize.xml:65(title)
+#: src/menus/colors/map/color-rotate.xml:60(title)
+#: src/menus/colors/map/color-exchange.xml:63(title)
+#: src/menus/colors/map/alien-map.xml:57(title)
 msgid "Options"
 msgstr "Opções"
 
-#: src/menus/colors/map/alienmap2.xml:68(title)
-msgid "Options for the <quote>Alien Map</quote> filter"
-msgstr "Opções para o filtro <quote>Mapeamento alien</quote> "
+#: src/menus/colors/map/sample-colorize.xml:67(title)
+msgid "Options of the <quote>Sample Colorize</quote> filter"
+msgstr "Opções para o filtro <quote>Colorizar a partir de amostra </quote> "
 
-#: src/menus/colors/map/alienmap2.xml:78(term)
-#: src/menus/colors/map/exchange.xml:75(term)
-msgid "Preview"
-msgstr "Pré-visualização"
-
-#: src/menus/colors/map/alienmap2.xml:80(para)
-msgid "This preview displays results of filter application interactively."
-msgstr ""
-"Esta pré-visualização exibe os resultados da aplicação do filtro "
-"interativamente."
-
-#: src/menus/colors/map/alienmap2.xml:86(term)
-msgid "Mode"
-msgstr "Modo"
-
-#: src/menus/colors/map/alienmap2.xml:88(para)
+#: src/menus/colors/map/sample-colorize.xml:75(para)
 msgid ""
-"Radio buttons <guilabel>RGB Color Channel</guilabel> and <guilabel>HSV Color "
-"Channel</guilabel> let you select the color space you want to use."
+"The filter window is divided into two parts: Destination on the left, "
+"Sampling on the right."
 msgstr ""
-"Estes botões <guilabel>Modelo de cores RGB </guilabel> e <guilabel>Modelo de "
-"cores HSL</guilabel> permitem que você selecione o espaço de cor que você "
-"deseja usar."
+"Este filtro é dividido em duas partes: A imagem de destino a esquerda, e a "
+"amostra a direita"
 
-#: src/menus/colors/map/alienmap2.xml:93(para)
+#: src/menus/colors/map/sample-colorize.xml:81(term)
+#| msgid "Destination, Sample"
+msgid "Destination"
+msgstr "Destino"
+
+#: src/menus/colors/map/sample-colorize.xml:82(term)
+#| msgid "Example"
+msgid "Sample"
+msgstr "Amostra"
+
+#: src/menus/colors/map/sample-colorize.xml:84(para)
 msgid ""
-"Check boxes <guilabel>Modify ... Channel</guilabel> let you select RGB/HSV "
-"Channel you want to work with."
+"By default, displayed image previews reproduce the image you invoked the "
+"filter from."
 msgstr ""
-"Caixas de seleção <guilabel>Modificar canal ...</guilabel> Permite "
-"selecionar os canais RGB/HSL em que você deseja trabalhar."
+"Por padrão, a pré-visualização da imagem reproduz a imagem que estava ativa "
+"quando você invocou o filtro"
 
-#: src/menus/colors/map/alienmap2.xml:100(term)
-msgid "Sliders"
-msgstr "Controles deslizantes"
-
-#: src/menus/colors/map/alienmap2.xml:102(para)
+#: src/menus/colors/map/sample-colorize.xml:88(para)
+#| msgid ""
+#| "<guilabel>The sample</guilabel> can be the whole preview, or a selection of "
+#| "this preview. With the drop list, you can select another sample-image among "
+#| "the names of images present on your screen when you called the filter. If "
+#| "you choose <guilabel>From Gradient</guilabel> (or <guilabel>From Inverse "
+#| "Gradient</guilabel>), the selected gradient in Gradient Dialog (or its "
+#| "inverse) will be the sample. It will be displayed into the gradient bar "
+#| "below the sample preview. The sampling preview is greyed out and two cursors"
+#| " allow you to select the gradient range that will be applied to the image or"
+#| " selection."
 msgid ""
-"For each channel, you can set Frequency (0-5) and Phaseshift (0-360) of sine-"
-"cosine functions, using either sliders or input boxes and their arrowheads."
+"<guilabel>The sample</guilabel> can be the whole preview, or a selection of "
+"this preview. With the drop list, you can select another sample-image among "
+"the names of images present on your screen when you called the filter. If "
+"you choose <guilabel>From Gradient</guilabel> (or <guilabel>From Inverse "
+"Gradient</guilabel>), the selected gradient in Gradient Dialog (or its "
+"inverse) will be the sample. It will be displayed into the gradient bar "
+"below the sample preview. The sampling preview is grayed out and two cursors"
+" allow you to select the gradient range that will be applied to the image or"
+" selection."
 msgstr ""
-"Para cada canal, você pode ajustar a Frequência (0-5) e Troca de fase (0 "
-"-360) das funções de seno e co-seno, usando ou os controles deslizantes ou "
-"as caixas de entrada e suas setas."
+"<guilabel>A amostra </guilabel> pode ser uma pré-visualização total ou "
+"apenas parte, uma seleção dela. Com a lista flutuante,  você pode selecionar"
+" outra imagem de amostra entre as que estavam abertas  acionou o filtro. Se "
+"você escolher <guilabel>Mapear com degradê</guilabel> (ou <guilabel>Degradê "
+"invertido</guilabel>), o degradê selecionado no dialogo de Degradês (ou o "
+"seu inverso) será a amostra. Ele será exibida na sua barra de Degradê acima "
+"da pré-visualização da amostra. A pré-visualização da amostra fica "
+"acinzentado e dois cursores permitirão a você selecionar o modelo de "
+"degradês que serão aplicados a sua imagem ou a sua seleção."
 
-#: src/menus/colors/map/alienmap2.xml:107(para)
+#: src/menus/colors/map/sample-colorize.xml:100(para)
+#| msgid ""
+#| "<guilabel>Destination</guilabel> is, by default, the source image. The drop "
+#| "list displays the list of images present on your screen when you evoked the "
+#| "filter and allow you to select another destination image. If there is a "
+#| "selection in this image, it will be gray-scaled, else the whole preview will"
+#| " be gray-scaled."
 msgid ""
-"<guilabel>Frequency</guilabel> around 0.3 to 0.7 provides a curve that is "
-"similar to the linear function (original image), only darker or with more "
-"contrast. As you raise the frequency level, you'll get an increasing "
-"variation in pixel transformation, meaning that the image will get more and "
-"more <quote>alien</quote>."
+"<guilabel>Destination</guilabel> is, by default, the source image. The drop "
+"list displays the list of images present on your screen when you evoked the "
+"filter and allow you to select another destination image. If there is a "
+"selection in this image, it will be grayscale, else the whole preview will "
+"be grayscale."
 msgstr ""
-"<guilabel>Frequência</guilabel> em torno de 0.3 até 0.7 cria uma curva que é "
-"semelhante a uma função linear (imagem original), somente mais escura ou com "
-"mais contraste. Mas conforme você eleva a frequência, você obtém um aumento "
-"na variação da transformação dos pixels, isto significa que a imagem vai "
-"ficando mais e mais <quote>Alien</quote>."
+"<guilabel>Imagem de destino</guilabel> é, por padrão, a imagem original. A "
+"lista suspensa exibe uma lista de imagens presentes na sua tela quando você "
+"aciona o filtro e permite a você selecionar outra imagem de destino. Se "
+"houver uma seleção nesta imagem, ela será apresentada em tons de cinza,  "
+"senão, toda  a pré-visualização será mostrada em tons de cinza."
 
-#: src/menus/colors/map/alienmap2.xml:114(para)
+#: src/menus/colors/map/sample-colorize.xml:111(term)
+#| msgid "Show Selection"
+msgid "Show selection"
+msgstr "Mostrar seleção"
+
+#: src/menus/colors/map/sample-colorize.xml:113(para)
 msgid ""
-"<guilabel>Phase</guilabel> alters the value transformation. 0 and 360 "
-"degrees are the same as a sine function and 90 is the same as a cosine "
-"function. 180 inverts sine and 270 inverts cosine."
+"This option toggles between the whole image and the selection, if it exists."
 msgstr ""
-"<guilabel>Fase</guilabel> altera o valor da transformação. 0 e 360 graus são "
-"a mesma coisa que a função de seno e 90 graus é a mesma coisa que a função "
-"co-seno. 180 graus inverte o seno e 270 inverte o co-seno."
+"Esta opção alterna entre exibir a imagem toda e a seleção, se ela existir."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#: src/menus/colors/map/sample-colorize.xml:120(term)
+#| msgid "Show Colors"
+msgid "Show color"
+msgstr "Mostrar cores"
+
+#: src/menus/colors/map/sample-colorize.xml:122(para)
+#| msgid "This option toggles between colors and gray-scale."
+msgid "This option toggles between colors and grayscale."
+msgstr "Esta opção alterna entre cores e tons de cinza"
+
+#: src/menus/colors/map/sample-colorize.xml:128(term)
+#| msgid "In Levels"
+msgid "Input levels"
+msgstr "Níveis de entrada"
+
+#: src/menus/colors/map/sample-colorize.xml:130(para)
+msgid ""
+"Three input boxes and three sliders allow to fix importance of dark tones, "
+"mid tones and light tones. Result appears interactively in destination "
+"preview."
+msgstr ""
+"Três caixas de entrada e três controles deslizantes permitem corrigir, "
+"ajustar melhor os tons mais escuros de sua imagem, além dos meio tons e das "
+"partes claras. Os resultados aparecerão interativamente, imediatamente na "
+"pré-visualização de sua imagem de destino."
+
+#: src/menus/colors/map/sample-colorize.xml:138(term)
+#| msgid "Out Levels"
+msgid "Output levels"
+msgstr "Níveis de saída"
+
+#: src/menus/colors/map/sample-colorize.xml:140(para)
+msgid ""
+"Two input boxes and two sliders act the same: they limit the color range "
+"which will be applied to destination image. You can choose this range "
+"accurately. Result appears interactively in destination preview."
+msgstr ""
+"As duas caixas de entrada e os controles deslizantes atuam da mesma forma: "
+"eles limitam o espaço das cores que serão aplicadas na imagem de destino. "
+"Você pode escolher este intervalo com mais precisão. Os resultados "
+"aparecerão interativamente, imediatamente na pré-visualização de sua imagem "
+"de destino."
+
+#: src/menus/colors/map/sample-colorize.xml:149(term)
+#| msgid "Hold Intensity"
+msgid "Hold intensity"
+msgstr "Intensidade original"
+
+#: src/menus/colors/map/sample-colorize.xml:151(para)
+msgid ""
+"If this option is checked, the average light intensity of destination image "
+"will be the same as that of source image."
+msgstr ""
+"Se esta opção estiver selecionada, a média entre a intensidade luminosa da "
+"imagem de destino será a mesma que a da imagem original."
+
+#: src/menus/colors/map/sample-colorize.xml:158(term)
+#| msgid "Original Intensity"
+msgid "Original intensity"
+msgstr "Intensidade original"
+
+#: src/menus/colors/map/sample-colorize.xml:160(para)
+msgid ""
+"If this option is checked, the In levels intensity settings will not be "
+"taken in account: original intensity will be preserved."
+msgstr ""
+"Se esta opção estiver selecionada, os níveis de entrada não serão "
+"considerados, a intensidade original será preservada."
+
+#: src/menus/colors/map/sample-colorize.xml:167(term)
+msgid "Get Sample Colors"
+msgstr "Obter cores da amostra"
+
+#: src/menus/colors/map/sample-colorize.xml:169(para)
+#| msgid ""
+#| "When you click on this button, the gradient bar below the sample preview "
+#| "displays colors of the sample. If your sample holds few colors, transitions "
+#| "may be abrupt. Check <guilabel>Smooth Sample Colors</guilabel> option to "
+#| "improve them."
+msgid ""
+"When you click on this button, the gradient bar below the sample preview "
+"displays colors of the sample. If your sample holds few colors, transitions "
+"may be abrupt. Check <guilabel>Smooth samples</guilabel> option to improve "
+"them."
+msgstr ""
+"Quando você clica neste botão, a barra de degradês abaixo da pré-"
+"visualização da imagem de amostra exibe as cores dela. Se sua amostra tem "
+"poucas cores, as transições podem ser abruptas. Selecione a opção "
+"<guilabel>Uniformizar cores da amostra </guilabel> para melhora-las"
+
+#: src/menus/colors/map/sample-colorize.xml:175(para)
+#| msgid ""
+#| "<guilabel>Use Subcolors</guilabel> is more difficult to understand. Let's "
+#| "say first that in a greyscale image there is information only for Value "
+#| "(luminosity, more or less light). In a RGB image, each pixel has information"
+#| " for the three colors and Value. So, pixels with different color may have "
+#| "the same Value. If this option is checked, colors will be mixed and applied "
+#| "to Destination pixels having that Value. If it is unchecked, then the "
+#| "dominating color will be applied."
+msgid ""
+"<guilabel>Use subcolors</guilabel> is more difficult to understand. Let's "
+"say first that in a grayscale image there is information only for Value "
+"(luminosity, more or less light). In a RGB image, each pixel has information"
+" for the three colors and Value. So, pixels with different color may have "
+"the same Value. If this option is checked, colors will be mixed and applied "
+"to Destination pixels having that Value. If it is unchecked, then the "
+"dominating color will be applied."
+msgstr ""
+"<guilabel>Usar subcores</guilabel> é um pouco mais difícil de entender. "
+"Vamos primeiro entender que uma imagem em tons de cinza tem informações "
+"apenas para Luminosidade (Value), e isto significa mais ou menos luz. Em uma"
+" imagem RGB cada pixel tem informação para cada uma das três cores e mais a "
+"luminosidade (Value). Então, pixels com diferentes cores podem ter o mesmo "
+"valor. Se esta opção estiver selecionada, as cores serão misturadas e "
+"aplicadas aos pixels da imagem de destino que possuem aquela luminosidade "
+"(Value). Se não estiver selecionada, a cor dominante será aplicada."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/palettemap.xml:56(None)
+#: src/menus/colors/map/rearrange-colormap.xml:23(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/map/rearrange.png'; "
+#| "md5=a2793fc4f68490b6f8d0eb869c3f6f98"
+msgid ""
+"@@image: 'images/menus/colors/map/rearrange.png'; "
+"md5=7abb847fdbac12d180acd4d6a52c242f"
+msgstr ""
+"@@image: 'images/menus/colors/map/rearrange.png'; "
+"md5=7abb847fdbac12d180acd4d6a52c242f"
+
+#: src/menus/colors/map/rearrange-colormap.xml:8(title)
+#: src/menus/colors/map/rearrange-colormap.xml:15(primary)
+msgid "Rearrange Colormap"
+msgstr "Rearranja o mapa de cores"
+
+#: src/menus/colors/map/rearrange-colormap.xml:12(secondary)
+msgid "Rearrange"
+msgstr "Rearranja"
+
+#: src/menus/colors/map/rearrange-colormap.xml:19(title)
+msgid "The <quote>Rearrange Colormap</quote> window"
+msgstr "A janela <quote>Rearranja o mapa de cores</quote>"
+
+# ** Eeek: "indexed palette" dialog is called "color map" dialog now
+#: src/menus/colors/map/rearrange-colormap.xml:28(para)
+#| msgid ""
+#| "This command allows you to re-organize colors in the palette of "
+#| "<emphasis>indexed</emphasis> images. It doesn't modify the image. You can't "
+#| "add or remove colors; for that, see <link linkend=\"gimp-indexed-palette-"
+#| "dialog\">The Indexed Palette Dialog </link>."
+msgid ""
+"This command allows you to re-organize colors in the palette of "
+"<emphasis>indexed</emphasis> images. It doesn't modify the image. You can't "
+"add or remove colors; for that, see <link linkend=\"gimp-indexed-palette-"
+"dialog\">The Indexed Palette Dialog</link>."
+msgstr ""
+"Este comando permite que você reorganize as cores nomapa de cores de imagens"
+"  <emphasis>indexadas</emphasis>. Ele não altera a imagem. Você não pode "
+"adicionar ou remover cores, para isto veja o diálogo de <link "
+"linkend=\"gimp-indexed-palette-dialog\">Mapa de cores </link>."
+
+#: src/menus/colors/map/rearrange-colormap.xml:44(para)
+#| msgid ""
+#| "You can access this filter in the image window menu under "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette"
+#| " Map</guimenuitem></menuchoice>."
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Rearrange"
+" Colormap…</guimenuitem></menuchoice>."
+msgstr ""
+"Você pode acessar este comando no menu principal em "
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</guisubmenu><guimenuitem>Reorganizar"
+" mapa de cores…</guimenuitem></menuchoice>."
+
+#: src/menus/colors/map/rearrange-colormap.xml:54(para)
+msgid ""
+"You can also access it from the <link linkend=\"gimp-indexed-palette-"
+"dialog\">Colormap Dialog</link> using the right-click context menu "
+"<menuchoice><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
+msgstr ""
+"Você também pode acessá-lo na <link linkend=\"gimp-indexed-palette-"
+"dialog\">caixa de diálogo Mapa de cores</link>, pelo menu de contexto do "
+"botão direito <menuchoice><guimenuitem>Reorganizar mapa de "
+"cores…</guimenuitem></menuchoice>."
+
+#: src/menus/colors/map/rearrange-colormap.xml:67(title)
+msgid "Using the <quote>Rearrange Colormap</quote> dialog"
+msgstr "Usando o diálogo <quote>Rearranja o mapa de cores</quote> "
+
+#: src/menus/colors/map/rearrange-colormap.xml:68(para)
+msgid ""
+"You can drag and drop colors using the mouse to rearrange the colormap. You "
+"can sort colors based on Hue, Saturation and Value by using the buttons. You"
+" can also reverse or reset the order of the colors."
+msgstr ""
+"Você pode arrastar e soltar cores com o mouse para reorganizar o mapa de "
+"cores. Você pode ordenar as cores com base em Matiz, Saturação e Valor "
+"usando os botões. Também pode inverter ou redefinir a ordem das cores."
+
+#: src/menus/colors/map/rearrange-colormap.xml:74(para)
+msgid ""
+"Another way to sort a colormap is by using the <link linkend=\"gimp-palette-"
+"sort\">Sort Palette…</link> context menu command available in the <link "
+"linkend=\"gimp-palette-dialog\">Palettes Dialog</link>."
+msgstr ""
+"Outra forma de ordenar um mapa de cores é usar o comando de menu de contexto"
+" <link linkend=\"gimp-palette-sort\">Ordenar paleta…</link>, disponível na "
+"<link linkend=\"gimp-palette-dialog\">caixa de diálogo Paletas</link>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/map/palettemap.xml:53(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/map/palettemap-ex2.png'; "
+#| "md5=3f79ca88f6f1c5b1934acc21e32689ed"
 msgid ""
 "@@image: 'images/menus/colors/map/palettemap-ex1.png'; "
-"md5=142bef0d8c64de87cc6d11c9480cc646"
+"md5=3ca761fd46e7e574a5fc6ea7eb652583"
 msgstr ""
 "@@image: 'images/menus/colors/map/palettemap-ex1.png'; "
-"md5=142bef0d8c64de87cc6d11c9480cc646"
+"md5=3ca761fd46e7e574a5fc6ea7eb652583"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/palettemap.xml:67(None)
+#: src/menus/colors/map/palettemap.xml:64(None)
 msgid ""
 "@@image: 'images/menus/colors/map/palettemap-ex2.png'; "
 "md5=3f79ca88f6f1c5b1934acc21e32689ed"
@@ -233,60 +577,75 @@ msgstr "Mapear"
 
 # ** Eeek - I think "dialogs/palettes" is from the time Wilber was straight.
 #: src/menus/colors/map/palettemap.xml:19(para)
+#| msgid ""
+#| "This plug-in recolors the image using colors from the active palette that "
+#| "you choose in "
+#| "<menuchoice><guimenu>Dialogs</guimenu><guimenuitem>Palettes</guimenuitem></menuchoice>."
 msgid ""
 "This plug-in recolors the image using colors from the active palette that "
-"you choose in <menuchoice><guimenu>Dialogs</guimenu><guimenuitem>Palettes</"
-"guimenuitem></menuchoice>."
+"you choose in the <link linkend=\"gimp-palette-dialog\">Palettes "
+"dialog</link>."
 msgstr ""
-"Este plug-in refaz as cores da imagem usando cores da paleta ativa que você "
-"escolher em "
-"<menuchoice><guimenu>Janelas</guimenu><guimenuitem>Paletas</guimenuitem></menuchoice>."
+"Este plug-in recolore a imagem usando cores da paleta ativa que você "
+"escolher na <link linkend=\"gimp-palette-dialog\">caixa de diálogo "
+"Paletas</link>."
 
-#: src/menus/colors/map/palettemap.xml:27(para)
+#: src/menus/colors/map/palettemap.xml:24(para)
+#| msgid ""
+#| "It maps the contents of the specified drawable (layer, selection...) with "
+#| "the active palette. It calculates luminosity of each pixel and replaces the "
+#| "pixel by the palette sample at the corresponding index. A complete black "
+#| "pixel becomes the lowest palette entry, and complete white becomes the "
+#| "highest. Works on both Grayscale and RGB image with/without alpha channel."
 msgid ""
-"It maps the contents of the specified drawable (layer, selection...) with "
-"the active palette. It calculates luminosity of each pixel and replaces the "
-"pixel by the palette sample at the corresponding index. A complete black "
+"It maps the contents of the specified drawable (layer, selection, etc.) with"
+" the active palette. It calculates luminosity of each pixel and replaces the"
+" pixel by the palette sample at the corresponding index. A complete black "
 "pixel becomes the lowest palette entry, and complete white becomes the "
-"highest. Works on both Grayscale and RGB image with/without alpha channel."
+"highest. Works on both Grayscale and RGB images with or without alpha "
+"channel."
 msgstr ""
 "Ele mapeia os conteúdos do desenhável atual (camada, seleções, máscara....) "
 "com a paleta ativa. Ele calcula a luminosidade de cada pixel e troca a cor "
-"do pixel pela cor de índice correspondente na paleta. Um pixel completamente "
-"preto se torna a entrada mais baixa na paleta e o pixel completamente branco "
-"se torna a entrada mais alta. Funciona em imagens RGB, e também pode operar "
-"em imagens e desenháveis em tons de cinza, embora não tenha tanto sentido, "
-"já que apenas a luminosidade das cores da paleta seriam usados."
+"do pixel pela cor de índice correspondente na paleta. Um pixel completamente"
+" preto se torna a entrada mais baixa na paleta e o pixel completamente "
+"branco se torna a entrada mais alta. Funciona em imagens RGB, e também pode "
+"operar em imagens e desenháveis em tons de cinza, embora não tenha tanto "
+"sentido, já que apenas a luminosidade das cores da paleta seriam usados."
 
-#: src/menus/colors/map/palettemap.xml:39(para)
+#: src/menus/colors/map/palettemap.xml:36(para)
+#| msgid ""
+#| "You can access this filter in the image window menu under "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette"
+#| " Map</guimenuitem></menuchoice>."
 msgid ""
-"You can access this filter in the image window menu under "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Palette Map</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette"
+" Map</guimenuitem></menuchoice>."
 msgstr ""
 "Você poderá encontrar este filtro na janela de imagem, no menu "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</"
-"guisubmenu><guimenuitem>Mapear com paleta</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</guisubmenu><guimenuitem>Mapear"
+" com paleta</guimenuitem></menuchoice>."
 
-#: src/menus/colors/map/palettemap.xml:50(title)
+#: src/menus/colors/map/palettemap.xml:47(title)
 msgid "Example"
 msgstr "Exemplo"
 
-#: src/menus/colors/map/palettemap.xml:52(title)
+#: src/menus/colors/map/palettemap.xml:49(title)
 msgid "The active palette is applied to a gradient image"
 msgstr "A Paleta ativa é aplicada a uma imagem com degradê."
 
-#: src/menus/colors/map/palettemap.xml:59(para)
+#: src/menus/colors/map/palettemap.xml:56(para)
 msgid "The current palette, with 18 colors"
 msgstr "A paleta atual, com 18 cores"
 
-#: src/menus/colors/map/palettemap.xml:70(para)
+#: src/menus/colors/map/palettemap.xml:67(para)
 msgid ""
 "The colors of the active palette are applied to a black to white gradient. "
 "The color with the lowest index in the palette (orange) replaces the black "
-"color in the gradient. The color with the highest index in the palette (red) "
-"replaces the white color in the gradient. The other colors spread out in the "
-"order of the palette."
+"color in the gradient. The color with the highest index in the palette (red)"
+" replaces the white color in the gradient. The other colors spread out in "
+"the order of the palette."
 msgstr ""
 "As cores na paleta ativa serão aplicadas no degradê de preto para branco. A "
 "cor com o índice mais baixo na paleta (laranja) substitui a cor preta no "
@@ -294,624 +653,8 @@ msgstr ""
 "branca no degradê. As outras cores acompanham o intervalo, na ordem da "
 "paleta."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/sample-colorize.xml:39(None)
-msgid ""
-"@@image: 'images/filters/examples/color-taj-sample-colorize.jpg'; "
-"md5=87f37e02e38b00be18f65dd42be563a6"
-msgstr ""
-"@@image: 'images/filters/examples/color-taj-sample-colorize.jpg'; "
-"md5=87f37e02e38b00be18f65dd42be563a6"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/sample-colorize.xml:77(None)
-msgid ""
-"@@image: 'images/menus/colors/map/samplecolorize.png'; "
-"md5=cce523dd28227e467863e75e69c217a9"
-msgstr ""
-"@@image: 'images/menus/colors/map/samplecolorize.png'; "
-"md5=cce523dd28227e467863e75e69c217a9"
-
-#: src/menus/colors/map/sample-colorize.xml:13(title)
-#: src/menus/colors/map/sample-colorize.xml:17(secondary)
-#: src/menus/colors/map/sample-colorize.xml:20(primary)
-msgid "Sample Colorize"
-msgstr "Colorizar a partir de amostra"
-
-#: src/menus/colors/map/sample-colorize.xml:26(title)
-msgid "Example for the <quote>Sample Colorize</quote> filter"
-msgstr "Exemplo para o filtro <quote>Colorizar a partir de amostra </quote> "
-
-#: src/menus/colors/map/sample-colorize.xml:42(para)
-msgid "Filter <quote>Sample Colorize</quote> applied"
-msgstr "Fitro <quote>Colorizar a partir de amostra </quote> aplicado"
-
-#: src/menus/colors/map/sample-colorize.xml:46(para)
-msgid ""
-"This filter allows you to colorize old black-and-white images by mapping a "
-"color source image or a gradient against it."
-msgstr ""
-"Este filtro permite que você colorize uma imagem antiga, ou  preto e branco, "
-"mapeando as cores a partir de uma outra imagem,  ou de um degradê!"
-
-#: src/menus/colors/map/sample-colorize.xml:51(para)
-msgid ""
-"Your gray-tone image must be changed to RGB before using this filter (Image/"
-"Image&gt;Mode&gt;RGB)."
-msgstr ""
-"Sua imagem em Tons de cinza terá que ser convertida em uma imagem RGB antes "
-"de usar este filtro (Imagem&gt;Modo&gt;RGB)."
-
-#: src/menus/colors/map/sample-colorize.xml:60(para)
-msgid ""
-"This filter is found in the image window menu under "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Sample Colorize</guimenuitem></menuchoice>."
-msgstr ""
-"Este filtro se encontra na janela de imagem no menu "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</"
-"guisubmenu><guimenuitem>Colorizar a partir de amostra</guimenuitem></"
-"menuchoice>."
-
-#: src/menus/colors/map/sample-colorize.xml:73(title)
-msgid "Options of the <quote>Sample Colorize</quote> filter"
-msgstr "Opções para o filtro <quote>Colorizar a partir de amostra </quote> "
-
-#: src/menus/colors/map/sample-colorize.xml:81(para)
-msgid ""
-"The filter window is divided into two parts: Destination on the left, "
-"Sampling on the right."
-msgstr ""
-"Este filtro é dividido em duas partes: A imagem de destino a esquerda, e a "
-"amostra a direita"
-
-#: src/menus/colors/map/sample-colorize.xml:87(term)
-msgid "Destination, Sample"
-msgstr "imagem de destino, amostra"
-
-#: src/menus/colors/map/sample-colorize.xml:89(para)
-msgid ""
-"By default, displayed image previews reproduce the image you invoked the "
-"filter from."
-msgstr ""
-"Por padrão, a pré-visualização da imagem reproduz a imagem que estava ativa "
-"quando você invocou o filtro"
-
-#: src/menus/colors/map/sample-colorize.xml:93(para)
-msgid ""
-"<guilabel>The sample</guilabel> can be the whole preview, or a selection of "
-"this preview. With the drop list, you can select another sample-image among "
-"the names of images present on your screen when you called the filter. If "
-"you choose <guilabel>From Gradient</guilabel> (or <guilabel>From Inverse "
-"Gradient</guilabel>), the selected gradient in Gradient Dialog (or its "
-"inverse) will be the sample. It will be displayed into the gradient bar "
-"below the sample preview. The sampling preview is greyed out and two cursors "
-"allow you to select the gradient range that will be applied to the image or "
-"selection."
-msgstr ""
-"<guilabel>A amostra </guilabel> pode ser uma pré-visualização total ou "
-"apenas parte, uma seleção dela. Com a lista flutuante,  você pode selecionar "
-"outra imagem de amostra entre as que estavam abertas  acionou o filtro. Se "
-"você escolher <guilabel>Mapear com degradê</guilabel> (ou <guilabel>Degradê "
-"invertido</guilabel>), o degradê selecionado no dialogo de Degradês (ou o "
-"seu inverso) será a amostra. Ele será exibida na sua barra de Degradê acima "
-"da pré-visualização da amostra. A pré-visualização da amostra fica "
-"acinzentado e dois cursores permitirão a você selecionar o modelo de "
-"degradês que serão aplicados a sua imagem ou a sua seleção."
-
-#: src/menus/colors/map/sample-colorize.xml:105(para)
-msgid ""
-"<guilabel>Destination</guilabel> is, by default, the source image. The drop "
-"list displays the list of images present on your screen when you evoked the "
-"filter and allow you to select another destination image. If there is a "
-"selection in this image, it will be gray-scaled, else the whole preview will "
-"be gray-scaled."
-msgstr ""
-"<guilabel>Imagem de destino</guilabel> é, por padrão, a imagem original. A "
-"lista suspensa exibe uma lista de imagens presentes na sua tela quando você "
-"aciona o filtro e permite a você selecionar outra imagem de destino. Se "
-"houver uma seleção nesta imagem, ela será apresentada em tons de cinza,  "
-"senão, toda  a pré-visualização será mostrada em tons de cinza."
-
-#: src/menus/colors/map/sample-colorize.xml:116(term)
-msgid "Show Selection"
-msgstr "Mostrar seleção"
-
-#: src/menus/colors/map/sample-colorize.xml:118(para)
-msgid ""
-"This option toggles between the whole image and the selection, if it exists."
-msgstr ""
-"Esta opção alterna entre exibir a imagem toda e a seleção, se ela existir."
-
-#: src/menus/colors/map/sample-colorize.xml:125(term)
-msgid "Show Colors"
-msgstr "Mostrar cores"
-
-#: src/menus/colors/map/sample-colorize.xml:127(para)
-msgid "This option toggles between colors and gray-scale."
-msgstr "Esta opção alterna entre cores e tons de cinza"
-
-#: src/menus/colors/map/sample-colorize.xml:133(term)
-msgid "Get Sample Colors"
-msgstr "Obter cores da amostra"
-
-#: src/menus/colors/map/sample-colorize.xml:135(para)
-msgid ""
-"When you click on this button, the gradient bar below the sample preview "
-"displays colors of the sample. If your sample holds few colors, transitions "
-"may be abrupt. Check <guilabel>Smooth Sample Colors</guilabel> option to "
-"improve them."
-msgstr ""
-"Quando você clica neste botão, a barra de degradês abaixo da pré-"
-"visualização da imagem de amostra exibe as cores dela. Se sua amostra tem "
-"poucas cores, as transições podem ser abruptas. Selecione a opção "
-"<guilabel>Uniformizar cores da amostra </guilabel> para melhora-las"
-
-#: src/menus/colors/map/sample-colorize.xml:141(para)
-msgid ""
-"<guilabel>Use Subcolors</guilabel> is more difficult to understand. Let's "
-"say first that in a greyscale image there is information only for Value "
-"(luminosity, more or less light). In a RGB image, each pixel has information "
-"for the three colors and Value. So, pixels with different color may have the "
-"same Value. If this option is checked, colors will be mixed and applied to "
-"Destination pixels having that Value. If it is unchecked, then the "
-"dominating color will be applied."
-msgstr ""
-"<guilabel>Usar subcores</guilabel> é um pouco mais difícil de entender. "
-"Vamos primeiro entender que uma imagem em tons de cinza tem informações "
-"apenas para Luminosidade (Value), e isto significa mais ou menos luz. Em uma "
-"imagem RGB cada pixel tem informação para cada uma das três cores e mais a "
-"luminosidade (Value). Então, pixels com diferentes cores podem ter o mesmo "
-"valor. Se esta opção estiver selecionada, as cores serão misturadas e "
-"aplicadas aos pixels da imagem de destino que possuem aquela luminosidade "
-"(Value). Se não estiver selecionada, a cor dominante será aplicada."
-
-#: src/menus/colors/map/sample-colorize.xml:154(term)
-msgid "Out Levels"
-msgstr "Níveis de saída"
-
-#: src/menus/colors/map/sample-colorize.xml:156(para)
-msgid ""
-"Two input boxes and two sliders act the same: they limit the color range "
-"which will be applied to destination image. You can choose this range "
-"accurately. Result appears interactively in destination preview."
-msgstr ""
-"As duas caixas de entrada e os controles deslizantes atuam da mesma forma: "
-"eles limitam o espaço das cores que serão aplicadas na imagem de destino. "
-"Você pode escolher este intervalo com mais precisão. Os resultados "
-"aparecerão interativamente, imediatamente na pré-visualização de sua imagem "
-"de destino."
-
-#: src/menus/colors/map/sample-colorize.xml:165(term)
-msgid "In Levels"
-msgstr "Níveis de entrada"
-
-#: src/menus/colors/map/sample-colorize.xml:167(para)
-msgid ""
-"Three input boxes and three sliders allow to fix importance of dark tones, "
-"mid tones and light tones. Result appears interactively in destination "
-"preview."
-msgstr ""
-"Três caixas de entrada e três controles deslizantes permitem corrigir, "
-"ajustar melhor os tons mais escuros de sua imagem, além dos meio tons e das "
-"partes claras. Os resultados aparecerão interativamente, imediatamente na "
-"pré-visualização de sua imagem de destino."
-
-#: src/menus/colors/map/sample-colorize.xml:175(term)
-msgid "Hold Intensity"
-msgstr "Intensidade original"
-
-#: src/menus/colors/map/sample-colorize.xml:177(para)
-msgid ""
-"If this option is checked, the average light intensity of destination image "
-"will be the same as that of source image."
-msgstr ""
-"Se esta opção estiver selecionada, a média entre a intensidade luminosa da "
-"imagem de destino será a mesma que a da imagem original."
-
-#: src/menus/colors/map/sample-colorize.xml:184(term)
-msgid "Original Intensity"
-msgstr "Intensidade original"
-
-#: src/menus/colors/map/sample-colorize.xml:186(para)
-msgid ""
-"If this option is checked, the In levels intensity settings will not be "
-"taken in account: original intensity will be preserved."
-msgstr ""
-"Se esta opção estiver selecionada, os níveis de entrada não serão "
-"considerados, a intensidade original será preservada."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/rotate-colormap.xml:37(None)
-msgid ""
-"@@image: 'images/filters/examples/color-taj-rotation.jpg'; "
-"md5=0128fc81fc99e4df370a4b97e8944488"
-msgstr ""
-"@@image: 'images/filters/examples/color-taj-rotation.jpg'; "
-"md5=0128fc81fc99e4df370a4b97e8944488"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/rotate-colormap.xml:72(None)
-msgid ""
-"@@image: 'images/menus/colors/map/rotate.png'; "
-"md5=668868c7449bd382c6d2f64aa4c09038"
-msgstr ""
-"@@image: 'images/menus/colors/map/rotate.png'; "
-"md5=668868c7449bd382c6d2f64aa4c09038"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/rotate-colormap.xml:130(None)
-msgid ""
-"@@image: 'images/filters/examples/colors-rotation-base.png'; "
-"md5=1e19130e7e933a8f699d40e9a301e3fe"
-msgstr ""
-"@@image: 'images/filters/examples/colors-rotation-base.png'; "
-"md5=1e19130e7e933a8f699d40e9a301e3fe"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/rotate-colormap.xml:201(None)
-msgid ""
-"@@image: 'images/menus/colors/map/rotate-colors-graymode.png'; "
-"md5=ead4884151e2760ec853cad2da4a8361"
-msgstr ""
-"@@image: 'images/menus/colors/map/rotate-colors-graymode.png'; "
-"md5=ead4884151e2760ec853cad2da4a8361"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/rotate-colormap.xml:223(None)
-msgid ""
-"@@image: 'images/filters/examples/colors-map-rotation-threshold.png'; "
-"md5=391e52e65144dd727bb59155f476ed1d"
-msgstr ""
-"@@image: 'images/filters/examples/colors-map-rotation-threshold.png'; "
-"md5=391e52e65144dd727bb59155f476ed1d"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/rotate-colormap.xml:247(None)
-msgid ""
-"@@image: 'images/menus/colors/map/rotate-colors-graythresh.png'; "
-"md5=d97f216714e18cb37855639adcdb32c5"
-msgstr ""
-"@@image: 'images/menus/colors/map/rotate-colors-graythresh.png'; "
-"md5=d97f216714e18cb37855639adcdb32c5"
-
-#: src/menus/colors/map/rotate-colormap.xml:13(title)
-#: src/menus/colors/map/rotate-colormap.xml:20(primary)
-msgid "Rotate Colors"
-msgstr "Rotaciona cores"
-
-#: src/menus/colors/map/rotate-colormap.xml:17(secondary)
-msgid "Rotate"
-msgstr "Rotaciona"
-
-#: src/menus/colors/map/rotate-colormap.xml:26(title)
-msgid "Example for the <quote>Rotate Colors</quote> filter"
-msgstr "Exemplo do filtro <quote>Rotaciona Cores</quote> "
-
-#: src/menus/colors/map/rotate-colormap.xml:40(para)
-msgid "Filter <quote>Rotate Colors</quote> applied"
-msgstr "Filtro<quote>Rotaciona Cores</quote> aplicado"
-
-#: src/menus/colors/map/rotate-colormap.xml:46(para)
-msgid "Colormap Rotation lets you exchange one color range to another range."
-msgstr ""
-"A rotação do  mapa de cores, permite a você trocar um intervalo de cores por "
-"cores de umoutro intervalo."
-
-#: src/menus/colors/map/rotate-colormap.xml:52(title)
-msgid "Activating the filter"
-msgstr "Ativar o filtro"
-
-#: src/menus/colors/map/rotate-colormap.xml:53(para)
-msgid ""
-"This filter is found in the image window menu under "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Rotate Colors</guimenuitem></menuchoice>."
-msgstr ""
-"Este filtro se encontra na janela de imagem, no menu "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</"
-"guisubmenu><guimenuitem>Rotaciona cores</guimenuitem></menuchoice>."
-
-#: src/menus/colors/map/rotate-colormap.xml:64(title)
-msgid "Main Options"
-msgstr "Opções principais"
-
-#: src/menus/colors/map/rotate-colormap.xml:66(title)
-msgid "Main Options of the <quote>Color Map Rotation</quote> filter"
-msgstr "Opções principais do filtro<quote>Rotaciona cores</quote> "
-
-#: src/menus/colors/map/rotate-colormap.xml:76(para)
-msgid ""
-"You have there two color circles, one for the <quote>From</quote> color "
-"range and the other for the <quote>To</quote> color range:"
-msgstr ""
-"Você tem dois círculos de cor, um para o intervalo de cores <quote>A partir "
-"de</quote> e outro para o intervalo de cores de destino <quote>Para</quote>:"
-
-#: src/menus/colors/map/rotate-colormap.xml:82(term)
-msgid "From"
-msgstr "A partir de"
-
-#: src/menus/colors/map/rotate-colormap.xml:84(para)
-msgid ""
-"The <guilabel>Color Circle</guilabel>: Two axis to define <quote>From</"
-"quote> range. The curved arrow in angle lets to recognise <quote>From</"
-"quote> axis and <quote>To</quote> axis of range. Click-drag these axis to "
-"change range."
-msgstr ""
-"O <guilabel>Círculo de cores</guilabel>: dois eixos definem o intervalo "
-"<quote>De</quote>. A seta curva no ângulo permite reconhecer o eixo "
-"<quote>De</quote> e o eixo <quote>Até</quote> do intervalo. Clique e arraste "
-"esses eixos para alterar o intervalo."
-
-#: src/menus/colors/map/rotate-colormap.xml:90(para)
-msgid ""
-"<guilabel>Switch to Clockwise/Counterclockwise</guilabel>: Sets the "
-"direction the range is going."
-msgstr ""
-"<guilabel>Mudar para sentido horário/anti-horário</guilabel>: configura a "
-"direção em que intervalo de cores é percorrido."
-
-#: src/menus/colors/map/rotate-colormap.xml:94(para)
-msgid ""
-"<guilabel>Change Order of Arrows</guilabel>: Inverts From and To axis. This "
-"results in an important color change as colors in selection angle are "
-"different."
-msgstr ""
-"<guilabel>Alterar ordem das setas</guilabel>:Inverte a posição dos eixo "
-"inicial e final.  Isto resulta em uma importante alteração cromática, pois a "
-"ordem das cores no ângulo selecionado são diferentes."
-
-#: src/menus/colors/map/rotate-colormap.xml:99(para)
-msgid "<guilabel>Select All</guilabel> selects the whole color circle."
-msgstr ""
-"<guilabel>Selecionar tudo</guilabel> seleciona todo o círculo cromático."
-
-#: src/menus/colors/map/rotate-colormap.xml:103(para)
-msgid ""
-"<guilabel>From</guilabel> and <guilabel>To</guilabel> boxes display start "
-"axis and end axis positions (in rad/PI) which are limiting the selected "
-"color range. You can enter these positions manually or with help of arrow-"
-"heads."
-msgstr ""
-"As caixas de valores  <guilabel>A partir de</guilabel>e<guilabel>Para</"
-"guilabel>mostram as posições iniciais e finais dos eixos (em graus) que "
-"limitam os intervalos de cores selecionados. Você pode digitar essas "
-"posições manualmente, ou com ajuda clicando nas setinhas."
-
-#: src/menus/colors/map/rotate-colormap.xml:112(term)
-msgid "To"
-msgstr "Para"
-
-#: src/menus/colors/map/rotate-colormap.xml:114(para)
-msgid "This section options are the same as <quote>From</quote> section ones."
-msgstr ""
-"As opções dessa seção são idênticas as da seção <quote>A partir de</quote>"
-
-#: src/menus/colors/map/rotate-colormap.xml:124(title)
-msgid "Gray Options"
-msgstr "Opções de cinza"
-
-#: src/menus/colors/map/rotate-colormap.xml:126(title)
-msgid "Base image for Gray Options"
-msgstr "Imagem usada como exemplo para as opções de cinza"
-
-#: src/menus/colors/map/rotate-colormap.xml:133(para)
-msgid ""
-"Three sectors are defined for Red, Green and Blue with different "
-"saturations. Gray and White colors are represented (0% Sat)."
-msgstr ""
-"São definidos três setores: Vermelho, Verde e Azul, com diferentes "
-"saturações. Cinza e Branco também são representados (0% de Saturação)."
-
-#: src/menus/colors/map/rotate-colormap.xml:140(para)
-msgid ""
-"In this tab, you can specify how to treat gray. By default, gray is not "
-"considered as a color and is not taken in account by the rotation. Here, you "
-"can convert slightly saturated colors into gray and you can also convert "
-"gray into color."
-msgstr ""
-"Nesta guia, você poderá especificar como tratar o Cinza. Por definição o "
-"cinza não é considerado uma cor e não é contabilizado na rotação. Aqui, você "
-"poderá converter  as cores levemente saturadas em cinza e também converter o "
-"cinza em cores."
-
-#: src/menus/colors/map/rotate-colormap.xml:148(term)
-msgid "Gray Color Circle"
-msgstr "Círculo representando a Cor Cinza"
-
-#: src/menus/colors/map/rotate-colormap.xml:150(para)
-msgid ""
-"At center of this color circle is a small <quote>define circle</quote>. At "
-"center, it represents gray. If you increase gray threshold progressively, "
-"colors with saturation less than this threshold turn to gray."
-msgstr ""
-"No centro deste círculo de cor há um pequeno<quote>Círculo de definição</"
-"quote>. No centro ele representa o cinza. Se você aumentar o espaço do cinza "
-"progressivamente, as cores com saturação menores que os limites deste espaço "
-"se tornarão cinza."
-
-#: src/menus/colors/map/rotate-colormap.xml:156(para)
-msgid ""
-"Then, if you pan the define circle in the color circle, or if you use input "
-"boxes, you define <emphasis>Hue</emphasis> and <emphasis> Saturation</"
-"emphasis>. This color will replace all colors you have defined as gray. But "
-"result depends on Gray Mode too."
-msgstr ""
-"Então, se você passear com o pequeno círculo dentro do círculo cromático, ou "
-"usar as caixas de entrada de valores, você poderá definir o "
-"<emphasis>Matiz</emphasis>e <emphasis> Saturação</emphasis>. Esta cor "
-"substituirá todas as cores que você definiu como cinza. Mas o resultado "
-"depende também do Modo decinza."
-
-#: src/menus/colors/map/rotate-colormap.xml:166(term)
-#: src/menus/colors/map/rotate-colormap.xml:196(title)
-msgid "Gray Mode"
-msgstr "Modo cinza"
-
-#: src/menus/colors/map/rotate-colormap.xml:168(para)
-msgid ""
-"The radio buttons <emphasis>Treat As This </emphasis> and <emphasis>Change "
-"As This </emphasis> determine how your previous choices will be treated:"
-msgstr ""
-"Os botões <emphasis>Tratar como este</emphasis> e <emphasis>Mudar para este "
-"</emphasis>determinam como as suas escolhas prévias serão tratadas."
-
-#: src/menus/colors/map/rotate-colormap.xml:176(para)
-msgid ""
-"With <emphasis>Change to this</emphasis>, gray will take the color defined "
-"by the define circle directly, without any rotation, whatever its position "
-"in the color circle."
-msgstr ""
-"Com <emphasis>Mudar para este</emphasis>, tudo o que é cinza ficará da cor "
-"definida pelo pequeno circulo, de definição de cor, diretamente, sem nenhuma "
-"rotação, seja lá qual for sua posição no círculo."
-
-#: src/menus/colors/map/rotate-colormap.xml:184(para)
-msgid ""
-"With <emphasis>Treat as this</emphasis>, gray will take the color defined by "
-"the define circle after rotation, according to <quote>From</quote> and "
-"<quote>To</quote> choices you made in the Main tab. With this option, you "
-"can select color only in the <quote>From</quote> sector, even if it is not "
-"visible in Gray tab."
-msgstr ""
-"Com o <emphasis>Tratar como este</emphasis>, o cinza pegará a cor definida "
-"pelo pequeno círculo, de definição de cor, após a rotação, de acordo com as "
-"escolhas<quote>A partir de</quote> e <quote>Para</quote> que você fez no "
-"painel principal. Com esta opção, você pode selecionar a cor apenas no setor "
-"dentro do intervalo <quote>A partir de </quote>, mesmo que ele esse "
-"intervalo não esteja visível no painel de Opções de cinza."
-
-#: src/menus/colors/map/rotate-colormap.xml:204(para)
-msgid ""
-"The small circle is on yellow and mode is <quote>Change to this</quote>. "
-"<emphasis>Blue has changed to yellow. Note that Gray and White did so too.</"
-"emphasis>"
-msgstr ""
-"O pequeno círculo está em amarelo e o modo está em <quote>Mudar para este</"
-"quote>, <emphasis>o azul foi mudado para amarelo.  Note que Cinza e Branco "
-"também mudaram</emphasis>"
-
-#: src/menus/colors/map/rotate-colormap.xml:215(term)
-#: src/menus/colors/map/rotate-colormap.xml:218(title)
-msgid "Gray Threshold"
-msgstr "Limiar de cinza"
-
-#: src/menus/colors/map/rotate-colormap.xml:226(para)
-msgid ""
-"Gray-threshold is 0.25: the blue sector (sat 0.25) has turned to Gray (Note "
-"that Gray and White, that are 0% Sat., are not concerned)."
-msgstr ""
-"O Limiar do Cinza é 0,25: o setor azul (posicionado em 0,25) tornou-se Cinza "
-"(Perceba que Cinza e Branco, que são 0% de saturação, não são levados em "
-"conta: eles sempre são afetados)"
-
-#. CHECK: works for me without <quote>Continuous update</quote>
-#: src/menus/colors/map/rotate-colormap.xml:235(para)
-msgid ""
-"You specify there how much saturation will be considered gray. By increasing "
-"progressively saturation, you will see an enlarging circle in color circle "
-"and enlarging selected areas in Preview if <quote>Continuous update</quote> "
-"is checked. In a black to white gradient, you can see enlarging color "
-"replacement as you increase threshold very slowly."
-msgstr ""
-"Você pode especificar nesse controle quanto de saturação ainda vai "
-"considerado como  Cinza. Aumentando progressivamente o limite, você verá um "
-"círculo aumentado no círculo de cores e um aumento nas áreas selecionadas na "
-"pré- visualização, se a opção <quote>Atualização contínua</quote> estiver "
-"selecionada. Em um degradê de preto para branco, você poderá ver o aumento "
-"da substituição da cor, conforme que você for aumentando o limiar lentamente."
-
-#: src/menus/colors/map/rotate-colormap.xml:250(para)
-msgid ""
-"Black to White gradient, progressively filled with color, as threshold "
-"increases."
-msgstr ""
-"Degradê Preto para Branco, sendo progressivamente  preenchido com cor, "
-"conforme o limiar aumenta."
-
-#: src/menus/colors/map/rotate-colormap.xml:262(title)
-msgid "Previews"
-msgstr "Pré-visualizações"
-
-#: src/menus/colors/map/rotate-colormap.xml:265(term)
-msgid "Original"
-msgstr "Original"
-
-#: src/menus/colors/map/rotate-colormap.xml:266(term)
-msgid "Rotated"
-msgstr "Rotacionado"
-
-#: src/menus/colors/map/rotate-colormap.xml:268(para)
-msgid ""
-"The Original preview displays a thumbnail of the original image and the "
-"Rotated preview displays color changes interactively, before they are "
-"applied to the Image."
-msgstr ""
-"A pré-visualização original exibe uma miniatura da imagem original e a pré-"
-"visualização rotacionada exibe as modificações das cores interativamente, "
-"antes que elas sejam aplicadas a imagem."
-
-#: src/menus/colors/map/rotate-colormap.xml:276(term)
-msgid "Continuous Update"
-msgstr "Atualização contínua"
-
-#: src/menus/colors/map/rotate-colormap.xml:278(para)
-msgid ""
-"<guilabel>Continuous Update</guilabel> displays color changes continuously "
-"in the Rotated preview."
-msgstr ""
-"<guilabel>Atualização contínua</guilabel> exibe as modificações das cores "
-"continuamente na pré-visualização do Rotacionado"
-
-#: src/menus/colors/map/rotate-colormap.xml:284(term)
-msgid "Area"
-msgstr "Área"
-
-#: src/menus/colors/map/rotate-colormap.xml:286(para)
-msgid "In this drop down list, you can select between"
-msgstr "Nesta lista suspensa, você pode escolher entre:"
-
-#: src/menus/colors/map/rotate-colormap.xml:291(para)
-msgid ""
-"<guilabel>Entire Layer</guilabel>: works on the whole layer (The image if "
-"there is no selection)."
-msgstr ""
-"<guilabel>Camada inteira</guilabel>: Afeta toda a camada (Afetará  a imagem "
-"toda se não houver seleção)."
-
-#: src/menus/colors/map/rotate-colormap.xml:297(para)
-msgid "<guilabel>Selection</guilabel>: displays selection only."
-msgstr "<guilabel>Seleção</guilabel>: exibe apenas a seleção"
-
-#: src/menus/colors/map/rotate-colormap.xml:302(para)
-msgid "<guilabel>Context</guilabel>: displays selection in image context."
-msgstr "<guilabel>Contexto</guilabel>: exibe a seleção no contexto da imagem."
-
-#: src/menus/colors/map/rotate-colormap.xml:314(title)
-msgid "Units"
-msgstr "Unidades"
-
-#: src/menus/colors/map/rotate-colormap.xml:315(para)
-msgid ""
-"You can select here the angle unit used to locate colors in the Hue/"
-"Saturation circle. This choice is valid only for the current filter session: "
-"don't click on OK just after selecting unit, return to the wanted tab!"
-msgstr ""
-"Aqui você pode selecionar as unidades dos ângulos utilizados para as cores "
-"nos círculos de Matiz e Saturação. Esta escolha é válida somente para a "
-"utilização atual do filtro: não clique OK nesse painel, selecione a unidade "
-"e retorne ao painel desejado!"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/map/gradientmap.xml:32(None)
 msgid ""
@@ -943,16 +686,16 @@ msgstr ""
 
 #: src/menus/colors/map/gradientmap.xml:43(para)
 msgid ""
-"This filter uses the current gradient, as shown in the Brush/Pattern/"
-"Gradient area of the Toolbox, to recolor the active layer or selection of "
-"the image to which the filter is applied. To use it, first choose a gradient "
-"from the <link linkend=\"gimp-gradient-dialog\">Gradients Dialog</link>. "
-"Then select the part of the image you want to alter, and activate the "
-"filter. The filter runs automatically, without showing any dialog or "
-"requiring any further input. It uses image color intensities (0 - 255), "
-"mapping the darkest pixels to the left end color from the gradient, and the "
-"lightest pixels to the right end color from the gradient. Intermediate "
-"values are set to the corresponding intermediate colors."
+"This filter uses the current gradient, as shown in the "
+"Brush/Pattern/Gradient area of the Toolbox, to recolor the active layer or "
+"selection of the image to which the filter is applied. To use it, first "
+"choose a gradient from the <link linkend=\"gimp-gradient-dialog\">Gradients "
+"Dialog</link>. Then select the part of the image you want to alter, and "
+"activate the filter. The filter runs automatically, without showing any "
+"dialog or requiring any further input. It uses image color intensities (0 - "
+"255), mapping the darkest pixels to the left end color from the gradient, "
+"and the lightest pixels to the right end color from the gradient. "
+"Intermediate values are set to the corresponding intermediate colors."
 msgstr ""
 "Este filtro usa o degradê atual, que está sendo utilizado, como é mostrado "
 "na caixa de ferramentas que exibe os Degradês, Pincéis e Texturas (se sua "
@@ -967,309 +710,1175 @@ msgstr ""
 "intermediários são ajustados pela cor intermediária correspondente."
 
 #: src/menus/colors/map/gradientmap.xml:61(para)
+#| msgid ""
+#| "You can access this filter in the image window menu under "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette"
+#| " Map</guimenuitem></menuchoice>."
 msgid ""
-"You can find this filter in the image window menu under "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Gradient Map</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Gradient"
+" Map</guimenuitem></menuchoice>."
 msgstr ""
-"Você pode encontrar este filtro na janela imagem no menu "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</"
-"guisubmenu><guimenuitem>Mapear com degradê</guimenuitem></menuchoice>."
+"Você poderá encontrar este filtro na janela de imagem, no menu "
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</guisubmenu><guimenuitem>Mapear"
+" com paleta</guimenuitem></menuchoice>."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/exchange.xml:40(None)
+#: src/menus/colors/map/color-rotate.xml:30(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/color-taj-rotation.jpg'; "
+#| "md5=0128fc81fc99e4df370a4b97e8944488"
+msgid ""
+"@@image: 'images/filters/examples/color-taj-rotation.jpg'; "
+"md5=481eb860eaa5a8222170f7e1e6573040"
+msgstr ""
+"@@image: 'images/filters/examples/color-taj-rotation.jpg'; "
+"md5=481eb860eaa5a8222170f7e1e6573040"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/map/color-rotate.xml:66(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/map/rotate.png'; "
+#| "md5=668868c7449bd382c6d2f64aa4c09038"
+msgid ""
+"@@image: 'images/menus/colors/map/rotate.png'; "
+"md5=238f3e8e25f86c2dcfee16870c3efd92"
+msgstr ""
+"@@image: 'images/menus/colors/map/rotate.png'; "
+"md5=238f3e8e25f86c2dcfee16870c3efd92"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/map/color-rotate.xml:220(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/colors-rotation-base.png'; "
+#| "md5=1e19130e7e933a8f699d40e9a301e3fe"
+msgid ""
+"@@image: 'images/filters/examples/taj-color-rotation-gray-treat.jpg'; "
+"md5=04be9c3e567e77749b5640ff3b2ae23b"
+msgstr ""
+"@@image: 'images/filters/examples/taj-color-rotation-gray-treat.jpg'; "
+"md5=04be9c3e567e77749b5640ff3b2ae23b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/map/color-rotate.xml:234(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/colors-rotation-base.png'; "
+#| "md5=1e19130e7e933a8f699d40e9a301e3fe"
+msgid ""
+"@@image: 'images/filters/examples/taj-color-rotation-gray-change.jpg'; "
+"md5=c8156477ac3001b7963ca8c40d8445cf"
+msgstr ""
+"@@image: 'images/filters/examples/taj-color-rotation-gray-change.jpg'; "
+"md5=c8156477ac3001b7963ca8c40d8445cf"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/map/color-rotate.xml:247(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/color-taj-rotation.jpg'; "
+#| "md5=0128fc81fc99e4df370a4b97e8944488"
+msgid ""
+"@@image: 'images/filters/examples/taj-color-rotation-gray.jpg'; "
+"md5=844a6c435031ba8bbb21708fe82235d8"
+msgstr ""
+"@@image: 'images/filters/examples/taj-color-rotation-gray.jpg'; "
+"md5=844a6c435031ba8bbb21708fe82235d8"
+
+#: src/menus/colors/map/color-rotate.xml:6(title)
+#: src/menus/colors/map/color-rotate.xml:13(primary)
+msgid "Rotate Colors"
+msgstr "Rotaciona cores"
+
+#: src/menus/colors/map/color-rotate.xml:10(secondary)
+msgid "Rotate"
+msgstr "Rotaciona"
+
+#: src/menus/colors/map/color-rotate.xml:19(title)
+#| msgid "<quote>Color Exchange</quote> filter example"
+msgid "<quote>Rotate Colors</quote> filter example"
+msgstr "Exemplo do filtro <quote>Girar cores</quote>"
+
+#: src/menus/colors/map/color-rotate.xml:33(para)
+msgid ""
+"Filter <quote>Rotate Colors</quote> applied; the blue color of the sky is "
+"within the source range and gets converted to the orange color in the "
+"destination range"
+msgstr ""
+"Filtro <quote>Girar cores</quote> aplicado; a cor azul do céu está dentro da"
+" faixa de origem e é convertida para a cor laranja da faixa de destino"
+
+#: src/menus/colors/map/color-rotate.xml:41(para)
+#| msgid ""
+#| "Colormap Rotation lets you exchange one color range to another range."
+msgid ""
+"Colormap Rotation lets you exchange one color range (the Source Range) to "
+"another range (the Destination Range)."
+msgstr ""
+"A rotação do mapa de cores permite trocar uma faixa de cores (a faixa de "
+"origem) por outra faixa (a faixa de destino)."
+
+#: src/menus/colors/map/color-rotate.xml:49(para)
+#| msgid ""
+#| "You can access this filter in the image window menu under "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette"
+#| " Map</guimenuitem></menuchoice>."
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Rotate"
+" Colors…</guimenuitem></menuchoice>."
+msgstr ""
+"Você poderá encontrar este filtro na janela de imagem, no menu "
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</guisubmenu><guimenuitem>Mapear"
+" com paleta</guimenuitem></menuchoice>."
+
+#: src/menus/colors/map/color-rotate.xml:62(title)
+#| msgid "Filter <quote>Rotate Colors</quote> applied"
+msgid "The <quote>Rotate Colors</quote> Dialog"
+msgstr "A caixa de diálogo <quote>Girar cores</quote>"
+
+#: src/menus/colors/map/color-rotate.xml:72(term)
+#: src/menus/colors/map/color-exchange.xml:75(term)
+#: src/menus/colors/map/alien-map.xml:69(term)
+msgid "Presets"
+msgstr "Definições "
+
+#: src/menus/colors/map/color-rotate.xml:73(term)
+#: src/menus/colors/map/color-exchange.xml:76(term)
+#: src/menus/colors/map/alien-map.xml:70(term)
+#| msgid "Main Options"
+msgid "Blending Options"
+msgstr "Opções de mesclagem"
+
+#: src/menus/colors/map/color-rotate.xml:74(term)
+#: src/menus/colors/map/color-exchange.xml:77(term)
+#: src/menus/colors/map/alien-map.xml:71(term)
+msgid "Preview"
+msgstr "Pré-visualização"
+
+#: src/menus/colors/map/color-rotate.xml:75(term)
+#: src/menus/colors/map/color-exchange.xml:78(term)
+#: src/menus/colors/map/alien-map.xml:72(term)
+msgid "Merge filter"
+msgstr "Mesclar filtro"
+
+#: src/menus/colors/map/color-rotate.xml:76(term)
+#: src/menus/colors/map/color-exchange.xml:79(term)
+#: src/menus/colors/map/alien-map.xml:73(term)
+msgid "Split view"
+msgstr "Vista dividida"
+
+#: src/menus/colors/map/color-rotate.xml:83(term)
+msgid "Source Range"
+msgstr "Faixa de origem"
+
+#: src/menus/colors/map/color-rotate.xml:84(term)
+#| msgid "Destination, Sample"
+msgid "Destination Range"
+msgstr "Faixa de destino"
+
+#: src/menus/colors/map/color-rotate.xml:86(para)
+msgid ""
+"Both source and destination range have a color wheel range selection circle."
+" You can drag both arrow handles to the color location you want. They "
+"correspond to the <guilabel>From</guilabel> and <guilabel>To</guilabel> "
+"sliders listed below."
+msgstr ""
+"Tanto a faixa de origem quanto a de destino têm um círculo de seleção de "
+"faixa no círculo cromático. Você pode arrastar as duas alças de seta até o "
+"local de cor desejado. Elas correspondem aos controles deslizantes "
+"<guilabel>De</guilabel> e <guilabel>Até</guilabel> listados abaixo."
+
+#: src/menus/colors/map/color-rotate.xml:94(term)
+msgid "From"
+msgstr "A partir de"
+
+#: src/menus/colors/map/color-rotate.xml:96(para)
+msgid ""
+"The angle of the starting position of the color range on the color wheel."
+msgstr "O ângulo da posição inicial da faixa de cores no círculo cromático."
+
+#: src/menus/colors/map/color-rotate.xml:103(term)
+msgid "To"
+msgstr "Para"
+
+#: src/menus/colors/map/color-rotate.xml:105(para)
+msgid ""
+"The angle of the ending position of the color range on the color wheel."
+msgstr "O ângulo da posição final da faixa de cores no círculo cromático."
+
+#: src/menus/colors/map/color-rotate.xml:112(term)
+msgid "Clockwise"
+msgstr "Sentido horário"
+
+#: src/menus/colors/map/color-rotate.xml:114(para)
+msgid ""
+"When checked the range from start to end is computed clockwise, else "
+"counter-clockwise (default)."
+msgstr ""
+"Quando marcado, a faixa de início a fim é calculada no sentido horário; caso"
+" contrário, no sentido anti-horário (padrão)."
+
+#: src/menus/colors/map/color-rotate.xml:121(term)
+msgid "Invert Range"
+msgstr "Inverter faixa"
+
+#: src/menus/colors/map/color-rotate.xml:123(para)
+msgid ""
+"This button inverts the <guilabel>From</guilabel> and "
+"<guilabel>To</guilabel> values."
+msgstr ""
+"Este botão inverte os valores <guilabel>De</guilabel> e "
+"<guilabel>Até</guilabel>."
+
+#: src/menus/colors/map/color-rotate.xml:130(term)
+msgid "Select All"
+msgstr "Selecionar tudo"
+
+#: src/menus/colors/map/color-rotate.xml:132(para)
+#| msgid "This filter replaces a color with another one."
+msgid "This button selects all colors to be inside the range."
+msgstr "Este botão seleciona todas as cores para ficarem dentro da faixa."
+
+#: src/menus/colors/map/color-rotate.xml:142(term)
+#: src/menus/colors/map/color-rotate.xml:202(term)
+msgid "Gray Handling"
+msgstr "Tratamento do cinza"
+
+#: src/menus/colors/map/color-rotate.xml:144(para)
+#| msgid ""
+#| "In this tab, you can specify how to treat gray. By default, gray is not "
+#| "considered as a color and is not taken in account by the rotation. Here, you"
+#| " can convert slightly saturated colors into gray and you can also convert "
+#| "gray into color."
+msgid ""
+"In this section, you can specify how to treat gray. By default, gray is not "
+"considered as a color and is not taken in account by the rotation. Here, you"
+" can convert slightly saturated colors into gray and you can also convert "
+"gray into a color depending on the settings below."
+msgstr ""
+"Nesta seção, você pode especificar como tratar o cinza. Por padrão, o cinza "
+"não é considerado uma cor e não é levado em conta pela rotação. Aqui você "
+"pode converter cores levemente saturadas em cinza e também converter cinza "
+"em uma cor, dependendo das configurações abaixo."
+
+#: src/menus/colors/map/color-rotate.xml:151(para)
+msgid ""
+"The small circle in the color wheel adjusts the Hue and Saturation that will"
+" be used to select the color that represents gray. They correspond to the "
+"<guilabel>Hue</guilabel> and <guilabel>Saturation</guilabel> sliders listed "
+"below."
+msgstr ""
+"O pequeno círculo no círculo cromático ajusta o matiz e a saturação que "
+"serão usados para selecionar a cor que representa o cinza. Eles correspondem"
+" aos controles deslizantes <guilabel>Matiz</guilabel> e "
+"<guilabel>Saturação</guilabel> listados abaixo."
+
+#: src/menus/colors/map/color-rotate.xml:159(term)
+#| msgid "Gray Threshold"
+msgid "Gray threshold"
+msgstr "Limiar de cinza"
+
+#: src/menus/colors/map/color-rotate.xml:161(para)
+msgid ""
+"This slider selects which colors will be treated as gray. Colors with a "
+"Saturation less than this value will be converted to the selected \"gray\" "
+"color."
+msgstr ""
+"Este controle deslizante seleciona quais cores serão tratadas como cinza. "
+"Cores com saturação menor que este valor serão convertidas na cor \"cinza\" "
+"selecionada."
+
+#: src/menus/colors/map/color-rotate.xml:169(term)
+#| msgid "Gray Mode"
+msgid "Gray mode"
+msgstr "Modo cinza"
+
+#: src/menus/colors/map/color-rotate.xml:173(para)
+msgid ""
+"<guilabel>Treat as this</guilabel> causes gray colors inside the source "
+"range to be treated as if they had this Hue and saturation. The color will "
+"be rotated according to the source and destination ranges."
+msgstr ""
+"<guilabel>Tratar como esta</guilabel> faz com que as cores cinzas dentro da "
+"faixa de origem sejam tratadas como se tivessem este matiz e saturação. A "
+"cor será girada de acordo com as faixas de origem e destino."
+
+#: src/menus/colors/map/color-rotate.xml:181(para)
+msgid ""
+"<guilabel>Change to this</guilabel> will change gray colors to the selected "
+"Hue and Saturation without any rotation."
+msgstr ""
+"<guilabel>Mudar para esta</guilabel> muda as cores cinzas para o matiz e a "
+"saturação selecionados, sem qualquer rotação."
+
+#: src/menus/colors/map/color-rotate.xml:198(title)
+msgid "Examples using Gray Handling"
+msgstr "Exemplos usando o tratamento do cinza"
+
+#: src/menus/colors/map/color-rotate.xml:204(para)
+msgid ""
+"Using the same example as at the top of this page, but now with the "
+"following gray handling settings used: Gray threshold 0.340, Hue 220.0, "
+"Saturation 0.75."
+msgstr ""
+"Usando o mesmo exemplo do topo desta página, mas agora com as seguintes "
+"configurações de tratamento do cinza: limiar de cinza 0.340, matiz 220.0, "
+"saturação 0.75."
+
+#: src/menus/colors/map/color-rotate.xml:210(para)
+msgid ""
+"If you want gray instead of a different color, you should leave Hue and "
+"Saturation at 0."
+msgstr ""
+"Se você quiser cinza em vez de uma cor diferente, deixe matiz e saturação em"
+" 0."
+
+#: src/menus/colors/map/color-rotate.xml:216(title)
+#| msgid "<quote>Color Exchange</quote> filter example"
+msgid "<quote>Rotate Colors</quote> filter examples for gray handling"
+msgstr ""
+"Exemplos do filtro <quote>Girar cores</quote> para o tratamento do cinza"
+
+#: src/menus/colors/map/color-rotate.xml:223(para)
+msgid ""
+"Gray mode set to <guilabel>Treat as this</guilabel>: any color with a "
+"Saturation below 0.34 will be converted to orange because the selected blue "
+"Hue, Saturation in the source range rotates to orange in the destination "
+"range."
+msgstr ""
+"Modo de cinza definido como <guilabel>Tratar como esta</guilabel>: qualquer "
+"cor com saturação abaixo de 0.34 será convertida em laranja, porque o matiz "
+"azul e a saturação selecionados na faixa de origem giram para laranja na "
+"faixa de destino."
+
+#: src/menus/colors/map/color-rotate.xml:237(para)
+msgid ""
+"Gray mode set to <guilabel>Change to this</guilabel>: the rotation is now "
+"ignored and the color is picked directly based on the chosen Hue and "
+"Saturation."
+msgstr ""
+"Modo de cinza definido como <guilabel>Mudar para esta</guilabel>: a rotação "
+"agora é ignorada e a cor é escolhida diretamente com base no matiz e na "
+"saturação escolhidos."
+
+#: src/menus/colors/map/color-rotate.xml:250(para)
+msgid ""
+"Saturation and Hue set to 0 turns anything below the threshold to gray."
+msgstr "Saturação e matiz em 0 transformam tudo abaixo do limiar em cinza."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/map/color-exchange.xml:34(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/color-taj-exchange.jpg'; "
+#| "md5=830032de3e68aaa222cd12f78b8dcfc8"
 msgid ""
 "@@image: 'images/filters/examples/color-taj-exchange.jpg'; "
-"md5=830032de3e68aaa222cd12f78b8dcfc8"
+"md5=614955eef8e2657246ab35c17aaed9dd"
 msgstr ""
 "@@image: 'images/filters/examples/color-taj-exchange.jpg'; "
-"md5=830032de3e68aaa222cd12f78b8dcfc8"
+"md5=614955eef8e2657246ab35c17aaed9dd"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/exchange.xml:69(None)
+#: src/menus/colors/map/color-exchange.xml:69(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/map/exchange.png'; "
+#| "md5=133b09a5e847509c92ccfcfa2c6828a9"
 msgid ""
 "@@image: 'images/menus/colors/map/exchange.png'; "
-"md5=133b09a5e847509c92ccfcfa2c6828a9"
+"md5=1c3848ee06a828dc94d718bc2b2858b0"
 msgstr ""
 "@@image: 'images/menus/colors/map/exchange.png'; "
-"md5=133b09a5e847509c92ccfcfa2c6828a9"
+"md5=1c3848ee06a828dc94d718bc2b2858b0"
 
-#: src/menus/colors/map/exchange.xml:14(title)
-#: src/menus/colors/map/exchange.xml:21(primary)
+#: src/menus/colors/map/color-exchange.xml:8(title)
+#: src/menus/colors/map/color-exchange.xml:15(primary)
 msgid "Color Exchange"
 msgstr "Troca de cores"
 
-#: src/menus/colors/map/exchange.xml:18(secondary)
+#: src/menus/colors/map/color-exchange.xml:12(secondary)
 msgid "Exchange colors"
 msgstr "Troca de cores"
 
-#: src/menus/colors/map/exchange.xml:27(title)
+#: src/menus/colors/map/color-exchange.xml:21(title)
 msgid "<quote>Color Exchange</quote> filter example"
 msgstr "Exemplo do filtro<quote>Troca de cores</quote> "
 
-#: src/menus/colors/map/exchange.xml:47(para)
+#: src/menus/colors/map/color-exchange.xml:37(para)
+msgid ""
+"Filter applied with <guilabel>From color</guilabel> RGB (122, 149, 199), "
+"<guilabel>To color</guilabel> RGB (255, 0, 0), <guilabel>Red "
+"threshold</guilabel> 0.106, <guilabel>Green threshold</guilabel> 0.100, "
+"<guilabel>Blue threshold</guilabel> 0.190."
+msgstr ""
+"Filtro aplicado com <guilabel>Cor de origem</guilabel> RGB (122, 149, 199), "
+"<guilabel>Cor de destino</guilabel> RGB (255, 0, 0), <guilabel>Limiar de "
+"vermelho</guilabel> 0.106, <guilabel>Limiar de verde</guilabel> 0.100, "
+"<guilabel>Limiar de azul</guilabel> 0.190."
+
+#: src/menus/colors/map/color-exchange.xml:47(para)
 msgid "This filter replaces a color with another one."
 msgstr "Este filtro troca uma cor por outra"
 
-#: src/menus/colors/map/exchange.xml:52(para)
+#: src/menus/colors/map/color-exchange.xml:52(para)
+#| msgid ""
+#| "This filter is found in the image window menu under "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Color"
+#| " Exchange</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the image window menu under "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Color Exchange</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Color"
+" Exchange…</guimenuitem></menuchoice>."
 msgstr ""
-"Este filtro é encontrado na janela de imagem, no "
-"menu<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</"
-"guisubmenu><guimenuitem>Troca de cores</guimenuitem></menuchoice>."
+"Você pode acessar este comando no menu principal em "
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</guisubmenu><guimenuitem>Trocar"
+" cores…</guimenuitem></menuchoice>."
 
-#: src/menus/colors/map/exchange.xml:65(title)
-msgid "Option of the <quote>Two color exchange</quote> filter"
-msgstr "Opções do filtro: <quote>Troca de cores</quote>"
+#: src/menus/colors/map/color-exchange.xml:65(title)
+#| msgid "<quote>Color Exchange</quote> filter example"
+msgid "The <quote>Color Exchange</quote> Dialog"
+msgstr "A caixa de diálogo <quote>Trocar cores</quote>"
 
-#: src/menus/colors/map/exchange.xml:77(para)
-msgid ""
-"In this preview, a part of the Image is displayed. A selection smaller than "
-"preview will be complete in preview. A bigger one will be cut out to be "
-"adapted to the preview."
-msgstr ""
-"Nesta pré-visualização, apenas parte da imagem é exibida. Se a seleção for "
-"menor que a pré-visualização aparecerá por completo. A maior será cortada "
-"para que caiba na pré-visualização."
-
-#: src/menus/colors/map/exchange.xml:82(para)
-msgid ""
-"If you middle-click inside preview , the clicked pixel color will be "
-"selected and will appear as From Color."
-msgstr ""
-"Se você clicar no meio da imagem, em sua pré-visualização, o pixel da cor "
-"clicada aparecerá como cor em A partir da cor"
-
-#: src/menus/colors/map/exchange.xml:91(term)
+#: src/menus/colors/map/color-exchange.xml:85(term)
 msgid "From color"
 msgstr "A partir de cor"
 
-#: src/menus/colors/map/exchange.xml:93(para)
+#: src/menus/colors/map/color-exchange.xml:87(para)
 msgid ""
-"In this section, you can choose the color to be used to select pixels that "
-"will be concerned by color exchange."
+"This is the color you want to replace. To choose a color you can either use "
+"the color button to open the Color Picker dialog, or you can use the Color "
+"Picker tool to pick a color from your image."
 msgstr ""
-"Nesta seção, você poderá escolher a cor que vai ser usada para selecionar os "
-"pixels que serão afetados pela troca de cores"
+"Esta é a cor que você quer substituir. Para escolher uma cor, use o botão de"
+" cor para abrir a caixa de diálogo do seletor de cores, ou use a ferramenta "
+"Seletor de cores para capturar uma cor da sua imagem."
 
-#: src/menus/colors/map/exchange.xml:97(para)
-msgid ""
-"<guilabel>Three sliders for RVB colors</guilabel>: If you have clicked on "
-"preview, they are automatically positioned. But you can change them. Each "
-"slider acts on color intensity. Input boxes and arrowheads work the same. "
-"Result is interactively displayed in the From swatch box."
-msgstr ""
-"<guilabel>Três controles deslizantes das cores RGB</guilabel>: se você clicou "
-"na pré-visualização, eles estarão automaticamente posicionados. Mas você "
-"também poderá mudá-los manualmente. Cada controle deslizante atua na "
-"intensidade da cor. As caixas de entrada e as setas tem a mesma função. O "
-"resultado é exibido interativamente na caixa A partir da cor."
-
-#: src/menus/colors/map/exchange.xml:103(para)
-msgid ""
-"<guilabel>Three sliders for thresholds</guilabel>, for each color. The "
-"higher the threshold, the more pixels will be concerned. Result is "
-"interactively displayed in Preview."
-msgstr ""
-"<guilabel>Três controles de limiares</guilabel>, para cada cor. Quanto maior "
-"o limiar, o limite, mais pixels serão utilizados. O resultado é exibido "
-"interativamente na pré-visualização. "
-
-#: src/menus/colors/map/exchange.xml:107(para)
-msgid ""
-"<guilabel>Lock Thresholds</guilabel>: This option locks threshold sliders "
-"which will act all the same."
-msgstr ""
-"<guilabel>Sincronizar limiares</guilabel>: Esta opção trava os controles "
-"deslizantes fazendo com que atuem todos da mesma maneira."
-
-#: src/menus/colors/map/exchange.xml:115(term)
+#: src/menus/colors/map/color-exchange.xml:95(term)
 msgid "To color"
 msgstr "Para a cor"
 
-#: src/menus/colors/map/exchange.xml:117(para)
+#: src/menus/colors/map/color-exchange.xml:97(para)
 msgid ""
-"<guilabel>Three cursors</guilabel> allow to select the color that pixels "
-"will have. Result is displayed in swatch box and in preview. You can also "
-"click on the color dwell to get a color selector."
+"This is the new color you want to use. To choose a color you can either use "
+"the color button to open the Color Picker dialog, or you can use the Color "
+"Picker tool to pick a color from your image."
 msgstr ""
-"<guilabel>Três cursores</guilabel>permite selecionar a cor que os pixels "
-"terão. O resultado é exibido na caixa dePara a cor e na pré-visualização. "
-"Você também pode clicar na caixa de visualização da cor para obter um seletor "
-"de cor tradicional."
+"Esta é a nova cor que você quer usar. Para escolher uma cor, use o botão de "
+"cor para abrir a caixa de diálogo do seletor de cores, ou use a ferramenta "
+"Seletor de cores para capturar uma cor da sua imagem."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#: src/menus/colors/map/color-exchange.xml:105(term)
+#| msgid "Gray Threshold"
+msgid "Red Threshold"
+msgstr "Limiar de vermelho"
+
+#: src/menus/colors/map/color-exchange.xml:106(term)
+#| msgid "Gray Threshold"
+msgid "Green Threshold"
+msgstr "Limiar de verde"
+
+#: src/menus/colors/map/color-exchange.xml:107(term)
+#| msgid "Gray Threshold"
+msgid "Blue Threshold"
+msgstr "Limiar de azul"
+
+#: src/menus/colors/map/color-exchange.xml:109(para)
+msgid ""
+"These sliders allow you to set how sensitive the red, green and blue "
+"components are to differences from the <guilabel>From color</guilabel>. The "
+"higher the threshold, the more pixels will be affected."
+msgstr ""
+"Estes controles deslizantes permitem definir quão sensíveis os componentes "
+"vermelho, verde e azul são às diferenças em relação à <guilabel>Cor de "
+"origem</guilabel>. Quanto maior o limiar, mais pixels serão afetados."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/rearrange-colormap.xml:26(None)
+#: src/menus/colors/map/alien-map.xml:32(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/color-taj-rotation.jpg'; "
+#| "md5=0128fc81fc99e4df370a4b97e8944488"
 msgid ""
-"@@image: 'images/menus/colors/map/rearrange.png'; "
-"md5=a2793fc4f68490b6f8d0eb869c3f6f98"
+"@@image: 'images/filters/examples/alien-map-taj.jpg'; "
+"md5=30398413fddd6a4cc69552df16223f77"
 msgstr ""
-"@@image: 'images/menus/colors/map/rearrange.png'; "
-"md5=a2793fc4f68490b6f8d0eb869c3f6f98"
+"@@image: 'images/filters/examples/alien-map-taj.jpg'; "
+"md5=30398413fddd6a4cc69552df16223f77"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/rearrange-colormap.xml:63(None)
+#: src/menus/colors/map/alien-map.xml:63(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/map/alienmap.png'; "
+#| "md5=45177a5f3c7e57b1c2916488fb12cef4"
 msgid ""
-"@@image: 'images/menus/colors/map/rearrange-popmenu.png'; "
-"md5=e7be5a82a35c8e81679f400c8090a175"
+"@@image: 'images/menus/colors/map/alien-map-dialog.png'; "
+"md5=6d914be1552b442510f11b8a681372ed"
 msgstr ""
-"@@image: 'images/menus/colors/map/rearrange-popmenu.png'; "
-"md5=e7be5a82a35c8e81679f400c8090a175"
+"@@image: 'images/menus/colors/map/alien-map-dialog.png'; "
+"md5=6d914be1552b442510f11b8a681372ed"
 
-#: src/menus/colors/map/rearrange-colormap.xml:11(title)
-#: src/menus/colors/map/rearrange-colormap.xml:18(primary)
-msgid "Rearrange Colormap"
-msgstr "Rearranja o mapa de cores"
+#: src/menus/colors/map/alien-map.xml:6(title)
+#: src/menus/colors/map/alien-map.xml:10(secondary)
+#: src/menus/colors/map/alien-map.xml:13(primary)
+msgid "Alien Map"
+msgstr "Mapeamento alien"
 
-#: src/menus/colors/map/rearrange-colormap.xml:14(primary)
-#: src/menus/colors/map/set-colormap.xml:14(primary)
-msgid "Colormap"
-msgstr "Mapa de cores"
+#: src/menus/colors/map/alien-map.xml:19(title)
+#| msgid "<quote>Color Exchange</quote> filter example"
+msgid "<quote>Alien Map</quote> filter example"
+msgstr "Exemplo do filtro <quote>Mapa alienígena</quote>"
 
-#: src/menus/colors/map/rearrange-colormap.xml:15(secondary)
-msgid "Rearrange"
-msgstr "Rearranja"
+#: src/menus/colors/map/alien-map.xml:35(para)
+msgid "Filter applied with default settings"
+msgstr "Filtro aplicado com as configurações padrão"
 
-#: src/menus/colors/map/rearrange-colormap.xml:22(title)
-msgid "The <quote>Rearrange Colormap</quote> window"
-msgstr "A janela <quote>Rearranja o mapa de cores</quote>"
-
-# ** Eeek: "indexed palette" dialog is called "color map" dialog now
-#: src/menus/colors/map/rearrange-colormap.xml:30(para)
+#: src/menus/colors/map/alien-map.xml:39(para)
 msgid ""
-"This command allows you to re-organize colors in the palette of "
-"<emphasis>indexed</emphasis> images. It doesn't modify the image. You can't "
-"add or remove colors; for that, see <link linkend=\"gimp-indexed-palette-"
-"dialog\">The Indexed Palette Dialog </link>."
+"This filter heavily distorts image colors by applying trigonometric "
+"functions to map color values."
 msgstr ""
-"Este comando permite que você reorganize as cores nomapa de cores de "
-"imagens  <emphasis>indexadas</emphasis>. Ele não altera a imagem. Você não "
-"pode adicionar ou remover cores, para isto veja o diálogo de <link linkend="
-"\"gimp-indexed-palette-dialog\">Mapa de cores </link>."
+"Este filtro distorce fortemente as cores da imagem aplicando funções "
+"trigonométricas para mapear os valores de cor."
 
-#: src/menus/colors/map/rearrange-colormap.xml:39(title)
-msgid "Activate Dialog"
-msgstr "Ativar o diálogo"
+#: src/menus/colors/map/alien-map.xml:46(para)
+#| msgid ""
+#| "You can access this filter in the image window menu under "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette"
+#| " Map</guimenuitem></menuchoice>."
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Alien"
+" Map…</guimenuitem></menuchoice>."
+msgstr ""
+"Você poderá encontrar este filtro na janela de imagem, no menu "
+"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</guisubmenu><guimenuitem>Mapear"
+" com paleta</guimenuitem></menuchoice>."
+
+#: src/menus/colors/map/alien-map.xml:59(title)
+#| msgid "Options for the <quote>Alien Map</quote> filter"
+msgid "The <quote>Alien Map</quote> Dialog"
+msgstr "A caixa de diálogo <quote>Mapa alienígena</quote>"
+
+#: src/menus/colors/map/alien-map.xml:79(term)
+#| msgid "Colormap"
+msgid "Color model"
+msgstr "Modelo de cor"
+
+#: src/menus/colors/map/alien-map.xml:81(para)
+msgid ""
+"The <link linkend=\"glossary-colormodel\">color model</link> used for the "
+"transformation: choices are <guilabel>RGB</guilabel> (default) and "
+"<guilabel>HSL</guilabel> (<link linkend=\"glossary-hsl\">Hue, Saturation and"
+" Lightness</link>)."
+msgstr ""
+"O <link linkend=\"glossary-colormodel\">modelo de cor</link> usado na "
+"transformação: as opções são <guilabel>RGB</guilabel> (padrão) e "
+"<guilabel>HSL</guilabel> (<link linkend=\"glossary-hsl\">matiz, saturação e "
+"luminosidade</link>)."
+
+#: src/menus/colors/map/alien-map.xml:87(para)
+msgid "The chosen Color Model changes the next settings."
+msgstr "O modelo de cor escolhido altera as configurações seguintes."
+
+#: src/menus/colors/map/alien-map.xml:93(term)
+msgid "Red frequency"
+msgstr "Frequência do vermelho"
+
+#: src/menus/colors/map/alien-map.xml:94(term)
+msgid "Green frequency"
+msgstr "Frequência do verde"
+
+#: src/menus/colors/map/alien-map.xml:95(term)
+msgid "Blue frequency"
+msgstr "Frequência do azul"
+
+#: src/menus/colors/map/alien-map.xml:96(term)
+msgid "Hue frequency"
+msgstr "Frequência do matiz"
+
+#: src/menus/colors/map/alien-map.xml:97(term)
+msgid "Saturation frequency"
+msgstr "Frequência da saturação"
+
+#: src/menus/colors/map/alien-map.xml:98(term)
+msgid "Lightness frequency"
+msgstr "Frequência da luminosidade"
+
+#: src/menus/colors/map/alien-map.xml:100(para)
+msgid ""
+"These sliders determine the frequency multiplier for each component in the "
+"color transformation."
+msgstr ""
+"Estes controles deslizantes determinam o multiplicador de frequência de cada"
+" componente na transformação de cor."
+
+#: src/menus/colors/map/alien-map.xml:107(term)
+msgid "Red phase shift"
+msgstr "Deslocamento de fase do vermelho"
+
+#: src/menus/colors/map/alien-map.xml:108(term)
+msgid "Green phase shift"
+msgstr "Deslocamento de fase do verde"
+
+#: src/menus/colors/map/alien-map.xml:109(term)
+msgid "Blue phase shift"
+msgstr "Deslocamento de fase do azul"
+
+#: src/menus/colors/map/alien-map.xml:110(term)
+msgid "Hue phase shift"
+msgstr "Deslocamento de fase do matiz"
+
+#: src/menus/colors/map/alien-map.xml:111(term)
+msgid "Saturation phase shift"
+msgstr "Deslocamento de fase da saturação"
+
+#: src/menus/colors/map/alien-map.xml:112(term)
+msgid "Lightness phase shift"
+msgstr "Deslocamento de fase da luminosidade"
+
+#: src/menus/colors/map/alien-map.xml:114(para)
+msgid ""
+"These sliders and angle selectors determine how much of a phase shift from "
+"one component to another will be done for the chosen input component."
+msgstr ""
+"Estes controles deslizantes e seletores de ângulo determinam quanto "
+"deslocamento de fase de um componente para outro será feito no componente de"
+" entrada escolhido."
+
+#: src/menus/colors/map/alien-map.xml:122(term)
+msgid "Keep red component"
+msgstr "Manter componente vermelho"
+
+#: src/menus/colors/map/alien-map.xml:123(term)
+msgid "Keep green component"
+msgstr "Manter componente verde"
+
+#: src/menus/colors/map/alien-map.xml:124(term)
+msgid "Keep blue component"
+msgstr "Manter componente azul"
+
+#: src/menus/colors/map/alien-map.xml:125(term)
+msgid "Keep hue component"
+msgstr "Manter componente de matiz"
+
+#: src/menus/colors/map/alien-map.xml:126(term)
+msgid "Keep saturation component"
+msgstr "Manter componente de saturação"
+
+#: src/menus/colors/map/alien-map.xml:127(term)
+msgid "Keep lightness component"
+msgstr "Manter componente de luminosidade"
+
+#: src/menus/colors/map/alien-map.xml:129(para)
+msgid ""
+"These checkboxes allow you disable one or more of the components from being "
+"changed. Any component checked here will not be changed by the filter."
+msgstr ""
+"Estas caixas permitem desabilitar a alteração de um ou mais componentes. "
+"Qualquer componente marcado aqui não será alterado pelo filtro."
+
+#~ msgid ""
+#~ "@@image: 'images/filters/examples/color-taj-alien2.jpg'; "
+#~ "md5=b8f6eaff369300062d0be069768bdb7c"
+#~ msgstr ""
+#~ "@@image: 'images/filters/examples/color-taj-alien2.jpg'; "
+#~ "md5=b8f6eaff369300062d0be069768bdb7c"
+
+#~ msgid "Alien Map filter example"
+#~ msgstr "Exemplo do filtro Mapeamento alien"
+
+#~ msgid "Filter applied"
+#~ msgstr "Filtro aplicado"
+
+#~ msgid ""
+#~ "This filter renders very modified colors by applying trigonometric "
+#~ "functions. Alien Map can work on images having <link linkend=\"glossary-"
+#~ "colormodel\">RGB and HSV</link> color models."
+#~ msgstr ""
+#~ "Este filtro produz cores bem modificadas, usando como base a aplicação de "
+#~ "funções trigonométricas. O Mapeamento alien pode trabalhar com imagens "
+#~ "usando os modelos de cor: <link linkend=\"glossary-colormodel\">RGB e "
+#~ "HSL</link>"
+
+#~ msgid "Activate the filter"
+#~ msgstr "Ativar o filtro"
+
+#~ msgid ""
+#~ "You can find this filter in the image window menu under "
+#~ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Alien"
+#~ " Map</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Você pode encontrar este filtro na janela de imagem, no menu "
+#~ "<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</guisubmenu><guimenuitem>Mapeamento"
+#~ " Alien</guimenuitem></menuchoice>."
+
+#~ msgid "This preview displays results of filter application interactively."
+#~ msgstr ""
+#~ "Esta pré-visualização exibe os resultados da aplicação do filtro "
+#~ "interativamente."
+
+#~ msgid "Mode"
+#~ msgstr "Modo"
+
+#~ msgid ""
+#~ "Radio buttons <guilabel>RGB Color Channel</guilabel> and <guilabel>HSV Color"
+#~ " Channel</guilabel> let you select the color space you want to use."
+#~ msgstr ""
+#~ "Estes botões <guilabel>Modelo de cores RGB </guilabel> e <guilabel>Modelo de"
+#~ " cores HSL</guilabel> permitem que você selecione o espaço de cor que você "
+#~ "deseja usar."
+
+#~ msgid ""
+#~ "Check boxes <guilabel>Modify ... Channel</guilabel> let you select RGB/HSV "
+#~ "Channel you want to work with."
+#~ msgstr ""
+#~ "Caixas de seleção <guilabel>Modificar canal ...</guilabel> Permite "
+#~ "selecionar os canais RGB/HSL em que você deseja trabalhar."
+
+#~ msgid "Sliders"
+#~ msgstr "Controles deslizantes"
+
+#~ msgid ""
+#~ "For each channel, you can set Frequency (0-5) and Phaseshift (0-360) of "
+#~ "sine-cosine functions, using either sliders or input boxes and their "
+#~ "arrowheads."
+#~ msgstr ""
+#~ "Para cada canal, você pode ajustar a Frequência (0-5) e Troca de fase (0 "
+#~ "-360) das funções de seno e co-seno, usando ou os controles deslizantes ou "
+#~ "as caixas de entrada e suas setas."
+
+#~ msgid ""
+#~ "<guilabel>Frequency</guilabel> around 0.3 to 0.7 provides a curve that is "
+#~ "similar to the linear function (original image), only darker or with more "
+#~ "contrast. As you raise the frequency level, you'll get an increasing "
+#~ "variation in pixel transformation, meaning that the image will get more and "
+#~ "more <quote>alien</quote>."
+#~ msgstr ""
+#~ "<guilabel>Frequência</guilabel> em torno de 0.3 até 0.7 cria uma curva que é"
+#~ " semelhante a uma função linear (imagem original), somente mais escura ou "
+#~ "com mais contraste. Mas conforme você eleva a frequência, você obtém um "
+#~ "aumento na variação da transformação dos pixels, isto significa que a imagem"
+#~ " vai ficando mais e mais <quote>Alien</quote>."
+
+#~ msgid ""
+#~ "<guilabel>Phase</guilabel> alters the value transformation. 0 and 360 "
+#~ "degrees are the same as a sine function and 90 is the same as a cosine "
+#~ "function. 180 inverts sine and 270 inverts cosine."
+#~ msgstr ""
+#~ "<guilabel>Fase</guilabel> altera o valor da transformação. 0 e 360 graus são"
+#~ " a mesma coisa que a função de seno e 90 graus é a mesma coisa que a função "
+#~ "co-seno. 180 graus inverte o seno e 270 inverte o co-seno."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/colors/map/palettemap-ex1.png'; "
+#~ "md5=142bef0d8c64de87cc6d11c9480cc646"
+#~ msgstr ""
+#~ "@@image: 'images/menus/colors/map/palettemap-ex1.png'; "
+#~ "md5=142bef0d8c64de87cc6d11c9480cc646"
+
+#~ msgid ""
+#~ "Your gray-tone image must be changed to RGB before using this filter "
+#~ "(Image/Image&gt;Mode&gt;RGB)."
+#~ msgstr ""
+#~ "Sua imagem em Tons de cinza terá que ser convertida em uma imagem RGB antes "
+#~ "de usar este filtro (Imagem&gt;Modo&gt;RGB)."
+
+#~ msgid ""
+#~ "This filter is found in the image window menu under "
+#~ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Sample"
+#~ " Colorize</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Este filtro se encontra na janela de imagem no menu "
+#~ "<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</guisubmenu><guimenuitem>Colorizar"
+#~ " a partir de amostra</guimenuitem></menuchoice>."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/colors/map/rotate-colors-graymode.png'; "
+#~ "md5=ead4884151e2760ec853cad2da4a8361"
+#~ msgstr ""
+#~ "@@image: 'images/menus/colors/map/rotate-colors-graymode.png'; "
+#~ "md5=ead4884151e2760ec853cad2da4a8361"
+
+#~ msgid ""
+#~ "@@image: 'images/filters/examples/colors-map-rotation-threshold.png'; "
+#~ "md5=391e52e65144dd727bb59155f476ed1d"
+#~ msgstr ""
+#~ "@@image: 'images/filters/examples/colors-map-rotation-threshold.png'; "
+#~ "md5=391e52e65144dd727bb59155f476ed1d"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/colors/map/rotate-colors-graythresh.png'; "
+#~ "md5=d97f216714e18cb37855639adcdb32c5"
+#~ msgstr ""
+#~ "@@image: 'images/menus/colors/map/rotate-colors-graythresh.png'; "
+#~ "md5=d97f216714e18cb37855639adcdb32c5"
+
+#~ msgid "Example for the <quote>Rotate Colors</quote> filter"
+#~ msgstr "Exemplo do filtro <quote>Rotaciona Cores</quote> "
+
+#~ msgid "Activating the filter"
+#~ msgstr "Ativar o filtro"
+
+#~ msgid ""
+#~ "This filter is found in the image window menu under "
+#~ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Rotate"
+#~ " Colors</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Este filtro se encontra na janela de imagem, no menu "
+#~ "<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</guisubmenu><guimenuitem>Rotaciona"
+#~ " cores</guimenuitem></menuchoice>."
+
+#~ msgid "Main Options of the <quote>Color Map Rotation</quote> filter"
+#~ msgstr "Opções principais do filtro<quote>Rotaciona cores</quote> "
+
+#~ msgid ""
+#~ "You have there two color circles, one for the <quote>From</quote> color "
+#~ "range and the other for the <quote>To</quote> color range:"
+#~ msgstr ""
+#~ "Você tem dois círculos de cor, um para o intervalo de cores <quote>A partir "
+#~ "de</quote> e outro para o intervalo de cores de destino <quote>Para</quote>:"
+
+#~ msgid ""
+#~ "The <guilabel>Color Circle</guilabel>: Two axis to define "
+#~ "<quote>From</quote> range. The curved arrow in angle lets to recognise "
+#~ "<quote>From</quote> axis and <quote>To</quote> axis of range. Click-drag "
+#~ "these axis to change range."
+#~ msgstr ""
+#~ "O <guilabel>Círculo de cores</guilabel>: dois eixos definem o intervalo "
+#~ "<quote>De</quote>. A seta curva no ângulo permite reconhecer o eixo "
+#~ "<quote>De</quote> e o eixo <quote>Até</quote> do intervalo. Clique e arraste"
+#~ " esses eixos para alterar o intervalo."
+
+#~ msgid ""
+#~ "<guilabel>Switch to Clockwise/Counterclockwise</guilabel>: Sets the "
+#~ "direction the range is going."
+#~ msgstr ""
+#~ "<guilabel>Mudar para sentido horário/anti-horário</guilabel>: configura a "
+#~ "direção em que intervalo de cores é percorrido."
+
+#~ msgid ""
+#~ "<guilabel>Change Order of Arrows</guilabel>: Inverts From and To axis. This "
+#~ "results in an important color change as colors in selection angle are "
+#~ "different."
+#~ msgstr ""
+#~ "<guilabel>Alterar ordem das setas</guilabel>:Inverte a posição dos eixo "
+#~ "inicial e final.  Isto resulta em uma importante alteração cromática, pois a"
+#~ " ordem das cores no ângulo selecionado são diferentes."
+
+#~ msgid "<guilabel>Select All</guilabel> selects the whole color circle."
+#~ msgstr ""
+#~ "<guilabel>Selecionar tudo</guilabel> seleciona todo o círculo cromático."
+
+#~ msgid ""
+#~ "<guilabel>From</guilabel> and <guilabel>To</guilabel> boxes display start "
+#~ "axis and end axis positions (in rad/PI) which are limiting the selected "
+#~ "color range. You can enter these positions manually or with help of arrow-"
+#~ "heads."
+#~ msgstr ""
+#~ "As caixas de valores  <guilabel>A partir "
+#~ "de</guilabel>e<guilabel>Para</guilabel>mostram as posições iniciais e finais"
+#~ " dos eixos (em graus) que limitam os intervalos de cores selecionados. Você "
+#~ "pode digitar essas posições manualmente, ou com ajuda clicando nas setinhas."
+
+#~ msgid "This section options are the same as <quote>From</quote> section ones."
+#~ msgstr ""
+#~ "As opções dessa seção são idênticas as da seção <quote>A partir de</quote>"
+
+#~ msgid "Gray Options"
+#~ msgstr "Opções de cinza"
+
+#~ msgid "Base image for Gray Options"
+#~ msgstr "Imagem usada como exemplo para as opções de cinza"
+
+#~ msgid ""
+#~ "Three sectors are defined for Red, Green and Blue with different "
+#~ "saturations. Gray and White colors are represented (0% Sat)."
+#~ msgstr ""
+#~ "São definidos três setores: Vermelho, Verde e Azul, com diferentes "
+#~ "saturações. Cinza e Branco também são representados (0% de Saturação)."
+
+#~ msgid "Gray Color Circle"
+#~ msgstr "Círculo representando a Cor Cinza"
+
+#~ msgid ""
+#~ "At center of this color circle is a small <quote>define circle</quote>. At "
+#~ "center, it represents gray. If you increase gray threshold progressively, "
+#~ "colors with saturation less than this threshold turn to gray."
+#~ msgstr ""
+#~ "No centro deste círculo de cor há um pequeno<quote>Círculo de "
+#~ "definição</quote>. No centro ele representa o cinza. Se você aumentar o "
+#~ "espaço do cinza progressivamente, as cores com saturação menores que os "
+#~ "limites deste espaço se tornarão cinza."
+
+#~ msgid ""
+#~ "Then, if you pan the define circle in the color circle, or if you use input "
+#~ "boxes, you define <emphasis>Hue</emphasis> and <emphasis> "
+#~ "Saturation</emphasis>. This color will replace all colors you have defined "
+#~ "as gray. But result depends on Gray Mode too."
+#~ msgstr ""
+#~ "Então, se você passear com o pequeno círculo dentro do círculo cromático, ou"
+#~ " usar as caixas de entrada de valores, você poderá definir o "
+#~ "<emphasis>Matiz</emphasis>e <emphasis> Saturação</emphasis>. Esta cor "
+#~ "substituirá todas as cores que você definiu como cinza. Mas o resultado "
+#~ "depende também do Modo decinza."
+
+#~ msgid ""
+#~ "The radio buttons <emphasis>Treat As This </emphasis> and <emphasis>Change "
+#~ "As This </emphasis> determine how your previous choices will be treated:"
+#~ msgstr ""
+#~ "Os botões <emphasis>Tratar como este</emphasis> e <emphasis>Mudar para este "
+#~ "</emphasis>determinam como as suas escolhas prévias serão tratadas."
+
+#~ msgid ""
+#~ "With <emphasis>Change to this</emphasis>, gray will take the color defined "
+#~ "by the define circle directly, without any rotation, whatever its position "
+#~ "in the color circle."
+#~ msgstr ""
+#~ "Com <emphasis>Mudar para este</emphasis>, tudo o que é cinza ficará da cor "
+#~ "definida pelo pequeno circulo, de definição de cor, diretamente, sem nenhuma"
+#~ " rotação, seja lá qual for sua posição no círculo."
+
+#~ msgid ""
+#~ "With <emphasis>Treat as this</emphasis>, gray will take the color defined by"
+#~ " the define circle after rotation, according to <quote>From</quote> and "
+#~ "<quote>To</quote> choices you made in the Main tab. With this option, you "
+#~ "can select color only in the <quote>From</quote> sector, even if it is not "
+#~ "visible in Gray tab."
+#~ msgstr ""
+#~ "Com o <emphasis>Tratar como este</emphasis>, o cinza pegará a cor definida "
+#~ "pelo pequeno círculo, de definição de cor, após a rotação, de acordo com as "
+#~ "escolhas<quote>A partir de</quote> e <quote>Para</quote> que você fez no "
+#~ "painel principal. Com esta opção, você pode selecionar a cor apenas no setor"
+#~ " dentro do intervalo <quote>A partir de </quote>, mesmo que ele esse "
+#~ "intervalo não esteja visível no painel de Opções de cinza."
+
+#~ msgid ""
+#~ "The small circle is on yellow and mode is <quote>Change to this</quote>. "
+#~ "<emphasis>Blue has changed to yellow. Note that Gray and White did so "
+#~ "too.</emphasis>"
+#~ msgstr ""
+#~ "O pequeno círculo está em amarelo e o modo está em <quote>Mudar para "
+#~ "este</quote>, <emphasis>o azul foi mudado para amarelo.  Note que Cinza e "
+#~ "Branco também mudaram</emphasis>"
+
+#~ msgid ""
+#~ "Gray-threshold is 0.25: the blue sector (sat 0.25) has turned to Gray (Note "
+#~ "that Gray and White, that are 0% Sat., are not concerned)."
+#~ msgstr ""
+#~ "O Limiar do Cinza é 0,25: o setor azul (posicionado em 0,25) tornou-se Cinza"
+#~ " (Perceba que Cinza e Branco, que são 0% de saturação, não são levados em "
+#~ "conta: eles sempre são afetados)"
+
+#~ msgid ""
+#~ "You specify there how much saturation will be considered gray. By increasing"
+#~ " progressively saturation, you will see an enlarging circle in color circle "
+#~ "and enlarging selected areas in Preview if <quote>Continuous update</quote> "
+#~ "is checked. In a black to white gradient, you can see enlarging color "
+#~ "replacement as you increase threshold very slowly."
+#~ msgstr ""
+#~ "Você pode especificar nesse controle quanto de saturação ainda vai "
+#~ "considerado como  Cinza. Aumentando progressivamente o limite, você verá um "
+#~ "círculo aumentado no círculo de cores e um aumento nas áreas selecionadas na"
+#~ " pré- visualização, se a opção <quote>Atualização contínua</quote> estiver "
+#~ "selecionada. Em um degradê de preto para branco, você poderá ver o aumento "
+#~ "da substituição da cor, conforme que você for aumentando o limiar "
+#~ "lentamente."
+
+#~ msgid ""
+#~ "Black to White gradient, progressively filled with color, as threshold "
+#~ "increases."
+#~ msgstr ""
+#~ "Degradê Preto para Branco, sendo progressivamente  preenchido com cor, "
+#~ "conforme o limiar aumenta."
+
+#~ msgid "Previews"
+#~ msgstr "Pré-visualizações"
+
+#~ msgid "Original"
+#~ msgstr "Original"
+
+#~ msgid "Rotated"
+#~ msgstr "Rotacionado"
+
+#~ msgid ""
+#~ "The Original preview displays a thumbnail of the original image and the "
+#~ "Rotated preview displays color changes interactively, before they are "
+#~ "applied to the Image."
+#~ msgstr ""
+#~ "A pré-visualização original exibe uma miniatura da imagem original e a pré-"
+#~ "visualização rotacionada exibe as modificações das cores interativamente, "
+#~ "antes que elas sejam aplicadas a imagem."
+
+#~ msgid "Continuous Update"
+#~ msgstr "Atualização contínua"
+
+#~ msgid ""
+#~ "<guilabel>Continuous Update</guilabel> displays color changes continuously "
+#~ "in the Rotated preview."
+#~ msgstr ""
+#~ "<guilabel>Atualização contínua</guilabel> exibe as modificações das cores "
+#~ "continuamente na pré-visualização do Rotacionado"
+
+#~ msgid "Area"
+#~ msgstr "Área"
+
+#~ msgid "In this drop down list, you can select between"
+#~ msgstr "Nesta lista suspensa, você pode escolher entre:"
+
+#~ msgid ""
+#~ "<guilabel>Entire Layer</guilabel>: works on the whole layer (The image if "
+#~ "there is no selection)."
+#~ msgstr ""
+#~ "<guilabel>Camada inteira</guilabel>: Afeta toda a camada (Afetará  a imagem "
+#~ "toda se não houver seleção)."
+
+#~ msgid "<guilabel>Selection</guilabel>: displays selection only."
+#~ msgstr "<guilabel>Seleção</guilabel>: exibe apenas a seleção"
+
+#~ msgid "<guilabel>Context</guilabel>: displays selection in image context."
+#~ msgstr "<guilabel>Contexto</guilabel>: exibe a seleção no contexto da imagem."
+
+#~ msgid "Units"
+#~ msgstr "Unidades"
+
+#~ msgid ""
+#~ "You can select here the angle unit used to locate colors in the "
+#~ "Hue/Saturation circle. This choice is valid only for the current filter "
+#~ "session: don't click on OK just after selecting unit, return to the wanted "
+#~ "tab!"
+#~ msgstr ""
+#~ "Aqui você pode selecionar as unidades dos ângulos utilizados para as cores "
+#~ "nos círculos de Matiz e Saturação. Esta escolha é válida somente para a "
+#~ "utilização atual do filtro: não clique OK nesse painel, selecione a unidade "
+#~ "e retorne ao painel desejado!"
+
+#~ msgid ""
+#~ "You can find this filter in the image window menu under "
+#~ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Gradient"
+#~ " Map</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Você pode encontrar este filtro na janela imagem no menu "
+#~ "<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</guisubmenu><guimenuitem>Mapear"
+#~ " com degradê</guimenuitem></menuchoice>."
+
+#~ msgid "Option of the <quote>Two color exchange</quote> filter"
+#~ msgstr "Opções do filtro: <quote>Troca de cores</quote>"
+
+#~ msgid ""
+#~ "In this preview, a part of the Image is displayed. A selection smaller than "
+#~ "preview will be complete in preview. A bigger one will be cut out to be "
+#~ "adapted to the preview."
+#~ msgstr ""
+#~ "Nesta pré-visualização, apenas parte da imagem é exibida. Se a seleção for "
+#~ "menor que a pré-visualização aparecerá por completo. A maior será cortada "
+#~ "para que caiba na pré-visualização."
+
+#~ msgid ""
+#~ "If you middle-click inside preview , the clicked pixel color will be "
+#~ "selected and will appear as From Color."
+#~ msgstr ""
+#~ "Se você clicar no meio da imagem, em sua pré-visualização, o pixel da cor "
+#~ "clicada aparecerá como cor em A partir da cor"
+
+#~ msgid ""
+#~ "In this section, you can choose the color to be used to select pixels that "
+#~ "will be concerned by color exchange."
+#~ msgstr ""
+#~ "Nesta seção, você poderá escolher a cor que vai ser usada para selecionar os"
+#~ " pixels que serão afetados pela troca de cores"
+
+#~ msgid ""
+#~ "<guilabel>Three sliders for RVB colors</guilabel>: If you have clicked on "
+#~ "preview, they are automatically positioned. But you can change them. Each "
+#~ "slider acts on color intensity. Input boxes and arrowheads work the same. "
+#~ "Result is interactively displayed in the From swatch box."
+#~ msgstr ""
+#~ "<guilabel>Três controles deslizantes das cores RGB</guilabel>: se você "
+#~ "clicou na pré-visualização, eles estarão automaticamente posicionados. Mas "
+#~ "você também poderá mudá-los manualmente. Cada controle deslizante atua na "
+#~ "intensidade da cor. As caixas de entrada e as setas tem a mesma função. O "
+#~ "resultado é exibido interativamente na caixa A partir da cor."
+
+#~ msgid ""
+#~ "<guilabel>Three sliders for thresholds</guilabel>, for each color. The "
+#~ "higher the threshold, the more pixels will be concerned. Result is "
+#~ "interactively displayed in Preview."
+#~ msgstr ""
+#~ "<guilabel>Três controles de limiares</guilabel>, para cada cor. Quanto maior"
+#~ " o limiar, o limite, mais pixels serão utilizados. O resultado é exibido "
+#~ "interativamente na pré-visualização. "
+
+#~ msgid ""
+#~ "<guilabel>Lock Thresholds</guilabel>: This option locks threshold sliders "
+#~ "which will act all the same."
+#~ msgstr ""
+#~ "<guilabel>Sincronizar limiares</guilabel>: Esta opção trava os controles "
+#~ "deslizantes fazendo com que atuem todos da mesma maneira."
+
+#~ msgid ""
+#~ "<guilabel>Three cursors</guilabel> allow to select the color that pixels "
+#~ "will have. Result is displayed in swatch box and in preview. You can also "
+#~ "click on the color dwell to get a color selector."
+#~ msgstr ""
+#~ "<guilabel>Três cursores</guilabel>permite selecionar a cor que os pixels "
+#~ "terão. O resultado é exibido na caixa dePara a cor e na pré-visualização. "
+#~ "Você também pode clicar na caixa de visualização da cor para obter um "
+#~ "seletor de cor tradicional."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/colors/map/rearrange-popmenu.png'; "
+#~ "md5=e7be5a82a35c8e81679f400c8090a175"
+#~ msgstr ""
+#~ "@@image: 'images/menus/colors/map/rearrange-popmenu.png'; "
+#~ "md5=e7be5a82a35c8e81679f400c8090a175"
+
+#~ msgid "Activate Dialog"
+#~ msgstr "Ativar o diálogo"
 
 # Acho que aqui cabe um cometário !!
-#: src/menus/colors/map/rearrange-colormap.xml:40(para)
-msgid ""
-"You can access this command from the image menu-bar through "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Rearrange Colormap</guimenuitem></menuchoice>. If "
-"your image is not indexed, this command is grayed out and disabled."
-msgstr ""
-"Você pode acessar este comando na janela de imagem no menu "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</"
-"guisubmenu><guimenuitem>Rearranja mapa de cores</guimenuitem></menuchoice>. "
-"Se sua imagem não estiver indexada, a opção estará acinzentada e "
-"indisponível. Para saber se ela está indexada ou não, vá ao menu Imagem, no "
-"submenu Modo e veja se a opção Indexado esta checada."
+#~ msgid ""
+#~ "You can access this command from the image menu-bar through "
+#~ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Rearrange"
+#~ " Colormap</guimenuitem></menuchoice>. If your image is not indexed, this "
+#~ "command is grayed out and disabled."
+#~ msgstr ""
+#~ "Você pode acessar este comando na janela de imagem no menu "
+#~ "<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapa</guisubmenu><guimenuitem>Rearranja"
+#~ " mapa de cores</guimenuitem></menuchoice>. Se sua imagem não estiver "
+#~ "indexada, a opção estará acinzentada e indisponível. Para saber se ela está "
+#~ "indexada ou não, vá ao menu Imagem, no submenu Modo e veja se a opção "
+#~ "Indexado esta checada."
 
-#: src/menus/colors/map/rearrange-colormap.xml:52(title)
-msgid "Using the <quote>Rearrange Colormap</quote> dialog"
-msgstr "Usando o diálogo <quote>Rearranja o mapa de cores</quote> "
+#~ msgid ""
+#~ "Explanations supplied in the dialog window are enough: drag and drop colors "
+#~ "to rearrange the colormap. You can sort colors in various ways by using the "
+#~ "local pop-menu that you get by right-clicking:"
+#~ msgstr ""
+#~ "As explicações fornecidas na janela de diálogo são suficientes: arrastar e "
+#~ "soltar as cores para rearranjar o mapa de cores. Você pode ordenar as cores "
+#~ "de várias maneiras usando a o menu de contexto que você obtém ao clicar com "
+#~ "o botão direito do mouse:"
 
-#: src/menus/colors/map/rearrange-colormap.xml:53(para)
-msgid ""
-"Explanations supplied in the dialog window are enough: drag and drop colors "
-"to rearrange the colormap. You can sort colors in various ways by using the "
-"local pop-menu that you get by right-clicking:"
-msgstr ""
-"As explicações fornecidas na janela de diálogo são suficientes: arrastar e "
-"soltar as cores para rearranjar o mapa de cores. Você pode ordenar as cores "
-"de várias maneiras usando a o menu de contexto que você obtém ao clicar com "
-"o botão direito do mouse:"
+#~ msgid "The <quote>Rearrange Colormap</quote> pop-menu"
+#~ msgstr "O meu de contexto de <quote>Rearranja o mapa de cores</quote>"
 
-#: src/menus/colors/map/rearrange-colormap.xml:59(title)
-msgid "The <quote>Rearrange Colormap</quote> pop-menu"
-msgstr "O meu de contexto de <quote>Rearranja o mapa de cores</quote>"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/set-colormap.xml:26(None)
-msgid ""
-"@@image: 'images/menus/colors/map/set-colormap.png'; "
-"md5=1644f6412141486bf20c4ad9fe20e9fd"
-msgstr ""
-"@@image: 'images/menus/colors/map/set-colormap.png'; "
-"md5=1644f6412141486bf20c4ad9fe20e9fd"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/set-colormap.xml:41(None)
-msgid ""
-"@@image: 'images/menus/colors/map/select-palette.png'; "
-"md5=e5ef8829936d4e436c84bc515de8299d"
-msgstr ""
-"@@image: 'images/menus/colors/map/select-palette.png'; "
-"md5=e5ef8829936d4e436c84bc515de8299d"
-
-#: src/menus/colors/map/set-colormap.xml:11(title)
-#: src/menus/colors/map/set-colormap.xml:18(primary)
-msgid "Set Colormap"
-msgstr "Especifica o mapa de cores"
-
-#: src/menus/colors/map/set-colormap.xml:15(secondary)
-msgid "Set"
-msgstr "Definir"
-
-#: src/menus/colors/map/set-colormap.xml:22(title)
-msgid "The <quote>Set Colormap</quote> window"
-msgstr "A janela <quote>Específica o mapa de cores</quote>"
-
-#: src/menus/colors/map/set-colormap.xml:30(para)
-msgid ""
-"This command opens a dialog which allows you to select another palette to "
-"replace the color map of your indexed image. First click in the button with "
-"the name of the current palette (which is not the color map of your image "
-"yet) to open the Palette Selector:"
-msgstr ""
-"Este comando abre uma caixa de dialogo na qual você poderá alterar a cor de "
-"sua imagem indexada através de uma paleta de cores. Primeiro clique no botão "
-"com o nome da paleta de cores atual (que não é o seu mapa de cores de sua "
-"imagem ainda) para abrir o seu seletor de paletas:"
-
-#: src/menus/colors/map/set-colormap.xml:37(title)
-msgid "The <quote>Palette Selection</quote> dialog"
-msgstr "A caixa de dialogo <quote>Seleção de Paleta</quote>"
-
-#: src/menus/colors/map/set-colormap.xml:45(para)
-msgid ""
-"Once you have chosen the wanted palette, click the <guibutton>OK</guibutton> "
-"button in the <quote>Set Palette</quote> dialog to replace the image "
-"colormap."
-msgstr ""
-"Uma vez selecionada a paleta que você quer, clique no botão <guibutton>OK</"
-"guibutton>da caixa de diálogo<quote>Seleção de paleta</quote> para alterar o "
-"mapa de cores de sua imagem."
-
-#: src/menus/colors/map/set-colormap.xml:52(title)
-msgid "Activate the command"
-msgstr "Ativar o comando"
-
-#: src/menus/colors/map/set-colormap.xml:53(para)
-msgid ""
-"This command is found in the image window menu under "
-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
-msgstr ""
-"Este comando se encontra na janela de Imagem, no menu "
-"<menuchoice><guimenu>Cores</guimenu><guisubmenu>Mapear</"
-"guisubmenu><guimenuitem>Especifica o mapa de cores</guimenuitem></"
-"menuchoice>."
-
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/colors/map/set-colormap.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Rogério Murback Caielli  <rmurback@yahoo.com>, 2013\n"
-"Luciana Montelione <lucianamontelione@gmail.com>, 2014\n"
-"João S. O. Bueno <gwidion@gmail.com>, 2014"
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Rogério Murback Caielli  <rmurback@yahoo.com>, 2013\n"
+#~ "Luciana Montelione <lucianamontelione@gmail.com>, 2014\n"
+#~ "João S. O. Bueno <gwidion@gmail.com>, 2014"
